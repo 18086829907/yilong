@@ -1,0 +1,1647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>游戏架构高级课程-千锋教育视频资源库</title>
+	<meta name="keywords" content="游戏架构高级课程,游戏架构视频" />
+	<meta name="description" content="高级游戏框架课程，从Lua、UI、AssetBundle多角度，了解游戏各个模块的搭配与配合，了解整个游戏构建的思维模式，有一定难度，有一定的开发基础同学可以迅速提高自己" />
+	<link rel="stylesheet" href="/Public/Home/css/base.css">
+	<link rel="stylesheet" href="/Public/Home/css/index.css">
+	<link rel="stylesheet" href="/Public/Home/css/leftrightfixed.css">
+	<!--<link rel="stylesheet" href="/Public/static/bootstrap/css/bootstrap.css">-->
+	<link rel="stylesheet" href="/Public/static/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css">
+	<script src="/Public/Home/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/Public/static/ueditor/third-party/SyntaxHighlighter/shCore.js"></script>
+	<script type="text/javascript">
+        SyntaxHighlighter.all();
+	</script>
+	<link rel="icon" href="/Public/Home/images/favicon.ico" type="image/x-icon"/>
+	
+    <link rel="stylesheet" href="/Public/Home/css/video-cont.css">
+
+</head>
+<body>
+<!-- 共用头部 -->
+<header class="header">
+	<div class="warp clearfix">
+		<div class="fl clearfix logo">
+			<h1 class="fl">
+				<a href="http://www.mobiletrain.org/" target="_blank">
+					千锋教育
+					<img src="/Public/Home/images/logo.png" alt="千锋教育">
+				</a>
+			</h1>
+			<h2 class="fl">
+				<a href="/">视频频道</a>
+			</h2>
+
+		</div>
+		<nav class="fr nav clearfix">
+			<div class="fl"><a href="/"  >首页</a></div>
+			<div class="fl"><a href="/courses/" class="active" >视频教程</a></div>
+			<!--<div class="fl"><a href="http://www.mobiletrain.org/open/" target="_blank">公开课</a></div>-->
+			<div class="fl">
+				<a href="javascript:;">学习路线</a>
+				<div>
+					<a target="_blank" href="/html5/">HTML5大前端</a>
+					<a target="_blank" href="/java/">JavaEE+分布式开发</a>
+					<a target="_blank" href="/python/">Python全栈+人工智能</a>
+					<a target="_blank" href="/ui/">全链路UI/UE设计</a>
+					<a target="_blank" href="/bigdata/">大数据+人工智能</a>
+					<a target="_blank" href="/linux/">云计算+信息安全</a>
+					<a target="_blank" href="/rjcs/">全栈软件测试</a>
+					<a target="_blank" href="https://tb.53kf.com/code/client/10132404/14">智能物联网+嵌入式</a>
+					<a target="_blank" href="https://tb.53kf.com/code/client/10132404/14">Unity游戏开发</a>
+					<a target="_blank" href="/go/">Go语言开发</a>
+					<a target="_blank" href="/php/">PHP全栈+服务器集群</a>
+				</div>
+			</div>
+			<div class="fl"><a href="/articles/" >技术分享</a></div>
+		</nav>
+	</div>
+	
+	<!-- 右侧小小千 -->
+	<div class="right-fixed-btn">
+		<a href="https://tb.53kf.com/code/client/10132404/14" rel="nofollow" target="_blank">
+			<img src="http://img.mobiletrain.org/templates/mobiletrain/images/mo/index/right-fixed-face.png?124">
+			<p class="bubble">小小千想和您聊一聊</p>
+		</a>
+	</div>
+	
+
+	<!-- 左侧小蜜蜂 -->
+	<div class="base_fixed_sy2" id="sy_20170615" style="top: 237px; position: fixed;">
+		<div class="fixed_wrap" title="千锋教育IT培训">
+			<p onclick="window.open('https://tb.53kf.com/code/client/10132404/14,_blank')"></p>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="HTML5|WEB前端开发"><i>HTML5</i><span id="html5_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="JAVA开发培训"><i>Java</i><span id="java_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="PYTHON人工智能培训"><i>Python</i><span id="python_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="全链路设计培训"><i>全链路设计</i><span id="ui_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="云计算培训"><i>云计算</i><span id="php_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="软件测试培训"><i>软件测试</i><span id="php_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="大数据培训"><i>大数据</i><span id="big_data_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="嵌入式物联网"><i>智能物联网</i><span id="ui_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="Unity游戏开发"><i>Unity游戏开发</i><span id="vr_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="Go语言开发"><i>Go语言开发</i><span id="vr_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="PHP培训"><i>PHP</i><span id="linux_20170615"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="网络安全"><i>网络安全</i><span id="ui_20170616"></span></a>
+			<a href="javascript:;" class="qf_fix02"></a>
+		</div>
+	</div>
+
+</header>
+
+
+<div class="section1">
+    <div class="bread-nav warp">
+        <img src="/Public/Home/images/ico-home.png" alt="">
+        <span>当前位置：</span>
+        <a href="/">首页</a>&gt;
+        <a href="/courses/">视频教程</a>&gt;
+        <a href="javascript:;">游戏架构高级课程</a>
+    </div>
+
+    <div class="clearfix warp">
+        <!-- 播放器 -->
+        <div class="fl video-player">
+            <video controls="" _src="http://7xtcwd.com1.z0.glb.clouddn.com/10xygy(1).mp4"></video>
+        </div>
+        <!-- 视频简介 -->
+        <div class="fr video-describe" difficulty = "3" categoryId = "58">
+            <h2 class="video-title">游戏架构高级课程<span class="video-level level-3">高级</span></h2>
+            <div class="video-grade clearfix">
+                <p class="fl">
+                    <img src="/Public/Home/images/star.png" alt="" class="fl">
+                    <img src="/Public/Home/images/star.png" alt="" class="fl">
+                    <img src="/Public/Home/images/star.png" alt="" class="fl">
+                    <img src="/Public/Home/images/star.png" alt="" class="fl">
+                    <img src="/Public/Home/images/star.png" alt="" class="fl">
+                    &nbsp;&nbsp;
+                    评分9.8                </p>
+                <p class="fl">142节课</p>
+                <p class="fl">7546人已学</p>
+            </div>
+            <div class="video-lead">
+                <h3>下载本章视频你能学到什么？</h3>
+                <p>
+                    了解游戏开发的整个模式与流程，了解游戏框架的搭建与使用，了解Unity中各个模块的配合与架构思维。                </p>
+            </div>
+            
+            <div class="video-download">
+                <a href="//shang.qq.com/wpa/qunwpa?idkey=69f72a21cb2dba42d77ccb1427cc2e05ad527fd98bbb34a4e4ba3d1ceee38404" target="_blank" onclick="updateView('537')">点击领取视频+源码+学习路线图</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="section2 warp clearfix">
+    <div class="fl section2-left">
+        <div class="section2-left-nav clearfix">
+            <a href="javascript:;" class="fl active">章节介绍</a>
+            <a href="javascript:;" class="fl">课程目录</a>
+            <a href="javascript:;" class="fl">相关文章</a>
+            <a style="display: none!important;" href="javascript:;" class="fl">课程评价(0)</a>
+        </div>
+        <div class="section2-left-conts">
+            <!-- 章节介绍 -->
+            <div class="active chapter-introduction">
+                <p><a style="color: #E56600; font-weight: bold; font-size: 16px;" href="//shang.qq.com/wpa/qunwpa?idkey=69f72a21cb2dba42d77ccb1427cc2e05ad527fd98bbb34a4e4ba3d1ceee38404" target="_blank">千锋Unity开发官方①群（858321642）——猛戳进入</a></p>
+                
+                <p><p>
+	<strong><span style="font-size:16px;color:#E56600;"><br />
+</span></strong>
+</p>
+<p>
+	<strong><span style="font-size:16px;color:#E56600;">课程介绍</span></strong><span style="font-size:16px;color:#E56600;">：</span> 
+</p>
+<span style="line-height:2.5;">高级游戏框架课程，从Lua、UI、AssetBundle多角度，了解游戏各个模块的搭配与配合，了解整个游戏构建的思维模式，有一定难度，有一定的开发基础同学可以迅速提高自己。</span><br />
+<br />
+<strong><span style="font-size:16px;color:#E56600;">章节目录</span></strong><span style="font-size:16px;color:#E56600;">：</span><br />
+<table border="0" cellpadding="0" cellspacing="0" width="734" style="width:550pt;" class="ke-zeroborder">
+	<tbody>
+		<tr>
+			<td height="18" width="383">
+				<span style="line-height:2.5;">第1章 Animal（8集）</span> 
+			</td>
+			<td width="351">
+				<span style="line-height:2.5;">第9章 FSM（4集）</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Animal1</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">Fsm1</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Animal2</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">Fsm2</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Animal3</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">Fsm3</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Animal4</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">Fsm4</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Twist1</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">第10章 Lua（12集）</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Twist2</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">lua01</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Twist3</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">lua02</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Twist4</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">lua03</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">第2章
+  AssetBundle（7集）</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">lua04</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">AssetBundle
+  原理1</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">lua05</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">AssetBundle
+  原理2</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">lua06</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">AssetBundle
+  原理3</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">lua07</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">AssetBundle
+  原理4</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">tolua 使用1</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">AssetBundle初识1</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">tolua 使用2</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">AssetBundle初识2</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">tolua1</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">AssetBundle初识3</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">tolua2</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">第3章 C#（7集）</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">tolua3</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">byte操作1</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">第11章
+  Physics（9集）</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">byte操作2</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UIEasyTouch1</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">byte操作3</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UIEasyTouch2</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">C#基础1</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UIEasyTouch3</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">C#基础2</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UIEasyTouch4</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">C#基础3</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">矩形攻击1</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">C#基础4</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">矩形攻击2</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">第4章 C#高级（8集）</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">矩形攻击3</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">oop1</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">矩形攻击4</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">oop2</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">矩形攻击5</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">oop3</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">第12章 TCP（8集）</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">oop4</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">TCP&nbsp; 沾包
+  拆包问题1</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">方法调用1</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">TCP&nbsp; 沾包
+  拆包问题2</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">方法调用2</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">TCP&nbsp; 沾包
+  拆包问题3</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">方法调用3</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">TCP&nbsp; 沾包
+  拆包问题4</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">方法调用4</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">TCP&nbsp; 沾包
+  拆包问题5</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">第5章
+  DataSave（7集）</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">tcp1</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">WWW1</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">tcp2</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">WWW2</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">tcp3</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">WWW3</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">第13章 UDP（15集）</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">WWW4</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">protobuffer1</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">贪吃蛇1</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">protobuffer2</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">贪吃蛇2</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">protobuffer3</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">贪吃蛇3</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">protobuffer4</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">第6章
+  DesinModle（7集）</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UDP01</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">设计模式01</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UDP02</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">设计模式02</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UDP03</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">设计模式03</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UDP04</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">设计模式04</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UDP05</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">设计原则1</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UDP06</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">设计原则2</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UDP07</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">设计原则3</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UDP08</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">第7章
+  DesingModle2（10集）</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">更新 M层 数据1</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Buider1</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">更新 M层 数据2</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Buider2</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">更新 M层 数据3</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Buider3</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">第14章 UI（8集）</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Buider4</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">LitMap1</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">CameraView1</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">LitMap2</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">CameraView2</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">LitMap3</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">CameraView3</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">LitMap4</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Combine1</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">Painter1</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Combine2</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">Painter2</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Combine3</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">Painter3</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">第8章
+  EventFrame（16集）</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">Painter4</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Frame01</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">第15章
+  UIFrame（10集）</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Frame02</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UIFrame01</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Frame03</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UIFrame02</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Frame04</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UIFrame03</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Frame05</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UIFrame04</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Frame06</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UIFrame05</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Frame07</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UIFrame06</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Frame08</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UIFrame07</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">Frame09</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UIFrame08</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">LuaFrame01</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UIFrame09</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">LuaFrame02</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">UIFrame10</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">LuaFrame03</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">第16章 WWW（6集）</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">LuaFrame04</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">Audio1</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">LuaFrame05</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">Audio2</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">LuaFrame06</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">Audio3</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+				<span style="line-height:2.5;">LuaFrame07</span> 
+			</td>
+			<td>
+				<span style="line-height:2.5;">www1</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+			</td>
+			<td>
+				<span style="line-height:2.5;">www2</span> 
+			</td>
+		</tr>
+		<tr>
+			<td height="18">
+			</td>
+			<td>
+				<span style="line-height:2.5;">www3</span> 
+			</td>
+		</tr>
+	</tbody>
+</table></p>
+                
+            </div>
+            <!-- 课程目录 -->
+            <div class="course-list">
+                <ul>
+                                        <li class="clearfix">
+                            <p class="fl">第1章 - Animal</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第1节 - Animal1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Animal1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第2节 - Animal2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Animal2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第3节 - Animal3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Animal3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第4节 - Animal4</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Animal4.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第5节 - Twist1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Twist1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第6节 - Twist2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Twist2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第7节 - Twist3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Twist3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第8节 - Twist4</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Twist4.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li><li class="clearfix">
+                            <p class="fl">第2章 - AssetBundle</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第9节 - AssetBundle 原理1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/AssetBundle 原理1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第10节 - AssetBundle 原理2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/AssetBundle 原理2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第11节 - AssetBundle 原理3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/AssetBundle 原理3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第12节 - AssetBundle 原理4</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/AssetBundle 原理4.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第13节 - AssetBundle初识1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/AssetBundle初识1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第14节 - AssetBundle初识2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/AssetBundle初识2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第15节 - AssetBundle初识3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/AssetBundle初识3.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li><li class="clearfix">
+                            <p class="fl">第3章 - C#</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第16节 - byte操作1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/byte操作1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第17节 - byte操作2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/byte操作2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第18节 - byte操作3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/byte操作3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第19节 - C#基础1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/C基础1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第20节 - C#基础2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/C基础2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第21节 - C#基础3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/C基础3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第22节 - C#基础4</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/C基础4.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li><li class="clearfix">
+                            <p class="fl">第4章 - C#高级</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第23节 - oop1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/oop1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第24节 - oop2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/oop2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第25节 - oop3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/oop3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第26节 - oop4</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/oop4.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第27节 - 方法调用1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/方法调用1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第28节 - 方法调用2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/方法调用2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第29节 - 方法调用3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/方法调用3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第30节 - 方法调用4</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/方法调用4.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li><li class="clearfix">
+                            <p class="fl">第5章 - DataSave</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第31节 - WWW1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/WWW1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第32节 - WWW2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/WWW2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第33节 - WWW3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/WWW3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第34节 - WWW4</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/WWW4.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第35节 - 贪吃蛇1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/贪吃蛇1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第36节 - 贪吃蛇2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/贪吃蛇2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第37节 - 贪吃蛇3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/贪吃蛇3.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li><li class="clearfix">
+                            <p class="fl">第6章 - DesinModle</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第38节 - 设计模式01</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/设计模式01.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第39节 - 设计模式02</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/设计模式02.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第40节 - 设计模式03</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/设计模式03.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第41节 - 设计模式04</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/设计模式04.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第42节 - 设计原则1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/设计原则1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第43节 - 设计原则2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/设计原则2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第44节 - 设计原则3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/设计原则3.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li><li class="clearfix">
+                            <p class="fl">第7章 - DesingModle2</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第45节 - Buider1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Buider1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第46节 - Buider2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Buider2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第47节 - Buider3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Buider3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第48节 - Buider4</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Buider4.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第49节 - CameraView1 </p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/CameraView1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第50节 - CameraView2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/CameraView2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第51节 - CameraView3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/CameraView3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第52节 - Combine1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Combine1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第53节 - Combine2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Combine2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第54节 - Combine3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Combine3.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li><li class="clearfix">
+                            <p class="fl">第8章 - EventFrame</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第55节 - Frame01</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Frame01.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第56节 - Frame02</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Frame02.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第57节 - Frame03</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Frame03.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第58节 - Frame04</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Frame04.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第59节 - Frame05</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Frame05.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第60节 - Frame06</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Frame06.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第61节 - Frame07</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Frame07.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第62节 - Frame08</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Frame08.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第63节 - Frame09</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Frame09.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第64节 - LuaFrame01</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/LuaFrame01.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第65节 - Luaframe02</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/LuaFrame02.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第66节 - LuaFrame03</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/LuaFrame03.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第67节 - LuaFrame04</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/LuaFrame04.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第68节 - LuaFrame05</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/LuaFrame05.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第69节 - LuaFrame06</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/LuaFrame06.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第70节 - LuaFrame07</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/LuaFrame07.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li><li class="clearfix">
+                            <p class="fl">第9章 - FSM</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第71节 - Fsm1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Fsm1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第72节 - Fsm2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Fsm2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第73节 - Fsm3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Fsm3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第74节 - Fsm4</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Fsm4.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li><li class="clearfix">
+                            <p class="fl">第10章 - Lua</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第75节 - lua01</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/lua01.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第76节 - lua02</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/lua02.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第77节 - lua03</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/lua03.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第78节 - lua04</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/lua04.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第79节 - lua05</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/lua05.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第80节 - lua06</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/lua06.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第81节 - lua07</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/lua07.mp4 " class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第82节 - tolua 使用1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/tolua 使用1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第83节 - tolua 使用2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/tolua 使用2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第84节 - tolua1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/tolua1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第85节 - tolua2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/tolua2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第86节 - tolua3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/tolua3.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li><li class="clearfix">
+                            <p class="fl">第11章 - Physics</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第87节 - UIEasyTouch1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UIEasyTouch1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第88节 - UIEasyTouch2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UIEasyTouch2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第89节 - UIEasyTouch3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UIEasyTouch3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第90节 - UIEasyTouch4</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UIEasyTouch4.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第91节 - 矩形攻击1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/矩形攻击1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第92节 - 矩形攻击2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/矩形攻击2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第93节 - 矩形攻击3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/矩形攻击3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第94节 - 矩形攻击4</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/矩形攻击4.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第95节 - 矩形攻击5</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/矩形攻击5.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li><li class="clearfix">
+                            <p class="fl">第12章 - TCP</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第96节 - TCP 沾包 拆包问题1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/TCP  沾包 拆包问题1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第97节 - TCP 沾包 拆包问题2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/TCP  沾包 拆包问题2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第98节 - TCP 沾包 拆包问题3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/TCP  沾包 拆包问题3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第99节 - TCP 沾包 拆包问题4</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/TCP  沾包 拆包问题4.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第100节 - TCP 沾包 拆包问题5</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/TCP  沾包 拆包问题5.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第101节 - tcp1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/tcp1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第102节 - tcp2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/tcp2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第103节 - tcp3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/tcp3.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li><li class="clearfix">
+                            <p class="fl">第13章 - UDP</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第104节 - protobuffer1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/protobuffer1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第105节 - protobuffer2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/protobuffer2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第106节 - protobuffer3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/protobuffer3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第107节 - protobuffer4</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/protobuffer4.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第108节 - UDP01</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UDP01.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第109节 - UDP02</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UDP02.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第110节 - UDP03</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UDP03.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第111节 - UDP04</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UDP04.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第112节 - UDP05</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UDP05.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第113节 - UDP06</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UDP06.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第114节 - UDP07</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UDP07.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第115节 - UDP08</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UDP08.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第116节 - 更新 M层 数据1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/更新 M层 数据1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第117节 - 更新 M层 数据2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/更新 M层 数据2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第118节 - 更新 M层 数据3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/更新 M层 数据3.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li><li class="clearfix">
+                            <p class="fl">第14章 - UI</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第119节 - LitMap1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/LitMap1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第120节 - LitMap2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/LitMap2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第121节 - LitMap3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/LitMap3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第122节 - LitMap4</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/LitMap4.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第123节 - Painter1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Painter1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第124节 - Painter2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Painter2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第125节 - Painter3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Painter3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第126节 - Painter4</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Painter3.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li><li class="clearfix">
+                            <p class="fl">第15章 - UIFrame</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第127节 - UIFrame01</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UIFrame01.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第128节 - UIFrame02</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UIFrame02.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第129节 - UIFrame03</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UIFrame03.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第130节 - UIFrame04</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UIFrame04.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第131节 - UIFrame05</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UIFrame05.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第132节 - UIFrame06</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UIFrame06.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第133节 - UIFrame07</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UIFrame07.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第134节 - UIFrame08</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UIFrame08.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第135节 - UIFrame09</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UIFrame09.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第136节 - UIFrame10</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/UIFrame10.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li><li class="clearfix">
+                            <p class="fl">第16章 - WWW</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第137节 - Audio1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Audio1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第138节 - Audio2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Audio2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第139节 - Audio3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/Audio3.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第140节 - www1</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/www1.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第141节 - www2</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/www2.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第142节 - www3</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/www3.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li>
+                </ul>
+            </div>
+            <!-- 相关文章 -->
+            <div class="relevant-articles">
+                <ul class="article-list">
+                    <li class="clearfix">
+                            <img src="/Uploads/Picture/2018-12-29/5c26e2ec41abc.jpg" alt="" width="180" height="130" class="fl">
+                            <div class="fl">
+                                <h3 class="article-title"><a href="/coursearticle/index/articleId/380" target="_blank"> 推荐几款实用Unity动画插件</a></h3>
+                                <p class="article-desc">在策划开发一款游戏时，我们一般都想把游戏中各个细节都做到完美，特别是玩家与游戏中角色互动对话时，最好让游戏角色的唇型与面部微表情具有一致性，该如何用快速简单的办法实现这些操作呢?</p>
+                                <div class="clearfix"><span class="article-date fl">2018-12-29</span><span class="article-view fr">649</span></div>
+                            </div>
+                            <a href="/coursearticle/index/articleId/380" target="_blank"></a>
+                        </li>
+
+                    <!--<li><a href="/coursearticle/index/articleId/380" target="_blank">· 推荐几款实用Unity动画插件</a></li>--><li class="clearfix">
+                            <img src="/Uploads/Picture/2018-12-29/5c26e1fa473dd.jpg" alt="" width="180" height="130" class="fl">
+                            <div class="fl">
+                                <h3 class="article-title"><a href="/coursearticle/index/articleId/379" target="_blank"> 如何实现水墨风格渲染</a></h3>
+                                <p class="article-desc">在用Unity3D软件制作游戏时，很多国内的游戏公司都会开发适合国内游戏市场的中国风风格的武侠游戏，这个时候就需要用Unity3D实现水墨风格的渲染?很多初学的朋友都不知道如何做，今天小编就和大家分享一下。</p>
+                                <div class="clearfix"><span class="article-date fl">2018-12-29</span><span class="article-view fr">941</span></div>
+                            </div>
+                            <a href="/coursearticle/index/articleId/379" target="_blank"></a>
+                        </li>
+
+                    <!--<li><a href="/coursearticle/index/articleId/379" target="_blank">· 如何实现水墨风格渲染</a></li>--><li class="clearfix">
+                            <img src="/Uploads/Picture/2018-12-29/5c26de5a355f2.jpg" alt="" width="180" height="130" class="fl">
+                            <div class="fl">
+                                <h3 class="article-title"><a href="/coursearticle/index/articleId/378" target="_blank"> 如何制作逼真的建筑场景</a></h3>
+                                <p class="article-desc">在使用Unity开发游戏时，我们常常在制作游戏的建筑场景时花费太多的时间和精力。如何创作出令玩家感到逼真、印象深刻的的建筑场景，是每一个Unity游戏开发人员都要面对的难题。今天小编就和大家分享一下这方面的技巧。</p>
+                                <div class="clearfix"><span class="article-date fl">2018-12-29</span><span class="article-view fr">544</span></div>
+                            </div>
+                            <a href="/coursearticle/index/articleId/378" target="_blank"></a>
+                        </li>
+
+                    <!--<li><a href="/coursearticle/index/articleId/378" target="_blank">· 如何制作逼真的建筑场景</a></li>--><li class="clearfix">
+                            <img src="/Uploads/Picture/2018-12-29/5c26d9166d9c2.jpg" alt="" width="180" height="130" class="fl">
+                            <div class="fl">
+                                <h3 class="article-title"><a href="/coursearticle/index/articleId/377" target="_blank"> Unity中有关3D开发中提升效率的高级技巧</a></h3>
+                                <p class="article-desc">对于零基础刚涉及Unity 3D开发的人来说，多多少少还是会有点晕头转向的。如果这时候，有些实用的小技巧来助力，往往能达到事半功倍的效果。就像大雄总是求助哆啦A梦，那么，面对很多新手小白满满的疑惑和无助，小编是当仁不让，来分享一些有关3D开发中提升效率的高级技巧。助力小伙伴们更好的去进入到Unity 3D开发学习之中!</p>
+                                <div class="clearfix"><span class="article-date fl">2018-12-29</span><span class="article-view fr">527</span></div>
+                            </div>
+                            <a href="/coursearticle/index/articleId/377" target="_blank"></a>
+                        </li>
+
+                    <!--<li><a href="/coursearticle/index/articleId/377" target="_blank">· Unity中有关3D开发中提升效率的高级技巧</a></li>--><li class="clearfix">
+                            <img src="/Uploads/Picture/2018-12-29/5c26d5aeb37c1.jpg" alt="" width="180" height="130" class="fl">
+                            <div class="fl">
+                                <h3 class="article-title"><a href="/coursearticle/index/articleId/370" target="_blank"> 几款制作4A级游戏场景的工具</a></h3>
+                                <p class="article-desc">对于很多Unity游戏开发人员来说，一生之中能够参与到一款4A级游戏大作的制作中，是一件非常荣幸的事情。这不仅对自己的职业生涯发展大有帮助，还能让自己成就感爆棚。当然这种游戏大作制作难度不小，今天小编就分享几款4A级地形资源插件，帮助大家轻松打造游戏场景。</p>
+                                <div class="clearfix"><span class="article-date fl">2018-12-29</span><span class="article-view fr">566</span></div>
+                            </div>
+                            <a href="/coursearticle/index/articleId/370" target="_blank"></a>
+                        </li>
+
+                    <!--<li><a href="/coursearticle/index/articleId/370" target="_blank">· 几款制作4A级游戏场景的工具</a></li>--><li class="clearfix">
+                            <img src="/Uploads/Picture/2018-12-29/5c26dd6648065.jpg" alt="" width="180" height="130" class="fl">
+                            <div class="fl">
+                                <h3 class="article-title"><a href="/coursearticle/index/articleId/358" target="_blank"> Unity可以用svn吗</a></h3>
+                                <p class="article-desc">　众所周知，unity是非常著名的游戏开发引擎。那么，unity可以用svn吗?当然可以了。用Unity3D也有一段时间了，由于团队一直使用SVN进行版本管理，现在给大家总结一下：</p>
+                                <div class="clearfix"><span class="article-date fl">2018-12-29</span><span class="article-view fr">473</span></div>
+                            </div>
+                            <a href="/coursearticle/index/articleId/358" target="_blank"></a>
+                        </li>
+
+                    <!--<li><a href="/coursearticle/index/articleId/358" target="_blank">· Unity可以用svn吗</a></li>-->                </ul>
+            </div>
+            <!-- 课程评价 -->
+            <div style="display: none!important;" class="course-comments">
+                            </div>
+        </div>
+    </div>
+    <div class="fr section2-right">
+        <!-- 推荐位 -->
+        <a href="http://www.mobiletrain.org/vr/" target="_blank">
+            <img src="/Uploads/Picture/2019-01-11/5c3840c1bbf19.jpg" alt="">
+        </a>
+
+        <!-- <div class="addqq">
+            <div class="clearfix">
+                <h3 class="fl">QQ技术交流群</h3>
+            </div>
+            <img src="http://img.mobiletrain.org/templates/mobiletrain/images/mo/index/cont-right-qqico.png" alt="">
+            <p>千锋Unity开发官方①群<br><span>858321642</span></p>
+            <a rel="nofollow" target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=69f72a21cb2dba42d77ccb1427cc2e05ad527fd98bbb34a4e4ba3d1ceee38404">加入群聊</a>
+        </div> -->
+
+        <div class="they-looked">
+            <div class="clearfix">
+                <h3 class="fl">他们都在看</h3>
+            </div>
+            <ul>
+                <li class="clearfix">
+                        <img src="/Uploads/Picture/2018-12-24/5c2091016cf83.jpg" alt="" width="100" height="58" class="fl">
+                        <div class="fl">
+                            <p><a href="/course/index/courseId/536" target="_blank">RPG游戏从框架到实战视频教程</a></p>
+                            <p>
+                                <span class="video-level level-3">高级</span><span>8392人学习</span>
+                            </p>
+                        </div>
+                    </li><li class="clearfix">
+                        <img src="/Uploads/Picture/2018-12-24/5c208a091234b.jpg" alt="" width="100" height="58" class="fl">
+                        <div class="fl">
+                            <p><a href="/course/index/courseId/535" target="_blank">Unity3d游戏图形学从理论到实战精讲</a></p>
+                            <p>
+                                <span class="video-level level-3">高级</span><span>8994人学习</span>
+                            </p>
+                        </div>
+                    </li><li class="clearfix">
+                        <img src="/Uploads/Picture/2018-12-24/5c2084d30c3c6.png" alt="" width="100" height="58" class="fl">
+                        <div class="fl">
+                            <p><a href="/course/index/courseId/534" target="_blank">Unity3d第一人称游戏项目实战</a></p>
+                            <p>
+                                <span class="video-level level-2">进阶</span><span>11435人学习</span>
+                            </p>
+                        </div>
+                    </li><li class="clearfix">
+                        <img src="/Uploads/Picture/2019-03-27/5c9b2198803df.jpg" alt="" width="100" height="58" class="fl">
+                        <div class="fl">
+                            <p><a href="/course/index/courseId/533" target="_blank">Unity游戏开发从入门到精通</a></p>
+                            <p>
+                                <span class="video-level level-1">初级</span><span>11365人学习</span>
+                            </p>
+                        </div>
+                    </li><li class="clearfix">
+                        <img src="/Uploads/Picture/2018-12-24/5c204139ab08e.jpg" alt="" width="100" height="58" class="fl">
+                        <div class="fl">
+                            <p><a href="/course/index/courseId/532" target="_blank">Unity系列之C#编程语言基础</a></p>
+                            <p>
+                                <span class="video-level level-1">初级</span><span>11961人学习</span>
+                            </p>
+                        </div>
+                    </li><li class="clearfix">
+                        <img src="/Uploads/Picture/2018-12-24/5c203dcb3c473.jpg" alt="" width="100" height="58" class="fl">
+                        <div class="fl">
+                            <p><a href="/course/index/courseId/531" target="_blank">2019Unity游戏开发初识与职业发展</a></p>
+                            <p>
+                                <span class="video-level level-1">初级</span><span>10178人学习</span>
+                            </p>
+                        </div>
+                    </li>            </ul>
+        </div>
+    </div>
+</div>
+
+
+<script src="/Public/Home/js/jquery.min.js"></script>
+<script>
+    $(function(){
+        //底部友情链接切换
+        $('.section2-left-nav').children().each(function(key, val){
+            $(val).click(function(){
+                $('.section2-left-nav').children().removeClass('active')
+                $(this).addClass('active')
+                $('.section2-left-conts').children().removeClass('active')
+                $('.section2-left-conts').children().eq(key).addClass('active')
+            })
+        })
+
+        //视频播放
+        var iframe = $('.video-player video')[0];
+        $('.j-url-list').eq(0).addClass('active')
+        iframe.src= $('.j-url-list').eq(0).find('a').attr('data-url');
+        
+        var iframeTop = $(iframe).offset().top;
+
+
+        $('.j-url-list').each(function(key, val){
+            $(val).click(function(){
+                var url = $(this).find('a').attr('data-url');
+                iframe.src=url;
+                $(window).scrollTop(iframeTop)
+                $('.j-url-list').removeClass('active')
+                $(this).addClass('active')
+            })
+        })
+
+    })
+
+    function updateView(vid){
+        $.ajax({
+            //接口地址
+            url: '/Course/addstudent',
+            type: "POST",
+            data: {
+                id: vid
+            },
+            success: function(data){
+                console.log(data)
+            },
+            error: function(error){
+                console.log(error)
+            }
+        })
+
+    }
+</script>
+
+
+
+<!-- 共用底部 -->
+	<footer class="footer">
+		<div class="warp clearfix">
+			<div class="bottom-left fl">
+				<div>
+					<a href="http://www.mobiletrain.org/about/" target="_blank">关于千锋</a>
+					<a href="http://www.mobiletrain.org/about/contact.html" target="_blank">联系我们</a>
+					<a href="http://www.mobiletrain.org/zhaopin/" target="_blank">企业合作</a>
+					<a href="http://www.mobiletrain.org/teacher/" target="_blank">讲师详情</a>
+				</div>
+				<p>Copyright 2011-2019 北京千锋互联科技有限公司 京ICP备12003911号-3 京公网安备11010802011455号  <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1262673999'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1262673999' type='text/javascript'%3E%3C/script%3E"));</script></p>
+			</div>
+			<div class="bottom-right fr clearfix">
+				<a href="javascript:;" class="fl">
+					<img src="/Public/Home/images/bottom-ico-wx.png" alt="">官方公众号
+					<span><img src="/Public/Home/images/bottom-qrcode.png" alt=""></span>
+				</a>
+				<a href="http://e.weibo.com/1000phonecom?ref=http%3A%2F%2Fvideo.mobiletrain.org%2F&amp;pinzhuan&amp;adinfo678=baidu" target="_blank" rel="nofollow" class="fl">
+					<img src="/Public/Home/images/bottom-ico-wb.png" alt="">官方微博
+				</a>
+			</div>
+		</div>
+	</footer>
+
+
+
+<script src="/Public/Home/js/base.js"></script>
+<script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https'){
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else{
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+<script>
+	$(function(){
+
+	
+		(function(){
+			var s = location.search.substring(1);
+
+			//过滤page参数
+			s = s.replace(/&page=\d+/, '');
+			var as = document.getElementsByTagName('a');
+			var hrefHash = '';
+			for (var i = 0; i < as.length; i++) {
+				
+				if(as[i].href == 'javascript:;' || as[i].href == 'javascript:void(0);'){
+					continue;
+				}else if(as[i].href.indexOf('#') != -1){
+					//console.log(as[i].href)
+					hrefHash = as[i].href.substring(as[i].href.indexOf('#'));
+					as[i].href = as[i].href.substring(0, as[i].href.indexOf('#'))                
+					//console.log(hrefHash)
+					if(s === ''){
+						as[i].href = as[i].href + hrefHash;
+					}else{
+						as[i].href = as[i].href + (as[i].href.indexOf('?') == -1 ? '?' : '&') + s + hrefHash;
+					}
+					//console.log(as[i].href)
+				}else{
+					if(s === ''){
+						continue;
+					}else{
+						as[i].href = as[i].href + (as[i].href.indexOf('?') == -1 ? '?' : '&') + s;
+					}
+				}
+			}
+
+			//修改分页链接
+			s = s.replace(/&page=\d+/, '');
+			if($('.pagination')[0]){
+				$('.pagination').find('a').each(function(){
+					console.log(s)
+					var n = $(this).html();
+					$(this).attr('href', location.origin+location.pathname+'?'+s+'&page='+n)
+				})
+			}
+
+
+		})();
+
+		tabChange('.j-tab')
+		function tabChange(className){
+			var $tabBox = $(className);
+
+			$tabBox.each(function(key, val){
+				var $tabBtns = $(val).find('.j-tab-btn').children();
+				var $tabConts = $(val).find('.j-tab-cont').children();
+
+				$tabBtns.each(function(key, val){
+					$(val).click(function(){
+						$tabBtns.removeClass('active')
+						$(this).addClass('active')
+						$tabConts.removeClass('active')
+						$tabConts.eq(key).addClass('active')
+					})
+				})
+			})
+		}
+
+	})
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?733967b514cb7e4e143258e6ce430984";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script>
+(function() {
+	var _53code = document.createElement("script");
+	_53code.src = "https://tb.53kf.com/code/code/10132404/14";
+	var s = document.getElementsByTagName("script")[0]; 
+	s.parentNode.insertBefore(_53code, s);
+})();
+</script>
+
+
+</html>

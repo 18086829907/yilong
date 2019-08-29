@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Unity3d游戏图形学从理论到实战精讲-千锋教育视频资源库</title>
+	<meta name="keywords" content="Unity3d游戏图形学从理论到实战,unity3D视频" />
+	<meta name="description" content="超高级课程，图形学从小白到大咖，系统剖析图形学开发模式，一个个案例教你搞定图形学，成为优先录用的抢手人才。" />
+	<link rel="stylesheet" href="/Public/Home/css/base.css">
+	<link rel="stylesheet" href="/Public/Home/css/index.css">
+	<link rel="stylesheet" href="/Public/Home/css/leftrightfixed.css">
+	<!--<link rel="stylesheet" href="/Public/static/bootstrap/css/bootstrap.css">-->
+	<link rel="stylesheet" href="/Public/static/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css">
+	<script src="/Public/Home/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/Public/static/ueditor/third-party/SyntaxHighlighter/shCore.js"></script>
+	<script type="text/javascript">
+        SyntaxHighlighter.all();
+	</script>
+	<link rel="icon" href="/Public/Home/images/favicon.ico" type="image/x-icon"/>
+	
+    <link rel="stylesheet" href="/Public/Home/css/video-cont.css">
+
+</head>
+<body>
+<!-- 共用头部 -->
+<header class="header">
+	<div class="warp clearfix">
+		<div class="fl clearfix logo">
+			<h1 class="fl">
+				<a href="http://www.mobiletrain.org/" target="_blank">
+					千锋教育
+					<img src="/Public/Home/images/logo.png" alt="千锋教育">
+				</a>
+			</h1>
+			<h2 class="fl">
+				<a href="/">视频频道</a>
+			</h2>
+
+		</div>
+		<nav class="fr nav clearfix">
+			<div class="fl"><a href="/"  >首页</a></div>
+			<div class="fl"><a href="/courses/" class="active" >视频教程</a></div>
+			<!--<div class="fl"><a href="http://www.mobiletrain.org/open/" target="_blank">公开课</a></div>-->
+			<div class="fl">
+				<a href="javascript:;">学习路线</a>
+				<div>
+					<a target="_blank" href="/html5/">HTML5大前端</a>
+					<a target="_blank" href="/java/">JavaEE+分布式开发</a>
+					<a target="_blank" href="/python/">Python全栈+人工智能</a>
+					<a target="_blank" href="/ui/">全链路UI/UE设计</a>
+					<a target="_blank" href="/bigdata/">大数据+人工智能</a>
+					<a target="_blank" href="/linux/">云计算+信息安全</a>
+					<a target="_blank" href="/rjcs/">全栈软件测试</a>
+					<a target="_blank" href="https://tb.53kf.com/code/client/10132404/14">智能物联网+嵌入式</a>
+					<a target="_blank" href="https://tb.53kf.com/code/client/10132404/14">Unity游戏开发</a>
+					<a target="_blank" href="/go/">Go语言开发</a>
+					<a target="_blank" href="/php/">PHP全栈+服务器集群</a>
+				</div>
+			</div>
+			<div class="fl"><a href="/articles/" >技术分享</a></div>
+		</nav>
+	</div>
+	
+	<!-- 右侧小小千 -->
+	<div class="right-fixed-btn">
+		<a href="https://tb.53kf.com/code/client/10132404/14" rel="nofollow" target="_blank">
+			<img src="http://img.mobiletrain.org/templates/mobiletrain/images/mo/index/right-fixed-face.png?124">
+			<p class="bubble">小小千想和您聊一聊</p>
+		</a>
+	</div>
+	
+
+	<!-- 左侧小蜜蜂 -->
+	<div class="base_fixed_sy2" id="sy_20170615" style="top: 237px; position: fixed;">
+		<div class="fixed_wrap" title="千锋教育IT培训">
+			<p onclick="window.open('https://tb.53kf.com/code/client/10132404/14,_blank')"></p>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="HTML5|WEB前端开发"><i>HTML5</i><span id="html5_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="JAVA开发培训"><i>Java</i><span id="java_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="PYTHON人工智能培训"><i>Python</i><span id="python_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="全链路设计培训"><i>全链路设计</i><span id="ui_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="云计算培训"><i>云计算</i><span id="php_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="软件测试培训"><i>软件测试</i><span id="php_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="大数据培训"><i>大数据</i><span id="big_data_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="嵌入式物联网"><i>智能物联网</i><span id="ui_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="Unity游戏开发"><i>Unity游戏开发</i><span id="vr_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="Go语言开发"><i>Go语言开发</i><span id="vr_20170616"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="PHP培训"><i>PHP</i><span id="linux_20170615"></span></a>
+			<a href="https://tb.53kf.com/code/client/10132404/14" rel="external nofollow" target="_blank" title="网络安全"><i>网络安全</i><span id="ui_20170616"></span></a>
+			<a href="javascript:;" class="qf_fix02"></a>
+		</div>
+	</div>
+
+</header>
+
+
+<div class="section1">
+    <div class="bread-nav warp">
+        <img src="/Public/Home/images/ico-home.png" alt="">
+        <span>当前位置：</span>
+        <a href="/">首页</a>&gt;
+        <a href="/courses/">视频教程</a>&gt;
+        <a href="javascript:;">Unity3d游戏图形学从理论到实战精讲</a>
+    </div>
+
+    <div class="clearfix warp">
+        <!-- 播放器 -->
+        <div class="fl video-player">
+            <video controls="" _src="http://7xtcwd.com1.z0.glb.clouddn.com/10xygy(1).mp4"></video>
+        </div>
+        <!-- 视频简介 -->
+        <div class="fr video-describe" difficulty = "3" categoryId = "58">
+            <h2 class="video-title">Unity3d游戏图形学从理论到实战精讲<span class="video-level level-3">高级</span></h2>
+            <div class="video-grade clearfix">
+                <p class="fl">
+                    <img src="/Public/Home/images/star.png" alt="" class="fl">
+                    <img src="/Public/Home/images/star.png" alt="" class="fl">
+                    <img src="/Public/Home/images/star.png" alt="" class="fl">
+                    <img src="/Public/Home/images/star.png" alt="" class="fl">
+                    <img src="/Public/Home/images/star.png" alt="" class="fl">
+                    &nbsp;&nbsp;
+                    评分9.8                </p>
+                <p class="fl">35节课</p>
+                <p class="fl">8994人已学</p>
+            </div>
+            <div class="video-lead">
+                <h3>下载本章视频你能学到什么？</h3>
+                <p>
+                    精通UnityShader开发，熟悉着色器工作原理，能够使用Shader1.0和Shader2.0完成大部分的图形学开发。                </p>
+            </div>
+            
+            <div class="video-download">
+                <a href="//shang.qq.com/wpa/qunwpa?idkey=69f72a21cb2dba42d77ccb1427cc2e05ad527fd98bbb34a4e4ba3d1ceee38404" target="_blank" onclick="updateView('535')">点击领取视频+源码+学习路线图</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="section2 warp clearfix">
+    <div class="fl section2-left">
+        <div class="section2-left-nav clearfix">
+            <a href="javascript:;" class="fl active">章节介绍</a>
+            <a href="javascript:;" class="fl">课程目录</a>
+            <a href="javascript:;" class="fl">相关文章</a>
+            <a style="display: none!important;" href="javascript:;" class="fl">课程评价(0)</a>
+        </div>
+        <div class="section2-left-conts">
+            <!-- 章节介绍 -->
+            <div class="active chapter-introduction">
+                <p><a style="color: #E56600; font-weight: bold; font-size: 16px;" href="//shang.qq.com/wpa/qunwpa?idkey=69f72a21cb2dba42d77ccb1427cc2e05ad527fd98bbb34a4e4ba3d1ceee38404" target="_blank">千锋Unity开发官方①群（858321642）——猛戳进入</a></p>
+                
+                <p><p>
+	<strong><span style="font-size:16px;color:#E56600;"><br />
+</span></strong>
+</p>
+<p>
+	<strong><span style="font-size:16px;color:#E56600;">课程介绍</span></strong><span style="font-size:16px;color:#E56600;">：</span> 
+</p>
+<span style="line-height:2.5;">超高级课程，图形学从小白到大咖，系统剖析图形学开发模式，一个个案例教你搞定图形学，成为优先录用的抢手人才。</span><br />
+<br />
+<strong><span style="font-size:16px;color:#E56600;">章节目录</span></strong><span style="font-size:16px;color:#E56600;">：</span><br />
+<div>
+	<table border="0" cellpadding="0" cellspacing="0" width="734" style="color:#000000;font-family:-webkit-standard;width:550pt;" class="ke-zeroborder">
+		<tbody>
+			<tr>
+				<td height="19" width="383" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<strong><span style="line-height:2.5;">第1章（3集）</span></strong> 
+				</td>
+				<td width="351" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">深度缓存19</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">图-形学介绍</span> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">深度测试实战</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">渲染流程</span> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">Blend</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">shader 结构</span> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">Renderqueue</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<strong><span style="line-height:2.5;">第2章（4集）</span></strong> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<strong><span style="line-height:2.5;">第5章（15集）</span></strong> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">属性定义</span> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">Renderpath</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">灯光设置</span> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">surface5.0</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">纹理寻址原理</span> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">顶点变化</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">纹理设置</span> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">片段着色器</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<strong><span style="line-height:2.5;">第3章（7集）</span></strong> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">参数传递</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">shader2.0结构及语义</span> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">向量的运算</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">shader2.0矩阵变换</span> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">灯光原理</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">shader2.0 波-动</span> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">自定义光照模型</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">河流效果</span> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">法线贴图原理</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">loading</span> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">边缘检测</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">outline</span> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">cubemap</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">blurning</span> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">折射</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<strong><span style="line-height:2.5;">第4章（6集）</span></strong> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">fresnel</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">Alpha测试</span> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">fog</span> 
+				</td>
+			</tr>
+			<tr>
+				<td height="19" style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">模板测试</span> 
+				</td>
+				<td style="font-size:11pt;font-family:宋体;vertical-align:middle;border:none;">
+					<span style="line-height:2.5;">brdf</span> 
+				</td>
+			</tr>
+		</tbody>
+	</table>
+<br />
+</div></p>
+                
+            </div>
+            <!-- 课程目录 -->
+            <div class="course-list">
+                <ul>
+                                        <li class="clearfix">
+                            <p class="fl">第1章 - Unity3d游戏图形学从理论到实战精讲</p>
+                            <ul class="fl">
+                                                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第1节 - 图-形学介绍</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：01图-形学介绍.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第2节 - 渲染流程</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：02渲染流程.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第3节 - shader 结构</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：03shader 结构.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第4节 - 属性定义</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：04属性定义.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第5节 - 灯光设置</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：05灯光设置.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第6节 - 纹理寻址原理</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：06纹理寻址原理.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第7节 - 纹理设置</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：07纹理设置.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第8节 - shader2.0结构及语义</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：08shader2.0结构及语义.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第9节 - shader2.0矩阵变换</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：09shader2.0矩阵变换.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第10节 - shader2.0 波-动</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：10shader2.0 波-动.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第11节 - 河流效果</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：11河流效果.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第12节 - loading</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：12loading.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第13节 - outline</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/13outline.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第14节 - blurning</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/14blurning.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第15节 - Alpha测试</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：17Alpha测试.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第16节 - 模板测试</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：18模板测试.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第17节 - 深度缓存</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：19深度缓存19.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第18节 - 深度测试实战</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：20深度测试实战.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第19节 - Blend</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：21Blend.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第20节 - Renderqueue</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：22Renderqueue.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第21节 - Renderpath</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：23Renderpath.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第22节 - surface5.0</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：24surface5.0.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第23节 - 顶点变化</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：25顶点变化.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第24节 - 片段着色器</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：26片段着色器.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第25节 - 参数传递</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：27参数传递.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第26节 - 向量的运算</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：28向量的运算.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第27节 - 灯光原理</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：29灯光原理.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第28节 - 自定义光照模型</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：30自定义光照模型.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第29节 - 法线贴图原理</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：31法线贴图原理.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第30节 - 边缘检测</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：32边缘检测.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第31节 - cubemap</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：33cubemap.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第32节 - 折射</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：34折射.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第33节 - fresnel</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：35fresnel.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第34节 - fog</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：36fog.mp4" class="fr">点击播放</a>
+                                    </li>                                    <li class="clearfix j-url-list">
+                                        <p class="fl">第35节 - brdf</p>
+                                        <a href="javascript:;" data-url="http://7xtcwd.com1.z0.glb.clouddn.com/千锋Unity3d教程：37brdf.mp4" class="fr">点击播放</a>
+                                    </li>                            </ul>
+                        </li>
+                </ul>
+            </div>
+            <!-- 相关文章 -->
+            <div class="relevant-articles">
+                <ul class="article-list">
+                    <li class="clearfix">
+                            <img src="/Uploads/Picture/2018-12-29/5c26e2ec41abc.jpg" alt="" width="180" height="130" class="fl">
+                            <div class="fl">
+                                <h3 class="article-title"><a href="/coursearticle/index/articleId/380" target="_blank"> 推荐几款实用Unity动画插件</a></h3>
+                                <p class="article-desc">在策划开发一款游戏时，我们一般都想把游戏中各个细节都做到完美，特别是玩家与游戏中角色互动对话时，最好让游戏角色的唇型与面部微表情具有一致性，该如何用快速简单的办法实现这些操作呢?</p>
+                                <div class="clearfix"><span class="article-date fl">2018-12-29</span><span class="article-view fr">649</span></div>
+                            </div>
+                            <a href="/coursearticle/index/articleId/380" target="_blank"></a>
+                        </li>
+
+                    <!--<li><a href="/coursearticle/index/articleId/380" target="_blank">· 推荐几款实用Unity动画插件</a></li>--><li class="clearfix">
+                            <img src="/Uploads/Picture/2018-12-29/5c26e1fa473dd.jpg" alt="" width="180" height="130" class="fl">
+                            <div class="fl">
+                                <h3 class="article-title"><a href="/coursearticle/index/articleId/379" target="_blank"> 如何实现水墨风格渲染</a></h3>
+                                <p class="article-desc">在用Unity3D软件制作游戏时，很多国内的游戏公司都会开发适合国内游戏市场的中国风风格的武侠游戏，这个时候就需要用Unity3D实现水墨风格的渲染?很多初学的朋友都不知道如何做，今天小编就和大家分享一下。</p>
+                                <div class="clearfix"><span class="article-date fl">2018-12-29</span><span class="article-view fr">941</span></div>
+                            </div>
+                            <a href="/coursearticle/index/articleId/379" target="_blank"></a>
+                        </li>
+
+                    <!--<li><a href="/coursearticle/index/articleId/379" target="_blank">· 如何实现水墨风格渲染</a></li>--><li class="clearfix">
+                            <img src="/Uploads/Picture/2018-12-29/5c26de5a355f2.jpg" alt="" width="180" height="130" class="fl">
+                            <div class="fl">
+                                <h3 class="article-title"><a href="/coursearticle/index/articleId/378" target="_blank"> 如何制作逼真的建筑场景</a></h3>
+                                <p class="article-desc">在使用Unity开发游戏时，我们常常在制作游戏的建筑场景时花费太多的时间和精力。如何创作出令玩家感到逼真、印象深刻的的建筑场景，是每一个Unity游戏开发人员都要面对的难题。今天小编就和大家分享一下这方面的技巧。</p>
+                                <div class="clearfix"><span class="article-date fl">2018-12-29</span><span class="article-view fr">544</span></div>
+                            </div>
+                            <a href="/coursearticle/index/articleId/378" target="_blank"></a>
+                        </li>
+
+                    <!--<li><a href="/coursearticle/index/articleId/378" target="_blank">· 如何制作逼真的建筑场景</a></li>--><li class="clearfix">
+                            <img src="/Uploads/Picture/2018-12-29/5c26d9166d9c2.jpg" alt="" width="180" height="130" class="fl">
+                            <div class="fl">
+                                <h3 class="article-title"><a href="/coursearticle/index/articleId/377" target="_blank"> Unity中有关3D开发中提升效率的高级技巧</a></h3>
+                                <p class="article-desc">对于零基础刚涉及Unity 3D开发的人来说，多多少少还是会有点晕头转向的。如果这时候，有些实用的小技巧来助力，往往能达到事半功倍的效果。就像大雄总是求助哆啦A梦，那么，面对很多新手小白满满的疑惑和无助，小编是当仁不让，来分享一些有关3D开发中提升效率的高级技巧。助力小伙伴们更好的去进入到Unity 3D开发学习之中!</p>
+                                <div class="clearfix"><span class="article-date fl">2018-12-29</span><span class="article-view fr">527</span></div>
+                            </div>
+                            <a href="/coursearticle/index/articleId/377" target="_blank"></a>
+                        </li>
+
+                    <!--<li><a href="/coursearticle/index/articleId/377" target="_blank">· Unity中有关3D开发中提升效率的高级技巧</a></li>--><li class="clearfix">
+                            <img src="/Uploads/Picture/2018-12-29/5c26d5aeb37c1.jpg" alt="" width="180" height="130" class="fl">
+                            <div class="fl">
+                                <h3 class="article-title"><a href="/coursearticle/index/articleId/370" target="_blank"> 几款制作4A级游戏场景的工具</a></h3>
+                                <p class="article-desc">对于很多Unity游戏开发人员来说，一生之中能够参与到一款4A级游戏大作的制作中，是一件非常荣幸的事情。这不仅对自己的职业生涯发展大有帮助，还能让自己成就感爆棚。当然这种游戏大作制作难度不小，今天小编就分享几款4A级地形资源插件，帮助大家轻松打造游戏场景。</p>
+                                <div class="clearfix"><span class="article-date fl">2018-12-29</span><span class="article-view fr">566</span></div>
+                            </div>
+                            <a href="/coursearticle/index/articleId/370" target="_blank"></a>
+                        </li>
+
+                    <!--<li><a href="/coursearticle/index/articleId/370" target="_blank">· 几款制作4A级游戏场景的工具</a></li>--><li class="clearfix">
+                            <img src="/Uploads/Picture/2018-12-29/5c26dd6648065.jpg" alt="" width="180" height="130" class="fl">
+                            <div class="fl">
+                                <h3 class="article-title"><a href="/coursearticle/index/articleId/358" target="_blank"> Unity可以用svn吗</a></h3>
+                                <p class="article-desc">　众所周知，unity是非常著名的游戏开发引擎。那么，unity可以用svn吗?当然可以了。用Unity3D也有一段时间了，由于团队一直使用SVN进行版本管理，现在给大家总结一下：</p>
+                                <div class="clearfix"><span class="article-date fl">2018-12-29</span><span class="article-view fr">473</span></div>
+                            </div>
+                            <a href="/coursearticle/index/articleId/358" target="_blank"></a>
+                        </li>
+
+                    <!--<li><a href="/coursearticle/index/articleId/358" target="_blank">· Unity可以用svn吗</a></li>-->                </ul>
+            </div>
+            <!-- 课程评价 -->
+            <div style="display: none!important;" class="course-comments">
+                            </div>
+        </div>
+    </div>
+    <div class="fr section2-right">
+        <!-- 推荐位 -->
+        <a href="http://www.mobiletrain.org/vr/" target="_blank">
+            <img src="/Uploads/Picture/2019-01-11/5c3840c1bbf19.jpg" alt="">
+        </a>
+
+        <!-- <div class="addqq">
+            <div class="clearfix">
+                <h3 class="fl">QQ技术交流群</h3>
+            </div>
+            <img src="http://img.mobiletrain.org/templates/mobiletrain/images/mo/index/cont-right-qqico.png" alt="">
+            <p>千锋Unity开发官方①群<br><span>858321642</span></p>
+            <a rel="nofollow" target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=69f72a21cb2dba42d77ccb1427cc2e05ad527fd98bbb34a4e4ba3d1ceee38404">加入群聊</a>
+        </div> -->
+
+        <div class="they-looked">
+            <div class="clearfix">
+                <h3 class="fl">他们都在看</h3>
+            </div>
+            <ul>
+                <li class="clearfix">
+                        <img src="/Uploads/Picture/2018-12-24/5c209191d4112.jpg" alt="" width="100" height="58" class="fl">
+                        <div class="fl">
+                            <p><a href="/course/index/courseId/537" target="_blank">游戏架构高级课程</a></p>
+                            <p>
+                                <span class="video-level level-3">高级</span><span>7544人学习</span>
+                            </p>
+                        </div>
+                    </li><li class="clearfix">
+                        <img src="/Uploads/Picture/2018-12-24/5c2091016cf83.jpg" alt="" width="100" height="58" class="fl">
+                        <div class="fl">
+                            <p><a href="/course/index/courseId/536" target="_blank">RPG游戏从框架到实战视频教程</a></p>
+                            <p>
+                                <span class="video-level level-3">高级</span><span>8390人学习</span>
+                            </p>
+                        </div>
+                    </li><li class="clearfix">
+                        <img src="/Uploads/Picture/2018-12-24/5c2084d30c3c6.png" alt="" width="100" height="58" class="fl">
+                        <div class="fl">
+                            <p><a href="/course/index/courseId/534" target="_blank">Unity3d第一人称游戏项目实战</a></p>
+                            <p>
+                                <span class="video-level level-2">进阶</span><span>11435人学习</span>
+                            </p>
+                        </div>
+                    </li><li class="clearfix">
+                        <img src="/Uploads/Picture/2019-03-27/5c9b2198803df.jpg" alt="" width="100" height="58" class="fl">
+                        <div class="fl">
+                            <p><a href="/course/index/courseId/533" target="_blank">Unity游戏开发从入门到精通</a></p>
+                            <p>
+                                <span class="video-level level-1">初级</span><span>11365人学习</span>
+                            </p>
+                        </div>
+                    </li><li class="clearfix">
+                        <img src="/Uploads/Picture/2018-12-24/5c204139ab08e.jpg" alt="" width="100" height="58" class="fl">
+                        <div class="fl">
+                            <p><a href="/course/index/courseId/532" target="_blank">Unity系列之C#编程语言基础</a></p>
+                            <p>
+                                <span class="video-level level-1">初级</span><span>11961人学习</span>
+                            </p>
+                        </div>
+                    </li><li class="clearfix">
+                        <img src="/Uploads/Picture/2018-12-24/5c203dcb3c473.jpg" alt="" width="100" height="58" class="fl">
+                        <div class="fl">
+                            <p><a href="/course/index/courseId/531" target="_blank">2019Unity游戏开发初识与职业发展</a></p>
+                            <p>
+                                <span class="video-level level-1">初级</span><span>10178人学习</span>
+                            </p>
+                        </div>
+                    </li>            </ul>
+        </div>
+    </div>
+</div>
+
+
+<script src="/Public/Home/js/jquery.min.js"></script>
+<script>
+    $(function(){
+        //底部友情链接切换
+        $('.section2-left-nav').children().each(function(key, val){
+            $(val).click(function(){
+                $('.section2-left-nav').children().removeClass('active')
+                $(this).addClass('active')
+                $('.section2-left-conts').children().removeClass('active')
+                $('.section2-left-conts').children().eq(key).addClass('active')
+            })
+        })
+
+        //视频播放
+        var iframe = $('.video-player video')[0];
+        $('.j-url-list').eq(0).addClass('active')
+        iframe.src= $('.j-url-list').eq(0).find('a').attr('data-url');
+        
+        var iframeTop = $(iframe).offset().top;
+
+
+        $('.j-url-list').each(function(key, val){
+            $(val).click(function(){
+                var url = $(this).find('a').attr('data-url');
+                iframe.src=url;
+                $(window).scrollTop(iframeTop)
+                $('.j-url-list').removeClass('active')
+                $(this).addClass('active')
+            })
+        })
+
+    })
+
+    function updateView(vid){
+        $.ajax({
+            //接口地址
+            url: '/Course/addstudent',
+            type: "POST",
+            data: {
+                id: vid
+            },
+            success: function(data){
+                console.log(data)
+            },
+            error: function(error){
+                console.log(error)
+            }
+        })
+
+    }
+</script>
+
+
+
+<!-- 共用底部 -->
+	<footer class="footer">
+		<div class="warp clearfix">
+			<div class="bottom-left fl">
+				<div>
+					<a href="http://www.mobiletrain.org/about/" target="_blank">关于千锋</a>
+					<a href="http://www.mobiletrain.org/about/contact.html" target="_blank">联系我们</a>
+					<a href="http://www.mobiletrain.org/zhaopin/" target="_blank">企业合作</a>
+					<a href="http://www.mobiletrain.org/teacher/" target="_blank">讲师详情</a>
+				</div>
+				<p>Copyright 2011-2019 北京千锋互联科技有限公司 京ICP备12003911号-3 京公网安备11010802011455号  <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1262673999'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1262673999' type='text/javascript'%3E%3C/script%3E"));</script></p>
+			</div>
+			<div class="bottom-right fr clearfix">
+				<a href="javascript:;" class="fl">
+					<img src="/Public/Home/images/bottom-ico-wx.png" alt="">官方公众号
+					<span><img src="/Public/Home/images/bottom-qrcode.png" alt=""></span>
+				</a>
+				<a href="http://e.weibo.com/1000phonecom?ref=http%3A%2F%2Fvideo.mobiletrain.org%2F&amp;pinzhuan&amp;adinfo678=baidu" target="_blank" rel="nofollow" class="fl">
+					<img src="/Public/Home/images/bottom-ico-wb.png" alt="">官方微博
+				</a>
+			</div>
+		</div>
+	</footer>
+
+
+
+<script src="/Public/Home/js/base.js"></script>
+<script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https'){
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else{
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+<script>
+	$(function(){
+
+	
+		(function(){
+			var s = location.search.substring(1);
+
+			//过滤page参数
+			s = s.replace(/&page=\d+/, '');
+			var as = document.getElementsByTagName('a');
+			var hrefHash = '';
+			for (var i = 0; i < as.length; i++) {
+				
+				if(as[i].href == 'javascript:;' || as[i].href == 'javascript:void(0);'){
+					continue;
+				}else if(as[i].href.indexOf('#') != -1){
+					//console.log(as[i].href)
+					hrefHash = as[i].href.substring(as[i].href.indexOf('#'));
+					as[i].href = as[i].href.substring(0, as[i].href.indexOf('#'))                
+					//console.log(hrefHash)
+					if(s === ''){
+						as[i].href = as[i].href + hrefHash;
+					}else{
+						as[i].href = as[i].href + (as[i].href.indexOf('?') == -1 ? '?' : '&') + s + hrefHash;
+					}
+					//console.log(as[i].href)
+				}else{
+					if(s === ''){
+						continue;
+					}else{
+						as[i].href = as[i].href + (as[i].href.indexOf('?') == -1 ? '?' : '&') + s;
+					}
+				}
+			}
+
+			//修改分页链接
+			s = s.replace(/&page=\d+/, '');
+			if($('.pagination')[0]){
+				$('.pagination').find('a').each(function(){
+					console.log(s)
+					var n = $(this).html();
+					$(this).attr('href', location.origin+location.pathname+'?'+s+'&page='+n)
+				})
+			}
+
+
+		})();
+
+		tabChange('.j-tab')
+		function tabChange(className){
+			var $tabBox = $(className);
+
+			$tabBox.each(function(key, val){
+				var $tabBtns = $(val).find('.j-tab-btn').children();
+				var $tabConts = $(val).find('.j-tab-cont').children();
+
+				$tabBtns.each(function(key, val){
+					$(val).click(function(){
+						$tabBtns.removeClass('active')
+						$(this).addClass('active')
+						$tabConts.removeClass('active')
+						$tabConts.eq(key).addClass('active')
+					})
+				})
+			})
+		}
+
+	})
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?733967b514cb7e4e143258e6ce430984";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script>
+(function() {
+	var _53code = document.createElement("script");
+	_53code.src = "https://tb.53kf.com/code/code/10132404/14";
+	var s = document.getElementsByTagName("script")[0]; 
+	s.parentNode.insertBefore(_53code, s);
+})();
+</script>
+
+
+</html>

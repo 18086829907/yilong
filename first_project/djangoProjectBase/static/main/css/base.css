@@ -1,0 +1,53 @@
+/* base.css*/
+
+*{
+    font-family: 微软雅黑;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;  /*内容超出隐藏*/
+    overflow-y: auto; /*内容能自由滚动*/
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container{
+    padding: 0;
+}
+
+dl{
+    margin: 0;
+}
+
+.navbar-brand>img {
+    display: inline-block;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 0 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#logoA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoA span{
+    font-weight: 600;
+}

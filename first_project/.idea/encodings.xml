@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/data/txt/test.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/finishedObject/ella语音机器人/ella的语言库.txt" charset="GB18030" />
+    <file url="file://$PROJECT_DIR$/finishedObject/fanJianWangSipder/jian.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/finishedObject/一点点语录网励志语录爬虫/lizhi.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/finishedObject/糗事百科爬虫/jock.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testData/csvInfo.csv" charset="GBK" />
+  </component>
+</project>
