@@ -789,10 +789,14 @@
 #       git remote add origin https: // github.com / wugenqiang / bigdata.git
 #       git push -u origin master
 #       具体演示：
-#           mkdir ~/datagit
-#           cd ~/datagit
+#           mkdir ~/dataGit
+#           cd ~/dataGit
 #           git config --global http.postBuffer 524288000
 #           git clone git@github.com:18086829907/yilong.git
+#           cd /root/dataGit
+#           git checkout yilong
+#           cd /root/dataGit/yilong/first_project/练习/scrapyTest/jdCrawl/jdCrawl
+#           python3 run.py
 
 #    docker的使用
 #        容器使用
