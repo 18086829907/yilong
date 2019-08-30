@@ -105,7 +105,7 @@ HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
 # LOG_LEVEL = 'WARNING'
 SPLASH_URL = 'http://localhost:8050'
 
-PROXY_URL = 'http://175.155.236.244:8000/random'
+PROXY_URL = 'http://112.195.44.112:8000/random'
 
 SCHEDULER = 'scrapy_redis.scheduler.Scheduler'
 DUPEFILTER_CLASS = 'scrapy_redis.dupefilter.RFPDupeFilter'

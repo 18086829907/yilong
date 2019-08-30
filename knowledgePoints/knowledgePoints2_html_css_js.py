@@ -190,20 +190,34 @@
 #   显示当前时间
 #       示例：select now();
 #   远程链接
-#       格式：mysql -h 对方ip地址 -u 对方用户名 -p
-#       输入对方密码
-#       if 1130error：
-#           if navicat:
-#               mysql -> 表 -> user
-#               将 root的localhost 修改为 %
-#           if cmd：
-#               #需要被链接的电脑修改host的值
+#       本地允许远程连接
+#           #需要被链接的电脑修改host的值
 #               mysql -u root -p
 #               use mysql
 #               update user set Host='%' where User='root';
 #               管理员启动cmd
 #               net stop mysql80
 #               net start mysql80
+#           #需要被链接的电脑修改防火墙规则
+#               进入控制面板
+#                   点击windows防火墙
+#                       点击高级设置
+#                           点击入站规则
+#                               允许外部访问ipv4协议
+#                                   同时选中3个文件和打印机共享（回显请求-ICMPV4-In）
+#                                       在左边操作栏中点击启用规则
+#                               允许外部访问3306端口
+#                                   在操作栏中点击新建规则
+#                                       选中端口点击下一步
+#                                       在特定本地端口中输入3306点击下一步
+#                                       选中允许连接点击下一步
+#                                       选中域、专用、公用点击下一步
+#       远程机连接本地mysql
+#           格式：mysql -h 对方ip地址 -u 对方用户名 -p
+#           示例：mysql -h192.168.0.102 -uroot -p
+#           输入本地mysql密码
+
+#
 #数据库操作
 #   创建数据库
 #       格式：create database 数据库名 charset=utf8;

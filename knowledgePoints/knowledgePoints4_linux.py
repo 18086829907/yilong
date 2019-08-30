@@ -318,7 +318,7 @@
 #           刷新
 #               $ rpm -Fvh nc-1.84-22.el6.x86_64.rpm
 #           卸载
-#               rpm -e nc
+#               $ rpm -e nc
 #       #查询应用是否安装
 
 #       #安装应用
@@ -459,23 +459,6 @@
 #       ESC
 
 #【day】本地服务器
-#   在centos7系统中安装docker
-#       参考：https://blog.csdn.net/hylaking/article/details/87978819
-#           #卸载旧版本
-#              $ sudo yum remove docker  docker-common docker-selinux docker-engine
-#           #安装需要的包
-#              $ sudo yum install -y yum-utils device-mapper-persistent-data lvm2
-#           #设置阿里yum源
-#              $ sudo yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
-#           #查看仓谷中所有docker版本
-#              $ yum list docker-ce --showduplicates | sort -r
-#           #安装docker
-#              $ sudo yum install docker-ce
-#           #启动并加入开机启动
-#              $ sudo systemctl start docker
-#              $ sudo systemctl enable docker
-#           #验证是否安装成功
-#              $ docker version
 #   安装python3.6
 #       $ sudo yum install -y https://centos7.iuscommunity.org/ius-release.rpm
 #       $ sudo yum update
@@ -484,6 +467,7 @@
 #       $ sudo easy_install-3.6 pip
 #       $ pip install --upgrade pip
 #   切换pip源
+#       mkdir ~/.pip
 #       vim  ~/.pip/pip.conf
 #           [global]
 #           index-url = http://mirrors.aliyun.com/pypi/simple
@@ -493,24 +477,58 @@
 #       $ pip3 install requests
 #   安装selenium
 #       $ pip3 install selenium
+#   安装aiohttp
+#       $ pip3 install aiohttp
 #   安装lxml
 #       $ pip3 install lxml
 #   安装pyquery
 #       $ pip3 install pyquery
-#   安装mysql
-#       $ sudo wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
-#       $ sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
-#       $ sudo yum install -y mysql mysql-server --skip-broken
-#       $ sudo systemctl start mysqld    #启动mysql服务
-#       $ sudo systemctl stop mysqld    #停止mysql服务
-#       $ sudo systemctl restart mysqld    #重启mysql服务
-#       $ mysql -uroot -p    #密码为空
+#   安装mysql8.0
+#       查看旧版本MySQL
+#       rpm -qa | grep mysql
+#       使用以下命令删除上一步查询出的所有文件
+#       yum remove mysql-xxx-xxx
+#       查询mysql的配置文件，并全部删除
+#       find / -name mysql
+#       rm -rf /var/lib/mysql
+#       rm /etc/my.cnf
+#       rm -rf /usr/lib/mysql
+#       rm -rf /usr/share/mysql
+#       删除完成后检查一下是否全部删除干净
+#       在CentOS中默认安装有MariaDB，也要删除掉
+#       查询
+#       rpm -pa | grep mariadb
+#       删除，如：
+#       yum -y remove mariadb-libs.x86_64
+#       开始安装mysql8.0.16
+#       [root@localhost ~]# cd /usr/local/src/
+#       [root@localhost src]# wget http://repo.mysql.com/mysql80-community-release-el7-3.noarch.rpm 
+#       [root@localhost src]# rpm -ivh mysql80-community-release-el7-3.noarch.rpm 
+#       [root@localhost src]#  yum install mysql-community-server
+#       默认配置文件路径： 
+#       配置文件：/etc/my.cnf 
+#       日志文件：/var/log/var/log/mysqld.log 
+#       服务启动脚本：/usr/lib/systemd/system/mysqld.service 
+#       socket文件：/var/run/mysqld/mysqld.pid
+#       过安装完成后，密码为随机密码，需要重置密码。
+#       启动mysql服务
+#       service mysqld restart
+#       设置开机自启动
+#       systemctl enable mysqld.service
+#       重置密码
+#       [root@localhost ~]# grep "password" /var/log/mysqld.log 
+#       下图框中为初始的随机密码，复制粘贴登录数据库
+#       输入初始密码即可登陆数据库，然后需要重新设置密码，至少包含大写，小写字母，数字和符号。
+#       alter user 'root'@'localhost' identified by 'password';  填入自己要设置的密码
+#       设置数据库登陆用户权限
 #       use mysql;
-#       update user set password=password('135cylpsx4848@') where user='root';
+#       先新建一个用户，root
+#       create user 'root'@'%' identified by 'password';
+#       再次赋权
+#       grant all privileges on *.* to 'root'@'%' with grant option;
+#       刷新权限
 #       flush privileges;
-#       exit
-#       vi /etc/mysql/my.cnf
-#           注释bind-address = 127.0.0.1
+#       这样就可使用Navicat 连接数据库了
 #   安装MongoDB
 #       $ sudo vi /etc/yum.repos.d/mongodb-org.repo
 #       修改如下内容
@@ -553,10 +571,78 @@
 #       pip3 install tornado
 #   安装mitmproxy
 #       pip3 install mitmproxy
+#   安装scrapy
+#       sudo yum groupinstall -y development tools
+#       sudo yum install -y epel-release libxslt-devel libxml2-devel openssl-devel
+#       pip3 install Scrapy
+#   安装docker
+#       参考：https://blog.csdn.net/hylaking/article/details/87978819
+#           #卸载旧版本
+#              $ sudo yum remove docker  docker-common docker-selinux docker-engine
+#           #安装需要的包
+#              $ sudo yum install -y yum-utils device-mapper-persistent-data lvm2
+#           #设置阿里yum源
+#              $ sudo yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+#           #查看仓谷中所有docker版本
+#              $ yum list docker-ce --showduplicates | sort -r
+#           #安装docker
+#              $ sudo yum install docker-ce
+#           #启动并加入开机启动
+#              $ sudo systemctl start docker
+#              $ sudo systemctl enable docker
+#           #验证是否安装成功
+#              $ docker version
+#    安装splash容器并启动splash服务
+#        $ sudo docker run -d -p 8050:8050 scrapinghub/splash
+#    安装splash
+#        $ pip3 install scrapy-splash
+#    安装scrapy-redis
+#        $ pip3 install scrapy-redis
+#    安装scrapyd
+#        $ pip3 install scrapyd
+#        $ sudo mkdir /etc/scrapyd
+#        $ sudo vi /etc/scrapyd/scrapyd.conf
+#           [scrapyd]
+#           eggs_dir=eggs
+#           logs_di=logs
+#           items_dir=
+#           jobs_to_keep=5
+#           dbs_dir=dbs
+#           max_proc=0
+#           max_proc_per_cpu=10
+#           finished_to_keep=100
+#           poll_interval=5.0
+#           bind_address=0.0.0.0
+#           http_port=6800
+#           debug=off
+#           runner=scrapyd.runner
+#           application=scrapyd.app.application
+#           launcher=scrapyd.launcher.Launcher
+#           webroot=scrapyd.website.Root
+#
+#           [server]
+#           schedule.json=scrapyd.webservice.Schedule
+#           cancel.json=scrapyd.webservice.Cancel
+#           addversion.json=scrapyd.webservice.AddVersion
+#           listprojects.json=scrapyd.webservice.ListProjects
+#           listversions.json=scrapyd.webservice.ListVersions
+#           listspiders.json=scrapyd.webservice.ListSpiders
+#           delproject.json=scrapyd.webservice.DeleteProject
+#           delversion.json=scrapyd.webservice.DeleteVersion
+#           listjobs.json=scrapyd.webservice.ListJobs
+#           daemonstatus.json=scrapyd.webservice.DaemonStatus
+#       后台运行
+#           (scrapyd > /dev/null &)
+#       配置日志
+#           (scrapyd > ~/scrapyd.log &)
+#       开放端口
+#           firewall-cmd --permanent --add-port=6800/tcp #防火墙开启6800端口
+#    安装Nginx
 #
 #    docker的使用
 #        容器使用
 #            参考：https://blog.csdn.net/qq_35420123/article/details/81946941
+#
 #        安装纯contos系统容器
 #            $ docker images    #查看本地存在的镜像文件
 #            $ docker pull centos
@@ -581,22 +667,19 @@
 #            $ docker exec -it 容器id /bin/bash
 #        安装scrapy
 #            $ conda install Scrapy    #进入容器中安装Scrapy
-#        安装splash
-#            $ pip3 install scrapy-splash
 #        安装scrapy-redis
 #            $ pip3 install scrapy-redis
 #        安装Scrapyd
 #            $ pip3 install scrapyd
 #            修改配置文件中的bind_address,将其值设为0.0.0.0
 #                $ find / -name scrapyd    # 能找到两个文件，一个是库文件，一个是执行程序目录
-#                $ cd cd /root/anaconda3/lib/python3.7/site-packages/scrapyd
+#                $ cd /root/anaconda3/lib/python3.7/site-packages/scrapyd
 #                $ vi default_scrapyd.conf
 #                    修改bind_address的值
 #            后台运行scrapyd
 #                (scrapyd > /dev/null $)
 #                (scrapyd > ~/scrapyd.log $)    #设置输出日志目录
-#       安装splash容器并启动splash服务
-#            $ sudo docker run -d -p 8050:8050 scrapinghub/splash
+
 #       安装nginx
 #            $ sudo docker pull nginx    #拉取nginx镜像
 #            $ sudo docker images    #查看镜像
