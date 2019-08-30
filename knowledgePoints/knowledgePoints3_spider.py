@@ -2836,13 +2836,13 @@
 #           $ sudo yum update
 #           $ sudo yum -y install redis
 #           $ sudo systemctl start redis
-#           @ $ vi /etc/redis.conf    #vi搜索技巧：在命令输入状态下的搜索命令——\需搜索字符串,示例\requirepass
-#               @ 注释 bind 127.0.0.1
-#               @ 将protected-mode yes 改为 protected-mode no
-#               @ 修改密码 requirepass 135cylpsx4848@
-#               @ 点击esc
-#               @ $ :wq
-#           @ $ sudo systemctl restart redis    #重启、启动reids-server
+#           $ vi /etc/redis.conf    #vi搜索技巧：在命令输入状态下的搜索命令——\需搜索字符串,示例\requirepass
+#               注释 bind 127.0.0.1
+#               将protected-mode yes 改为 protected-mode no
+#               修改密码 requirepass 135cylpsx4848@
+#               点击esc
+#               $ :wq
+#           $ sudo systemctl restart redis    #重启、启动reids-server
 #       允许外部访问6379端口
 #           $ yum install iptables-services
 #           $ iptables -I INPUT 1 -p tcp -m state --state NEW -m tcp --dport 6379 -j ACCEPT

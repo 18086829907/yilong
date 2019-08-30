@@ -550,13 +550,14 @@
 #       $ sudo yum update
 #       $ sudo yum -y install redis
 #       $ sudo systemctl start redis
-#       @ $ vi /etc/redis.conf    #vi搜索技巧：在命令输入状态下的搜索命令——\需搜索字符串,示例\requirepass
-#           @ 注释 bind 127.0.0.1
-#           @ 将protected-mode yes 改为 protected-mode no
-#           @ 修改密码 requirepass 135cylpsx4848@
-#           @ 点击esc
-#           @ $ :wq
-#       @ $ sudo systemctl restart redis    #重启、启动reids-server
+#       允许远程连接
+#           $ vi /etc/redis.conf    #vi搜索技巧：在命令输入状态下的搜索命令——\需搜索字符串,示例\requirepass
+#               注释 bind 127.0.0.1
+#               将protected-mode yes 改为 protected-mode no
+#               修改密码 requirepass 135cylpsx4848@
+#               点击esc
+#               $ :wq
+#           $ sudo systemctl restart redis    #重启、启动reids-server
 #   安装pymysql
 #       pip3 install pymysql
 #   安装pymongo
@@ -833,7 +834,6 @@
 #            后台运行scrapyd
 #                (scrapyd > /dev/null $)
 #                (scrapyd > ~/scrapyd.log $)    #设置输出日志目录
-
 #       安装nginx
 #            $ sudo docker pull nginx    #拉取nginx镜像
 #            $ sudo docker images    #查看镜像
@@ -861,7 +861,6 @@
 #            参考：https://www.cnblogs.com/linjiqin/p/8618635.html
 #                $ sudo docker ps
 #                $ sudo docker rm -f 容器id
-
 
 #【day】亚马逊服务器
 #   网址：https://aws.amazon.com/cn/
@@ -946,9 +945,15 @@
 #                   提示安装服务器组件，选择推荐
 #                   点击网站
 #                       点击添加站点
-#                           数据库名：yjs_com
-#                           用户：yjs_com
-#                           密码：yF5wd3SLHJw7k4zY
+#                             FTP账号资料
+#                             用户：www_yilong_com
+#                             密码：135cylpsx4848@
+#                             数据库账号资料
+#                             数据库名：yilong_com
+#                             用户：yilong_com
+#                             密码：135cylpsx4848@
+#                   点击文件
+#
 #               软件管理
 #                   安装Linux工具
 #                       点击系统工具
