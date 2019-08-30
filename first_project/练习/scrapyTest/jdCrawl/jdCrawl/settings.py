@@ -22,15 +22,15 @@ NEWSPIDER_MODULE = 'jdCrawl.spiders'
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 3
+CONCURRENT_REQUESTS = 4
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 8
+DOWNLOAD_DELAY = 7
 # The download delay setting will honor only one of:
-CONCURRENT_REQUESTS_PER_DOMAIN = 3
-CONCURRENT_REQUESTS_PER_IP = 3
+CONCURRENT_REQUESTS_PER_DOMAIN = 4
+CONCURRENT_REQUESTS_PER_IP = 4
 
 # Disable cookies (enabled by default)
 #COOKIES_ENABLED = False
@@ -95,7 +95,7 @@ ITEM_PIPELINES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-MYSQL_HOST = 'localhost'    #mysql的链接地址
+MYSQL_HOST = '192.168.0.106'    #mysql的链接地址
 MYSQL_DATABASE = 'yjstest'    #mysql的数据库名字
 MYSQL_USER = 'root'    #mysql的用户名
 MYSQL_PASSWORD = '135cylpsx4848@'    #mysql的密码
@@ -104,7 +104,7 @@ HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
 
 SPLASH_URL = 'http://localhost:8050'
 
-PROXY_URL = 'http://112.195.44.112:8000/random'
+PROXY_URL = 'http://101.205.43.85:8000/random'
 
 SCHEDULER = 'scrapy_redis.scheduler.Scheduler'
 DUPEFILTER_CLASS = 'scrapy_redis.dupefilter.RFPDupeFilter'
