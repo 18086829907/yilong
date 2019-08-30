@@ -638,7 +638,161 @@
 #       开放端口
 #           firewall-cmd --permanent --add-port=6800/tcp #防火墙开启6800端口
 #    安装Nginx
-#
+#       下载nginx安装包
+#           cd /root/software
+#           mkdir nginx_software && cd nginx_software
+#           wget http://nginx.org/download/nginx-1.5.9.tar.gz
+#           tar -zxvf nginx-1.5.9.tar.gz
+#           rm -f nginx-1.5.9.tar.gz
+#           cd nginx-1.5.9/
+#       安装依赖库
+#           yum -y install pcre-devel
+#           yum -y install openssl openssl-devel
+#           yum –y install gcc
+#       安装nginx
+#           ./configure --prefix=/usr/local/nginx
+#           make install
+#           cd /usr/local/nginx/sbin
+#           ./nginx
+#           systemctl stop firewalld.service    #关闭防火墙
+#       使用nginx
+#           http://IP地址
+#       重新加载nginx
+#           nginx -s reload
+#   安装scrapyd-client
+#       pip3 install scrapyd-client
+#   使用scrapyd
+#       curl http://localhost:6800/listprojects.json    #查看正在运行的scrapy项目
+#   安装python-scrapyd-api
+#       pip3 install python-scrapyd-api
+#       python调用接口查询正在运行的scrapy项目
+#           from scrapyd_api import ScrapydAPI
+#           scrapyd=ScrapydAPI('http://localhost:6800')
+#           print(scrapyd.list_projects())
+#   安装scrapyrt
+#       pip3 install scrapyrt
+#       使用
+#           在任何一个scrapy项目中运行如下命令启动HTTP服务
+#               scrapyrt
+#   安装Gerapy
+#       pip3 install gerapy
+#   安装github
+#       yum install git
+#       查看yum源仓库Git信息
+#       yum info git
+#       2.安装依赖库
+#       [root@wugenqiang ~]# yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel
+#       [root@wugenqiang ~]# yum install gcc-c++ perl-ExtUtils-MakeMaker
+#       3.如果原有的git版本过低，移除默认安装的旧版git
+#       [root@wugenqiang ~]# git --version    ## 查看自带的版本git version 1.8.3.1
+#       [root@wugenqiang ~]# yum remove git   ## 移除原来的版本
+#       4.下载&安装
+#       [root@wugenqiang ~]# cd /usr/src
+#       [root@wugenqiang src]# wget https://www.kernel.org/pub/software/scm/git/git-2.18.0.tar.gz
+#       5.解压
+#       [root@wugenqiang ~]# tar xf git-2.18.0.tar.gz
+#       6.配置编译安装
+#       [root@wugenqiang ~]# cd /usr/src
+#       [root@wugenqiang src]# ls
+#       debug  git-2.18.0  kernels
+#       [root@wugenqiang src]# cd git-2.18.0/
+#       [root@wugenqiang git-2.18.0]#
+#       [root@wugenqiang git-2.18.0]# make configure
+#       [root@wugenqiang git-2.18.0]# ./configure --prefix=/usr/git ##配置目录
+#       [root@wugenqiang git-2.18.0]# make profix=/usr/git
+#       [root@wugenqiang git-2.18.0]# make install
+#       7.加入环境变量
+#       [root@wugenqiang ~]# echo "export PATH=$PATH:/usr/git/bin" >> /etc/profile
+#       [root@wugenqiang ~]# source /etc/profile
+#       8.检查版本
+#       [root@wugenqiang ~]# git --version
+#       git version 2.18.0
+#       二、生成SSH密钥
+#       [root@wugenqiang ~]# ssh-keygen -t rsa -C "417217170@qq.com"
+#       三、添加密钥到GitHub
+#       打开 Github，登录自己的账号后
+#       点击自己的头像->settings->SSH And GPG Keys->New SSH key
+#           Generating public/private rsa key pair.
+#           Enter file in which to save the key (/root/.ssh/id_rsa):
+#           Created directory '/root/.ssh'.
+#           Enter passphrase (empty for no passphrase):
+#           Enter same passphrase again:
+#           Your identification has been saved in /root/.ssh/id_rsa.
+#           Your public key has been saved in /root/.ssh/id_rsa.pub.
+#           The key fingerprint is:
+#           SHA256:gKJDgYDe+R+nV0aRhnYyomIDLBw2M24Xz9J0M1BGB5Y 417217170@qq.com
+#           The key's randomart image is:
+#           +---[RSA 2048]----+
+#           |BB.. o+Xo.. .    |
+#           |*+= *.+E+= =     |
+#           |o++oo+o o = .    |
+#           |oo.B.. .   .     |
+#           |o . +   S .      |
+#           | .   . . . o     |
+#           |      . + o      |
+#           |       o .       |
+#           |        .        |
+#           +----[SHA256]-----+
+#       $ vim /root/.ssh/id_rsa.pub
+#           ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+92uzFBG6K41j/7Pa/RH5jGfYb6vrGtjMOWYP4Z2wVWOmrpxYtLjstTWsnMWFoe5F5YUH+ZNVwnEkjTeqxvm8b2FeJwkYtqfyWIDBE3vLovp/Mh2laCe+UJyMqK2MG5WnXQ3iwbCwPFaHEep2E0vhHmXqADr9qB78VCNiuteSQGu1V5xtHpDtYiXmDRJKIRsJmNL1v6oJDKVvqCU+dTxmnzldwGYIPKvU6JKMdnHdc2/Iignhpm1wLRsJXPE4Ifahmxsf/ZZbsf2tPWQMV/x64AzhsCtb8LKEvN3+TB5hJVr063vQhN0e2KDADRnyDnDx4C4CgDsAmOh0OvTzne+f 417217170@qq.com
+#       打开www.github.com/18086829907/yilong
+#           点击右上角粉红色类似衣服的下拉图标
+#               再点击settings
+#                   在右侧导航栏中点击SSH and GPG keys
+#                       点击New SSH key
+#                           title 取一个名字
+#                               说明：1、clone时本地仓库的目录名 2、www.github.com/用户名/title 即www.github.com/18086829907/justin
+#                               key 粘贴公钥
+#                               点击Add SSH key
+#       四、centos里测试验证
+#       [root @ wugenqiang ~]  # ssh git@github.com
+#       五、git常用命令参考
+#       git remote - v / --verbose #显示出详细的url地址名和对应的别名.
+#       git clone < address > #复制代码库到本地；
+#       git add < file > #添加文件到代码库中；
+#       git rm < file > #删除代码库的文件；
+#       git commit - m '更新内容' #提交更改，在修改了文件以后，使用这个命令提交修改。
+#       git pull #从远程同步代码库到本地。
+#       git push #推送代码到远程代码库。
+#       git branch #查看当前分支。带 * 是当前分支。
+#       git branch branchName：新建一个分支。
+#       git branch -d branchName：删除一个分支。
+#       git checkout branchName #切换到指定分支。
+#       git log #查看提交记录（即历史的commit 记录）。
+#       git status #当前修改的状态，是否修改了还没提交，或者那些文件未使用。
+#       git reset < log > #恢复到历史版本。
+#       六、Git实例
+#       操作步骤：
+#       1、远程仓库README.git为空，把本地代码上传到远程仓库
+#       echo
+#       "# Test" >> README.md
+#       git init
+#       git add README.md
+#       git commit -m "first commit"
+#       git remote add origin
+#       git @ github.com: ** ** ** / README.git
+#       git push -u origin master
+#       2、更新本地代码到远程仓库
+#       git add
+#       README.md
+#       git commit -m "first commit"
+#       git push -u origin master
+#       3、获取远程仓库中的代码到本地
+#       git clone git @ github.com: ** ** * / README.git
+#       4、从远程仓库同步代码更新本地代码
+#       git pull origin master
+#       echo "# bigdata" >> README.md
+#       git init
+#       git add README.md
+#       git commit -m "first commit"
+#       git remote add origin https: // github.com / wugenqiang / bigdata.git
+#       git push -u origin master
+#       具体演示：
+#           mkdir ~/datagit
+#           cd ~/datagit
+#           git config --global http.postBuffer 524288000
+#           git clone git@github.com:18086829907/yilong.git
+
 #    docker的使用
 #        容器使用
 #            参考：https://blog.csdn.net/qq_35420123/article/details/81946941
@@ -761,23 +915,58 @@
 #       切换用户root
 #           $ sudo su root
 #       安装web服务器
-#            $ yum check-update -y && yum update -y && yum install initscripts screen wget -y    #安装宝塔必要的包
-#            $ sudo yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh    #安装宝塔
-#            在亚马逊的安全控制平台开放安全组端口
-#                点击虚拟机实例对应的安全组名称
-#                点击入站
-#                   点击编辑
-#                       点击添加规则
-#                       类型：自定义TCP规则
-#                       协议：TCP    #默认
-#                       端口：8888    #需要开放哪个端口就填哪个
-#                       来源：任意位置
-#                       描述：可选
-#                       点击保存
-#            登录宝塔页面
-#                账号：安装install.sh时，会自动生成
-#                密码：安装install.sh时，会自动生成
-#                    登录之后会提示安装服务器组件，选择推荐
+#           $ yum check-update -y && yum update -y && yum install initscripts screen wget -y    #安装宝塔必要的包
+#           $ sudo yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh    #安装国内宝塔
+#           $ yum install -y wget && wget -O install.sh http://128.1.164.196:5880/install/install_6.0.sh && sh install.sh    #安装美国宝塔
+#           点击服务器实例栏中的安全组中的安全组名称
+#               点击入站
+#                  点击编辑
+#                      点击添加规则
+#                      类型：自定义TCP规则
+#                      协议：TCP    #默认
+#                      端口：8888、888、80、3306、443、22、21、20、39000-40000    #需要开放哪个端口就填哪个
+#                      来源：任意位置
+#                      描述：可选
+#                      点击保存
+#               点击出站
+#                  点击编辑
+#                      点击添加规则
+#                      类型：自定义TCP规则
+#                      协议：TCP    #默认
+#                      端口：8888、888、80、3306、443、22、21、20、39000-40000    #需要开放哪个端口就填哪个
+#                      来源：任意位置
+#                      描述：可选
+#                      点击保存
+#           登录宝塔页面
+#               浏览器中粘贴宝塔的url
+#                   http://3.92.214.240:8888/7aaca1e1/    #在安装宝塔时自动生成
+#               输入账号：batgpcyu    #在安装宝塔时自动生成
+#               输入密码：5f8b23c0    #在安装宝塔时自动生成
+#               登录之后
+#                   提示安装服务器组件，选择推荐
+#                   点击网站
+#                       点击添加站点
+#                           数据库名：yjs_com
+#                           用户：yjs_com
+#                           密码：yF5wd3SLHJw7k4zY
+#               软件管理
+#                   安装Linux工具
+#                       点击系统工具
+#                           点击Linux工具设置
+#                               点击Swap/虚拟内存
+#                                   服务器内存  1G      2G      4G
+#                                   Swap内存   1024MB  2048MB  4096MB
+#                   安装php7
+#                       点击运行环境
+#                           点击安装php7
+#                               安装一会后刷新
+#                               点击设置
+#                                   点击安装扩展
+#                                       opcache
+#                                       memcached
+#                                       imagemagick
+#                                       exif
+#                                       fileinfo
 #       安装python3
 #           $ sudo yum groupinstall -y development tools
 #           $ sudo yum install -y epel-release python36-devel  libxslt-devel libxml2-devel openssl-devel

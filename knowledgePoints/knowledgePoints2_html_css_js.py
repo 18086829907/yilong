@@ -101,7 +101,6 @@
 #     只要在CMD里输入一条命令就可以将服务删除：
 #     sc delete mysql //这里的mysql是你要删除的服务名
 #     这样一来服务就被删除了。
-#
 #     然后，就可以重装MySQL数据库了！！！
 
 #【day149】mysql
@@ -194,7 +193,8 @@
 #           #需要被链接的电脑修改host的值
 #               mysql -u root -p
 #               use mysql
-#               update user set Host='%' where User='root';
+#               create user 'justin'@'%' identified by '135cylpsx4848@';
+#               update user set host='%' where user='justin';
 #               管理员启动cmd
 #               net stop mysql80
 #               net start mysql80
@@ -7524,7 +7524,7 @@ db.zrem(zkey, zvalue)    #删除指定键对应的值
 #                       作用：定义你可以往你的账户中写代码
 #                       注意：将代码上传到官网，电脑必须有私钥，也就是说公司的电脑，家里的电脑都需要安装上私钥
 #                       步骤
-#                           打开www.github.com
+#                           打开www.github.com/18086829907/yilong
 #                               点击右上角粉红色类似衣服的下拉图标
 #                                   再点击settings
 #                                       在右侧导航栏中点击SSH and GPG keys
