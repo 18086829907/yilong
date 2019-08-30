@@ -54,7 +54,6 @@ SPIDER_MIDDLEWARES = {
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    # 'jdCrawl.middlewares.ContinuousTransmissionOfBreakpointsDownloaderMiddleware':97,
     'jdCrawl.middlewares.randomUserAgentDownloaderMiddleware': 98,
     'jdCrawl.middlewares.JdcrawlDownloaderMiddleware': 543,
     'jdCrawl.middlewares.ProxyMiddleware': 99,
@@ -100,9 +99,9 @@ MYSQL_HOST = 'localhost'    #mysql的链接地址
 MYSQL_DATABASE = 'yjstest'    #mysql的数据库名字
 MYSQL_USER = 'root'    #mysql的用户名
 MYSQL_PASSWORD = '135cylpsx4848@'    #mysql的密码
-# DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
+
 HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
-# LOG_LEVEL = 'WARNING'
+
 SPLASH_URL = 'http://localhost:8050'
 
 PROXY_URL = 'http://112.195.44.112:8000/random'
@@ -110,6 +109,6 @@ PROXY_URL = 'http://112.195.44.112:8000/random'
 SCHEDULER = 'scrapy_redis.scheduler.Scheduler'
 DUPEFILTER_CLASS = 'scrapy_redis.dupefilter.RFPDupeFilter'
 
-REDIS_URL = 'redis://:135cylpsx4848@@192.168.0.102:6379'
+REDIS_URL = 'redis://:135cylpsx4848@@192.168.0.106:6379'
 
 CLOSESPIDER_TIMEOUT = 36000
