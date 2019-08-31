@@ -4,7 +4,7 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
-from mySql import MySql
+from myClass.mySql import MySql
 class JdcrawlPipeline(object):
     def open_spider(self, spider):
         self.mySql = MySql(spider.settings['MYSQL_HOST'], spider.settings['MYSQL_USER'], spider.settings['MYSQL_PASSWORD'], spider.settings['MYSQL_DATABASE'])
