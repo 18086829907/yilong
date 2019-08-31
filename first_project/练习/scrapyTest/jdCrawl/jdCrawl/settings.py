@@ -54,9 +54,8 @@ SPIDER_MIDDLEWARES = {
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    'jdCrawl.middlewares.randomUserAgentDownloaderMiddleware': 98,
     'jdCrawl.middlewares.JdcrawlDownloaderMiddleware': 543,
-    'jdCrawl.middlewares.ProxyMiddleware': 99,
+    'jdCrawl.middlewares.ProxyUserAgentMiddleware': 99,
     'scrapy_splash.SplashCookiesMiddleware':723,
     'scrapy_splash.SplashMiddleware':725,
     'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware':810,

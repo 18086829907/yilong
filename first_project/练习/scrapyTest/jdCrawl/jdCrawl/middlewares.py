@@ -95,7 +95,7 @@ class JdcrawlDownloaderMiddleware(object):
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
 
-class ProxyMiddleware():
+class ProxyUserAgentMiddleware():
     def __init__(self, proxy_url):
         self.logger = logging.getLogger(__name__)
         self.proxy_url = proxy_url
@@ -112,32 +112,9 @@ class ProxyMiddleware():
             if proxy:
                 uri = 'https://{}'.format(proxy)
                 request.meta['splash']['args']['proxy'] = uri
+            userAgent = agent.allHeaders()
+            request.headers['User_Agent'] = userAgent
     @classmethod
     def from_crawler(cls, crawler):
         settings = crawler.settings
         return cls(proxy_url=settings.get('PROXY_URL'))
-
-class randomUserAgentDownloaderMiddleware(object):
-    @classmethod
-    def from_crawler(cls, crawler):
-        # This method is used by Scrapy to create your spiders.
-        s = cls()
-        crawler.signals.connect(s.spider_opened, signal=signals.spider_opened)
-        return s
-
-    def process_request(self, request, spider):
-        userAgent = agent.allHeaders()
-        request.headers['User_Agent'] = userAgent
-        return None
-
-    def process_response(self, request, response, spider):
-        # Called with the response returned from the downloader.
-
-        # Must either;
-        # - return a Response object
-        # - return a Request object
-        # - or raise IgnoreRequest
-        return response
-
-    def spider_opened(self, spider):
-        spider.logger.info('Spider opened: %s' % spider.name)
