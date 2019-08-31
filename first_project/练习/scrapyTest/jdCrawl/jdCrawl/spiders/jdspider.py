@@ -194,6 +194,7 @@ class JdspiderSpider(scrapy.Spider):
 
     def parse_inner(self, response):
         item = response.meta.get('item')
+        item['spjg'] = response.xpath('//span[contains(@class,"price J-p")]/text()').extract_first()
         item['pinpai'] = response.xpath('//ul[@id="parameter-brand"]/li/a/text()|//ul[contains(@class, "parameter2")]/li[contains(text(), "品牌")]/a/text()').extract_first()  # 品牌
         item['spmc'] = [x.split('：')[-1] for x in response.xpath('//ul[contains(@class, "parameter2")]/li[contains(text(), "商品名称")]/text()').extract() if '：' in x]
         item['spbh'] = [x.split('：')[-1] for x in response.xpath('//ul[contains(@class, "parameter2")]/li[contains(text(), "商品编号")]/text()').extract() if '：' in x]

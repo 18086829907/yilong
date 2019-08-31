@@ -10,6 +10,7 @@ class JdcrawlItem(scrapy.Item):
     dpmc = scrapy.Field()
     sptb = scrapy.Field()
     innerUrl = scrapy.Field()
+    spjg = scrapy.Field()
     pinpai = scrapy.Field()
     spmc = scrapy.Field()
     spbh = scrapy.Field()
