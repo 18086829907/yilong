@@ -789,15 +789,36 @@
 #       git remote add origin https: // github.com / wugenqiang / bigdata.git
 #       git push -u origin master
 #       具体演示：
-#           mkdir ~/dataGit
-#           cd ~/dataGit
+#           mkdir /root/dataGit
+#           cd /root/dataGit
 #           git config --global http.postBuffer 524288000
 #           git clone git@github.com:18086829907/yilong.git
 #           cd /root/dataGit
 #           git checkout yilong
 #           cd /root/dataGit/yilong/first_project/练习/scrapyTest/jdCrawl/jdCrawl
 #           python3 run.py
-
+#           说明：只要正在/root/dataGit中任意位置都能使用git push origin yilong
+#   安装pycharme
+#       yum install virt-manager    #使pycharme图像化的工具
+#           pycharme官网下载收费版的linux版,即pycharm-professional-2019.1.3.tar.gz
+#           通过xftp将pycharm-professional-2019.1.3.tar.gz传到 /root/software目录中
+#           $ tar -xf pycharm-professional-2019.1.3.tar.gz
+#           解压后再当前目录就会出现dbs目录和pycharm-2019.1.3即安装成功
+#           说明：linux打开方法 $ cd /root/software/pycharme-3./bin/pycharme.sh 即可打开pycharm
+#       pycharme破解
+#           $ yum install java
+#           通过xftp将jetbrains-agent.jar破解文件传到 /home/software/pycharm-2019.1.3/bin
+#           $ vim /root/software/pycharm-2019.1.3/bin/pycharm64.vmoptions
+#               在该文件的最后一行加入 -javaagent:/root/software/pycharm-2019.1.3/bin/jetbrains-agent.jar
+#           $ vim /root/software/pycharm-2019.1.3/bin/pycharm.vmoptions
+#               在该文件的最后一行加入 -javaagent:/root/software/pycharm-2019.1.3/bin/jetbrains-agent.jar
+#           $ ./pycharm.sh    #打开可执行文件就打开pycharm图形窗口
+#           同windows的欢迎窗口步骤相同，直到出现IntelliJ IDEA License Activation窗口
+#               选择License server
+#               点击同意即可
+#   启动爬虫程序
+#       cd /root/dataGit/yilong/first_project/练习/scrapyTest/jdCrawl/jdCrawl/spiders
+#       python3 run.py
 #    docker的使用
 #        容器使用
 #            参考：https://blog.csdn.net/qq_35420123/article/details/81946941
