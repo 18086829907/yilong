@@ -16,7 +16,7 @@ NEWSPIDER_MODULE = 'jdCrawl.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-# USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36)'
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -54,7 +54,7 @@ SPIDER_MIDDLEWARES = {
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    'jdCrawl.middlewares.ProxyUserAgentMiddleware': 543,
+    'jdCrawl.middlewares.ProxyUserAgentMiddleware': 820,
     # 'jdCrawl.middlewares.JdcrawlDownloaderMiddleware': 543,
     'scrapy_splash.SplashCookiesMiddleware':723,
     'scrapy_splash.SplashMiddleware':725,
@@ -94,7 +94,7 @@ ITEM_PIPELINES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-MYSQL_HOST = '192.168.0.106'    #mysql的链接地址
+MYSQL_HOST = '192.168.2.100'    #mysql的链接地址
 MYSQL_DATABASE = 'yjstest'    #mysql的数据库名字
 MYSQL_USER = 'root'    #mysql的用户名
 MYSQL_PASSWORD = '135cylpsx4848@'    #mysql的密码
@@ -108,6 +108,6 @@ PROXY_URL = 'http://101.205.40.229:8000/random'
 SCHEDULER = 'scrapy_redis.scheduler.Scheduler'
 DUPEFILTER_CLASS = 'scrapy_redis.dupefilter.RFPDupeFilter'
 
-REDIS_URL = 'redis://:135cylpsx4848@@192.168.0.106:6379'
+REDIS_URL = 'redis://:135cylpsx4848@@192.168.2.100:6379'
 
 CLOSESPIDER_TIMEOUT = 36000

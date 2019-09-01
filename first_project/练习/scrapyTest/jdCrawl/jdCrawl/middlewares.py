@@ -109,13 +109,18 @@ class ProxyUserAgentMiddleware():
             return False
 
     def process_request(self, request, spider):
-        if request.meta.get('retry_times'):
-            proxy = self.get_random_proxy()
-            if proxy:
-                uri = 'https://{}'.format(proxy)
-                request.meta['splash']['args']['proxy'] = uri
-            userAgent = agent.allHeaders()
-            request.headers['User_Agent'] = userAgent
+        # if request.meta.get('retry_times'):
+        #     proxy = self.get_random_proxy()
+        #     if proxy:
+        #         uri = 'https://{}'.format(proxy)
+        #         request.meta['splash']['args']['proxy'] = uri
+        #     userAgent = agent.allHeaders()
+        #     request.headers['User_Agent'] = userAgent
+        proxy = self.get_random_proxy()
+        uri = 'https://{}'.format(proxy)
+        request.meta['splash']['args']['proxy'] = uri
+        # userAgent = agent.allHeaders()
+        # request.headers['User_Agent'] = userAgent
 
     @classmethod
     def from_crawler(cls, crawler):
