@@ -4,9 +4,11 @@ from scrapy_splash import SplashRequest
 
 lua = """
 function main(splash, args)
+    assert(splash:autoload('https://code.jquery.com/jquery-2.1.3.min.js'))
     splash.images_enabled = false    
     assert(splash:go(args.url))
     assert(splash:wait(args.wait))
+    splash:evaljs('$("#kw").var("ip")')
     splash.scroll_position={y=10000}
     assert(splash:wait(args.wait))
     splash.scroll_position={y=10000}
@@ -26,6 +28,6 @@ class BaiduspiderSpider(scrapy.Spider):
         yield SplashRequest(self.start_urls[0], callback=self.parse, endpoint='execute', args={'lua_source': lua, 'wait':7})
 
     def parse(self, response):
-        # print(response.text)
-        print(response.xpath('//title/text()'))
+        print(response.text)
+        # print(response.xpath('//title/text()'))
 
