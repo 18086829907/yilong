@@ -99,6 +99,7 @@ class ProxyUserAgentMiddleware():
     def __init__(self, proxy_url):
         self.logger = logging.getLogger(__name__)
         self.proxy_url = proxy_url
+
     def get_random_proxy(self):
         try:
             response=requests.get(self.proxy_url)
@@ -106,6 +107,7 @@ class ProxyUserAgentMiddleware():
             return proxy
         except requests.ConnectionError:
             return False
+
     def process_request(self, request, spider):
         if request.meta.get('retry_times'):
             proxy = self.get_random_proxy()
@@ -114,6 +116,7 @@ class ProxyUserAgentMiddleware():
                 request.meta['splash']['args']['proxy'] = uri
             userAgent = agent.allHeaders()
             request.headers['User_Agent'] = userAgent
+
     @classmethod
     def from_crawler(cls, crawler):
         settings = crawler.settings
