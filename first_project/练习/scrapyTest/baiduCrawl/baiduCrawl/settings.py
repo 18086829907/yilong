@@ -22,15 +22,15 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-#CONCURRENT_REQUESTS = 32
+CONCURRENT_REQUESTS = 2
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
 DOWNLOAD_DELAY = 1
 # The download delay setting will honor only one of:
-#CONCURRENT_REQUESTS_PER_DOMAIN = 16
-#CONCURRENT_REQUESTS_PER_IP = 16
+CONCURRENT_REQUESTS_PER_DOMAIN = 4
+CONCURRENT_REQUESTS_PER_IP = 4
 
 # Disable cookies (enabled by default)
 #COOKIES_ENABLED = False
@@ -47,8 +47,8 @@ DEFAULT_REQUEST_HEADERS = {
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 SPIDER_MIDDLEWARES = {
-    'scrapy_splash.SplashDeduplicateArgsMiddleware':100,
-   'baiduCrawl.middlewares.BaiducrawlSpiderMiddleware': 543,
+    'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
+    'baiduCrawl.middlewares.BaiducrawlSpiderMiddleware': 543,
 }
 
 # Enable or disable downloader middlewares
@@ -57,7 +57,7 @@ DOWNLOADER_MIDDLEWARES = {
     'scrapy_splash.SplashCookiesMiddleware':723,
     'scrapy_splash.SplashMiddleware':725,
     'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware':810,
-    'baiduCrawl.middlewares.BaiducrawlDownloaderMiddleware': 543,
+    'baiduCrawl.middlewares.ProxyUserAgentMiddleware': 543,
 }
 
 # Enable or disable extensions
@@ -93,6 +93,20 @@ DOWNLOADER_MIDDLEWARES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-SPLASH_URL = 'http://localhost:8050'
-DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
+MYSQL_HOST = '192.168.2.100'    #mysql的链接地址
+MYSQL_DATABASE = 'yjstest'    #mysql的数据库名字
+MYSQL_USER = 'root'    #mysql的用户名
+MYSQL_PASSWORD = '135cylpsx4848@'    #mysql的密码
+
 HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
+
+SPLASH_URL = 'http://localhost:8050'
+
+PROXY_URL = 'http://101.205.40.229:8000/random'
+
+SCHEDULER = 'scrapy_redis.scheduler.Scheduler'
+DUPEFILTER_CLASS = 'scrapy_redis.dupefilter.RFPDupeFilter'
+
+REDIS_URL = 'redis://:135cylpsx4848@@192.168.2.100:6379'
+
+CLOSESPIDER_TIMEOUT = 10
