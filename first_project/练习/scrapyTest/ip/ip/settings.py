@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for jsCrawl project
+# Scrapy settings for ip project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
 #
-#     https://doc.scrapy.org/en/latest/topics/settings.html
-#     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
-#     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
+#     https://docs.scrapy.org/en/latest/topics/settings.html
+#     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
+#     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'jdSpider'
+BOT_NAME = 'ip'
 
-SPIDER_MODULES = ['jdCrawl.spiders']
-NEWSPIDER_MODULE = 'jdCrawl.spiders'
+SPIDER_MODULES = ['ip.spiders']
+NEWSPIDER_MODULE = 'ip.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -22,15 +22,15 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 1
+#CONCURRENT_REQUESTS = 32
 
 # Configure a delay for requests for the same website (default: 0)
-# See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
+# See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 15
+#DOWNLOAD_DELAY = 3
 # The download delay setting will honor only one of:
-CONCURRENT_REQUESTS_PER_DOMAIN = 4
-CONCURRENT_REQUESTS_PER_IP = 4
+#CONCURRENT_REQUESTS_PER_DOMAIN = 16
+#CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
 #COOKIES_ENABLED = False
@@ -45,36 +45,35 @@ DEFAULT_REQUEST_HEADERS = {
 }
 
 # Enable or disable spider middlewares
-# See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
+# See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 SPIDER_MIDDLEWARES = {
-    'jdCrawl.middlewares.JdcrawlSpiderMiddleware': 543,
+   'ip.middlewares.IpSpiderMiddleware': 543,
     'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
 }
 
 # Enable or disable downloader middlewares
-# See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
+# See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    'jdCrawl.middlewares.ProxyUserAgentMiddleware': 820,
-    # 'jdCrawl.middlewares.JdcrawlDownloaderMiddleware': 543,
-    'scrapy_splash.SplashCookiesMiddleware':723,
-    'scrapy_splash.SplashMiddleware':725,
-    'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware':810,
+   'ip.middlewares.ProxyUserAgentMiddleware': 543,
+    'scrapy_splash.SplashCookiesMiddleware': 723,
+    'scrapy_splash.SplashMiddleware': 725,
+    'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
 }
 
 # Enable or disable extensions
-# See https://doc.scrapy.org/en/latest/topics/extensions.html
+# See https://docs.scrapy.org/en/latest/topics/extensions.html
 #EXTENSIONS = {
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 #}
 
 # Configure item pipelines
-# See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-   'jdCrawl.pipelines.JdcrawlPipeline': 300,
-}
+# See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
+#ITEM_PIPELINES = {
+#    'ip.pipelines.IpPipeline': 300,
+#}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
-# See https://doc.scrapy.org/en/latest/topics/autothrottle.html
+# See https://docs.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
 # The initial download delay
 #AUTOTHROTTLE_START_DELAY = 5
@@ -87,18 +86,13 @@ ITEM_PIPELINES = {
 #AUTOTHROTTLE_DEBUG = False
 
 # Enable and configure HTTP caching (disabled by default)
-# See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
+# See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
 #HTTPCACHE_ENABLED = True
 #HTTPCACHE_EXPIRATION_SECS = 0
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-#配置mysql
-MYSQL_HOST = '192.168.2.100'    #mysql的链接地址
-MYSQL_DATABASE = 'yjstest'    #mysql的数据库名字
-MYSQL_USER = 'root'    #mysql的用户名
-MYSQL_PASSWORD = '135cylpsx4848@'    #mysql的密码
 
 #配置splash
 HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
@@ -106,11 +100,3 @@ SPLASH_URL = 'http://localhost:8050'
 
 #配置adslProxy
 PROXY_URL = 'http://101.205.40.229:8000/random'
-
-#配置scrapy_redis，urlRedis缓存及去重
-SCHEDULER = 'scrapy_redis.scheduler.Scheduler'
-DUPEFILTER_CLASS = 'scrapy_redis.dupefilter.RFPDupeFilter'
-REDIS_URL = 'redis://:135cylpsx4848@@192.168.2.100:6379'
-
-#配置爬虫程序总运行时间
-CLOSESPIDER_TIMEOUT = 36000
