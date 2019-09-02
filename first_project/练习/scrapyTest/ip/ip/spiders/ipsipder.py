@@ -4,8 +4,8 @@ from scrapy_splash import SplashRequest
 
 class IpsipderSpider(scrapy.Spider):
     name = 'ipsipder'
-    allowed_domains = ['www.ip.cn']
-    start_urls = ['http://www.ip.cn/']
+    allowed_domains = ['ip.cn']
+    start_urls = ['https://ip.cn/']
 
     lua='''
     function main(splash, args)
