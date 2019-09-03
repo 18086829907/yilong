@@ -53,7 +53,7 @@ SPIDER_MIDDLEWARES = {
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-   'ip.middlewares.ProxyUserAgentMiddleware': 543,
+    'ip.middlewares.ProxyUserAgentMiddleware': 543,
     'scrapy_splash.SplashCookiesMiddleware': 723,
     'scrapy_splash.SplashMiddleware': 725,
     'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
@@ -98,4 +98,4 @@ HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
 SPLASH_URL = 'http://localhost:8050'
 
 #配置adslProxy
-PROXY_URL = 'http://101.205.40.229:8000/random'
+PROXY_URL = 'http://112.195.43.14:8000/random'

@@ -7598,7 +7598,7 @@ db.zrem(zkey, zvalue)    #删除指定键对应的值
 #                   $ git pull origin master --allow-unrelated-histories
 #                   $ :q 退出vim
 #       强制拉取远程仓库内容覆盖本地库
-#           git fetch --all && git reset --hard origin/master && git pull
+#           git fetch --all && git reset --hard origin/yilong && git pull
 #       推送本地库内容到远程库
 #           git push origin 分支名
 #           注意：第一次推送必须先执行一次拉取，否则会报错，因为远程仓和本地仓不一致

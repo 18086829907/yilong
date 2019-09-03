@@ -105,7 +105,7 @@ HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
 SPLASH_URL = 'http://localhost:8050'
 
 #配置adslProxy
-PROXY_URL = 'http://101.205.40.229:8000/random'
+PROXY_URL = 'http://112.195.43.14:8000/random'
 
 #配置scrapy_redis，urlRedis缓存及去重
 SCHEDULER = 'scrapy_redis.scheduler.Scheduler'
