@@ -8,14 +8,15 @@ class IpsipderSpider(scrapy.Spider):
     start_urls = ['https://ip.cn/']
 
     lua='''
-    function main(splash, args)
-      assert(splash:go(args.url))
-      assert(splash:wait(0.5))
-      return html = splash:html()
-    end
+        function main(splash, args)
+            splash.images_enabled = false    
+            assert(splash:go(args.url))
+            return splash:html()
+        end
     '''
     def start_requests(self):
-        yield SplashRequest(url=self.start_urls[0], callback=self.parse, endpoint='execute', args={'lua_source':self.lua})
+        yield SplashRequest(url=self.start_urls[0], callback=self.myParse, endpoint='execute', args={'lua_source':self.lua})
 
-    def parse(self, response):
-        print(response.text)
+    def myParse(self, response):
+        proxy = response.xpath('//div[@class="well"]/p/text()').extract()
+        print(proxy)

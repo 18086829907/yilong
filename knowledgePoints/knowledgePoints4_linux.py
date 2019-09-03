@@ -590,6 +590,7 @@
 #              $ sudo yum install docker-ce
 #           #启动并加入开机启动
 #              $ sudo systemctl start docker
+#              $ sudo systemctl restart docker    #重启docker服务
 #              $ sudo systemctl enable docker
 #           #验证是否安装成功
 #              $ docker version
