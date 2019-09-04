@@ -998,51 +998,384 @@
 #                                       imagemagick
 #                                       exif
 #                                       fileinfo
-#       安装python3
-#           $ sudo yum groupinstall -y development tools
-#           $ sudo yum install -y epel-release python36-devel  libxslt-devel libxml2-devel openssl-devel
-#           $ sudo yum install -y python36 python36-setuptools
-#           $ sudo easy_install-3.6 pip
-#           安装库
-#               $ pip install requests
-#               $ pip install tornado
-#               $ pip install redis
-#       安装pip
-#           $ yum install python-setuptools
-#           $ easy_install pip
-#           $ pip install shadowsocks
-#       安装redis
-#           $ sudo yum install epel-release
-#           $ sudo yum update
-#           $ sudo yum -y install redis
-#           $ sudo systemctl start redis
+#   安装python3.6
+#       $ sudo yum install -y https://centos7.iuscommunity.org/ius-release.rpm
+#       $ sudo yum update
+#       $ sudo yum install -y pythou36u python36u-libs python36u-devel python36u-pip
+#   安装pip
+#       $ sudo easy_install-3.6 pip
+#       $ pip install --upgrade pip
+#   切换pip源
+#       mkdir ~/.pip
+#       vim  ~/.pip/pip.conf
+#           [global]
+#           index-url = http://mirrors.aliyun.com/pypi/simple
+#           [install]
+#           trusted-host=mirrors.aliyun.com
+#   安装requests
+#       $ pip3 install requests
+#   安装selenium
+#       $ pip3 install selenium
+#   安装aiohttp
+#       $ pip3 install aiohttp
+#   安装lxml
+#       $ pip3 install lxml
+#   安装pyquery
+#       $ pip3 install pyquery
+#   安装mysql8.0
+#       查看旧版本MySQL
+#       rpm -qa | grep mysql
+#       使用以下命令删除上一步查询出的所有文件
+#       yum remove mysql-xxx-xxx
+#       查询mysql的配置文件，并全部删除
+#       find / -name mysql
+#       rm -rf /var/lib/mysql
+#       rm /etc/my.cnf
+#       rm -rf /usr/lib/mysql
+#       rm -rf /usr/share/mysql
+#       删除完成后检查一下是否全部删除干净
+#       在CentOS中默认安装有MariaDB，也要删除掉
+#       查询
+#       rpm -pa | grep mariadb
+#       删除，如：
+#       yum -y remove mariadb-libs.x86_64
+#       开始安装mysql8.0.16
+#       [root@localhost ~]# cd /usr/local/src/
+#       [root@localhost src]# wget http://repo.mysql.com/mysql80-community-release-el7-3.noarch.rpm 
+#       [root@localhost src]# rpm -ivh mysql80-community-release-el7-3.noarch.rpm 
+#       [root@localhost src]#  yum install mysql-community-server
+#       默认配置文件路径： 
+#       配置文件：/etc/my.cnf 
+#       日志文件：/var/log/var/log/mysqld.log 
+#       服务启动脚本：/usr/lib/systemd/system/mysqld.service 
+#       socket文件：/var/run/mysqld/mysqld.pid
+#       过安装完成后，密码为随机密码，需要重置密码。
+#       启动mysql服务
+#       service mysqld restart
+#       设置开机自启动
+#       systemctl enable mysqld.service
+#       重置密码
+#       [root@localhost ~]# grep "password" /var/log/mysqld.log 
+#       下图框中为初始的随机密码，复制粘贴登录数据库
+#       输入初始密码即可登陆数据库，然后需要重新设置密码，至少包含大写，小写字母，数字和符号。
+#       alter user 'root'@'localhost' identified by 'password';  填入自己要设置的密码
+#       设置数据库登陆用户权限
+#       use mysql;
+#       先新建一个用户，root
+#       create user 'root'@'%' identified by 'password';
+#       再次赋权
+#       grant all privileges on *.* to 'root'@'%' with grant option;
+#       刷新权限
+#       flush privileges;
+#       这样就可使用Navicat 连接数据库了
+#   安装mysql5.5
+#       $ sudo wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+#       $ sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
+#       $ sudo yum install -y mysql mysql-server
+#       $ sudo systemctl start mysqld    #启动mysql服务
+#       $ sudo systemctl stop mysqld    #停止mysql服务
+#       $ sudo systemctl restart mysqld    #重启mysql服务
+#       $ mysql -uroot -p    #密码为空
+#       use mysql;
+#       修改密码方法二选一
+#           update user set password_expired=password('135cylpsx4848@') where user='root';
+#           set password for 'root'@'localhost' = password('135cylpsx4848@');
+#       GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '135cylpsx4848@' WITH GRANT OPTION;
+#       flush privileges;
+#       exit
+#       vi /etc/mysql/my.cnf
+#           注释bind-address = 127.0.0.1
+#   安装MongoDB
+#       $ sudo vi /etc/yum.repos.d/mongodb-org.repo
+#       修改如下内容
+#           [mongodb-org-3.4]
+#           name=MongDB Repository
+#           baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.4/x86_64
+#           gpgcheck=1
+#           enabled=1
+#           gpgkey=https://www.mongodb.org/static/pgp/server-3.4.asc
+#       yum安装
+#           $ sudo yum install mongodb-org
+#       启动MongoDB
+#           $ sudo systemctl start mongod
+#       停止和重新加载MongDB
+#           $ sudo systemctl stop mongod
+#           $ sudo systemctl reload mongod
+#   安装redis
+#       $ sudo yum install epel-release
+#       $ sudo yum update
+#       $ sudo yum -y install redis
+#       $ sudo systemctl start redis
+#       允许远程连接
 #           $ vi /etc/redis.conf    #vi搜索技巧：在命令输入状态下的搜索命令——\需搜索字符串,示例\requirepass
 #               注释 bind 127.0.0.1
 #               将protected-mode yes 改为 protected-mode no
 #               修改密码 requirepass 135cylpsx4848@
 #               点击esc
 #               $ :wq
-#           $ sudo systemctl restart redis
+#           $ sudo systemctl restart redis    #重启、启动reids-server
 #           允许外部访问6379端口
 #               $ yum install iptables-services
 #               $ iptables -I INPUT 1 -p tcp -m state --state NEW -m tcp --dport 6379 -j ACCEPT
 #     　　　      $ service iptables save
 #               $ systemctl enable iptables.service
 #           链接远程redis数据库
-#       安装mysql
-#           $ sudo wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
-#           $ sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
-#           $ sudo yum install -y mysql mysql-server
-#           $ sudo systemctl start mysqld    #启动mysql服务
-#           $ sudo systemctl stop mysqld    #停止mysql服务
-#           $ sudo systemctl restart mysqld    #重启mysql服务
-#           $ mysql -uroot -p    #密码为空
-#           use mysql;
-#           修改密码方法二选一
-#               update user set password_expired=password('135cylpsx4848@') where user='root';
-#               set password for 'root'@'localhost' = password('135cylpsx4848@');
-#           GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '135cylpsx4848@' WITH GRANT OPTION;
-#           flush privileges;
-#           exit
-#           vi /etc/mysql/my.cnf
-#               注释bind-address = 127.0.0.1
+#   安装pymysql
+#       pip3 install pymysql
+#   安装pymongo
+#       pip3 install pymongo
+#   安装redis-py
+#       pip3 install redis
+#   安装redisdump
+#       gem install redis-dump
+#   安装flask
+#       pip3 install flask
+#   安装tornado
+#       pip3 install tornado
+#   安装mitmproxy
+#       pip3 install mitmproxy
+#   安装scrapy
+#       sudo yum groupinstall -y development tools
+#       sudo yum install -y epel-release libxslt-devel libxml2-devel openssl-devel
+#       pip3 install Scrapy
+#   安装docker
+#       参考：https://blog.csdn.net/hylaking/article/details/87978819
+#           #卸载旧版本
+#              $ sudo yum remove docker  docker-common docker-selinux docker-engine
+#           #安装需要的包
+#              $ sudo yum install -y yum-utils device-mapper-persistent-data lvm2
+#           #设置阿里yum源
+#              $ sudo yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+#           #查看仓谷中所有docker版本
+#              $ yum list docker-ce --showduplicates | sort -r
+#           #安装docker
+#              $ sudo yum install docker-ce
+#           #启动并加入开机启动
+#              $ sudo systemctl start docker
+#              $ sudo systemctl restart docker    #重启docker服务
+#              $ sudo systemctl enable docker
+#           #验证是否安装成功
+#              $ docker version
+#    安装splash容器并启动splash服务
+#        $ sudo docker run -d -p 8050:8050 scrapinghub/splash
+#    安装splash
+#        $ pip3 install scrapy-splash
+#    安装scrapy-redis
+#        $ pip3 install scrapy-redis
+#    安装scrapyd
+#        $ pip3 install scrapyd
+#        $ sudo mkdir /etc/scrapyd
+#        $ sudo vi /etc/scrapyd/scrapyd.conf
+#           [scrapyd]
+#           eggs_dir=eggs
+#           logs_di=logs
+#           items_dir=
+#           jobs_to_keep=5
+#           dbs_dir=dbs
+#           max_proc=0
+#           max_proc_per_cpu=10
+#           finished_to_keep=100
+#           poll_interval=5.0
+#           bind_address=0.0.0.0
+#           http_port=6800
+#           debug=off
+#           runner=scrapyd.runner
+#           application=scrapyd.app.application
+#           launcher=scrapyd.launcher.Launcher
+#           webroot=scrapyd.website.Root
+#
+#           [server]
+#           schedule.json=scrapyd.webservice.Schedule
+#           cancel.json=scrapyd.webservice.Cancel
+#           addversion.json=scrapyd.webservice.AddVersion
+#           listprojects.json=scrapyd.webservice.ListProjects
+#           listversions.json=scrapyd.webservice.ListVersions
+#           listspiders.json=scrapyd.webservice.ListSpiders
+#           delproject.json=scrapyd.webservice.DeleteProject
+#           delversion.json=scrapyd.webservice.DeleteVersion
+#           listjobs.json=scrapyd.webservice.ListJobs
+#           daemonstatus.json=scrapyd.webservice.DaemonStatus
+#       后台运行
+#           (scrapyd > /dev/null &)
+#       配置日志
+#           (scrapyd > ~/scrapyd.log &)
+#       开放端口
+#           firewall-cmd --permanent --add-port=6800/tcp #防火墙开启6800端口
+#    安装Nginx
+#       下载nginx安装包
+#           cd /root/software
+#           mkdir nginx_software && cd nginx_software
+#           wget http://nginx.org/download/nginx-1.5.9.tar.gz
+#           tar -zxvf nginx-1.5.9.tar.gz
+#           rm -f nginx-1.5.9.tar.gz
+#           cd nginx-1.5.9/
+#       安装依赖库
+#           yum -y install pcre-devel
+#           yum -y install openssl openssl-devel
+#           yum –y install gcc
+#       安装nginx
+#           ./configure --prefix=/usr/local/nginx
+#           make install
+#           cd /usr/local/nginx/sbin
+#           ./nginx
+#           systemctl stop firewalld.service    #关闭防火墙
+#       使用nginx
+#           http://IP地址
+#       重新加载nginx
+#           nginx -s reload
+#   安装scrapyd-client
+#       pip3 install scrapyd-client
+#   使用scrapyd
+#       curl http://localhost:6800/listprojects.json    #查看正在运行的scrapy项目
+#   安装python-scrapyd-api
+#       pip3 install python-scrapyd-api
+#       python调用接口查询正在运行的scrapy项目
+#           from scrapyd_api import ScrapydAPI
+#           scrapyd=ScrapydAPI('http://localhost:6800')
+#           print(scrapyd.list_projects())
+#   安装scrapyrt
+#       pip3 install scrapyrt
+#       使用
+#           在任何一个scrapy项目中运行如下命令启动HTTP服务
+#               scrapyrt
+#   安装Gerapy
+#       pip3 install gerapy
+#   安装github
+#       yum install git
+#       查看yum源仓库Git信息
+#       yum info git
+#       2.安装依赖库
+#       [root@wugenqiang ~]# yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel
+#       [root@wugenqiang ~]# yum install gcc-c++ perl-ExtUtils-MakeMaker
+#       3.如果原有的git版本过低，移除默认安装的旧版git
+#       [root@wugenqiang ~]# git --version    ## 查看自带的版本git version 1.8.3.1
+#       [root@wugenqiang ~]# yum remove git   ## 移除原来的版本
+#       4.下载&安装
+#       [root@wugenqiang ~]# cd /usr/src
+#       [root@wugenqiang src]# wget https://www.kernel.org/pub/software/scm/git/git-2.18.0.tar.gz
+#       5.解压
+#       [root@wugenqiang ~]# tar xf git-2.18.0.tar.gz
+#       6.配置编译安装
+#       [root@wugenqiang ~]# cd /usr/src
+#       [root@wugenqiang src]# ls
+#       debug  git-2.18.0  kernels
+#       [root@wugenqiang src]# cd git-2.18.0/
+#       [root@wugenqiang git-2.18.0]#
+#       [root@wugenqiang git-2.18.0]# make configure
+#       [root@wugenqiang git-2.18.0]# ./configure --prefix=/usr/git ##配置目录
+#       [root@wugenqiang git-2.18.0]# make profix=/usr/git
+#       [root@wugenqiang git-2.18.0]# make install
+#       7.加入环境变量
+#       [root@wugenqiang ~]# echo "export PATH=$PATH:/usr/git/bin" >> /etc/profile
+#       [root@wugenqiang ~]# source /etc/profile
+#       8.检查版本
+#       [root@wugenqiang ~]# git --version
+#       git version 2.18.0
+#       二、生成SSH密钥
+#       [root@wugenqiang ~]# ssh-keygen -t rsa -C "417217170@qq.com"
+#       三、添加密钥到GitHub
+#       打开 Github，登录自己的账号后
+#       点击自己的头像->settings->SSH And GPG Keys->New SSH key
+#           Generating public/private rsa key pair.
+#           Enter file in which to save the key (/root/.ssh/id_rsa):
+#           Created directory '/root/.ssh'.
+#           Enter passphrase (empty for no passphrase):
+#           Enter same passphrase again:
+#           Your identification has been saved in /root/.ssh/id_rsa.
+#           Your public key has been saved in /root/.ssh/id_rsa.pub.
+#           The key fingerprint is:
+#           SHA256:gKJDgYDe+R+nV0aRhnYyomIDLBw2M24Xz9J0M1BGB5Y 417217170@qq.com
+#           The key's randomart image is:
+#           +---[RSA 2048]----+
+#           |BB.. o+Xo.. .    |
+#           |*+= *.+E+= =     |
+#           |o++oo+o o = .    |
+#           |oo.B.. .   .     |
+#           |o . +   S .      |
+#           | .   . . . o     |
+#           |      . + o      |
+#           |       o .       |
+#           |        .        |
+#           +----[SHA256]-----+
+#       $ vim /root/.ssh/id_rsa.pub
+#           ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+92uzFBG6K41j/7Pa/RH5jGfYb6vrGtjMOWYP4Z2wVWOmrpxYtLjstTWsnMWFoe5F5YUH+ZNVwnEkjTeqxvm8b2FeJwkYtqfyWIDBE3vLovp/Mh2laCe+UJyMqK2MG5WnXQ3iwbCwPFaHEep2E0vhHmXqADr9qB78VCNiuteSQGu1V5xtHpDtYiXmDRJKIRsJmNL1v6oJDKVvqCU+dTxmnzldwGYIPKvU6JKMdnHdc2/Iignhpm1wLRsJXPE4Ifahmxsf/ZZbsf2tPWQMV/x64AzhsCtb8LKEvN3+TB5hJVr063vQhN0e2KDADRnyDnDx4C4CgDsAmOh0OvTzne+f 417217170@qq.com
+#       打开www.github.com/18086829907/yilong
+#           点击右上角粉红色类似衣服的下拉图标
+#               再点击settings
+#                   在右侧导航栏中点击SSH and GPG keys
+#                       点击New SSH key
+#                           title 取一个名字
+#                               说明：1、clone时本地仓库的目录名 2、www.github.com/用户名/title 即www.github.com/18086829907/justin
+#                               key 粘贴公钥
+#                               点击Add SSH key
+#       四、centos里测试验证
+#       [root @ wugenqiang ~]  # ssh git@github.com
+#       五、git常用命令参考
+#       git remote - v / --verbose #显示出详细的url地址名和对应的别名.
+#       git clone < address > #复制代码库到本地；
+#       git add < file > #添加文件到代码库中；
+#       git rm < file > #删除代码库的文件；
+#       git commit - m '更新内容' #提交更改，在修改了文件以后，使用这个命令提交修改。
+#       git pull #从远程同步代码库到本地。
+#       git push #推送代码到远程代码库。
+#       git branch #查看当前分支。带 * 是当前分支。
+#       git branch branchName：新建一个分支。
+#       git branch -d branchName：删除一个分支。
+#       git checkout branchName #切换到指定分支。
+#       git log #查看提交记录（即历史的commit 记录）。
+#       git status #当前修改的状态，是否修改了还没提交，或者那些文件未使用。
+#       git reset < log > #恢复到历史版本。
+#       六、Git实例
+#       操作步骤：
+#       1、远程仓库README.git为空，把本地代码上传到远程仓库
+#       echo
+#       "# Test" >> README.md
+#       git init
+#       git add README.md
+#       git commit -m "first commit"
+#       git remote add origin
+#       git @ github.com: ** ** ** / README.git
+#       git push -u origin master
+#       2、更新本地代码到远程仓库
+#       git add
+#       README.md
+#       git commit -m "first commit"
+#       git push -u origin master
+#       3、获取远程仓库中的代码到本地
+#       git clone git @ github.com: ** ** * / README.git
+#       4、从远程仓库同步代码更新本地代码
+#       git pull origin master
+#       echo "# bigdata" >> README.md
+#       git init
+#       git add README.md
+#       git commit -m "first commit"
+#       git remote add origin https: // github.com / wugenqiang / bigdata.git
+#       git push -u origin master
+#       具体演示：
+#           mkdir /root/dataGit
+#           cd /root/dataGit
+#           git config --global http.postBuffer 524288000
+#           git clone git@github.com:18086829907/yilong.git
+#           cd /root/dataGit
+#           git checkout yilong
+#           cd /root/dataGit/yilong/first_project/练习/scrapyTest/jdCrawl/jdCrawl
+#           python3 run.py
+#           说明：只要正在/root/dataGit中任意位置都能使用git push origin yilong
+#   安装pycharme
+#       yum install virt-manager    #使pycharme图像化的工具
+#           pycharme官网下载收费版的linux版,即pycharm-professional-2019.1.3.tar.gz
+#           通过xftp将pycharm-professional-2019.1.3.tar.gz传到 /root/software目录中
+#           $ tar -xf pycharm-professional-2019.1.3.tar.gz
+#           解压后再当前目录就会出现dbs目录和pycharm-2019.1.3即安装成功
+#           说明：linux打开方法 $ cd /root/software/pycharme-3./bin/pycharme.sh 即可打开pycharm
+#       pycharme破解
+#           $ yum install java
+#           通过xftp将jetbrains-agent.jar破解文件传到 /home/software/pycharm-2019.1.3/bin
+#           $ vim /root/software/pycharm-2019.1.3/bin/pycharm64.vmoptions
+#               在该文件的最后一行加入 -javaagent:/root/software/pycharm-2019.1.3/bin/jetbrains-agent.jar
+#           $ vim /root/software/pycharm-2019.1.3/bin/pycharm.vmoptions
+#               在该文件的最后一行加入 -javaagent:/root/software/pycharm-2019.1.3/bin/jetbrains-agent.jar
+#           $ ./pycharm.sh    #打开可执行文件就打开pycharm图形窗口
+#           同windows的欢迎窗口步骤相同，直到出现IntelliJ IDEA License Activation窗口
+#               选择License server
+#               点击同意即可
