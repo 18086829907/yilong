@@ -18,5 +18,4 @@ class IpsipderSpider(scrapy.Spider):
         yield SplashRequest(url=self.start_urls[0], callback=self.myParse, endpoint='execute', args={'lua_source':self.lua})
 
     def myParse(self, response):
-        proxy = response.xpath('//div[@class="well"]/p/text()').extract()
-        print(proxy)
+        print(response.text)
