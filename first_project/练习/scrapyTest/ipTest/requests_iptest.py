@@ -1,5 +1,5 @@
 import requests
-response = requests.get('http://101.205.50.104:8000/random')
+response = requests.get('http://101.205.52.157:8000/random')
 proxy = response.text
 proxies = {
     'http':'http://'+proxy,

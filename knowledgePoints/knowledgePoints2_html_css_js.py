@@ -1037,12 +1037,10 @@ conn.close()
 #                       解压redis64-2.8.2101到d:\redis
 #修改配置文件
 #   Subline 打开 redis.windows.conf
-#       在387行 写上 requirepass 135cylpsx4848@     这是在设置redis密码
-#       在455行 写上 maxheap 1024000000
+#       # requirepass foobared 替换为 requirepass 135cylpsx4848@
+#       # maxheap <bytes> 写上 maxheap 1024000000
+#       # bind 127.0.0.1  注释掉主机ip后，就能远程访问此数据库了
 #       保存 如果遇到拒绝访问 就把该文件复制到其他盘符，修改完后再复制回安装目录下
-#       #bind 127.0.0.1  注释掉主机ip后，就能远程访问此数据库了
-#       port 6379   端口号
-#       dbfilename dump.rdb    数据文件
 #cmd启动服务再链接
 #   启动redis服务 (redis启动服务)
 #       d：
@@ -1067,7 +1065,7 @@ conn.close()
 #       换路径 Next finished
 #   链接服务器
 #       connect to redis server
-#           name justin
+#           name home2    #给连接器取得名字，随意取
 #           host localhost
 #           port 6379
 #           Auth 135cylpsx@
