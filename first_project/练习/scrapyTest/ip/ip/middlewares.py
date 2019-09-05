@@ -28,7 +28,7 @@ class ProxyUserAgentMiddleware():
             if proxy:
                 uri = 'https://{}'.format(proxy)
                 self.logger.debug('使用代理'+uri)
-                request.meta['proxy'] = uri
+                request.meta['splash']['args']['proxy'] = uri
         # userAgent = agent.allHeaders()
         # request.headers['User_Agent'] = userAgent
 

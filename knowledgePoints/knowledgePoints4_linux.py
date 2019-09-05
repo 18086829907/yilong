@@ -576,6 +576,20 @@
 #       sudo yum groupinstall -y development tools
 #       sudo yum install -y epel-release libxslt-devel libxml2-devel openssl-devel
 #       pip3 install Scrapy
+#   安装selenium
+#       pip3 install selenium
+#   安装chrome
+#       cd /root/software
+#       wget https://extras.getpagespeed.com/redhat/7/x86_64/RPMS/google-chrome-stable_current_x86_64.rpm
+#       sudo yum localinstall google-chrome-stable_current_x86_64.rpm
+#       /usr/bin/google-chrome-stable --no-sandbox    #临时允许浏览器以图形界面打开
+#   卸载chrome
+#       运行 yum remove google-chrome然后以Tab补全所有整个命令，再加上-y参数（我的电脑上面的命令为：yum remove google-chrome-stable.x86_64 -y），卸载Chrome
+#   安装chromedriver
+#       $ wget https://chromedriver.storage.googleapis.com/77.0.3865.10/chromedriver_linux64.zip
+#       $ unzip chromedriver_linux64.zip
+#       $ mv chromedriver /usr/bin/
+#       $ chromedriver
 #   安装docker
 #       参考：https://blog.csdn.net/hylaking/article/details/87978819
 #           #卸载旧版本
