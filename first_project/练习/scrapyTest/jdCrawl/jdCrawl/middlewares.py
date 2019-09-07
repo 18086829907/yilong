@@ -6,12 +6,8 @@
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
-import random
-import time
 import logging
 import requests
-from myClass.headers import Headers
-agent = Headers()
 # from myClass.mySql import MySql
 # mysql = MySql('localhost', 'root', '135cylpsx4848@', 'yjstest')
 

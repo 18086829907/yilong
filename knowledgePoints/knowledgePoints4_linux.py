@@ -956,7 +956,7 @@
 #       安装web服务器
 #           $ yum check-update -y && yum update -y && yum install initscripts screen wget -y    #安装宝塔必要的包
 #           $ sudo yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh    #安装国内宝塔
-#           $ yum install -y wget && wget -O install.sh http://128.1.164.196:5880/install/install_6.0.sh && sh install.sh    #安装美国宝塔
+#           $ sudo yum install -y wget && wget -O install.sh http://128.1.164.196:5880/install/install_6.0.sh && sh install.sh    #安装美国宝塔
 #           点击服务器实例栏中的安全组中的安全组名称
 #               点击入站
 #                  点击编辑
@@ -993,7 +993,6 @@
 #                             用户：yilong_com
 #                             密码：135cylpsx4848@
 #                   点击文件
-#
 #               软件管理
 #                   安装Linux工具
 #                       点击系统工具
@@ -1012,12 +1011,12 @@
 #                                       imagemagick
 #                                       exif
 #                                       fileinfo
-#   安装python3.6
+#   安装python3.7
 #       $ sudo yum install -y https://centos7.iuscommunity.org/ius-release.rpm
 #       $ sudo yum update
-#       $ sudo yum install -y pythou36u python36u-libs python36u-devel python36u-pip
+#       $ sudo yum install -y pythou36u python37u-libs python37u-devel python37u-pip
 #   安装pip
-#       $ sudo easy_install-3.6 pip
+#       $ sudo easy_install-3.7 pip
 #       $ pip install --upgrade pip
 #   切换pip源
 #       mkdir ~/.pip
