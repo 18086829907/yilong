@@ -10,8 +10,8 @@ obj = re.compile(pat)
 result = obj.findall(p)
 n = 0
 for res in result:
-    # dirname = r'G:\PS\产品详情图'+'\童装女童春秋款工装裤套装2019新款秋季个性字母印花工装裤两件套'
-    dirname = r'G:\PS\产品详情图'+'\男童女童秋冬款皮毛一体外套2019新款洋气韩版宽松毛毛绒衣中大童'
+    # dirname = r'G:\PS\酷派新衣\1购物\2详情页\产品详情图'+'\童装女童春秋款工装裤套装2019新款秋季个性字母印花工装裤两件套'
+    dirname = r'G:\PS\酷派新衣\1购物\2详情页\产品详情图'+'\男童女童秋冬款皮毛一体外套2019新款洋气韩版宽松毛毛绒衣中大童'
     if not os.path.exists(dirname):
         os.mkdir(dirname)
     # 图片的名字叫啥
