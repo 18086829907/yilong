@@ -11,3 +11,4 @@ close = np.asarray(data['close'].values)
 ma3 = talib.MA(close, timeperiod=3)
 
 print(ma3)
+

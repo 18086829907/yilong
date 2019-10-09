@@ -17,7 +17,8 @@ class YgSpider():
         options.add_argument('--headless')
         options.add_argument('--disable-gpu')
         # 创建无头浏览器对象
-        path = r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe'
+        # path = r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe'
+        path = r'E:\Anaconda3\Scripts\chromedriver.exe'
         browser = webdriver.Chrome(executable_path=path, options=options)
         # 打开365yg视频网站二级页面
         browser.get(url)
@@ -86,4 +87,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
