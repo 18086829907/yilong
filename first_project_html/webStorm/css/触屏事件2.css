@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav div ul{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #666666;
+    width: 15.3rem;
+    overflow: scroll;
+}
+
+nav div ul li{
+    width: 4rem;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #3399e0;
+    margin-right: 0.1rem;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+}
+
+.con{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 10rem;
+    overflow: scroll;
+    position: relative;
+}
+
+.con li{
+    width: 4rem;
+    height: 32rem;
+    white-space: nowrap;
+    margin-right: 0.1rem;
+    background-color: gold;
+    padding: 0 3.1rem;
+}
+

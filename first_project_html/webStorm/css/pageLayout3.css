@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#box{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+#logo{
+    height: 40px;
+    background-color: darkgray;
+}
+
+#navigationLeft{
+    width: 199px;
+    height: 800px;
+    background-color: mediumorchid;
+    display: inline-block;
+}
+
+#main{
+    width: 998px;
+    height: 800px;
+    background-color: lightcoral;
+    display: inline-block;
+}
+
+#navigationRight{
+    width: 198px;
+    height: 800px;
+    float: right;
+    background-color: dimgrey;
+    display: inline-block;
+}
+
+#footer{
+    height: 60px;
+    background-color: brown;
+}

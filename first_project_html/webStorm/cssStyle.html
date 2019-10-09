@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		
+		<!-- 1内部样式 -->
+		<style type="text/css">
+			/* css语句 */
+			p {color: darkturquoise;}
+		</style>
+		
+		<!-- 2外部样式 -->
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+	</head>
+	<body>
+		<!-- 3行内样式 -->
+		<p style="color: darkorchid;">行内选择器</p>
+		
+		<!-- 4行内块级元素 -->
+		<dl>
+			<dd style="display: inline-block;">首页</dd>
+			<dd style="display: inline-block;">关于我们</dd>
+			<dd style="display: inline-block;">联系快递</dd>
+		</dl>
+
+		<p>标签选择器</p>
+
+		<p id="p1">#id选择器</p>
+
+		<p class="s1">.class选择器</p>
+		<p class="s2">.class选择器</p>
+
+		<h1 class="center">h1.center交集选择器</h1>
+		<p class="p1" id="pp1">.p1#pp1交集选择器</p>
+		<p class="p2,pp2">.p2.pp2交集选择器</p>
+
+		<h2>h2,strong并集选择器</h2>
+		<strong>h2,strong并集选择器</strong>
+
+		<h3 id="h3">#h3,h4并集选择器</h3>
+		<h4>#3,h4并集选择器</h4>
+
+		<div id="id1">
+			<p>后代选择器1</p>
+		</div>
+		<div id="id2">
+			<p>后代选择器2</p>
+		</div>
+
+		<div id="id3">
+			<p>子一代</p>
+			<div>
+				<p>子二代</p>
+			</div>
+		</div>
+
+		<a href="#" target="_blank">百度，伪类选择器</a>
+		<a href="#" target="_blank">百度，伪类选择器</a>
+
+		<h5 id="box" class="cb">选择器的权重，谁权重高，用谁的css</h5>
+
+	</body>
+</html>

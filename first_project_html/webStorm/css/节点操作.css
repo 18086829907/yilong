@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*修改外部样式*/
+#outerStyle{
+    width: 100px;
+    height: 200px;
+    background-color: rgb(80,51,153);
+}
+
+/*常用属性*/
+p{
+    height: 50px;
+}
+
+/*动态操作*/
+#dynamic{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+#dynamic1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#dynamic2{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}

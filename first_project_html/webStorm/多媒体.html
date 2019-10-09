@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多媒体</title>
+    <link rel="stylesheet" href="css/多媒体.css">
+    <script src="js/jQuery.js"></script>
+    <script src="js/多媒体.js"></script>
+</head>
+<body>
+    <div id="box">
+        <div id="videoPlay">
+            <video src="video/Django基本流程走通01.mp4" id="vid" controls="controls" width="1000px" height="500px"></video>
+            <div id="someButton">
+                <input type="button" value="播放">
+                <input type="button" value="暂停">
+                <input type="button" name="muted" value="静音">
+                <input type="button" value="全屏">
+                <span>播放进度</span>
+                <progress value="0"></progress>
+                <span>音量</span>
+                <input type="range" value="50" min="0" max="100">
+            </div>
+        </div>
+
+        <div id="audioPlay">
+            <audio src="audio/平凡之路.mp3" autoplay="autoplay" loop="loop"></audio>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#d1{
+    width: 200px;
+    height: 200px;
+    background-color: khaki;
+}
+
+#d7{
+    width: 200px;
+    height: 200px;
+    background-color: #cc3311;
+}
+
+#d8{
+    width: 200px;
+    height: 200px;
+    background-color: darksalmon;
+}
+
+#d9{
+    width: 200px;
+    height: 200px;
+    background-color: #ba2636;
+}
+
+body{
+    position: relative;
+}
+
+#d10{
+    width: 200px;
+    height: 200px;
+    background-color: #457633;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+}

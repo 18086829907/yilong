@@ -1,0 +1,60 @@
+#div1{
+    width: 200px;
+    height: 50px;
+    background-color: darkorchid;
+}
+
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: mediumblue;
+    float: left;
+}
+
+#div3{
+    width: 230px;
+    height: 130px;
+    background-color: green;
+    float: right;
+}
+
+#div4{
+    width: 60px;
+    height: 60px;
+    background-color: crimson;
+    float: right;
+}
+
+/*网格布局*/
+
+
+#div5,#div6,#div7,#div8{
+    width: 500px;
+    height: 500px;
+}
+
+#fill{
+    width: 0;
+    height: 500px;
+}
+
+#div5{
+    background-color: deeppink;
+    float: left;
+}
+
+#div6{
+    background-color: cadetblue;
+    float: right;
+}
+
+#div7{
+    background-color: greenyellow;
+    float: left;
+}
+
+#div8{
+    background-color: darkgreen;
+    float: right;
+}
+

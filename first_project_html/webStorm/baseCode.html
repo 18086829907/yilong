@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>第一个</title>
+	</head>
+	<>
+		<a href="#mao1">跳转锚点</a>
+		<!-- 注释 -->
+
+		
+		<!-- 标题标签 -->
+		<h1>justin</h1>
+		<h2>justin</h2>
+		<h3>justin</h3>
+		<h4>justin</h4>
+		<h5>justin</h5>
+		<h6>justin</h6>
+		
+		<!-- 换行标签 -->
+		mia<br>mia
+		
+		<!-- 段落标签 -->
+		<p>这是一段文字</p>
+		<br>
+		
+		<!-- 水平线标签 -->
+		<hr>
+		
+		<!-- 字体样式标签 -->
+		<strong>加粗 加强语气</strong>
+		<br>
+		<b>加粗</b>
+		<br>
+		
+		<!-- 倾斜 -->
+		<em>倾斜</em>
+		<br>
+		<i>倾斜</i>
+		<br>
+		
+		<!-- 特殊符号 -->
+			<!-- 空格 -->
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;我在人民广场吃炸鸡</p>
+			<!-- 大于 &gt;-->
+			&gt; &gt;
+			<br>
+			<!-- 小于 &lt;-->
+			&lt; &lt;
+			<br>
+			<!-- 引号 &quot;-->
+			&quot; &quot;
+			<br>
+			<!-- 版权符 &copy;-->
+			&copy; &copy;
+			<br>
+			
+		<!-- 图像标签 -->
+		<!-- src图片地址 lat加载失败后显示的内容 title鼠标悬停的提示 width宽 height高-->
+		<img src="img/timg.jpg" lat='独角兽' title='白色独角兽' width=512 height=258>
+		<br>
+		
+		<!-- 链接标签 -->
+		<!-- hred链接网址 target打开方式:_self本窗口打开 _blank新建窗口打开 -->
+		<a href="https://www.baidu.com/" target="_self">百度一下</a>
+		<br>
+		<a href="img/timg.jpg" target="_blank">独角兽</a>
+		<br>
+		<a href="https://www.baidu.com/"><img src="img/timg.jpg" ><br>独角兽跳转百度</a>
+		<br>
+		
+		<!-- 锚点 -->
+		<a name="mao1"></a>
+		<br>
+		
+		<!-- 功能性链接 -->
+		<!-- 发邮件 -->
+		<a href="mailto:417217170@qq.com">联系我们</a>
+		<br>
+
+		<!-- 无序列表及常用属性 type=disc实心圆 square实心方 circle空心圆 -->
+		<ul type="square">
+			<li>justin</li>
+			<li>mia</li>
+		</ul>
+		
+		<!-- 无序列表嵌套a标签 -->
+		<ul>
+			<li><a href="https://www.baidu.com/">跳转百度</a></li>
+			<li><a href="https://www.baidu.com/">跳转百度</a></li>
+		</ul>
+		
+		<!-- 有序列表 teyp=1 A a I i-->
+		<ol type="i">
+			<li>justin</li>
+			<li>mia</li>
+		</ol>
+		
+		<!-- 定义列表 -->
+		<dl>
+			<dt>所属学院</dt>
+			<dd>计算机应用1</dd>
+			<dd>计算机应用2</dd>
+			<dt>所属专业</dt>
+			<dd>计算机软件工程</dd>
+		</dl>
+		
+		<!-- 表格 align=left center right valign=top middle bottom baseline-->
+		<table align="center" valign="top">
+			<tr>
+				<!-- 跨列 -->
+				<td colspan="2">第一行的第一个单元格</td>
+				<!-- <td>第一行的第二个单元格</td> -->
+			</tr>
+			<tr>
+				<!-- 跨行 -->
+				<td rowspan="2">第二行的第一个单元格</td>
+				<td>第二行的第二个单元格</ td>
+			</tr>
+			<tr>
+				<!-- <td>第三行的第一个单元格</td> -->
+				<td>第三行的第二个单元格</ td>
+			</tr>
+		</table>
+		
+		<!-- 小练习 -->
+			<table>
+				<tr><th>Header</th></tr>
+				<tr><td rowspan="3">Data</td><td>Data</td><td>Data</td><td rowspan="3">Data</td><td>Data</td><td>Data</td><td>Data</td><td>Data</td></tr>
+				<tr><td>Data</td><td>Data</td><td>Data</td><td>Data</td><td>Data</td><td>Data</td></tr>
+				<tr><td>Data</td><td>Data</td><td>Data</td><td>Data</td><td>Data</td><td>Data</td></tr>
+				<tr><td rowspan="3">Data</td><td>Data</td><td>Data</td><td rowspan="3">Data</td><td>Data</td><td>Data</td><td>Data</td><td>Data</td></tr>
+				<tr><td>Data</td><td>Data</td><td>Data</td><td>Data</td><td>Data</td><td>Data</td></tr>
+				<tr><td>Data</td><td>Data</td><td>Data</td><td>Data</td><td>Data</td><td>Data</td></tr>
+			</table>
+		
+			<table border="" cellspacing="" cellpadding="">
+				<tr><th>Header</th></tr>
+				<tr><td>Data</td><td>Data</td><td>Data</td><td>Data</td></tr>
+				<tr><td>Data</td><td colspan="3">Data</td></tr>
+				<tr><td>Data</td><td colspan="3">Data</td></tr>
+				<tr><td>Data</td><td colspan="3">Data</td></tr>
+				<tr><td>Data</td><td colspan="3">Data</td></tr>
+			</table>
+			<!-- border外边框厚度 cellspacing边框中间空间的宽度 cellpadding字到边框的距离 -->
+			<table border="1" cellspacing="1" cellpadding="1">
+				<tr><th colspan="3">班别</th><th>课程设置</th><th>课时安排</th><th>时间安排</th><th>收费标准</th></tr>
+				<tr><td rowspan="4">少儿</td><td rowspan="2">日常班</td><td>兴趣班</td><td rowspan="4">儿童画<br>书法<br>中国画<br>素描</td><td>每周1小时</td><td rowspan="2">周六到周日<br>上午 08:30 至 10:00<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10:00 至 11:30<br>下午 02:00 至 03:30<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;03:30 至 05:00</td><td>50元/课时<br>可按学期收费</td></tr>
+				<tr><td>全程班</td><td>每周2小时</td><td>50元/课时<br>可按学期收费</td></tr>
+				<tr><td rowspan="2">暑期班</td><td>兴趣班</td><td>每周3小时</td><td rowspan="2">周六到周日<br>上午 08:30 至 10:00<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10:00 至 11:30<br>下午 02:00 至 03:30<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;03:30 至 05:00</td><td>50元/课时<br>可按学期收费</td></tr>
+				<tr><td>全程班</td><td>每周4小时</td><td>50元/课时<br>可按学期收费</td></tr>
+				<tr><th colspan="3">成人</th><td>书法<br>中国画<br>素描<br>书画欣赏</td><td>每周5小时</td><td>自选上课时间</td><td>50元/课时<br>可按学期收费</td></tr>
+				<tr><th colspan="3">高考</th><td>书法<br>篆刻<br>书法理论<br>书画欣赏</td><td>每周6小时</td><td>周六到周日<br>上午 08:30 至 10:00<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10:00 至 11:30<br></td><td>50元/课时<br>可按学期收费</td></tr>
+				<tr><td colspan="7">备注:1、初学者可以免费试学2个小时 2、亲子班可优惠 3、每课时一个半小时</td></tr>
+			</table>
+			<br>
+			
+			<h1>电视排行榜</h1>
+			<img src="img/timg%20(1).jpg" width="150" height="100">创维34234 42英寸 <strong>￥</strong>2747.00
+			<hr >
+			<img src="img/timg%20(2).jpg" width="150" height="100">创维34234 42英寸 <strong>￥</strong>2747.00
+			<hr >
+			<img src="img/timg%20(3).jpg" width="150" height="100">创维34234 42英寸 <strong>￥</strong>2747.00
+			<hr >
+			<img src="img/timg%20(4).jpg" width="150" height="100">创维34234 42英寸 <strong>￥</strong>2747.00
+			<hr >
+			<img src="img/u=2091401414,3057980410&fm=26&gp=0.jpg" width="150" height="100">创维34234 42英寸 <strong>￥</strong>2747.00
+
+		<button onclick="函数名">按钮</button>
+	</body> 
+</html>

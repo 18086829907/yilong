@@ -1,0 +1,85 @@
+
+/*副导航栏*/
+#left{
+    padding: 0;
+}
+/*副导航栏的二级菜单*/
+.dropdown-menu2-info{
+    display: none;
+}
+.dropdown-menu2-info li{
+    list-style-type: none;
+}
+.dropdown-menu2-info li a{
+    color: #333;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.dropdown-menu2-info li a:hover{
+    background-color: #ccc;
+}
+
+/*新增标签的关闭按钮*/
+.close{
+    font-size: 8px;
+    margin-left: 10px;
+    color: #cc0000;
+}
+
+/*主窗口*/
+#right{
+    position: relative;
+}
+
+/*主要内容div*/
+.well{
+    border-top: 0;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+/*欢迎界面div*/
+#welcome{
+    position: absolute;
+    z-index: 0;
+}
+#welcome h1{
+    text-align: center;
+}
+
+
+
+/*媒体查询*/
+/*小屏幕电脑*/
+@media (max-width: 1620px){
+    .btn{
+        font-size: 0.1rem;
+    }
+    #left a{
+        font-size: 0.1rem;
+    }
+    .well{
+        height: 4.3rem;
+        width: 1rem;
+    }
+    #welcome{
+        width: 8.4rem;
+    }
+
+    #content1 button:nth-child(13),#content1 button:nth-child(12){
+        margin-top: 0.1rem;
+    }
+}
+
+/*大屏幕电脑*/
+@media (max-width: 1920px){
+    .well{
+        height: 3.6rem;
+        width: 8.4rem;
+    }
+    #welcome{
+        width: 8.4rem;
+    }
+}
+
+/*iphoneX*/

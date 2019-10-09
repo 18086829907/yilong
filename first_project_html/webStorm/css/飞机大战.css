@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#mainScreen{
+    width: 512px;
+    height:768px;
+    position: absolute;
+    overflow: hidden;
+    left: 500px;
+}
+
+.bg{
+    width: 512px;
+    height: 768px;
+    position: absolute;
+    background-image: url(../img/aircraftWars/1.jpg);
+}
+
+#bg2{
+    top: -768px;
+}
+
+#airplane{
+    width: 85px;
+    height: 76px;
+    background-image: url("../img/aircraftWars/2.png");
+    position: absolute;
+    left: 210px;
+    top: 620px;
+}
+
+.bullet{
+    position: absolute;
+    background-image: url(../img/aircraftWars/bullet.png);
+    background-size: 5px 10px;
+    width: 5px;
+    height: 10px;
+}
+
+.enemy{
+    position: absolute;
+    background-image: url(../img/aircraftWars/enemy.png);
+    background-size: 100px 81px;
+    width: 100px;
+    height: 81px;
+}
+
+#gameOver{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 150px;
+    top: 300px;
+    color: #cd0200;
+    font-size: 30px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 600;
+}

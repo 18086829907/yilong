@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#box{
+    margin: 50px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #434343;
+    font-size: 20px;
+    display: block;
+    width: 20px;
+    height: 130px;
+    background-color: mediumorchid;
+    margin: 1px;
+}
+
+.one, a, .menu2{
+    float: left;
+}
+
+.menu2{
+    display: none;
+    width: 100px;
+    height: 130px;
+    background-color: greenyellow;
+}
+
+.one:hover .menu2{
+    display: block;
+}

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    background-image: url("../img/实战/致达集团logo.png");
+    background-repeat: no-repeat;
+    height: 236px;
+}
+
+li{
+    list-style-type: None;
+}
+
+#navigation1{
+    background-image: url("../img/实战/致达集团导航栏条.png");
+    margin-left: 350px;
+}
+
+.lis1{
+    display: inline-block;
+    width: 150px;
+    height: 10px;
+    font-size: 20px;
+    text-align: right;
+    list-style-image: url("../img/实战/竖条1.png");
+}
+
+.lis1 a{
+    text-decoration: none;
+    color: grey;
+}
+
+.lis1 a:hover{
+    color: blue;
+}
+
+#navigation2{
+    display: inline-block;
+    width: 280px;
+    height: 670px;
+    background-color: aliceblue;
+}
+
+#picture{
+    background-image: url("../img/实战/致达集团22.png");
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 190px;
+}
+
+.lis2{
+    background-image: url("../img/实战/一级列表栏.png");
+    background-repeat: no-repeat;
+    width: 280px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.list3{
+    display: None;
+}
+
+.lis2:hover .list3{
+    display: block;
+    background-color: azure;
+}
+
+#main{
+    display: inline-block;
+    background-color: azure;
+    float: right;
+    width: 1320px;
+    height: 670px;
+}
+
+#main p{
+    font-size: 20px;
+    text-indent: 2em;
+    letter-spacing: 4px;
+    line-height: 40px;
+}
+
+h2{
+    color: deepskyblue;
+    text-indent: 2em;
+}
+
+#footer{
+    height: 26px;
+}
+
+.footerPage{
+    background-color: grey;
+    font-size: 15px;
+    text-align: center;
+    height: 19px;
+    line-height: 13px;
+}

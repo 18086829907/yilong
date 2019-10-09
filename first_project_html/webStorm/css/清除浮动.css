@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#box{
+    background-color: coral;
+    clear: left;
+}
+
+#box div{
+    width: 100px;
+    height: 100px;
+
+}
+
+#div1{
+    float: left;
+
+}
+
+#div2{
+    float: left;
+
+}
+
+#div3{
+    float: left;
+
+}

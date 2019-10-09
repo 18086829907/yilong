@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>blue</title>
+    <style>
+        #box{
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            position: relative;
+            top: 100px;
+            background-color: #3399e0;
+        }
+    </style>
+    <script src="../js/页面跳转.js"></script>
+</head>
+<body>
+<div id="box">
+    <button onclick="toGreen()">跳转绿色</button>
+    <button onclick="toRed()">跳转红色</button>
+    <button onclick="toBack()">上一页</button>
+    <button onclick="toForWard()">下一页</button>
+    <button onclick="toMainPage()">主页</button>
+    <button onclick="printLenHistory()">记录长度</button>
+    <button onclick="openNewWindow('red.html', 'blank', 'width=400px, height=400px, top=200px, left=200px')">打开红色</button>
+</div>
+</body>
+</html>

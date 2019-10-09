@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.itemBox{
+    position: relative;
+    height: 10rem;
+    margin: 0.1rem;
+    background-image: url("../img/背景图片.png");
+    font-size: 0.5rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    transform-style: preserve-3d;
+    perspective: 1200px;
+}
+
+.pic1,.pic2{
+    position: absolute;
+    left: 3rem;
+    top: 2.5rem;
+    z-index: 10;
+}
+
+.pic1{
+    opacity: 0.5;
+}
+
+#d1 .pic2{
+    transform: scale(0.5);
+}
+
+#d2 .pic2{
+    transform: scale(0.3, 0.6);
+}
+
+#d3 .pic2{
+    transform: skew(45deg);
+}
+
+#d4 .pic2{
+     transform: skew(30deg, 30deg);
+ }
+
+#d5 .pic2{
+    transform: translate(1rem);
+}
+
+#d6 .pic2{
+    transform: translate(1rem, 1rem);
+}
+
+#d7 .pic2{
+    transform: rotateX(45deg);
+}
+
+#d8 .pic2{
+    transform: rotateY(45deg);
+}
+
+#d9 .pic2{
+    transform: rotateZ(45deg);
+}
+
+#d10 .pic2{
+    transform: rotate3d(1,1,1,45deg);
+}
+
+#d11 .pic2{
+    transform: translateX(1rem);
+}
+
+#d12 .pic2{
+    transform: translateY(1rem);
+}
+
+#d13 .pic2{
+    transform: translateZ(-0.5rem) rotateX(45deg);
+}
+
+#d14 .pic2{
+    -webkit-transform: translate3d(1rem,1rem,1rem) rotateX(45deg);
+}

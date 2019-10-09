@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#box{
+    padding-left: 800px;
+}
+
+th,td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+list{
+    empty-cells: show;
+}
+
+caption{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#lis1{
+    border-spacing: 0;
+}
+
+#lis1 tr th{
+    border: solid 1px black;
+    background-color: greenyellow;
+}
+
+#lis1 tr td{
+    border: solid 1px black;
+}
+
+#lis1 tr .li1{
+    background-color: rgba(171,255,50,0.3);
+}
+
+
+#lis2{
+    border: solid 4px black;
+    border-spacing: 0;
+}
+
+#lis2 tr th,#lis2 tr td{
+    border: solid 1px black;
+}
+
+#lis3{
+    border-top: solid 4px black;
+    border-bottom: solid 4px black;
+    border-spacing: 0;
+}
+
+#lis3 tr th, #lis3 tr td{
+    border: solid 1px black;
+}
+
+#lis4{
+    border-spacing: 5px;
+}
+
+#lis4 tr th,#lis4 tr td{
+    border: solid 2px black;
+}
+
+#lis5{
+    border-spacing: 0;
+}
+
+#lis5 tr th,#lis5 tr td{
+    border-bottom: solid 1px black;
+}
+
+#lis6{
+    border: solid 1px black;
+    padding: 10px;
+}
+
+#lis6 tr th, #lis6 tr td{
+    border: solid 1px black;
+    background-color: blue;
+}

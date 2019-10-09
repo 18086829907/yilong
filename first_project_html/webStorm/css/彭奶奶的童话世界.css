@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#box{
+    position: relative;
+    height: 2000px;
+}
+
+/*logo栏*/
+#logoColumn{
+    position: fixed;
+    width: 1620px;
+    background-color: #118855;
+    height: 120px;
+    z-index: 1;
+}
+
+#logoPicture{
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    background-image: url("../img/童装店/logo/pnnlogo.png");
+    background-repeat: no-repeat;
+    width: 114px;
+    height: 100px;
+}
+
+#logoColumn span{
+    position: absolute;
+    left: 158px;
+    top: 70px;
+    font-family: "微软雅黑";
+    font-weight: 900;
+    font-size: 30px;
+    color: firebrick;
+}
+
+#searchColumn{
+    position: absolute;
+    right: 80px;
+    top:80px;
+}
+
+#searchFrame{
+    border: black 1px solid;
+    border-radius: 10px;
+}
+
+#searchButton{
+    background-color: coral;
+    border-radius: 10px;
+    font-family: "微软雅黑";
+    color: white;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+#searchButton:hover{
+    background-color: firebrick;
+    color: black;
+}
+
+/*主导航栏*/
+#mainNavigationColumn{
+    position: fixed;
+    width: 1600px;
+    height: 40px;
+    background-color: yellow;
+    padding-left: 20px;
+    top: 120px;
+    z-index: 1;
+}
+
+#mainNavigationColumn li{
+    float: left;
+    list-style-type: none;
+
+}
+
+#mainNavigationColumn li a{
+    margin: 5px 100px 5px;
+    font-size: 20px;
+    background-color: yellow;
+    padding: 5px 20px 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    top: 8px;
+    color: black;
+    font-family: "微软雅黑";
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#mainNavigationColumn li a:hover{
+    background-color: deepskyblue;
+    color: white;
+}
+
+/*副导航栏*/
+#AuxiliaryNavigationColumn{
+    background-color: #ec6523;
+    width: 140px;
+    height: 900px;
+    position: fixed;
+    top: 160px;
+}
+
+    /*童装*/
+#childrenIsWearColumn>ul>li{
+    list-style-type: none;
+}
+
+#childrenIsWearColumn>ul>li>a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100px;
+    font-family: "微软雅黑";
+    text-align: center;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#childrenIsWearColumn>ul>li>a:hover{
+    background-color: yellow;
+}
+
+.childrenIsWearInner{
+    list-style-type: none;
+    background-color: deepskyblue;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+}
+
+#childrenIsWearColumn>ul>li:hover .childrenIsWearInner{
+    display: block;
+}
+
+.childrenIsWearInner li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: blueviolet;
+    font-family: "微软雅黑";
+    width: 100px;
+    margin-left: 20px;
+    text-align: center;
+    border:1px black solid;
+    border-radius: 10px;
+}
+
+.childrenIsWearInner li a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+    /*母婴*/
+#motherAndInfantColumn>ul>li{
+    list-style-type: none;
+}
+
+#motherAndInfantColumn>ul>li>a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100px;
+    font-family: "微软雅黑";
+    text-align: center;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#motherAndInfantColumn>ul>li>a:hover{
+    background-color: yellow;
+}
+
+.motherAndInfantInner{
+    list-style-type: none;
+    background-color: deepskyblue;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+}
+
+#motherAndInfantColumn>ul>li:hover .motherAndInfantInner{
+    display: block;
+}
+
+.motherAndInfantInner li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: blueviolet;
+    font-family: "微软雅黑";
+    width: 100px;
+    margin-left: 20px;
+    text-align: center;
+    border:1px black solid;
+    border-radius: 10px;
+}
+
+.motherAndInfantInner li a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+    /*玩具*/
+#toysColumn>ul>li{
+    list-style-type: none;
+}
+
+#toysColumn>ul>li>a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100px;
+    font-family: "微软雅黑";
+    text-align: center;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#toysColumn>ul>li>a:hover{
+    background-color: yellow;
+}
+
+.toysInner{
+    list-style-type: none;
+    background-color: deepskyblue;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+}
+
+#toysColumn>ul>li:hover .toysInner{
+    display: block;
+}
+
+.toysInner li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: blueviolet;
+    font-family: "微软雅黑";
+    width: 100px;
+    margin-left: 20px;
+    text-align: center;
+    border:1px black solid;
+    border-radius: 10px;
+}
+
+.toysInner li a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+/*跳转*/
+#childrenIsWearColumn,#motherAndInfantColumn,#toysColumn{
+    display: none;
+}
+
+#childrenIsWearColumn:target,#motherAndInfantColumn:target,#toysColumn:target{
+    display: inline-block;
+}
+
+/*商品域*/
+#commodityColumn{
+    width: 1480px;
+    height: 2000px;
+    background-color: rgba(13,23,54,0.3);
+    position: relative;
+    left: 140px;
+    top: 160px;
+}
+
+/*商品*/
+#commodity1 a{
+    width: 400px;
+    height: 500px;
+    background: white;
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    text-decoration: none;
+}
+
+#commodity2 a{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: 540px;
+    top: 70px;
+    text-decoration: none;
+}
+
+#commodity3 a{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: 1010px;
+    top: 70px;
+    text-decoration: none;
+}
+
+#commodity4 a{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: 70px;
+    top: 590px;
+    text-decoration: none;
+}
+
+#commodity5 a{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: 540px;
+    top: 590px;
+    text-decoration: none;
+}
+
+#commodity6 a{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: 1010px;
+    top: 590px;
+    text-decoration: none;
+}
+
+#commodity7 a{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: 70px;
+    top: 1110px;
+    text-decoration: none;
+}
+
+#commodity8 a{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: 540px;
+    top: 1110px;
+    text-decoration: none;
+}
+
+#commodity9 a{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: 1010px;
+    top: 1110px;
+    text-decoration: none;
+}
+
+#image1{
+    background-image: url("../img/童装店/产品图/1.jpg");
+    width: 400px;
+    height: 400px;
+}
+
+#image2{
+    background-image: url("../img/童装店/产品图/2.jpg");
+    width: 400px;
+    height: 400px;
+}
+
+#image3{
+    background-image: url("../img/童装店/产品图/3.jpg");
+    width: 400px;
+    height: 400px;
+}
+
+#image4{
+    background-image: url("../img/童装店/产品图/4.jpg");
+    width: 400px;
+    height: 400px;
+}
+
+#image5{
+    background-image: url("../img/童装店/产品图/5.jpg");
+    width: 400px;
+    height: 400px;
+}
+
+#image6{
+    background-image: url("../img/童装店/产品图/6.jpg");
+    width: 400px;
+    height: 400px;
+}
+
+#image7{
+    background-image: url("../img/童装店/产品图/7.jpg");
+    width: 400px;
+    height: 400px;
+}
+#image8{
+    background-image: url("../img/童装店/产品图/8.jpg");
+    width: 400px;
+    height: 400px;
+}
+#image9{
+    background-image: url("../img/童装店/产品图/9.jpg");
+    width: 400px;
+    height: 400px;
+}
+
+.c2{
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+    font-family: "微软雅黑";
+    color: black;
+    font-size: 15px;
+}
+
+.c3{
+    font-size: 20px;
+    color: brown;
+    position: relative;
+    font-family: "微软雅黑";
+    top: 5px;
+}
+
+.c4{
+    font-family: "微软雅黑";
+    font-size: 20px;
+    color: brown;
+    position: relative;
+    top: 5px;
+
+}
+
+.c5{
+    position: absolute;
+    bottom: 5px;
+    color: dimgray;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+
+/*对话框*/
+#dialogueColumn{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 10px;
+    top: 200px;
+}
+
+#dialogueColumn input{
+    width: 60px;
+}
+
+#dialogueColumn input:hover{
+    color: white;
+}
+
+/*动态标签*/
+#promotion{
+    font-family: "微软雅黑";
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    background-color: firebrick;
+    text-decoration: none;
+    position: absolute;
+    left: 558px;
+    top: 0px;
+    height: 50px;
+    padding: 0 20px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}

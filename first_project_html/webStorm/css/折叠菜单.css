@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menu1{
+    width: 160px;
+    margin: 50px; /*设置边距*/
+}
+
+.menu1 li{
+    list-style-type: none;
+    font-size: 18px; /*默认大小16px*/
+}
+
+li a{
+    color: #434343;
+    text-decoration: none;
+}
+
+.one{
+    background: url("../img/实战/一级列表栏.png");
+    line-height: 30px;
+    text-indent: 36px; /*文字移动*/
+    background-repeat: no-repeat; /*图片默认平铺，因此需要设置不平铺*/
+}
+
+.menu2{
+    display: none;
+}
+
+.one:hover .menu2{ /*当鼠标进入.one时,.one下的.menu2执行显示样式*/
+    display: block; /*显示标签*/
+}
+
+.two{
+    text-indent: 40px; /*缩进*/
+}

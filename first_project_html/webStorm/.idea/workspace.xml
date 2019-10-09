@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="824a86a7-f382-41b0-a58f-80138c3c1353" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jQueryBaseCode.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="617">
+              <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/jQueryBaseCode.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1280">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jQueryBaseCode.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7648">
+              <caret line="239" column="93" selection-start-line="239" selection-start-column="93" selection-end-line="239" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>4</find>
+      <find>img</find>
+      <find>margin-left</find>
+      <find>z-index</find>
+      <find>390</find>
+      <find>logoColumn</find>
+      <find>mainNavigationColumn</find>
+      <find>p</find>
+      <find>p{</find>
+      <find>con</find>
+      <find>2</find>
+      <find>console</find>
+      <find>getC</find>
+      <find>timer</find>
+      <find>button</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/页面跳转/blue.html" />
+        <option value="$PROJECT_DIR$/js/页面跳转.js" />
+        <option value="$PROJECT_DIR$/页面跳转/index.html" />
+        <option value="$PROJECT_DIR$/js/window事件.js" />
+        <option value="$PROJECT_DIR$/获取标签.html" />
+        <option value="$PROJECT_DIR$/DOM.html" />
+        <option value="$PROJECT_DIR$/js/DOM.js" />
+        <option value="$PROJECT_DIR$/css/reset/飞翔的div.css" />
+        <option value="$PROJECT_DIR$/css/节点操作.css" />
+        <option value="$PROJECT_DIR$/节点操作.html" />
+        <option value="$PROJECT_DIR$/彭奶奶的童话世界.html" />
+        <option value="$PROJECT_DIR$/css/彭奶奶的童话世界.css" />
+        <option value="$PROJECT_DIR$/js/节点操作.js" />
+        <option value="$PROJECT_DIR$/js/彭奶奶的童话世界.js" />
+        <option value="$PROJECT_DIR$/世纪佳缘.html" />
+        <option value="$PROJECT_DIR$/css/世纪佳缘.css" />
+        <option value="$PROJECT_DIR$/js/世纪佳缘.js" />
+        <option value="$PROJECT_DIR$/飞翔的div.html" />
+        <option value="$PROJECT_DIR$/css/飞翔的div.css" />
+        <option value="$PROJECT_DIR$/js/飞翔的div.js" />
+        <option value="$PROJECT_DIR$/js/myjsclass.js" />
+        <option value="$PROJECT_DIR$/css/事件.css" />
+        <option value="$PROJECT_DIR$/事件.html" />
+        <option value="$PROJECT_DIR$/js/事件.js" />
+        <option value="$PROJECT_DIR$/页面跳转/物体拖拽.html" />
+        <option value="$PROJECT_DIR$/物体拖拽.html" />
+        <option value="$PROJECT_DIR$/css/物体拖拽.css" />
+        <option value="$PROJECT_DIR$/css/轮播图.css" />
+        <option value="$PROJECT_DIR$/轮播图.html" />
+        <option value="$PROJECT_DIR$/js/轮播图.js" />
+        <option value="$PROJECT_DIR$/碰撞边界检测/碰撞检测（矩形）.js" />
+        <option value="$PROJECT_DIR$/页面跳转/碰撞检测（矩形）.html" />
+        <option value="$PROJECT_DIR$/碰撞检测（矩形）.html" />
+        <option value="$PROJECT_DIR$/css/碰撞检测（矩形）.css" />
+        <option value="$PROJECT_DIR$/js/物体拖拽.js" />
+        <option value="$PROJECT_DIR$/飞机大战.html" />
+        <option value="$PROJECT_DIR$/js/碰撞检测/碰撞检测（矩形）.js" />
+        <option value="$PROJECT_DIR$/css/飞机大战.css" />
+        <option value="$PROJECT_DIR$/js/碰撞检测/碰撞检测（圆形）.js" />
+        <option value="$PROJECT_DIR$/js/jQuery.js" />
+        <option value="$PROJECT_DIR$/表格标签.html" />
+        <option value="$PROJECT_DIR$/css/表格标签.css" />
+        <option value="$PROJECT_DIR$/表格与简单过滤器.html" />
+        <option value="$PROJECT_DIR$/js/表格与简单过滤器.js" />
+        <option value="$PROJECT_DIR$/css/表格与简单过滤器.css" />
+        <option value="$PROJECT_DIR$/js/飞机大战.js" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/jQueryBaseCode.html" />
+        <option value="$PROJECT_DIR$/js/jQueryBaseCode.js" />
+        <option value="$PROJECT_DIR$/css/jQueryBaseCode.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="532" />
+    <option name="y" value="52" />
+    <option name="width" value="2800" />
+    <option name="height" value="2000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="webStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webStorm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webStorm" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webStorm" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="reset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webStorm" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webStorm" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="aircraftWars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webStorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webStorm" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/童装店/轮播图" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\qian_feng_education\first_project_html\webStorm\img\aircraftWars" />
+      <recent name="D:\qian_feng_education\first_project_html\webStorm" />
+      <recent name="D:\qian_feng_education\first_project_html\webStorm\js" />
+      <recent name="D:\qian_feng_education\first_project_html\webStorm\img\飞机大战" />
+      <recent name="D:\qian_feng_education\first_project_html\webStorm\img\童装店\轮播图" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\qian_feng_education\first_project_html\webStorm\img\童装店\轮播图" />
+      <recent name="D:\qian_feng_education\first_project_html\webStorm\css\样式重置" />
+      <recent name="D:\qian_feng_education\first_project_html\webStorm\img\童装店" />
+      <recent name="D:\qian_feng_education\first_project_html\webStorm\img" />
+      <recent name="D:\qian_feng_education\first_project_html\webStorm\img\北融集团" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.jQueryBaseCode.html">
+    <configuration name="表格标签.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/表格标签.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="定位.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/定位.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="彭奶奶的童话世界.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/彭奶奶的童话世界.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="表单.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/表单.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="致达集团.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/致达集团.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="致达集团.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/致达集团.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="北融集团.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/北融集团.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="表格标签.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/表格标签.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="飞机大战.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/飞机大战.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="下拉菜单.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/下拉菜单.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="物体拖拽.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/物体拖拽.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="世纪佳缘.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/webStorm/世纪佳缘.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="表单.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/表单.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="彭奶奶的童话世界.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/webStorm/彭奶奶的童话世界.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="表格与简单过滤器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/表格与简单过滤器.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="飞机大战.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/webStorm/飞机大战.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="轮播图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/webStorm/轮播图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="世纪佳缘.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/世纪佳缘.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="事件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/webStorm/事件.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="轮播图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/webStorm/轮播图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="飞机大战.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/webStorm/飞机大战.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="手风琴菜单.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/手风琴菜单.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="事件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/webStorm/事件.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="飞机大战.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/webStorm/飞机大战.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="飞机大战.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/webStorm/飞机大战.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="轮播图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/轮播图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="轮播图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/webStorm/轮播图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="盒模型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/webStorm/盒模型.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="表格标签.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/webStorm/表格标签.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="彭奶奶的童话世界.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/彭奶奶的童话世界.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="事件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/事件.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="世纪佳缘.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/世纪佳缘.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="baseCode.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/baseCode.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="飞翔的div.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/webStorm/飞翔的div.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="jQueryBaseCode.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webStorm/jQueryBaseCode.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.jQueryBaseCode.html" />
+        <item itemvalue="JavaScript Debug.飞翔的div.html" />
+        <item itemvalue="JavaScript Debug.baseCode.html" />
+        <item itemvalue="JavaScript Debug.表格标签.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="824a86a7-f382-41b0-a58f-80138c3c1353" name="Default Changelist" comment="" />
+      <created>1557862822521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557862822521</updated>
+      <workItem from="1557862824727" duration="18000" />
+      <workItem from="1557863107698" duration="1211000" />
+      <workItem from="1557887089062" duration="3057000" />
+      <workItem from="1557891384782" duration="16375000" />
+      <workItem from="1557911943321" duration="15272000" />
+      <workItem from="1557955177555" duration="42776000" />
+      <workItem from="1558002233444" duration="7749000" />
+      <workItem from="1558041472727" duration="5017000" />
+      <workItem from="1558052451674" duration="3649000" />
+      <workItem from="1558068039127" duration="623000" />
+      <workItem from="1558074648462" duration="3430000" />
+      <workItem from="1558091438773" duration="7253000" />
+      <workItem from="1558100278142" duration="15511000" />
+      <workItem from="1558186478947" duration="2309000" />
+      <workItem from="1558206986681" duration="18024000" />
+      <workItem from="1558297758816" duration="6612000" />
+      <workItem from="1558312206711" duration="79848000" />
+      <workItem from="1558555865720" duration="11051000" />
+      <workItem from="1558591912467" duration="19147000" />
+      <workItem from="1558645228747" duration="1519000" />
+      <workItem from="1558665540959" duration="6872000" />
+      <workItem from="1558698560006" duration="3000" />
+      <workItem from="1558709567685" duration="1614000" />
+      <workItem from="1558733615055" duration="281000" />
+      <workItem from="1558735750336" duration="13180000" />
+      <workItem from="1558770999929" duration="3902000" />
+      <workItem from="1558785777053" duration="597000" />
+      <workItem from="1558793706753" duration="4492000" />
+      <workItem from="1558802801458" duration="4848000" />
+      <workItem from="1558824358385" duration="4718000" />
+      <workItem from="1558836028700" duration="6101000" />
+      <workItem from="1558847584691" duration="5269000" />
+      <workItem from="1558859229534" duration="5466000" />
+      <workItem from="1558878040651" duration="34611000" />
+      <workItem from="1558950119469" duration="3850000" />
+      <workItem from="1558957325942" duration="1754000" />
+      <workItem from="1558996865474" duration="10784000" />
+      <workItem from="1559023071749" duration="20512000" />
+      <workItem from="1559079281202" duration="32491000" />
+      <workItem from="1559124224149" duration="7831000" />
+      <workItem from="1559138937653" duration="974000" />
+      <workItem from="1559171529467" duration="7963000" />
+      <workItem from="1559207313422" duration="3097000" />
+      <workItem from="1559220843896" duration="5809000" />
+      <workItem from="1559272012905" duration="5224000" />
+      <workItem from="1559286235560" duration="17091000" />
+      <workItem from="1559306078390" duration="5000" />
+      <workItem from="1559339519022" duration="17782000" />
+      <workItem from="1559365785620" duration="15560000" />
+      <workItem from="1559456712118" duration="9463000" />
+      <workItem from="1559480276347" duration="1734000" />
+      <workItem from="1559495104216" duration="7458000" />
+      <workItem from="1559504990391" duration="13431000" />
+      <workItem from="1559548340968" duration="3114000" />
+      <workItem from="1559554380236" duration="1803000" />
+      <workItem from="1559567494429" duration="5935000" />
+      <workItem from="1559580666002" duration="3399000" />
+      <workItem from="1559612634139" duration="45000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="549514000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1633" height="1053" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16405761" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.30985916" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16405761" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/物体拖拽.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/物体拖拽.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/童装店/logo/pnnlogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/童装店/童装店logo.png" />
+    <entry file="file://$PROJECT_DIR$/img/童装店/产品图/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/童装店/轮播图/4.gif" />
+    <entry file="file://$PROJECT_DIR$/img/童装店/轮播图/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/童装店/轮播图/8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/童装店/轮播图/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/童装店/轮播图/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/童装店/轮播图/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/童装店/轮播图/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/童装店/轮播图/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/事件.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4096">
+          <caret line="137" column="27" lean-forward="true" selection-start-line="137" selection-start-column="27" selection-end-line="137" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/节点操作.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="113" column="29" lean-forward="true" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/节点操作.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/轮播图.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/轮播图.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="90" column="1" lean-forward="true" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/aircraftWars/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/轮播图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/aircraftWars/bullet.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/aircraftWars/enemy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/碰撞检测（矩形）(未完成).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/碰撞检测（矩形）.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/物体拖拽.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/baseCode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="76" column="7" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/myjsclass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/aircraftWars/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/aircraftWars/boom.jpg" />
+    <entry file="file://$PROJECT_DIR$/js/碰撞检测/碰撞检测（矩形）.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/碰撞检测/碰撞检测（圆形）.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/飞机大战.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/jquery-3.4.1.min.js" />
+    <entry file="file://$PROJECT_DIR$/js/jQuery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/表单.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baseCode.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/表格标签.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/表格标签.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/表格与简单过滤器.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/表格与简单过滤器.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/表格与简单过滤器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1353">
+          <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/飞翔的div.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/飞机大战.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="72" column="10" lean-forward="true" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/飞机大战.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8824#8828#0" expanded="true" />
+            <element signature="e#8912#8916#0" expanded="true" />
+            <element signature="e#10251#10257#0" expanded="true" />
+            <element signature="e#10257#10263#0" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#strong#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#strong#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#14163#14257#0" expanded="true" />
+            <element signature="e#14284#14308#0" expanded="true" />
+            <element signature="e#14460#14554#0" expanded="true" />
+            <element signature="e#14573#14597#0" expanded="true" />
+            <element signature="e#14712#14806#0" expanded="true" />
+            <element signature="e#14825#14849#0" expanded="true" />
+            <element signature="e#14960#15054#0" expanded="true" />
+            <element signature="e#15073#15097#0" expanded="true" />
+            <element signature="e#15212#15306#0" expanded="true" />
+            <element signature="e#15325#15349#0" expanded="true" />
+            <element signature="e#15460#15554#0" expanded="true" />
+            <element signature="e#15573#15597#0" expanded="true" />
+            <element signature="e#15766#15860#0" expanded="true" />
+            <element signature="e#15879#15903#0" expanded="true" />
+            <element signature="e#16073#16167#0" expanded="true" />
+            <element signature="e#16186#16210#0" expanded="true" />
+            <element signature="e#16385#16479#0" expanded="true" />
+            <element signature="e#16498#16522#0" expanded="true" />
+            <element signature="e#16652#16746#0" expanded="true" />
+            <element signature="e#16765#16789#0" expanded="true" />
+            <element signature="e#16976#17070#0" expanded="true" />
+            <element signature="e#17089#17113#0" expanded="true" />
+            <element signature="e#17243#17337#0" expanded="true" />
+            <element signature="e#17356#17380#0" expanded="true" />
+            <element signature="e#17567#17661#0" expanded="true" />
+            <element signature="e#17680#17704#0" expanded="true" />
+            <element signature="e#17845#17939#0" expanded="true" />
+            <element signature="e#17958#17982#0" expanded="true" />
+            <element signature="e#18145#18239#0" expanded="true" />
+            <element signature="e#18258#18282#0" expanded="true" />
+            <element signature="e#18436#18530#0" expanded="true" />
+            <element signature="e#18557#18581#0" expanded="true" />
+            <element signature="e#18836#18930#0" expanded="true" />
+            <element signature="e#18949#18973#0" expanded="true" />
+            <element signature="e#19127#19221#0" expanded="true" />
+            <element signature="e#19240#19264#0" expanded="true" />
+            <element signature="e#19427#19521#0" expanded="true" />
+            <element signature="e#19540#19564#0" expanded="true" />
+            <element signature="e#19717#19811#0" expanded="true" />
+            <element signature="e#19830#19854#0" expanded="true" />
+            <element signature="e#20019#20113#0" expanded="true" />
+            <element signature="e#20132#20156#0" expanded="true" />
+            <element signature="e#20285#20379#0" expanded="true" />
+            <element signature="e#20398#20422#0" expanded="true" />
+            <element signature="e#20587#20681#0" expanded="true" />
+            <element signature="e#20700#20724#0" expanded="true" />
+            <element signature="e#20865#20959#0" expanded="true" />
+            <element signature="e#20978#21002#0" expanded="true" />
+            <element signature="e#21237#21331#0" expanded="true" />
+            <element signature="e#21358#21382#0" expanded="true" />
+            <element signature="e#21457#21462#0" expanded="true" />
+            <element signature="e#21593#21687#0" expanded="true" />
+            <element signature="e#21706#21730#0" expanded="true" />
+            <element signature="e#21887#21981#0" expanded="true" />
+            <element signature="e#22000#22024#0" expanded="true" />
+            <element signature="e#22141#22235#0" expanded="true" />
+            <element signature="e#22262#22286#0" expanded="true" />
+            <element signature="e#22518#22612#0" expanded="true" />
+            <element signature="e#22631#22655#0" expanded="true" />
+            <element signature="e#22832#22926#0" expanded="true" />
+            <element signature="e#22945#22969#0" expanded="true" />
+            <element signature="e#23134#23228#0" expanded="true" />
+            <element signature="e#23247#23271#0" expanded="true" />
+            <element signature="e#23401#23495#0" expanded="true" />
+            <element signature="e#23514#23538#0" expanded="true" />
+            <element signature="e#23703#23797#0" expanded="true" />
+            <element signature="e#23816#23840#0" expanded="true" />
+            <element signature="e#23970#24064#0" expanded="true" />
+            <element signature="e#24083#24107#0" expanded="true" />
+            <element signature="e#24272#24366#0" expanded="true" />
+            <element signature="e#24385#24409#0" expanded="true" />
+            <element signature="e#24539#24633#0" expanded="true" />
+            <element signature="e#24652#24676#0" expanded="true" />
+            <element signature="e#24863#24957#0" expanded="true" />
+            <element signature="e#24976#25000#0" expanded="true" />
+            <element signature="e#25114#25208#0" expanded="true" />
+            <element signature="e#25227#25251#0" expanded="true" />
+            <element signature="e#25439#25533#0" expanded="true" />
+            <element signature="e#25552#25576#0" expanded="true" />
+            <element signature="e#25690#25784#0" expanded="true" />
+            <element signature="e#25803#25827#0" expanded="true" />
+            <element signature="e#26015#26109#0" expanded="true" />
+            <element signature="e#26128#26152#0" expanded="true" />
+            <element signature="e#26281#26375#0" expanded="true" />
+            <element signature="e#26394#26418#0" expanded="true" />
+            <element signature="e#26577#26671#0" expanded="true" />
+            <element signature="e#26698#26722#0" expanded="true" />
+            <element signature="e#26797#26802#0" expanded="true" />
+            <element signature="e#26935#27029#0" expanded="true" />
+            <element signature="e#27056#27080#0" expanded="true" />
+            <element signature="e#27312#27406#0" expanded="true" />
+            <element signature="e#27425#27449#0" expanded="true" />
+            <element signature="e#27603#27697#0" expanded="true" />
+            <element signature="e#27716#27740#0" expanded="true" />
+            <element signature="e#27927#28021#0" expanded="true" />
+            <element signature="e#28040#28064#0" expanded="true" />
+            <element signature="e#28218#28312#0" expanded="true" />
+            <element signature="e#28331#28355#0" expanded="true" />
+            <element signature="e#28494#28588#0" expanded="true" />
+            <element signature="e#28607#28631#0" expanded="true" />
+            <element signature="e#28760#28854#0" expanded="true" />
+            <element signature="e#28873#28897#0" expanded="true" />
+            <element signature="e#29108#29202#0" expanded="true" />
+            <element signature="e#29221#29245#0" expanded="true" />
+            <element signature="e#29354#29448#0" expanded="true" />
+            <element signature="e#29467#29491#0" expanded="true" />
+            <element signature="e#29690#29784#0" expanded="true" />
+            <element signature="e#29803#29827#0" expanded="true" />
+            <element signature="e#29936#30030#0" expanded="true" />
+            <element signature="e#30049#30073#0" expanded="true" />
+            <element signature="e#30234#30328#0" expanded="true" />
+            <element signature="e#30347#30371#0" expanded="true" />
+            <element signature="e#30480#30574#0" expanded="true" />
+            <element signature="e#30601#30625#0" expanded="true" />
+            <element signature="e#30737#30742#0" expanded="true" />
+            <element signature="e#30898#30992#0" expanded="true" />
+            <element signature="e#31011#31035#0" expanded="true" />
+            <element signature="e#31199#31293#0" expanded="true" />
+            <element signature="e#31312#31336#0" expanded="true" />
+            <element signature="e#31500#31594#0" expanded="true" />
+            <element signature="e#31613#31637#0" expanded="true" />
+            <element signature="e#31801#31895#0" expanded="true" />
+            <element signature="e#31914#31938#0" expanded="true" />
+            <element signature="e#32102#32196#0" expanded="true" />
+            <element signature="e#32215#32239#0" expanded="true" />
+            <element signature="e#32403#32497#0" expanded="true" />
+            <element signature="e#32516#32540#0" expanded="true" />
+            <element signature="e#32751#32845#0" expanded="true" />
+            <element signature="e#32872#32896#0" expanded="true" />
+            <element signature="e#33067#33161#0" expanded="true" />
+            <element signature="e#33180#33204#0" expanded="true" />
+            <element signature="e#33343#33437#0" expanded="true" />
+            <element signature="e#33456#33480#0" expanded="true" />
+            <element signature="e#33607#33701#0" expanded="true" />
+            <element signature="e#33720#33744#0" expanded="true" />
+            <element signature="e#33896#33990#0" expanded="true" />
+            <element signature="e#34009#34033#0" expanded="true" />
+            <element signature="e#34160#34254#0" expanded="true" />
+            <element signature="e#34273#34297#0" expanded="true" />
+            <element signature="e#34449#34543#0" expanded="true" />
+            <element signature="e#34562#34586#0" expanded="true" />
+            <element signature="e#34760#34854#0" expanded="true" />
+            <element signature="e#34873#34897#0" expanded="true" />
+            <element signature="e#35048#35142#0" expanded="true" />
+            <element signature="e#35161#35185#0" expanded="true" />
+            <element signature="e#35311#35405#0" expanded="true" />
+            <element signature="e#35424#35448#0" expanded="true" />
+            <element signature="e#35605#35699#0" expanded="true" />
+            <element signature="e#35718#35742#0" expanded="true" />
+            <element signature="e#35893#35987#0" expanded="true" />
+            <element signature="e#36014#36038#0" expanded="true" />
+            <element signature="e#36258#36352#0" expanded="true" />
+            <element signature="e#36371#36395#0" expanded="true" />
+            <element signature="e#36546#36640#0" expanded="true" />
+            <element signature="e#36659#36683#0" expanded="true" />
+            <element signature="e#36859#36953#0" expanded="true" />
+            <element signature="e#36972#36996#0" expanded="true" />
+            <element signature="e#37146#37240#0" expanded="true" />
+            <element signature="e#37259#37283#0" expanded="true" />
+            <element signature="e#37459#37553#0" expanded="true" />
+            <element signature="e#37572#37596#0" expanded="true" />
+            <element signature="e#37746#37840#0" expanded="true" />
+            <element signature="e#37859#37883#0" expanded="true" />
+            <element signature="e#38035#38129#0" expanded="true" />
+            <element signature="e#38148#38172#0" expanded="true" />
+            <element signature="e#38323#38417#0" expanded="true" />
+            <element signature="e#38436#38460#0" expanded="true" />
+            <element signature="e#38612#38706#0" expanded="true" />
+            <element signature="e#38725#38749#0" expanded="true" />
+            <element signature="e#38900#38994#0" expanded="true" />
+            <element signature="e#39013#39037#0" expanded="true" />
+            <element signature="e#39178#39272#0" expanded="true" />
+            <element signature="e#39291#39315#0" expanded="true" />
+            <element signature="e#39455#39549#0" expanded="true" />
+            <element signature="e#39568#39592#0" expanded="true" />
+            <element signature="e#39733#39827#0" expanded="true" />
+            <element signature="e#39846#39870#0" expanded="true" />
+            <element signature="e#40010#40104#0" expanded="true" />
+            <element signature="e#40123#40147#0" expanded="true" />
+            <element signature="e#40286#40380#0" expanded="true" />
+            <element signature="e#40407#40431#0" expanded="true" />
+            <element signature="e#40590#40684#0" expanded="true" />
+            <element signature="e#40703#40727#0" expanded="true" />
+            <element signature="e#40890#40984#0" expanded="true" />
+            <element signature="e#41003#41027#0" expanded="true" />
+            <element signature="e#41177#41271#0" expanded="true" />
+            <element signature="e#41298#41322#0" expanded="true" />
+            <element signature="e#41530#41624#0" expanded="true" />
+            <element signature="e#41643#41667#0" expanded="true" />
+            <element signature="e#41754#41848#0" expanded="true" />
+            <element signature="e#41867#41891#0" expanded="true" />
+            <element signature="e#42126#42220#0" expanded="true" />
+            <element signature="e#42239#42263#0" expanded="true" />
+            <element signature="e#42350#42444#0" expanded="true" />
+            <element signature="e#42463#42487#0" expanded="true" />
+            <element signature="e#42722#42816#0" expanded="true" />
+            <element signature="e#42835#42859#0" expanded="true" />
+            <element signature="e#42946#43040#0" expanded="true" />
+            <element signature="e#43059#43083#0" expanded="true" />
+            <element signature="e#43318#43412#0" expanded="true" />
+            <element signature="e#43431#43455#0" expanded="true" />
+            <element signature="e#43592#43686#0" expanded="true" />
+            <element signature="e#43705#43729#0" expanded="true" />
+            <element signature="e#43973#44067#0" expanded="true" />
+            <element signature="e#44086#44110#0" expanded="true" />
+            <element signature="e#44248#44342#0" expanded="true" />
+            <element signature="e#44361#44385#0" expanded="true" />
+            <element signature="e#44629#44723#0" expanded="true" />
+            <element signature="e#44742#44766#0" expanded="true" />
+            <element signature="e#44904#44998#0" expanded="true" />
+            <element signature="e#45017#45041#0" expanded="true" />
+            <element signature="e#45285#45379#0" expanded="true" />
+            <element signature="e#45398#45422#0" expanded="true" />
+            <element signature="e#45529#45623#0" expanded="true" />
+            <element signature="e#45642#45666#0" expanded="true" />
+            <element signature="e#45831#45925#0" expanded="true" />
+            <element signature="e#45944#45968#0" expanded="true" />
+            <element signature="e#46075#46169#0" expanded="true" />
+            <element signature="e#46188#46212#0" expanded="true" />
+            <element signature="e#46377#46471#0" expanded="true" />
+            <element signature="e#46490#46514#0" expanded="true" />
+            <element signature="e#46652#46746#0" expanded="true" />
+            <element signature="e#46773#46797#0" expanded="true" />
+            <element signature="e#46969#47063#0" expanded="true" />
+            <element signature="e#47090#47114#0" expanded="true" />
+            <element signature="e#47248#47342#0" expanded="true" />
+            <element signature="e#47361#47385#0" expanded="true" />
+            <element signature="e#47550#47644#0" expanded="true" />
+            <element signature="e#47663#47687#0" expanded="true" />
+            <element signature="e#47814#47908#0" expanded="true" />
+            <element signature="e#47927#47951#0" expanded="true" />
+            <element signature="e#48116#48210#0" expanded="true" />
+            <element signature="e#48229#48253#0" expanded="true" />
+            <element signature="e#48380#48474#0" expanded="true" />
+            <element signature="e#48493#48517#0" expanded="true" />
+            <element signature="e#48667#48761#0" expanded="true" />
+            <element signature="e#48780#48804#0" expanded="true" />
+            <element signature="e#48911#49005#0" expanded="true" />
+            <element signature="e#49024#49048#0" expanded="true" />
+            <element signature="e#49198#49292#0" expanded="true" />
+            <element signature="e#49311#49335#0" expanded="true" />
+            <element signature="e#49463#49557#0" expanded="true" />
+            <element signature="e#49576#49600#0" expanded="true" />
+            <element signature="e#49750#49844#0" expanded="true" />
+            <element signature="e#49863#49887#0" expanded="true" />
+            <element signature="e#50015#50109#0" expanded="true" />
+            <element signature="e#50128#50152#0" expanded="true" />
+            <element signature="e#50360#50454#0" expanded="true" />
+            <element signature="e#50473#50497#0" expanded="true" />
+            <element signature="e#50623#50717#0" expanded="true" />
+            <element signature="e#50736#50760#0" expanded="true" />
+            <element signature="e#50905#50999#0" expanded="true" />
+            <element signature="e#51018#51042#0" expanded="true" />
+            <element signature="e#51168#51262#0" expanded="true" />
+            <element signature="e#51281#51305#0" expanded="true" />
+            <element signature="e#51450#51544#0" expanded="true" />
+            <element signature="e#51563#51587#0" expanded="true" />
+            <element signature="e#51713#51807#0" expanded="true" />
+            <element signature="e#51834#51858#0" expanded="true" />
+            <element signature="e#51946#51951#0" expanded="true" />
+            <element signature="e#52119#52213#0" expanded="true" />
+            <element signature="e#52240#52264#0" expanded="true" />
+            <element signature="e#52315#52320#0" expanded="true" />
+            <element signature="e#52427#52521#0" expanded="true" />
+            <element signature="e#52540#52564#0" expanded="true" />
+            <element signature="e#52712#52806#0" expanded="true" />
+            <element signature="e#52825#52849#0" expanded="true" />
+            <element signature="e#52965#53059#0" expanded="true" />
+            <element signature="e#53078#53102#0" expanded="true" />
+            <element signature="e#53250#53344#0" expanded="true" />
+            <element signature="e#53363#53387#0" expanded="true" />
+            <element signature="e#53503#53597#0" expanded="true" />
+            <element signature="e#53616#53640#0" expanded="true" />
+            <element signature="e#53788#53882#0" expanded="true" />
+            <element signature="e#53901#53925#0" expanded="true" />
+            <element signature="e#54051#54145#0" expanded="true" />
+            <element signature="e#54164#54188#0" expanded="true" />
+            <element signature="e#54365#54459#0" expanded="true" />
+            <element signature="e#54478#54502#0" expanded="true" />
+            <element signature="e#54628#54722#0" expanded="true" />
+            <element signature="e#54741#54765#0" expanded="true" />
+            <element signature="e#54942#55036#0" expanded="true" />
+            <element signature="e#55055#55079#0" expanded="true" />
+            <element signature="e#55207#55301#0" expanded="true" />
+            <element signature="e#55320#55344#0" expanded="true" />
+            <element signature="e#55521#55615#0" expanded="true" />
+            <element signature="e#55634#55658#0" expanded="true" />
+            <element signature="e#55786#55880#0" expanded="true" />
+            <element signature="e#55899#55923#0" expanded="true" />
+            <element signature="e#56088#56182#0" expanded="true" />
+            <element signature="e#56201#56225#0" expanded="true" />
+            <element signature="e#56353#56447#0" expanded="true" />
+            <element signature="e#56466#56490#0" expanded="true" />
+            <element signature="e#56655#56749#0" expanded="true" />
+            <element signature="e#56768#56792#0" expanded="true" />
+            <element signature="e#56895#56989#0" expanded="true" />
+            <element signature="e#57016#57040#0" expanded="true" />
+            <element signature="e#57212#57306#0" expanded="true" />
+            <element signature="e#57325#57349#0" expanded="true" />
+            <element signature="e#57452#57546#0" expanded="true" />
+            <element signature="e#57565#57589#0" expanded="true" />
+            <element signature="e#57730#57824#0" expanded="true" />
+            <element signature="e#57851#57875#0" expanded="true" />
+            <element signature="e#57926#57931#0" expanded="true" />
+            <element signature="e#58062#58156#0" expanded="true" />
+            <element signature="e#58175#58199#0" expanded="true" />
+            <element signature="e#58340#58434#0" expanded="true" />
+            <element signature="e#58453#58477#0" expanded="true" />
+            <element signature="e#58555#58649#0" expanded="true" />
+            <element signature="e#58668#58692#0" expanded="true" />
+            <element signature="e#58833#58927#0" expanded="true" />
+            <element signature="e#58946#58970#0" expanded="true" />
+            <element signature="e#59048#59142#0" expanded="true" />
+            <element signature="e#59161#59185#0" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="124" column="26" lean-forward="true" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/彭奶奶的童话世界.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryBaseCode.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jQueryBaseCode.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jQueryBaseCode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7648">
+          <caret line="239" column="93" selection-start-line="239" selection-start-column="93" selection-end-line="239" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

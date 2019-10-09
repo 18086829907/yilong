@@ -1,0 +1,128 @@
+p {
+	color: deeppink; /*单词颜色*/
+	color: #00FFBB; /*16进制颜色*/
+	color: rgb(245,234,32); /*rgb颜色*/
+	background-color: mediumslateblue;
+	width: 200px;
+	height: 2em;
+	}
+
+/*id选择器*/
+#p1{
+	background-color: cornflowerblue;
+}
+
+/*class选择器*/
+.s1{
+	background-color: burlywood;
+}
+
+/*class选择器*/
+.s2{
+	background-color: forestgreen;
+}
+
+/*交集选择器1*/
+h1.center{
+	display: inline-block;
+	background-color: deeppink;
+	width: 200px;
+	font-size: 20px;
+}
+
+/*交集选择器2*/
+.p1#pp1{
+	background-color: greenyellow;
+}
+
+/*交集选择器3*/
+.p2.pp2{
+	background-color: aliceblue;
+}
+
+/*并集选择器1*/
+h2,strong{
+	background-color: azure;
+}
+
+/*并集选择器2*/
+#h3,h4{
+	background-color: antiquewhite;
+}
+
+/*后代选择器*/
+#id2 p{
+	background-color: gainsboro;
+}
+
+/*子代选择器*/
+#id3>p{
+	background-color: midnightblue;
+}
+
+
+/*伪类选择器*/
+a:link{
+	/*初始状态*/
+	background-color: deeppink;
+}
+
+a:visited{
+	/*正常显示*/
+	background-color: cyan;
+}
+
+a:hover{
+	/*鼠标悬停*/
+	background-color: darkblue;
+}
+
+a:active{
+	/*鼠标按下*/
+	background-color: lightslategray;
+}
+
+/*选择器权重*/
+h5{
+	height: 20px;
+	background-color: brown;
+	border: solid black 5px; /*设置边框*/
+}
+
+#box{
+	height: 20px;
+	background-color: greenyellow;
+}
+
+.cb{
+	height: 20px;
+	background-color: yellow;
+}
+
+#div1{
+	position: fixed; /*相对relative和绝对absolute和固定fixed位置属性*/
+	opacity: 0.5; /*透明度*/
+	margin: 0; /*盒模型外边距*/
+	padding: 0; /*盒模型内边距*/
+	border: 0; /*盒模型边内距*/
+	width: 0; /*内容的宽度*/
+	height: 0; /*内容的高度*/
+	border-radius: 50%; /*边角弧度*/
+	background-color: #ff8400; /*背景颜色*/
+	background-size: 50px 50px; /*背景宽高*/
+	background-image: url("../img/香山红叶.jpg"); /*背景图片，@/../img*/
+	background-repeat: no-repeat; /*背景图片是否平铺*/
+	font-style: inherit; /*文本粗细*/
+	text-align: center; /*文本居中*/
+	font-size: larger; /*字体大小 默认16px*/
+	font-family: "微软雅黑"; /*字体*/
+	font-weight: normal; /*文本粗细*/
+	text-decoration: none; /*a标签去掉装饰线*/
+	text-indent: 20px; /*缩进*/
+	float: left; /*左浮动*/
+	left: 100px; /*左端距离*/
+	top: 100px; /*顶端距离*/
+	right: 100px; /*右端距离*/
+	bottom: 100px; /*下端距离*/
+	list-style: none;
+}

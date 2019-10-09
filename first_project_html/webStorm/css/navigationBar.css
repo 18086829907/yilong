@@ -1,0 +1,17 @@
+li	{
+    display: inline-block; /*设置样式为行内块级标签*/
+    width: 150px; /*宽度*/
+    height: 30px; /*高度*/
+    background-color: deepskyblue; /*背景颜色*/
+    font-size: 15px; /*字体大小*/
+    text-align: center; /*对齐方式*/
+    line-height: 30px; /*等于li的高度即height的值，可以让字体垂直居中*/
+}
+a	{
+    color: #fff; /*颜色*/
+    text-decoration: none; /*取线*/
+}
+ul	{
+    background-color: deepskyblue; /*背景颜色*/
+    text-align: center; /*对齐方式*/
+}

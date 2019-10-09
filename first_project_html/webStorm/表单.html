@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+    <form action="#">
+        <!-- 文本框控件 -->
+        <input type="text" value="" placeholder="请输入用户名：">
+        <br>
+
+        <!-- 密码框控件 -->
+        <input type="password" placeholder="请输入密码：">
+        <br>
+
+        <!-- 提交与重置 -->
+        <input type="submit" value="提交">
+        <input type="reset" value="重置">
+        <br>
+
+        <!-- 单选框控件 -->
+        <input type="radio" name="num" value="1">1
+        <br>
+        <input type="radio" name="num" value="2">2
+        <br>
+
+        <!-- 按钮控件 -->
+        <input type="button" value="按钮">
+        <br>
+
+        <!-- 多选框控件 -->
+        A<input type="checkbox" name="A" value="" disabled>
+        B<input type="checkbox" name="B" value="" checked="checked">
+        C<input type="checkbox" name="C">
+        <br>
+
+        <!-- 下拉菜单控件 -->
+        <select name="place">
+            <option>成都</option>
+            <option>重庆</option>
+            <option>北京</option>
+        </select>
+        <br>
+
+        <!-- 多行文本控件 -->
+        <textarea name="多行文本框" cols="50" rows="10">多行文本框</textarea>
+
+        <!--上传文件筐 -->
+        <input type="file" name="uploadFiles" multiple="multiple">
+
+        <!-- 图像控件 -->
+        <input type="image" width="100" height="100" border="2" src="img/timg.jpg">
+
+        <!-- 提示控件 -->
+        <label for="entry">姓名：</label>
+        <input id="entry" type="text" value="" placeholder="请输入用户名：">
+
+        <!-- 日历控件 -->
+        <input type="date">
+
+        <!-- 颜色控件 -->
+        <input type="color">
+
+        <!-- 时间验证控件 -->
+        <input type="datetime">
+
+        <!-- 邮箱验证控件 -->
+        <input type="email">
+    </form>
+</body>
+</html>

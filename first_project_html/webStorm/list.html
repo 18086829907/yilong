@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>列表</title>
+    <style>
+        #box{
+            height: 500px;
+            background-image:url("img/rotationChart/1.jpg");
+            background-repeat: no-repeat; /*不平铺*/
+            background-position: center; /*图片起始位置*/
+            /*display: none; !*隐藏标签，不占位*!*/
+            /*visibility: hidden; !*隐藏标签，占位*!*/
+
+        }
+
+        li{
+            list-style: none url("img/list-style/1.jpg") inside; /*去点 图片作为项首符 */
+        }
+
+        #radius{
+            width: 100px;
+            height: 100px;
+            border-radius: 50px; /*去角*/
+            background: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <ol>
+        <li>语言1</li>
+        <li>语言2</li>
+        <li>语言3</li>
+        <li>语言4</li>
+        <li>语言5</li>
+        <li>语言6</li>
+    </ol>
+
+    <div id="radius"></div>
+</body>
+</html>

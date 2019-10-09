@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#box{
+    width: 1400px;
+    margin: 0 auto; /*居中对齐*/
+}
+
+#logo{
+    height: 100px;
+    background-color: greenyellow;
+}
+
+#navigation{
+    height: 26px;
+    background-color: slateblue;
+}
+
+
+#main{
+    height: 600px;
+}
+
+#leftMain{
+    display: inline-block;
+    width: 700px;
+    height: 600px;
+    background-color: cyan;
+}
+
+#rightMain{
+    display: inline-block;
+    width: 700px;
+    height: 600px; /*因为两个行内块级标签有框宽度，总宽度超过了1400，所以自动换行了*/
+    float: right; /*解决以上问题，需要设置float或两个行内块级标签宽度减少*/
+    background-color: blueviolet;
+}
+
+#footer{
+    height: 47px;
+    background-color: darkred;
+}

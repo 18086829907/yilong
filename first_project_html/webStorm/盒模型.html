@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒模型</title>
+    <style>
+        #box1{
+            width: 100px;
+            height: 100px;
+            background-color: darkorange;
+            text-align: center;
+            line-height: 100px;
+            padding: 50px;
+            margin: 50px;
+            border: solid deepskyblue 5px;
+            overflow: auto;
+        }
+        #box2{
+            width: 100px;
+            height: 100px;
+            background-color: mediumvioletred;
+            text-align: center;
+            line-height: 100px;
+            padding: 50px;
+            margin: 50px;
+            border: solid greenyellow 10px;
+            border-top: solid 10px yellow;
+            border-bottom: dashed 10px lime;
+            border-left: dotted 10px #00FFBB;
+            border-right: double 10px black;
+        }
+
+        #box3{
+            display: inline-block;
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: deepskyblue;
+            margin-right: 50px;
+        }
+
+        #box4{
+            display: inline-block;
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: mediumvioletred;
+            margin-left: 50px;
+        }
+
+        p{
+            font-size: 20px;
+            width: 100px;
+            height: 25px;
+            background-color: dodgerblue;
+            line-height: 25px;
+            text-overflow:ellipsis;
+            overflow:hidden;
+            white-space: nowrap;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box1">
+        box1 box1 box1
+    </div>
+    <div id="box2">
+        box2
+    </div>
+
+    <p>
+        我曾经有一个梦想，要做一名科幻小说家，现在中国已经慢慢崛起，很多中国人非常向往科技，向往未来ai时代的来临。
+    </p>
+
+    <div id="box3">左右盒子1</div>
+    <div id="box4">左右盒子2</div>
+
+
+</body>
+</html>

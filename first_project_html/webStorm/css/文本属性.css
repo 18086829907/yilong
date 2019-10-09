@@ -1,0 +1,15 @@
+p{
+    font-size: 30px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    font-style: italic;
+    color: darkgray;
+    line-height: 120px;
+    background-color: yellow;
+    height: 120px;
+    border-radius: 50px;
+    text-decoration: line-through;
+    letter-spacing: 6px;
+    text-indent: 10px;
+    text-shadow: 1px 1px darkgray;
+}

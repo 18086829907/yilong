@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+    <link rel="stylesheet" href="css/节点操作.css">
+</head>
+<body>
+    <!--  id获取节点  -->
+    <div id="div1"></div>
+
+    <!--  class获取节点  -->
+    <div class="div2"></div>
+    <div class="div2"></div>
+    <div class="div2"></div>
+    <div class="div2"></div>
+
+    <!--  name获取节点  -->
+    <input type="text" name="inputText">
+    <input type="text" name="inputText">
+    <input type="text" name="inputText">
+    <input type="text" id="in" placeholder="请留下你的大名" my="我的">
+
+    <!--  修改属性节点  -->
+    <button onclick="changeAttributeValue()">改变placeholder</button>
+
+    <!--  修改文本节点  -->
+    <div id="innerHTML">
+        我是一个盒子
+    </div>
+
+    <!--  修改行间样式  -->
+    <div id="lineStyle" style="width: 100px;height: 200px;background-color: red;"></div>
+    <button onclick="changeInnerStyle()">改变行间样式</button>
+
+    <!--  获取外部样式  -->
+    <div id="outerStyle"></div>
+    <button onclick="changeOuterStyle()">改变外部样式</button>
+
+    <!--  节点常用属性  -->
+    <input id="comAtt" type="text" name="in" placeholder="justin">
+
+    <!--  层次关系属性  -->
+    <div id="parent">
+        <div id="child1">
+            <p>我是第1个p</p>
+            <p>我是第2个p</p>
+            <p>我是第3个p</p>
+            <p>我是第4个p</p>
+        </div>
+        <div id="child2"></div>
+        <div id="child3"></div>
+        <div id="child4"></div>
+        <div id="child5"></div>
+    </div>
+
+    <!--  动态操作DomNode  -->
+    <div id="dynamic">
+        <p id="p1">段落1</p>
+        <p id="p2">段落2</p>
+    </div>
+
+    <!--  导入script  -->
+    <script src="js/节点操作.js"></script>
+</body>
+</html>

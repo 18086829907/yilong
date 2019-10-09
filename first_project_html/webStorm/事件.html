@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件</title>
+    <link rel="stylesheet" href="css/事件.css">
+</head>
+<body>
+    <!--  事件添加  -->
+    <div id="box1" onclick="alert('触发事件1')"></div>
+    <div id="box2" onclick="func2()"></div>
+    <div id="box3" onclick="func3(this)"></div>
+    <div id="box4"></div>
+    <div id="box5"></div>
+
+    <!--  聚焦与离焦事件  -->
+    <input id="target1" type="text" placeholder="这是一个输入框">
+
+    <!--  单击与双击  -->
+    <div id="target2"></div>
+
+    <!--  鼠标事件  -->
+    <ul>
+        <li id="target3">鼠标进入变色</li>
+        <li id="target4">鼠标离开变色</li>
+        <li id="target5">鼠标按下字体大两倍</li>
+        <li id="target6">鼠标抬起字体小两倍</li>
+        <li id="target7">鼠标移动触发事件</li>
+    </ul>
+
+    <!--  键盘事件  -->
+    <!--  document.addEventListener('keydown', function(e){e.key}, false)  -->
+
+    <!--  事件流验证  -->
+    <div id="target8">
+        <div id="target9">
+            <div id="target10"></div>
+        </div>
+    </div>
+
+    <!--  事件流阻止  -->
+    <div id="target11">点我不变背景颜色<br>我不冒泡</div>
+    <input type="text" id="target12" placeholder="背景设置了函数，点我要冒泡">
+    <a href="彭奶奶的童话世界.html" id="target13">点我跳转</a>
+
+
+
+
+    <script src="js/事件.js"></script>
+</body>
+</html>

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!--  手机端布局 不可缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>国琼大药房</title>
+    <!--  导入bootstrap css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--  导入自定义css  -->
+    <link rel="stylesheet" href="css/国琼大药房.css">
+    <!--  导入jquery  -->
+    <script src="js/jQuery.js"></script>
+    <!--  导入bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!--  导入自定义js  -->
+    <script src="js/国琼大药房.js"></script>
+</head>
+<body>
+
+    <!--导航栏-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- 设置logo -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-plus-sign"></span> 国琼大药房后台管理</a>
+            </div>
+
+            <!-- 导航栏其他功能 -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <!-- 快速导航 -->
+<!--                <ul class="nav navbar-nav">-->
+<!--                    <li class="active"><a href="#">首页</a></li>-->
+<!--                    <li><a href="#">帮助</a></li>-->
+<!--                    <li class="dropdown">-->
+<!--                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">功能<span class="caret"></span></a>-->
+<!--                        <ul class="dropdown-menu">-->
+<!--                            <li><a href="#">订单管理</a></li>-->
+<!--                            <li><a href="#">资源管理</a></li>-->
+<!--                            <li><a href="#">人员管理</a></li>-->
+<!--                            <li><a href="#">员工投诉</a></li>-->
+<!--                            <li role="separator" class="divider"></li>-->
+<!--                            <li><a href="#">退出</a></li>-->
+<!--                        </ul>-->
+<!--                    </li>-->
+<!--                </ul>-->
+
+                <!-- 登录表单 -->
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="用户名">
+                        <input type="text" class="form-control" placeholder="密码">
+                    </div>
+                    <button type="button" class="btn btn-default">登录</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+
+    <!--main-->
+    <div id="main" class="row">
+
+        <!-- 副导航栏 -->
+        <div id="left" class="btn-group-vertical col-xs-12 col-sm-1">
+            <!-- 基本信息 -->
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span  class="glyphicon glyphicon-folder-open"></span>
+                    基本信息
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a id="leftNavLabel1" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 常用菜单</a></li>
+                    <li><a id="leftNavLabel2" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 商品字典</a></li>
+                    <li><a id="leftNavLabel3" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 首营品种审核</a></li>
+                    <li><a id="leftNavLabel4" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 首营企业审核</a></li>
+                    <li><a id="leftNavLabel5" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 打印价格标签</a></li>
+                    <li><a id="leftNavLabel6" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 拆零库存价格标签</a></li>
+                    <li><a id="leftNavLabel7" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 电子监管码匹配</a></li>
+                    <li><a id="leftNavLabel8" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 品种锁定与解锁</a></li>
+
+                    <!--  下拉嵌套下拉  -->
+                    <li><a id="menu1" class="dropdown-menu2" href="#"><span class="glyphicon glyphicon-list"></span> 会员管理 <span class="caret"></span>
+                        <ul id='menu1-ul' class="dropdown-menu2-info">
+                            <li><a id="leftNavLabel9" class="leftNavLabel" href="#">会员资料</a></li>
+                            <li><a id="leftNavLabel10" class="leftNavLabel" href="#">会员充值</a></li>
+                            <li><a id="leftNavLabel11" class="leftNavLabel" href="#">奖励兑换</a></li>
+                        </ul>
+                    </a></li>
+
+                    <!--  下拉嵌套下拉  -->
+                    <li><a id="menu2" class="dropdown-menu2" href="#"><span class="glyphicon glyphicon-list"></span> 批量修改 <span class="caret"></span>
+                        <ul id="menu2-ul" class="dropdown-menu2-info">
+                            <li><a id="leftNavLabel12" class="leftNavLabel" href="#">批量修改积分倍数</a></li>
+                            <li><a id="leftNavLabel13" class="leftNavLabel" href="#">批量设置商品种类</a></li>
+                            <li><a id="leftNavLabel14" class="leftNavLabel" href="#">批量设置特价</a></li>
+                        </ul>
+                    </a></li>
+                </ul>
+            </div>
+
+            <!-- 采购业务 -->
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="glyphicon glyphicon-compressed"></span>
+                    采购业务
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a id="leftNavLabel15" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 采购订单</a></li>
+                    <li><a id="leftNavLabel16" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 收货单</a></li>
+                    <li><a id="leftNavLabel17" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 验收入库单</a></li>
+                    <li><a id="leftNavLabel18" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 商品入库</a></li>
+                    <li><a id="leftNavLabel19" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 采购退回单</a></li>
+                    <li><a id="leftNavLabel20" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 验收不合格单</a></li>
+                    <li><a id="leftNavLabel21" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 采购结算单</a></li>
+                    <li><a id="leftNavLabel22" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 出库结算单</a></li>
+                    <li><a id="leftNavLabel23" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 出库结算单旧版</a></li>
+                    <li><a id="leftNavLabel24" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 根据供货单位采购</a></li>
+                    <li><a id="leftNavLabel25" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 接口入库单</a></li>
+                    <li><a id="leftNavLabel26" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 其他入库单</a></li>
+                    <li><a id="leftNavLabel27" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 采购计划</a></li>
+                    <li><a id="leftNavLabel28" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 查询末次采购单价</a></li>
+                    <li><a id="leftNavLabel29" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 扫描监管码收货单</a></li>
+                </ul>
+            </div>
+
+            <!-- 销售业务 -->
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="glyphicon glyphicon-yen"></span>
+                    销售业务
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a id="leftNavLabel30" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 商品销售</a></li>
+                    <li><a id="leftNavLabel31" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 销售退回补打小票</a></li>
+                    <li><a id="leftNavLabel32" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 查销售明细交班</a></li>
+                    <li><a id="leftNavLabel33" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 收营员交班</a></li>
+                    <li><a id="leftNavLabel34" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 配伍禁忌</a></li>
+                    <li><a id="leftNavLabel35" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 打印处方签</a></li>
+                    <li><a id="leftNavLabel36" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 销售应收结算</a></li>
+                    <li><a id="leftNavLabel37" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 凭处方销售登记</a></li>
+                    <li><a id="leftNavLabel38" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 无处方销售登记</a></li>
+                    <li><a id="leftNavLabel39" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 每人限购数</a></li>
+                </ul>
+            </div>
+
+            <!-- 库存管理 -->
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="glyphicon glyphicon-oil"></span>
+                    库存管理
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a id="leftNavLabel40" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 库存盘点</a></li>
+                    <li><a id="leftNavLabel41" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 拆零库存管理</a></li>
+                    <li><a id="leftNavLabel42" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 调整价格</a></li>
+                    <li><a id="leftNavLabel43" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 有效期管理</a></li>
+                    <li><a id="leftNavLabel44" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 移货单</a></li>
+                    <li><a id="leftNavLabel45" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 每月库存报表</a></li>
+                    <li><a id="leftNavLabel46" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 陈列商品检查计划</a></li>
+                    <li><a id="leftNavLabel47" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 盘点单</a></li>
+                    <li><a id="leftNavLabel48" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 损益单</a></li>
+                    <li><a id="leftNavLabel49" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 陈列商品养护记录</a></li>
+                    <li><a id="leftNavLabel50" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 调整批号</a></li>
+                    <li><a id="leftNavLabel51" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 每月报表</a></li>
+                    <li><a id="leftNavLabel52" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 库存盘点不分价格</a></li>
+                    <li><a id="leftNavLabel53" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 库存盘点不分批号</a></li>
+                    <li><a id="leftNavLabel54" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 按利润查询库存</a></li>
+                    <li><a id="leftNavLabel55" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 修改库存下限</a></li>
+                    <li><a id="leftNavLabel56" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 智能修改下限</a></li>
+                    <li><a id="leftNavLabel57" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 移动货位旧版</a></li>
+                    <li><a id="leftNavLabel58" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 拆零库存损益记录</a></li>
+                    <li><a id="leftNavLabel59" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 历史库存</a></li>
+                    <li><a id="leftNavLabel60" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 中药饮片清斗</a></li>
+                    <li><a id="leftNavLabel61" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 中药饮片装斗</a></li>
+                    <li><a id="leftNavLabel62" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 查询损益记录</a></li>
+                </ul>
+            </div>
+
+            <!-- 质量管理 -->
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="glyphicon glyphicon-thumbs-up"></span>
+                    质量管理
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+
+                    <!--  下拉嵌套下拉  -->
+                    <li><a id="menu3" class="dropdown-menu2" href="#"><span class="glyphicon glyphicon-list"></span> 不合格记录 <span class="caret"></span>
+                        <ul id='menu3-ul' class="dropdown-menu2-info">
+                            <li><a id="leftNavLabel63" class="leftNavLabel" href="#">不合格可疑商品确认</a></li>
+                            <li><a id="leftNavLabel64" class="leftNavLabel" href="#">不合格品确认报告表</a></li>
+                            <li><a id="leftNavLabel65" class="leftNavLabel" href="#">不合格品报损审批表</a></li>
+                            <li><a id="leftNavLabel66" class="leftNavLabel" href="#">不合格品台账</a></li>
+                            <li><a id="leftNavLabel67" class="leftNavLabel" href="#">验收不合格记录</a></li>
+                            <li><a id="leftNavLabel68" class="leftNavLabel" href="#">报废商品销毁表</a></li>
+                            <li><a id="leftNavLabel69" class="leftNavLabel" href="#">配送退回不合格单</a></li>
+                        </ul>
+                    </a></li>
+
+                    <li><a id="leftNavLabel70" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 商品采购记录</a></li>
+                    <li><a id="leftNavLabel71" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 商品验收记录</a></li>
+                    <li><a id="leftNavLabel72" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 医疗器械质量验收记录</a></li>
+                    <li><a id="leftNavLabel73" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 进口商品质量验收记录</a></li>
+                    <li><a id="leftNavLabel74" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 中药饮片（中药材）质量验收台账</a></li>
+                    <li><a id="leftNavLabel75" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 可登记销售的销售记录</a></li>
+                    <li><a id="leftNavLabel76" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 麻黄碱复方制剂和专管药品销售记录</a></li>
+                    <li><a id="leftNavLabel77" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 员工档案和设备设施</a></li>
+                    <li><a id="leftNavLabel78" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 商品质量档案</a></li>
+                    <li><a id="leftNavLabel79" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 冷链商品送货记录</a></li>
+                    <li><a id="leftNavLabel80" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 按药品查询处方</a></li>
+                    <li><a id="leftNavLabel81" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 凭处方销售记录</a></li>
+                    <li><a id="leftNavLabel82" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 冷链商品及医疗器械到货记录</a></li>
+                    <li><a id="leftNavLabel83" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 收货单拒收明细记录</a></li>
+                    <li><a id="leftNavLabel84" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 查询拆零销售记录</a></li>
+                    <li><a id="leftNavLabel85" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 温湿度登记</a></li>
+                    <li><a id="leftNavLabel86" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 商品养护记录</a></li>
+                    <li><a id="leftNavLabel87" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 中药饮片装斗复核记录</a></li>
+                    <li><a id="leftNavLabel88" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 中药饮片清斗复核记录</a></li>
+                    <li><a id="leftNavLabel89" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 中药质量档案</a></li>
+                    <li><a id="leftNavLabel90" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 药师在岗考勤记录</a></li>
+                    <li><a id="leftNavLabel91" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 商品收货记录</a></li>
+                    <li><a id="leftNavLabel92" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 拆零药品养护记录</a></li>
+                    <li><a id="leftNavLabel93" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 商品销售记录</a></li>
+                    <li><a id="leftNavLabel94" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 商品停售通知单</a></li>
+                    <li><a id="leftNavLabel95" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 退供货商记录</a></li>
+                </ul>
+            </div>
+
+            <!-- 统计查询 -->
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="glyphicon glyphicon-sort-by-attributes-alt"></span>
+                    统计查询
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+
+                    <li><a id="leftNavLabel96" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 查询库存</a></li>
+                    <li><a id="leftNavLabel97" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 查询入库记录</a></li>
+                    <li><a id="leftNavLabel98" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 查询销售记录</a></li>
+                    <li><a id="leftNavLabel99" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 查询毛利润</a></li>
+                    <li><a id="leftNavLabel100" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 查询现金流水账</a></li>
+                    <li><a id="leftNavLabel101" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 查询单品进销存</a></li>
+                    <li><a id="leftNavLabel102" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 查询销售员提成</a></li>
+                    <li><a id="leftNavLabel103" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 查询每日跟进表</a></li>
+                    <li><a id="leftNavLabel104" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 查询毛利率级别统计</a></li>
+
+                    <!--  下拉嵌套下拉  -->
+                    <li><a id="menu4" class="dropdown-menu2" href="#"><span class="glyphicon glyphicon-list"></span> 销售分析 <span class="caret"></span>
+                        <ul id='menu4-ul' class="dropdown-menu2-info">
+                            <li><a id="leftNavLabel105" class="leftNavLabel" href="#">销售利润走势图</a></li>
+                            <li><a id="leftNavLabel106" class="leftNavLabel" href="#">会员销售走势图</a></li>
+                            <li><a id="leftNavLabel107" class="leftNavLabel" href="#">按商品类别销售人员统计</a></li>
+                            <li><a id="leftNavLabel108" class="leftNavLabel" href="#">预售价利润率查询</a></li>
+                            <li><a id="leftNavLabel109" class="leftNavLabel" href="#">按支付方式统计</a></li>
+                            <li><a id="leftNavLabel110" class="leftNavLabel" href="#">查询近效期任务表</a></li>
+                            <li><a id="leftNavLabel111" class="leftNavLabel" href="#">个人销售情况</a></li>
+                            <li><a id="leftNavLabel112" class="leftNavLabel" href="#">会员销售统计</a></li>
+                            <li><a id="leftNavLabel113" class="leftNavLabel" href="#">查询门店销售数量</a></li>
+                            <li><a id="leftNavLabel114" class="leftNavLabel" href="#">会员利润走势图</a></li>
+                        </ul>
+                    </a></li>
+
+                    <!--  下拉嵌套下拉  -->
+                    <li><a id="menu5" class="dropdown-menu2" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 统计分析 <span class="caret"></span>
+                        <ul id='menu5-ul' class="dropdown-menu2-info">
+                            <li><a id="leftNavLabel115" class="leftNavLabel" href="#">按销售员统计</a></li>
+                            <li><a id="leftNavLabel116" class="leftNavLabel" href="#">按时间段分析</a></li>
+                            <li><a id="leftNavLabel117" class="leftNavLabel" href="#">查询损益记录</a></li>
+                            <li><a id="leftNavLabel118" class="leftNavLabel" href="#">查询出库单明细</a></li>
+                            <li><a id="leftNavLabel119" class="leftNavLabel" href="#">查询移货单明细</a></li>
+                            <li><a id="leftNavLabel120" class="leftNavLabel" href="#">按客品数占比统计</a></li>
+                            <li><a id="leftNavLabel121" class="leftNavLabel" href="#">采购出库合并结算查询</a></li>
+                            <li><a id="leftNavLabel122" class="leftNavLabel" href="#">单品进销存按类型统计</a></li>
+                            <li><a id="leftNavLabel123" class="leftNavLabel" href="#">查询在途品种数量</a></li>
+                            <li><a id="leftNavLabel124" class="leftNavLabel" href="#">按类别占比统计</a></li>
+                        </ul>
+                    </a></li>
+                </ul>
+            </div>
+
+            <!-- 用户管理 -->
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="glyphicon glyphicon-user"></span>
+                    用户管理
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+
+                    <li><a id="leftNavLabel125" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 修改密码</a></li>
+                    <li><a id="leftNavLabel126" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 操作员权限设置</a></li>
+                    <li><a id="leftNavLabel127" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 登录退出记录</a></li>
+                    <li><a id="leftNavLabel128" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 员工考勤记录</a></li>
+
+                </ul>
+            </div>
+
+            <!-- 系统功能 -->
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="glyphicon glyphicon-cog"></span>
+                    系统功能
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+
+                    <li><a id="leftNavLabel129" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 系统设置</a></li>
+                    <li><a id="leftNavLabel130" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 打印机设置</a></li>
+                    <li><a id="leftNavLabel131" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 数据库备份</a></li>
+                    <li><a id="leftNavLabel132" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 数据库初始导入</a></li>
+                    <li><a id="leftNavLabel133" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 单体店导入连锁版</a></li>
+                    <li><a id="leftNavLabel134" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 备忘录</a></li>
+                    <li><a id="leftNavLabel135" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 通用导入Excel</a></li>
+                    <li><a id="leftNavLabel136" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 微信拍照工具</a></li>
+                    <li><a id="leftNavLabel137" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 系统操作日志</a></li>
+
+                </ul>
+            </div>
+
+            <!-- 综合查询 -->
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="glyphicon glyphicon-eye-open"></span>
+                    综合查询
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+
+                    <li><a id="leftNavLabel138" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 设置综合查询</a></li>
+                    <li><a id="leftNavLabel139" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 查询更多记录</a></li>
+                    <li><a id="leftNavLabel140" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 盘点单不分批号汇总</a></li>
+                    <li><a id="leftNavLabel141" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 损益单不分批号汇总</a></li>
+                    <li><a id="leftNavLabel142" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 盘点部分批号明细</a></li>
+                    <li><a id="leftNavLabel143" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 根据厂家查询销售</a></li>
+
+                </ul>
+            </div>
+
+            <!-- 门诊管理 -->
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="glyphicon glyphicon-plus"></span>
+                    门诊管理
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+
+                    <li><a id="leftNavLabel144" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 门诊开处方</a></li>
+                    <li><a id="leftNavLabel145" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 历史处方查询</a></li>
+                    <li><a id="leftNavLabel146" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 门诊处方模板</a></li>
+                    <li><a id="leftNavLabel147" class="leftNavLabel" href="#"><span class="glyphicon glyphicon-list"></span> 查询挂号记录</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+        <!-- 主页面 -->
+        <div id="right" class="col-xs-12 col-sm-11">
+            <ul id='main-right' class="nav nav-tabs">
+                <!--  这里会有js加载DOM  -->
+            </ul>
+            <!-- 每个主页面的div -->
+
+            <!-- 欢迎界面 -->
+            <div id="welcome" class="jumbotron">
+                <h1>欢迎来到国琼大药房后台管理系统！</h1>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国琼大药房致力于社区半小时精细化服务的提升，结合人工智能技术，实现在线就医，半小时内药品送货上门服务等精细化服务，并且对每人建立实时在线的医疗档案，解决往期病史、往期用药以及往期禁用药的不清晰问题，做到了手机购药时的实时提醒。通过大数据分析和算法，实现本药店药品价格为全国最低。通过自动化检测管理系统和专人专项检测的方式，实现了近效期药品数量为零，不合格药品为零。通过自动化采购系统和自动化舆情检测系统，做到了药店不缺货不缺品中，做到了药品不缺质量。因此国琼大药房历经20年，两代人的努力，终于为大家打造出了一个用药省心、用药方向、用药安心的手机在线购物平台。</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;半小时精细化服务内容,如下:</p>
+                <ol>
+                    <li>人工智能辅助病情检测+在线药师：通过线上人脸识别以及舌部的颜色、形状，人工智能可以初判病情。再结合在线执业医师，实现足不出户，在家就医！</li>
+                    <li>半小时送达：从手机支付后开始计算时间，半小时内将药品送达，超出时间免费</li>
+                    <li>双码确认：配送人员取药时需要扫码，送到时客户需要扫码，将送错要的几率降为零</li>
+                    <li>服药时间提醒：自动设置用药时间提醒，提醒的方式为电话语音</li>
+                </ol>
+            </div>
+            <!-- 常用菜单 -->
+            <div id="content1" class="well">
+                <button id='cycd-btn1' type="button" class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart"></span> 商品销售</button>
+                <button id='cycd-btn2' type="button" class="btn btn-success"><span class="glyphicon glyphicon-log-in"></span> 商品入库</button>
+                <button id='cycd-btn3' type="button" class="btn btn-success"><span class="glyphicon glyphicon-ok"></span> 商品验收</button>
+                <button id='cycd-btn4' type="button" class="btn btn-success"><span class="glyphicon glyphicon-log-out"></span> 商品出库</button>
+                <button id='cycd-btn5' type="button" class="btn btn-success"><span class="glyphicon glyphicon-book"></span> 商品字典</button>
+                <button id='cycd-btn6' type="button" class="btn btn-success"><span class="glyphicon glyphicon-briefcase"></span> 供货单位</button>
+                <button id='cycd-btn7' type="button" class="btn btn-success"><span class="glyphicon glyphicon-hdd"></span> 会员资料</button>
+                <button id='cycd-btn8' type="button" class="btn btn-success"><span class="glyphicon glyphicon-minus-sign"></span> 员工权限</button>
+                <button id='cycd-btn9' type="button" class="btn btn-success"><span class="glyphicon glyphicon-list-alt"></span> 库存盘点</button>
+                <button id='cycd-btn10' type="button" class="btn btn-success"><span class="glyphicon glyphicon-yen"></span> 调价促销</button>
+                <button id='cycd-btn11' type="button" class="btn btn-success"><span class="glyphicon glyphicon-pencil"></span> 登记处方</button>
+                <button id='cycd-btn12' type="button" class="btn btn-success"><span class="glyphicon glyphicon-cog"></span> 系统设置</button>
+                <button id='cycd-btn13' type="button" class="btn btn-success"><span class="glyphicon glyphicon-exclamation-sign"></span> 效期预警</button>
+            </div>
+
+
+            <div id="content2" class="well">2</div>
+            <div id="content3" class="well">3</div>
+            <div id="content4" class="well">4</div>
+            <div id="content5" class="well">5</div>
+            <div id="content6" class="well">6</div>
+            <div id="content7" class="well">7</div>
+            <div id="content8" class="well">8</div>
+            <div id="content9" class="well">9</div>
+            <div id="content10" class="well">10</div>
+            <div id="content11" class="well">11</div>
+            <div id="content12" class="well">12</div>
+            <div id="content13" class="well">13</div>
+            <div id="content14" class="well">14</div>
+            <div id="content15" class="well">15</div>
+            <div id="content16" class="well">16</div>
+            <div id="content17" class="well">17</div>
+            <div id="content18" class="well">18</div>
+            <div id="content19" class="well">19</div>
+            <div id="content20" class="well">20</div>
+            <div id="content21" class="well">21</div>
+            <div id="content22" class="well">22</div>
+            <div id="content23" class="well">23</div>
+            <div id="content24" class="well">24</div>
+            <div id="content25" class="well">25</div>
+            <div id="content26" class="well">26</div>
+            <div id="content27" class="well">27</div>
+            <div id="content28" class="well">28</div>
+            <div id="content29" class="well">29</div>
+            <div id="content30" class="well">30</div>
+            <div id="content31" class="well">31</div>
+            <div id="content32" class="well">32</div>
+            <div id="content33" class="well">33</div>
+            <div id="content34" class="well">34</div>
+            <div id="content35" class="well">35</div>
+            <div id="content36" class="well">36</div>
+            <div id="content37" class="well">37</div>
+            <div id="content38" class="well">38</div>
+            <div id="content39" class="well">39</div>
+            <div id="content40" class="well">40</div>
+            <div id="content41" class="well">41</div>
+            <div id="content42" class="well">42</div>
+            <div id="content43" class="well">43</div>
+            <div id="content44" class="well">44</div>
+            <div id="content45" class="well">45</div>
+            <div id="content46" class="well">46</div>
+            <div id="content47" class="well">47</div>
+            <div id="content48" class="well">48</div>
+            <div id="content49" class="well">49</div>
+            <div id="content50" class="well">50</div>
+            <div id="content51" class="well">51</div>
+            <div id="content52" class="well">52</div>
+            <div id="content53" class="well">53</div>
+            <div id="content54" class="well">54</div>
+            <div id="content55" class="well">55</div>
+            <div id="content56" class="well">56</div>
+            <div id="content57" class="well">57</div>
+            <div id="content58" class="well">58</div>
+            <div id="content59" class="well">59</div>
+            <div id="content60" class="well">60</div>
+            <div id="content61" class="well">61</div>
+            <div id="content62" class="well">62</div>
+            <div id="content63" class="well">63</div>
+            <div id="content64" class="well">64</div>
+            <div id="content65" class="well">65</div>
+            <div id="content66" class="well">66</div>
+            <div id="content67" class="well">67</div>
+            <div id="content68" class="well">68</div>
+            <div id="content69" class="well">69</div>
+            <div id="content70" class="well">70</div>
+            <div id="content71" class="well">71</div>
+            <div id="content72" class="well">72</div>
+            <div id="content73" class="well">73</div>
+            <div id="content74" class="well">74</div>
+            <div id="content75" class="well">75</div>
+            <div id="content76" class="well">76</div>
+            <div id="content77" class="well">77</div>
+            <div id="content78" class="well">78</div>
+            <div id="content79" class="well">79</div>
+            <div id="content80" class="well">80</div>
+            <div id="content81" class="well">81</div>
+            <div id="content82" class="well">82</div>
+            <div id="content83" class="well">83</div>
+            <div id="content84" class="well">84</div>
+            <div id="content85" class="well">85</div>
+            <div id="content86" class="well">86</div>
+            <div id="content87" class="well">87</div>
+            <div id="content88" class="well">88</div>
+            <div id="content89" class="well">89</div>
+            <div id="content90" class="well">90</div>
+            <div id="content91" class="well">91</div>
+            <div id="content92" class="well">92</div>
+            <div id="content93" class="well">93</div>
+            <div id="content94" class="well">94</div>
+            <div id="content95" class="well">95</div>
+            <div id="content96" class="well">96</div>
+            <div id="content97" class="well">97</div>
+            <div id="content98" class="well">98</div>
+            <div id="content99" class="well">99</div>
+            <div id="content100" class="well">100</div>
+            <div id="content101" class="well">101</div>
+            <div id="content102" class="well">102</div>
+            <div id="content103" class="well">103</div>
+            <div id="content104" class="well">104</div>
+            <div id="content105" class="well">105</div>
+            <div id="content106" class="well">106</div>
+            <div id="content107" class="well">107</div>
+            <div id="content108" class="well">108</div>
+            <div id="content109" class="well">109</div>
+            <div id="content110" class="well">110</div>
+            <div id="content111" class="well">111</div>
+            <div id="content112" class="well">112</div>
+            <div id="content113" class="well">113</div>
+            <div id="content114" class="well">114</div>
+            <div id="content115" class="well">115</div>
+            <div id="content116" class="well">116</div>
+            <div id="content117" class="well">117</div>
+            <div id="content118" class="well">118</div>
+            <div id="content119" class="well">119</div>
+            <div id="content120" class="well">120</div>
+            <div id="content121" class="well">121</div>
+            <div id="content122" class="well">122</div>
+            <div id="content123" class="well">123</div>
+            <div id="content124" class="well">124</div>
+            <div id="content125" class="well">125</div>
+            <div id="content126" class="well">126</div>
+            <div id="content127" class="well">127</div>
+            <div id="content128" class="well">128</div>
+            <div id="content129" class="well">129</div>
+            <div id="content130" class="well">130</div>
+            <div id="content131" class="well">131</div>
+            <div id="content132" class="well">132</div>
+            <div id="content133" class="well">133</div>
+            <div id="content134" class="well">134</div>
+            <div id="content135" class="well">135</div>
+            <div id="content136" class="well">136</div>
+            <div id="content137" class="well">137</div>
+            <div id="content138" class="well">138</div>
+            <div id="content139" class="well">139</div>
+            <div id="content140" class="well">140</div>
+            <div id="content141" class="well">141</div>
+            <div id="content142" class="well">142</div>
+            <div id="content143" class="well">143</div>
+            <div id="content144" class="well">144</div>
+            <div id="content145" class="well">145</div>
+            <div id="content146" class="well">146</div>
+            <div id="content147" class="well">147</div>
+
+
+
+        </div>
+    </div>
+
+
+</body>
+</html>

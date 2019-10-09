@@ -1,0 +1,40 @@
+*{
+    padding: 10px;
+    margin: 0;
+}
+
+#box{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+#d1{
+    width: 500px;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1{
+    display: inline-block;
+    color: dodgerblue;
+}
+
+h4{
+    display: inline-block;
+    color: dimgray;
+}
+
+#s1{
+    color: deeppink;
+}
+
+#s2{
+    color: mediumblue;
+}
+
+#p3{
+    color: greenyellow;
+}
