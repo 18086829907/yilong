@@ -1,4 +1,9 @@
-#【day】基本功能介绍
+#【day】creative cloud安装
+#安装Creative_Cloud_Set-Up
+#   账号：417217170@qq.com
+#   密码：135CYLpsx4848@
+
+#【day】photoshop基本功能介绍
 #复原基本功能
 #   Alt+w -> k -> r
 #新建画布

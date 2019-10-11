@@ -1,0 +1,19 @@
+轮播数据插入
+insert into wheel(img,name,trackid,isDelete) values
+('http://p1.qhmsg.com/t012c5c0078eee282c6.png','PLUS会员','24121', false),
+('http://p7.qhmsg.com/t01539c9a4f88bd129f.png','安全回收','24122', false);
+
+导航数据插入
+insert into nav(img,name,trackid,isDelete) values
+('https://p3.ssl.qhimg.com/t0191abd7e2a0854d68.png','安全回收','24123', false),
+('https://p5.ssl.qhimg.com/t01507ce1c3424484c6.png','手机维修','24124', false),
+('https://p2.ssl.qhimg.com/t0168fe13f81f15de38.png','二手优品','24125', false),
+('https://p3.ssl.qhimg.com/t01c35e54128c368684.png','手机升级','24126', false);
+
+必购商品
+insert into nav(img,name,price,trackid,isDelete) values
+('http://p0.qhmsg.com/t0144b6d05e1c626a4c.jpg','苹果 iPhone 7', 1449, '24127', false),
+('http://p0.qhmsg.com/t01bd0c8e20691807e5.jpg','苹果 iPhone 8 Plus', 3199, '24128', false),
+('http://p0.qhmsg.com/t0144b6d05e1c626a4c.jpg','苹果 iPhone 7', 1699, '24129', false),
+('http://p0.qhmsg.com/t010263605f1f4c7a8f.jpg','oppo R11s Plus', 1049, '24130', false),
+('http://p0.qhmsg.com/t013ae80dab17810d2c.jpg','华为 nova 4e', 1299, '24131', false);

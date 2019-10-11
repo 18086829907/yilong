@@ -2,6 +2,25 @@
 
 #千锋老师电话：13691511443
 
+#【day】安装pycharm\webstrom\datagrip
+#双击pycharm-professional-2019.1.3 or WebStorm-2019.1.2 or datagrip-2019.1.4
+#   Do not import settings
+#       ok
+#   Next
+#   start using webstorm
+#   evaluate for free
+#       evaluate
+#   create new project
+#   help
+#       edit custom vm options..
+#           create
+#               -javaagent:F:\installed\PyCharm 2019.1.3\bin\jetbrains-agent.jar
+#               重启webstrom
+#                   help
+#                       register
+#                           license sever
+#                               discover server
+#                               activate
 #【day1】注释(已授)
 #
 '''
