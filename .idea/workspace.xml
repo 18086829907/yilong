@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="662324f1-dafe-48fa-b92b-7a72cb257e24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="682" column="12" selection-start-line="682" selection-start-column="12" selection-end-line="682" selection-end-column="12" />
+            <state relative-caret-position="792">
+              <caret line="741" column="1" selection-start-line="741" selection-start-column="1" selection-end-line="741" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -48,7 +47,13 @@
       <find>画笔大小</find>
       <find>大小</find>
       <find>缩略图</find>
+      <find>选区</find>
+      <find>照片</find>
+      <find>调出</find>
     </findStrings>
+    <replaceStrings>
+      <replace>打开</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,6 +79,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,13 +90,18 @@
             <path>
               <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
               <item name="yilong" type="462c0819:PsiDirectoryNode" />
-              <item name="knowledgePoints" type="462c0819:PsiDirectoryNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yilong" type="462c0819:PsiDirectoryNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="finishedObject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,16 +152,17 @@
       <workItem from="1571017846879" duration="1427000" />
       <workItem from="1571022679092" duration="4174000" />
       <workItem from="1571050093472" duration="2088000" />
+      <workItem from="1571094997776" duration="7131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27418000" />
+    <option name="totallyTimeSpent" value="34549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1337953" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -215,8 +227,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="682" column="12" selection-start-line="682" selection-start-column="12" selection-end-line="682" selection-end-column="12" />
+        <state relative-caret-position="792">
+          <caret line="741" column="1" selection-start-line="741" selection-start-column="1" selection-end-line="741" selection-end-column="1" />
         </state>
       </provider>
     </entry>
