@@ -36,7 +36,6 @@ function rotationStart(){
 }
 var timer = window.setInterval(rotationStart,1000);
 
-
 //鼠标进入停止轮播及显示按钮
 function rotationStop(){
     clearInterval(timer);

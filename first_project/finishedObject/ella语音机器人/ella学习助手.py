@@ -40,7 +40,7 @@ class ContextEvents(win32com.client.getevents('SAPI.SpSharedRecoContext')):
                 print('ella说:', v)
 
 def dictKeyWord():
-    path = r'D:\qian_feng_education\first_project\finishedObject\ella语音机器人\ella的语言库.txt'
+    path = r'C:\Users\justin\DataGit\yilong\first_project\finishedObject\ella语音机器人\ella的语言库.txt'
     with open(path, 'rb') as f:
         dict1 = pickle.load(f)
     return dict1

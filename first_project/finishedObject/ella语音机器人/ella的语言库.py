@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 import pickle
-path = r'D:\qian_feng_education\first_project\finishedObject\ella语音机器人\ella的语言库.txt'
+path = r'C:\Users\justin\DataGit\yilong\first_project\finishedObject\ella语音机器人\ella的语言库.txt'
 dict1 = {'陈贤明是谁': '他是世界上最好的人',
          '你的爸爸是谁': '我爸爸叫龙良雨，他是一个超厉害的人',
          '能给我讲一个故事吗': '我讲故事可是要收钱的哦',
@@ -41,7 +41,9 @@ dict1 = {'陈贤明是谁': '他是世界上最好的人',
          '你的紫妍姐姐美不美': '我的紫妍姐姐实在是太漂亮了，她沉鱼落雁，闭月羞花，倾国倾城',
          '税号是多少': '91510100MA61T93R1H',
          'ella，我对哪些药物过敏': '青霉素，氧氟沙星',
-         'ella, 陈紫妍会的舞蹈歌曲有哪些': 'black pink'
+         'ella, 陈紫妍会的舞蹈歌曲有哪些': 'black pink',
+         'ella,我已经默写过的单词有哪些？': 'fork勺子,corn玉米,horse马,port港口,fort城堡,lord伯爵',
+         '我过敏的药物有哪些': '青霉素,氧氟沙星',
          }
 
 with open(path, 'wb') as f:

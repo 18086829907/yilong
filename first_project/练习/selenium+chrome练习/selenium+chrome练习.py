@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 #创建一个模拟浏览器对象
-path = r'E:\Anaconda3\Scripts\chromedriver.exe'
+path = r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe'
 browser = webdriver.Chrome(executable_path=path) #创建对象就会自动打开浏览器
 
 #通过对象去操作浏览器

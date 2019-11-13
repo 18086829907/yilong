@@ -8684,3 +8684,4 @@ try-except-else 的 else 部分什么时候执行？
 #               其他文件
 #                   from log_a import logger    #log_a是之前定义日志格式的文件的文件名，即把定义logger格式的文件看做模块，进行导入
 #                   logger.info('this is a info log')
+
