@@ -5162,6 +5162,310 @@ No:824826680522
 			        			    </tr>
 			    			</tbody>
 '''
+order69 = '''
+No:824826790335
+<tbody>
+			    <tr class="sep-row">
+			        <td colspan="5" style="border:none"></td>
+			    </tr>
+			    <tr class="tr-th order-list-top">
+			        <td colspan="5" class="ns-bg-color-gray-fadeout-60 ">
+			            <span class="time ns-text-color-gray">2019-11-13 07:40:14</span>
+			            <span class="number ns-text-color-gray">订单号：<a target="_blank" href="http://sc.sanchuangfeimeng.com/index.php?s=/member/orderdetail&amp;order_id=3587" class="ns-text-color-black">2019111307400001</a></span>
+			            <div class="tr-operate ns-text-color-gray">
+			                <span>三创飞梦产品库</span>
+			                <span class="order-type">普通订单</span>
+			            </div>
+			        </td>
+			    </tr>
+			    			    <tr class="order-list-bottom">
+			        <td>
+			            <div class="goods-item">
+			                <div class="p-img ns-border-color-gray">
+			                    <a href="http://sc.sanchuangfeimeng.com/index.php?s=/goods/detail&amp;goods_id=2317" target="_blank">
+				                    <img src="http://image.sanchuangfeimeng.com/upload/goods/images/shopfw/shopid/0/2019/10/23/main/pic_cover_micro/194b758c3df24887a47780d2988cba28.jpg" width="60" height="60">
+			                    </a>
+			                </div>
+			                <div class="p-msg">
+			                    <div class="p-name">
+			                        <a href="http://sc.sanchuangfeimeng.com/index.php?s=/goods/detail&amp;goods_id=2317" target="_blank" title="素水susui双层玻璃杯茶杯水杯便携过滤茶水分离创意杯子定制092杯黑色-301-400ml加杯刷">
+				                        				                        <span>素水susui双层玻璃杯茶杯水杯便携过滤茶水分离创意杯子定制092杯黑色-301-400ml加杯刷</span>
+			                        </a>
+			                    </div>
+			                    <div class="sku-name ns-text-color-gray">092杯黑色-301-400ml加杯刷</div>
+			                </div>
+			            </div>
+			            <div class="goods-number ns-text-color-gray">x1</div>
+			            <div class="goods-item-action">
+			            											<a href="http://sc.sanchuangfeimeng.com/index.php?s=/member/refunddetail&amp;order_goods_id=3577">申请维权</a><br>
+											            	</div>
+			        </td>
+			        				        <td rowspan="1" class="align-center">
+				            <div class="consignee">
+				                			                        <span>吴金调</span>
+			                        <p>浙江省&nbsp;温州市&nbsp;苍南县&nbsp;龙港镇建新路652-654号</p>
+			                        <p>13262355259</p>
+					            				            </div>
+				        </td>
+				        <td rowspan="1" class="align-center">
+				            <div class="amount ns-text-color-gray">
+				                <div>
+				                    <span>总额 ¥17.60</span>
+				                    <br>
+				                    <b class="ns-text-color-black">应付</b>
+				                    <br>
+				                    <b class="ns-text-color-black">17.60</b>
+				                    <br>
+				                </div>
+				                <div class="order-pay-type-style ns-border-color-gray">
+				                    <span class="ftx-13 ns-text-color-gray">微信支付</span>
+				                </div>
+				            </div>
+				        </td>
+				        <td rowspan="1" class="align-center">
+				            <div class="status">
+				                <span class="order-status ns-text-color-gray">已发货</span>
+				                <br>
+				                <a class="order-action-btn" href="http://sc.sanchuangfeimeng.com/index.php?s=/member/orderdetail&amp;order_id=3587" target="_blank">订单详情</a>
+			            	</div>
+				        </td>
+				        <td rowspan="1" class="align-center">
+				            <div class="operate">
+				            					                	<a href="javascript:;" class="order-action-btn" onclick="operation('getdelivery', 3587, this)" target="_blank">确认收货</a><br>
+				            						                	<a href="javascript:;" class="order-action-btn" onclick="operation('logistics', 3587, this)" target="_blank">查看物流</a><br>
+				            						            </div>
+				        </td>
+			        			    </tr>
+			    			</tbody>
+'''
+order70 = '''
+No:824826956055
+<tbody>
+			    <tr class="sep-row">
+			        <td colspan="5" style="border:none"></td>
+			    </tr>
+			    <tr class="tr-th order-list-top">
+			        <td colspan="5" class="ns-bg-color-gray-fadeout-60 ">
+			            <span class="time ns-text-color-gray">2019-11-13 16:00:18</span>
+			            <span class="number ns-text-color-gray">订单号：<a target="_blank" href="http://sc.sanchuangfeimeng.com/index.php?s=/member/orderdetail&amp;order_id=3686" class="ns-text-color-black">2019111316000001</a></span>
+			            <div class="tr-operate ns-text-color-gray">
+			                <span>三创飞梦产品库</span>
+			                <span class="order-type">普通订单</span>
+			            </div>
+			        </td>
+			    </tr>
+			    			    <tr class="order-list-bottom">
+			        <td>
+			            <div class="goods-item">
+			                <div class="p-img ns-border-color-gray">
+			                    <a href="http://sc.sanchuangfeimeng.com/index.php?s=/goods/detail&amp;goods_id=2317" target="_blank">
+				                    <img src="http://image.sanchuangfeimeng.com/upload/goods/images/shopfw/shopid/0/2019/10/23/main/pic_cover_micro/194b758c3df24887a47780d2988cba28.jpg" width="60" height="60">
+			                    </a>
+			                </div>
+			                <div class="p-msg">
+			                    <div class="p-name">
+			                        <a href="http://sc.sanchuangfeimeng.com/index.php?s=/goods/detail&amp;goods_id=2317" target="_blank" title="素水susui双层玻璃杯茶杯水杯便携过滤茶水分离创意杯子定制清雅杯黑色-301-400ml">
+				                        				                        <span>素水susui双层玻璃杯茶杯水杯便携过滤茶水分离创意杯子定制清雅杯黑色-301-400ml</span>
+			                        </a>
+			                    </div>
+			                    <div class="sku-name ns-text-color-gray">清雅杯黑色-301-400ml</div>
+			                </div>
+			            </div>
+			            <div class="goods-number ns-text-color-gray">x1</div>
+			            <div class="goods-item-action">
+			            											<a href="http://sc.sanchuangfeimeng.com/index.php?s=/member/refunddetail&amp;order_goods_id=3676">申请维权</a><br>
+											            	</div>
+			        </td>
+			        				        <td rowspan="1" class="align-center">
+				            <div class="consignee">
+				                			                        <span>郭嘉谊</span>
+			                        <p>广东省&nbsp;湛江市&nbsp;徐闻县&nbsp;曲界镇</p>
+			                        <p>15277705789</p>
+					            				            </div>
+				        </td>
+				        <td rowspan="1" class="align-center">
+				            <div class="amount ns-text-color-gray">
+				                <div>
+				                    <span>总额 ¥13.50</span>
+				                    <br>
+				                    <b class="ns-text-color-black">应付</b>
+				                    <br>
+				                    <b class="ns-text-color-black">13.50</b>
+				                    <br>
+				                </div>
+				                <div class="order-pay-type-style ns-border-color-gray">
+				                    <span class="ftx-13 ns-text-color-gray">微信支付</span>
+				                </div>
+				            </div>
+				        </td>
+				        <td rowspan="1" class="align-center">
+				            <div class="status">
+				                <span class="order-status ns-text-color-gray">已发货</span>
+				                <br>
+				                <a class="order-action-btn" href="http://sc.sanchuangfeimeng.com/index.php?s=/member/orderdetail&amp;order_id=3686" target="_blank">订单详情</a>
+			            	</div>
+				        </td>
+				        <td rowspan="1" class="align-center">
+				            <div class="operate">
+				            					                	<a href="javascript:;" class="order-action-btn" onclick="operation('getdelivery', 3686, this)" target="_blank">确认收货</a><br>
+				            						                	<a href="javascript:;" class="order-action-btn" onclick="operation('logistics', 3686, this)" target="_blank">查看物流</a><br>
+				            						            </div>
+				        </td>
+			        			    </tr>
+			    			</tbody>
+'''
+order71 = '''
+No:824826958277
+<tbody>
+			    <tr class="sep-row">
+			        <td colspan="5" style="border:none"></td>
+			    </tr>
+			    <tr class="tr-th order-list-top">
+			        <td colspan="5" class="ns-bg-color-gray-fadeout-60 ">
+			            <span class="time ns-text-color-gray">2019-11-13 16:14:00</span>
+			            <span class="number ns-text-color-gray">订单号：<a target="_blank" href="http://sc.sanchuangfeimeng.com/index.php?s=/member/orderdetail&amp;order_id=3696" class="ns-text-color-black">2019111316140001</a></span>
+			            <div class="tr-operate ns-text-color-gray">
+			                <span>三创飞梦产品库</span>
+			                <span class="order-type">普通订单</span>
+			            </div>
+			        </td>
+			    </tr>
+			    			    <tr class="order-list-bottom">
+			        <td>
+			            <div class="goods-item">
+			                <div class="p-img ns-border-color-gray">
+			                    <a href="http://sc.sanchuangfeimeng.com/index.php?s=/goods/detail&amp;goods_id=2317" target="_blank">
+				                    <img src="http://image.sanchuangfeimeng.com/upload/goods/images/shopfw/shopid/0/2019/10/23/main/pic_cover_micro/194b758c3df24887a47780d2988cba28.jpg" width="60" height="60">
+			                    </a>
+			                </div>
+			                <div class="p-msg">
+			                    <div class="p-name">
+			                        <a href="http://sc.sanchuangfeimeng.com/index.php?s=/goods/detail&amp;goods_id=2317" target="_blank" title="素水susui双层玻璃杯茶杯水杯便携过滤茶水分离创意杯子定制092杯黑色-301-400ml加杯刷">
+				                        				                        <span>素水susui双层玻璃杯茶杯水杯便携过滤茶水分离创意杯子定制092杯黑色-301-400ml加杯刷</span>
+			                        </a>
+			                    </div>
+			                    <div class="sku-name ns-text-color-gray">092杯黑色-301-400ml加杯刷</div>
+			                </div>
+			            </div>
+			            <div class="goods-number ns-text-color-gray">x1</div>
+			            <div class="goods-item-action">
+			            											<a href="http://sc.sanchuangfeimeng.com/index.php?s=/member/refunddetail&amp;order_goods_id=3686">申请维权</a><br>
+											            	</div>
+			        </td>
+			        				        <td rowspan="1" class="align-center">
+				            <div class="consignee">
+				                			                        <span>李晨光</span>
+			                        <p>河北省&nbsp;保定市&nbsp;北市区&nbsp;莲池区东关街道长城北大街大迪小区1号楼1单元301</p>
+			                        <p>15713242786</p>
+					            				            </div>
+				        </td>
+				        <td rowspan="1" class="align-center">
+				            <div class="amount ns-text-color-gray">
+				                <div>
+				                    <span>总额 ¥17.60</span>
+				                    <br>
+				                    <b class="ns-text-color-black">应付</b>
+				                    <br>
+				                    <b class="ns-text-color-black">17.60</b>
+				                    <br>
+				                </div>
+				                <div class="order-pay-type-style ns-border-color-gray">
+				                    <span class="ftx-13 ns-text-color-gray">微信支付</span>
+				                </div>
+				            </div>
+				        </td>
+				        <td rowspan="1" class="align-center">
+				            <div class="status">
+				                <span class="order-status ns-text-color-gray">已发货</span>
+				                <br>
+				                <a class="order-action-btn" href="http://sc.sanchuangfeimeng.com/index.php?s=/member/orderdetail&amp;order_id=3696" target="_blank">订单详情</a>
+			            	</div>
+				        </td>
+				        <td rowspan="1" class="align-center">
+				            <div class="operate">
+				            					                	<a href="javascript:;" class="order-action-btn" onclick="operation('getdelivery', 3696, this)" target="_blank">确认收货</a><br>
+				            						                	<a href="javascript:;" class="order-action-btn" onclick="operation('logistics', 3696, this)" target="_blank">查看物流</a><br>
+				            						            </div>
+				        </td>
+			        			    </tr>
+			    			</tbody>
+'''
+order72 = '''
+No:824826961454
+<tbody>
+			    <tr class="sep-row">
+			        <td colspan="5" style="border:none"></td>
+			    </tr>
+			    <tr class="tr-th order-list-top">
+			        <td colspan="5" class="ns-bg-color-gray-fadeout-60 ">
+			            <span class="time ns-text-color-gray">2019-11-13 16:16:20</span>
+			            <span class="number ns-text-color-gray">订单号：<a target="_blank" href="http://sc.sanchuangfeimeng.com/index.php?s=/member/orderdetail&amp;order_id=3700" class="ns-text-color-black">2019111316160001</a></span>
+			            <div class="tr-operate ns-text-color-gray">
+			                <span>三创飞梦产品库</span>
+			                <span class="order-type">普通订单</span>
+			            </div>
+			        </td>
+			    </tr>
+			    			    <tr class="order-list-bottom">
+			        <td>
+			            <div class="goods-item">
+			                <div class="p-img ns-border-color-gray">
+			                    <a href="http://sc.sanchuangfeimeng.com/index.php?s=/goods/detail&amp;goods_id=2317" target="_blank">
+				                    <img src="http://image.sanchuangfeimeng.com/upload/goods/images/shopfw/shopid/0/2019/10/23/main/pic_cover_micro/194b758c3df24887a47780d2988cba28.jpg" width="60" height="60">
+			                    </a>
+			                </div>
+			                <div class="p-msg">
+			                    <div class="p-name">
+			                        <a href="http://sc.sanchuangfeimeng.com/index.php?s=/goods/detail&amp;goods_id=2317" target="_blank" title="素水susui双层玻璃杯茶杯水杯便携过滤茶水分离创意杯子定制092杯黑色-301-400ml加杯刷">
+				                        				                        <span>素水susui双层玻璃杯茶杯水杯便携过滤茶水分离创意杯子定制092杯黑色-301-400ml加杯刷</span>
+			                        </a>
+			                    </div>
+			                    <div class="sku-name ns-text-color-gray">092杯黑色-301-400ml加杯刷</div>
+			                </div>
+			            </div>
+			            <div class="goods-number ns-text-color-gray">x1</div>
+			            <div class="goods-item-action">
+			            											<a href="http://sc.sanchuangfeimeng.com/index.php?s=/member/refunddetail&amp;order_goods_id=3690">申请维权</a><br>
+											            	</div>
+			        </td>
+			        				        <td rowspan="1" class="align-center">
+				            <div class="consignee">
+				                			                        <span>柏镇</span>
+			                        <p>山东省&nbsp;泰安市&nbsp;新泰市&nbsp;小协镇青云街道化工厂宿舍</p>
+			                        <p>13210618124</p>
+					            				            </div>
+				        </td>
+				        <td rowspan="1" class="align-center">
+				            <div class="amount ns-text-color-gray">
+				                <div>
+				                    <span>总额 ¥17.60</span>
+				                    <br>
+				                    <b class="ns-text-color-black">应付</b>
+				                    <br>
+				                    <b class="ns-text-color-black">17.60</b>
+				                    <br>
+				                </div>
+				                <div class="order-pay-type-style ns-border-color-gray">
+				                    <span class="ftx-13 ns-text-color-gray">微信支付</span>
+				                </div>
+				            </div>
+				        </td>
+				        <td rowspan="1" class="align-center">
+				            <div class="status">
+				                <span class="order-status ns-text-color-gray">已发货</span>
+				                <br>
+				                <a class="order-action-btn" href="http://sc.sanchuangfeimeng.com/index.php?s=/member/orderdetail&amp;order_id=3700" target="_blank">订单详情</a>
+			            	</div>
+				        </td>
+				        <td rowspan="1" class="align-center">
+				            <div class="operate">
+				            					                	<a href="javascript:;" class="order-action-btn" onclick="operation('getdelivery', 3700, this)" target="_blank">确认收货</a><br>
+				            						                	<a href="javascript:;" class="order-action-btn" onclick="operation('logistics', 3700, this)" target="_blank">查看物流</a><br>
+				            						            </div>
+				        </td>
+			        			    </tr>
+			    			</tbody>
+'''
 
 def extractOrderInfor(order):
     #创建时间
@@ -5311,7 +5615,9 @@ if __name__ == '__main__':
     d66 = extractOrderInfor(order66)
     d67 = extractOrderInfor(order67)
     d68 = extractOrderInfor(order68)
+    d69 = extractOrderInfor(order69)
+    d70 = extractOrderInfor(order70)
+    d71 = extractOrderInfor(order71)
+    d72 = extractOrderInfor(order72)
 
-
-
-    AppendOrder(d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13,d14,d15,d16,d17,d18,d19,d20,d21,d22,d23,d24,d25,d26,d27,d28,d29,d30,d31,d32,d33,d34,d35,d36,d37,d38,d39,d40,d41,d42,d43,d44,d45,d46,d47,d48,d49,d50,d51,d52,d53,d54,d55,d56,d57,d58,d59,d60,d61,d62,d63,d64,d65,d66,d67,d68)
+    AppendOrder(d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13,d14,d15,d16,d17,d18,d19,d20,d21,d22,d23,d24,d25,d26,d27,d28,d29,d30,d31,d32,d33,d34,d35,d36,d37,d38,d39,d40,d41,d42,d43,d44,d45,d46,d47,d48,d49,d50,d51,d52,d53,d54,d55,d56,d57,d58,d59,d60,d61,d62,d63,d64,d65,d66,d67,d68,d69,d70,d71,d72)
