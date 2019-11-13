@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="662324f1-dafe-48fa-b92b-7a72cb257e24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/first_project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理/三创飞梦商城_订单商品及客户信息.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理/订单信息汇总_tb4tb40319388.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/练习/selenium+chrome练习/mztp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project_html/webStorm/复习测试.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/yilong.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yilong.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/ella学习助手.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/ella学习助手.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/ella的语言库.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/ella的语言库.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/ella的语言库.txt" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/ella的语言库.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/练习/selenium+chrome练习/selenium+chrome练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/练习/selenium+chrome练习/selenium+chrome练习.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project_html/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/first_project_html/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project_html/webStorm/js/360同城帮-轮播图.js" beforeDir="false" afterPath="$PROJECT_DIR$/first_project_html/webStorm/js/360同城帮-轮播图.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints3_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints3_spider.py" afterDir="false" />
-    </list>
+    <list default="true" id="662324f1-dafe-48fa-b92b-7a72cb257e24" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理/三创飞梦商城_订单商品及客户信息.py">
+        <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="5304" column="36" lean-forward="true" selection-start-line="5304" selection-start-column="36" selection-end-line="5304" selection-end-column="36" />
-              <folding>
-                <element signature="e#262153#265858#0" />
-                <element signature="e#265867#265875#0" />
-                <element signature="e#269940#269947#0" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="480" column="17" selection-start-line="480" selection-start-column="17" selection-end-line="480" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -157,59 +134,6 @@
             <path>
               <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
               <item name="yilong" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yilong" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yilong" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="finishedObject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yilong" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="finishedObject" type="462c0819:PsiDirectoryNode" />
-              <item name="淘宝自动化管理" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yilong" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="finishedObject" type="462c0819:PsiDirectoryNode" />
-              <item name="淘宝自动化管理" type="462c0819:PsiDirectoryNode" />
-              <item name="完整报表" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yilong" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="finishedObject" type="462c0819:PsiDirectoryNode" />
-              <item name="淘宝自动化管理" type="462c0819:PsiDirectoryNode" />
-              <item name="订单详情" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yilong" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="finishedObject" type="462c0819:PsiDirectoryNode" />
-              <item name="淘宝自动化管理" type="462c0819:PsiDirectoryNode" />
-              <item name="订单详情" type="462c0819:PsiDirectoryNode" />
-              <item name="淘宝自动生成信息" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yilong" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="finishedObject" type="462c0819:PsiDirectoryNode" />
-              <item name="淘宝自动化管理" type="462c0819:PsiDirectoryNode" />
-              <item name="订单详情" type="462c0819:PsiDirectoryNode" />
-              <item name="淘宝自动生成信息" type="462c0819:PsiDirectoryNode" />
-              <item name="父爱如山jjkk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
@@ -530,16 +454,18 @@
       <workItem from="1573520953827" duration="8358000" />
       <workItem from="1573554615297" duration="2705000" />
       <workItem from="1573601694369" duration="428000" />
+      <workItem from="1573607247649" duration="424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130463000" />
+    <option name="totallyTimeSpent" value="130887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1633" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.28725427" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.291059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5005417" side_tool="true" weight="0.14331008" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -681,13 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="1398" column="29" selection-start-line="1398" selection-start-column="29" selection-end-line="1398" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14210">
-          <caret line="490" column="12" selection-start-line="490" selection-start-column="12" selection-end-line="490" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -887,12 +806,17 @@
     <entry file="file://$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理/三创飞梦商城_订单商品及客户信息.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
-          <caret line="5304" column="36" lean-forward="true" selection-start-line="5304" selection-start-column="36" selection-end-line="5304" selection-end-column="36" />
+          <caret line="5304" column="36" selection-start-line="5304" selection-start-column="36" selection-end-line="5304" selection-end-column="36" />
           <folding>
             <element signature="e#262153#265858#0" />
-            <element signature="e#265867#265875#0" />
-            <element signature="e#269940#269947#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="480" column="17" selection-start-line="480" selection-start-column="17" selection-end-line="480" selection-end-column="17" />
         </state>
       </provider>
     </entry>
