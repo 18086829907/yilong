@@ -41,8 +41,8 @@ dict1 = {'陈贤明是谁': '他是世界上最好的人',
          '你的紫妍姐姐美不美': '我的紫妍姐姐实在是太漂亮了，她沉鱼落雁，闭月羞花，倾国倾城',
          '税号是多少': '91510100MA61T93R1H',
          'ella，我对哪些药物过敏': '青霉素，氧氟沙星',
-         'ella, 陈紫妍会的舞蹈歌曲有哪些': 'black pink',
-         'ella,你学会了哪些单词？': 'fork勺子,corn玉米,horse马,port港口,fort城堡,lord伯爵,water水,ruler尺子,tiger老虎,sister姐姐,worker工人,dancer舞者,park公园,car汽车,bar酒吧,arm手臂,card卡片,farm农场,girl女孩，bird鸟，circle圆圈，skirt裙子，first第一，sir先生',
+         'ella, 陈紫妍会的舞蹈曲有哪些': 'black pink',
+         'ella,你学会了哪些单词？': 'fork勺子，corn玉米，horse马，port港口，fort城堡，lord伯爵，water水，ruler尺子，tiger老虎，sister姐姐，worker工人，dancer舞者，park公园，car汽车，bar酒吧，arm手臂，card卡片，farm农场，girl女孩，bird鸟，circle圆圈，skirt裙子，first第一，sir先生，cat猫，dog狗，fish鱼，hurt伤害，nurse护士，purse钱包，purple紫色，turtle龟，burn烧伤',
          '我过敏的药物有哪些': '青霉素,氧氟沙星',
          }
 
