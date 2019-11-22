@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="662324f1-dafe-48fa-b92b-7a72cb257e24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/first_project/淘宝店铺/1688_实力商家/童装/优质商家数据筛选.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/ella的语言库.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/ella的语言库.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/ella的语言库.txt" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/ella的语言库.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理/三创飞梦商城_订单商品及客户信息.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/淘宝店铺/淘宝订单账目管理/三创飞梦商城_订单商品及客户信息.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理/完整报表/2019_11_11.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/淘宝店铺/淘宝订单账目管理/完整报表/2019_11_11.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理/订单信息汇总_tb4tb40319388.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/淘宝店铺/淘宝订单账目管理/订单信息汇总_tb4tb40319388.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理/订单详情/三创飞梦_订单信息.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/淘宝店铺/淘宝订单账目管理/订单详情/三创飞梦_订单信息.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理/订单详情/淘宝自动生成信息/tb40319388/订单个人信息_2019_11_11.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/淘宝店铺/淘宝订单账目管理/订单详情/淘宝自动生成信息/tb40319388/订单个人信息_2019_11_11.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理/订单详情/淘宝自动生成信息/父爱如山jjkk/订单个人信息_2019_11_11.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/淘宝店铺/淘宝订单账目管理/订单详情/淘宝自动生成信息/父爱如山jjkk/订单个人信息_2019_11_11.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project_html/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/first_project_html/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints12_淘宝店铺_三创飞梦.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints12_淘宝运营.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints12_淘宝运营.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints12_淘宝运营.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints12_淘宝运营.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="945" column="12" lean-forward="true" selection-start-line="945" selection-start-column="12" selection-end-line="945" selection-end-column="12" />
+            <state relative-caret-position="628">
+              <caret line="1255" column="36" lean-forward="true" selection-start-line="1255" selection-start-column="36" selection-end-line="1255" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -61,11 +51,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>\s</find>
-      <find>re.sub</find>
-      <find>&lt;span class=&quot;text-mod__link___1rXmw&quot; data-reactid=&quot;.0.6.3:\$.*?.1.1.\$0.\$5.0.0.0&quot;&gt;(.*?)&lt;/span&gt;</find>
-      <find>dd</find>
-      <find>order14</find>
       <find>买家已付款</find>
       <find>&lt;span class=&quot;text-mod__link___1rXmw text-mod__primary___zjRQH&quot; data-reactid=&quot;.0.6.3:\$.*?.1.1.\$0.\$5.0.0.0&quot;&gt;(.*?)&lt;/span&gt;</find>
       <find>^order(\d+) = ''''''</find>
@@ -91,6 +76,11 @@
       <find>谷歌</find>
       <find>x</find>
       <find>xpath</find>
+      <find>公益</find>
+      <find>锁定</find>
+      <find>自由变换</find>
+      <find>编组</find>
+      <find>阿里指数</find>
     </findStrings>
     <replaceStrings>
       <replace>打开</replace>
@@ -125,12 +115,12 @@
         <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py" />
         <option value="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理/订单信息汇总_tb4tb40319388.py" />
         <option value="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/ella学习助手.py" />
-        <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py" />
         <option value="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理/三创飞梦商城_订单商品及客户信息.py" />
-        <option value="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/test.py" />
         <option value="$PROJECT_DIR$/first_project/淘宝店铺/1688_实力商家/童装/优质商家数据筛选.py" />
         <option value="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/ella的语言库.py" />
         <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints3_spider.py" />
+        <option value="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/test.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py" />
         <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints12_淘宝运营.py" />
       </list>
     </option>
@@ -146,6 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,7 +192,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,14 +209,14 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\justin\DataGit\yilong\first_project\finishedObject\淘宝自动化管理" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\justin\DataGit\yilong\first_project\淘宝店铺" />
       <recent name="C:\Users\justin\DataGit\yilong\first_project\finishedObject\淘宝自动化管理" />
       <recent name="C:\Users\justin\DataGit\yilong\first_project\finishedObject\淘宝自动化管理\订单详情\淘宝自动生成信息\tb40319388" />
       <recent name="F:\DataGit\yilong\first_project_sql" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\justin\DataGit\yilong\first_project\finishedObject\淘宝自动化管理" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -241,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ella学习助手">
+  <component name="RunManager" selected="Python.ella的语言库">
     <configuration name="优质商家数据筛选" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yilong" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,28 +268,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理/合并订单.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="三创飞梦商城_订单商品及客户信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理/三创飞梦商城_订单商品及客户信息.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -506,6 +474,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ella学习助手" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yilong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/ella学习助手.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yilong" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -530,10 +520,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ella学习助手" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.ella的语言库" />
         <item itemvalue="Python.优质商家数据筛选" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.订单信息汇总_tb4tb40319388" />
       </list>
     </recent_temporary>
@@ -593,16 +582,23 @@
       <workItem from="1574035212438" duration="9607000" />
       <workItem from="1574123644684" duration="22249000" />
       <workItem from="1574206433941" duration="27004000" />
+      <workItem from="1574294612190" duration="3394000" />
+      <workItem from="1574298751673" duration="6342000" />
+      <workItem from="1574310978522" duration="1831000" />
+      <workItem from="1574330209946" duration="2504000" />
+      <workItem from="1574376271272" duration="7584000" />
+      <workItem from="1574394566245" duration="1433000" />
+      <workItem from="1574408904529" duration="11319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231718000" />
+    <option name="totallyTimeSpent" value="266125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1633" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.17882055" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.19530755" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5005417" side_tool="true" weight="0.14331008" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -655,8 +651,8 @@
     <SUITE FILE_PATH="coverage/yilong$mztp.coverage" NAME="mztp Coverage Results" MODIFIED="1572856393106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/selenium+chrome练习" />
     <SUITE FILE_PATH="coverage/yilong$.coverage" NAME="优质商家数据筛选 Coverage Results" MODIFIED="1574082745415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/淘宝店铺/1688_实力商家/童装" />
     <SUITE FILE_PATH="coverage/yilong$__1_.coverage" NAME="完成订单管理 (1) Coverage Results" MODIFIED="1573304472182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理" />
-    <SUITE FILE_PATH="coverage/yilong$test.coverage" NAME="test Coverage Results" MODIFIED="1574034023580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人" />
-    <SUITE FILE_PATH="coverage/yilong$ella.coverage" NAME="ella学习助手 Coverage Results" MODIFIED="1574244577797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人" />
+    <SUITE FILE_PATH="coverage/yilong$test.coverage" NAME="test Coverage Results" MODIFIED="1574330353615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人" />
+    <SUITE FILE_PATH="coverage/yilong$ella.coverage" NAME="ella学习助手 Coverage Results" MODIFIED="1574331792444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人" />
     <SUITE FILE_PATH="coverage/yilong$selenium_chromedriver.coverage" NAME="淘宝selenium+chromedriver Coverage Results" MODIFIED="1573437437052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理" />
     <SUITE FILE_PATH="coverage/yilong$_tb4tb40319388.coverage" NAME="订单信息汇总_tb4tb40319388 Coverage Results" MODIFIED="1573556192220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理" />
     <SUITE FILE_PATH="coverage/yilong$_.coverage" NAME="三创飞梦商城_订单商品及客户信息 Coverage Results" MODIFIED="1573555108451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理" />
@@ -888,14 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/test.py" />
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="1012" column="1" lean-forward="true" selection-start-line="1012" selection-start-column="1" selection-end-line="1012" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/first_project/淘宝店铺/淘宝订单账目管理/三创飞梦商城_订单商品及客户信息.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -1005,13 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/ella的语言库.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints3_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -1019,20 +1000,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/test.py" />
+    <entry file="file://$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/ella的语言库.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/first_project/finishedObject/ella语音机器人/ella学习助手.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        <state relative-caret-position="303">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
           <folding>
             <element signature="e#23#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="1026" column="12" selection-start-line="1026" selection-start-column="12" selection-end-line="1026" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints12_淘宝运营.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="945" column="12" lean-forward="true" selection-start-line="945" selection-start-column="12" selection-end-line="945" selection-end-column="12" />
+        <state relative-caret-position="628">
+          <caret line="1255" column="36" lean-forward="true" selection-start-line="1255" selection-start-column="36" selection-end-line="1255" selection-end-column="36" />
         </state>
       </provider>
     </entry>
