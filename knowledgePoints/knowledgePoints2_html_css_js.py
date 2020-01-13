@@ -9,9 +9,6 @@
 #                   no thanks, just start my download
 #双击安装文件
 #   等待出现欢迎界面（中间会有提示，全部选择是）
-#       License Agreement
-#           i accept the license terms
-#           Next
 #       Choosing a Setup Type
 #           Custom 自定义
 #           Next
@@ -19,9 +16,9 @@
 #           MySQL Servers
 #               MySQL Server
 #                   MySQL Server 8.0
-#                       MySQL Server 8.0.16 - X64
+#                       MySQL Server 8.0.18 - X64
 #                           右向绿色箭头
-#                               MySQL Server 8.0.16 - X64
+#                               MySQL Server 8.0.18 - X64
 #                                   只选择MySQL Server, Server data files,其他全部取消勾选
 #                                       Next
 #       Installation
@@ -195,6 +192,8 @@
 #               use mysql
 #               create user 'justin'@'%' identified by '135cylpsx4848@';
 #               update user set host='%' where user='justin';
+#               grant all on *.* to 'justin'@'%'; #授权
+#               FLUSH PRIVILEGES; #刷新权限
 #               管理员启动cmd
 #               net stop mysql80
 #               net start mysql80
@@ -4957,8 +4956,8 @@ db.zrem(zkey, zvalue)    #删除指定键对应的值
 #                   DATABASES = {
 #                       'default': {
 #                           'ENGINE': 'django.db.backends.mysql',
-#                           'NAME': 'asj', #'NAME'为要操作的数据库名字（前提是有，在mysql中自己新建的空数据库，没有表）
-#                           'USER': 'root', #配置数据库的用户名
+#                           'NAME': 'truelove', #'NAME'为要操作的数据库名字（前提是有，在mysql中自己新建的空数据库，没有表）
+#                           'USER': 'justin', #配置数据库的用户名
 #                           'PASSWORD': '135cylpsx4848@', #配置数据库的密码
 #                           'HOST': 'localhost', #配置服务器主机ip
 #                           'PORT': '3306', #配置mysql的端口，默认3306
@@ -4980,7 +4979,7 @@ db.zrem(zkey, zvalue)    #删除指定键对应的值
 #       如何创建应用
 #           打开cmd
 #               进入创建的目录first_django_project中的django项目目录，即first_django
-#                   输入python manage.py startapp myApp1 #用python执行manage.py文件传个参数startapp表示在创建应用，最后设置一个应用名        bz7
+#                   输入python manage.py startapp myApp1 #用python执行manage.py文件传个参数startapp表示在创建应用，最后设置一个应用名
 #                       if django.core.exceptions.ImproperlyConfigured: mysqlclient 1.3.13 or newer is required; you have 0.9.3. == '报错':
 #                           打开C:\Users\surface\Anaconda3\Lib\site-packages\django\db\backends\mysql\base.py
 #                               将以下两行代码注释掉
@@ -5007,8 +5006,7 @@ db.zrem(zkey, zvalue)    #删除指定键对应的值
 #               'django.contrib.sessions',
 #               'django.contrib.messages',
 #               'django.contrib.staticfiles',
-#               'myAdd1',
-#               'asj',           bz8
+#               'myAdd1',  #bz7
 #           ]
 #   定义模型
 #       概述
@@ -5019,10 +5017,20 @@ db.zrem(zkey, zvalue)    #删除指定键对应的值
 #           目的
 #               与数据库进行交互
 #           导入模块
-#               from django.db import models       bz9
+#               from django.db import models       bz8
 #                   目的：模型类要继承models.Model类
 #               创建一个类，可用于数据的创建以及查询
-#               class myManager(models.Manager):    bz10
+#               class myManager(models.Manager):
+#                   def createIDNumber(self, boy, girl, createTime, lastTime, isDelete=False):
+#                       IDNumber = self.model()
+#                       IDNumber.Boy = boy  #男生的身份证
+#                       IDNumber.Girl = girl #女生的身份证
+#                       IDNumber.gCreateTime = createTime #创建时间
+#                       IDNumber.gLastTime = lastTime #最后一次修改时间
+#                       IDNumber.gIsDelete = isDelete #是否删除
+#                       IDNumber.save() #保存
+#                       return IDNumber
+#               class myManager(models.Manager):    bz9
 #                   def createGrade(self, name, girlNum, boyNum, createTime, lastTime, isDelete=False):
 #                       gra = self.model()
 #                       gra.gName = name
@@ -5046,7 +5054,7 @@ db.zrem(zkey, zvalue)    #删除指定键对应的值
 #                   class Meta:
 #                       db_table = 'grades' #数据库中数据表的名字
 #                       ordering = ['id'] #获取数据时的排列方式是以id字段的升序排列
-#               class Students(models.Model):      bz11
+#               class Students(models.Model):      bz10
 #                   myStuObjects = myManager()
 #                   sName = models.CharField(max_length=20, db_column='姓名')
 #                   sGender = models.BooleanField(default=True, db_column='性别') #True男生 False女生
@@ -5069,7 +5077,7 @@ db.zrem(zkey, zvalue)    #删除指定键对应的值
 #       方法二：黑屏终端
 #       方法三：manage.py 代码生成
 #           创建迁移文件
-#               在django项目目录下 输入 python manage.py makemigrations     bz12
+#               在django项目目录下 输入 python manage.py makemigrations     bz11
 #                   if '报错' = "query = query.decode(errors='replace')AttributeError: 'str' object has no attribute 'decode'":
 #                       单击 "C:\Users\surface\Anaconda3\lib\site-packages\django\db\backends\mysql\operations.py" 进入文件
 #                           将query = query.decode(errors='replace')修改为
@@ -7853,5 +7861,3 @@ db.zrem(zkey, zvalue)    #删除指定键对应的值
 #opthions
 #   本质：tornado.opthins模块
 #   动态生成端口号
-
-#【day】

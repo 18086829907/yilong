@@ -1422,7 +1422,7 @@
 #               /bookstore/book[last()] bookstore里面的最后一个book
 #               /bookstore/book[position()<3] bookstore里面前2个book
 #               //title[@lang] 查找所有的包含lang属性的title，
-#               //title[@lang=’eng‘] 查找所有的包含lang属性='eng'的title
+#               //title[@lang="eng"] 查找所有的包含lang属性='eng'的title
 #               * 查找所有节点
 #       在chrome安装 谷歌访问助手
 #           下载谷歌访问助手解压得到.crx文件
@@ -1457,6 +1457,12 @@
 #               注意索引从1开始
 #           逻辑运算
 #               //input[@type="hidden" and @name="rsv_spt"]
+#           不包含
+#               .//span[not(@class)]
+#               .//span[not(@class) and not(@id)]
+#               .//span[not(contains(@class,'expire'))]
+#               .//span[not(contains(text(),'expire'))]
+#               .//span[contains(@class,'expire')]
 #           模糊匹配
 #               contains
 #                   //input[contains(@class,"s_")] 模糊匹配class为包含s_的所有input标签
@@ -1464,6 +1470,8 @@
 #               starts-with
 #                   //input[starts-with(@class,"s_")] 模糊匹配class为s_开头的所有input标签
 #                   //input[starts-with(text(), "彭")] 模糊匹配文本中以彭开头的所有input标签
+#               ends-with
+#                   
 #           取文本
 #               //div[@id="u_sp"]/a[5]/text()
 #               //div[@id="u_sp"]//text() --> 找到div#u_sp下的所有文本内容,不包含div本身的文本内容
@@ -1480,7 +1488,7 @@
 #               注意
 #                   如果出现lxml.etree.XMLSyntaxError,就用以下方式打开
 #                       from lxml import etree
-#                       parser = etree.HTMLParser(encoding="utf-8")
+#                       parser = etree.HTMLParser(encoding="utf-8") or "gbk"
 #                       tree = etree.parse("123.html", parser=parser)
 #               说明：tree是一个实例化对象，同soup对象相同
 #                   实例化对象的方法

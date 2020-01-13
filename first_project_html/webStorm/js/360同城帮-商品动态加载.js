@@ -64,7 +64,7 @@ $('#page ul').on('click', 'li:not(#next,#previous)', function(){
 
 $('#page li:first').click(function(){
     var current = $('.green').text();
-    if (current === '1'){
+    if (current === '1_冬季电动车儿童护膝保暖骑车加厚摩托车挡风被防水布男女小孩护腿.html'){
         current = '10'
     }
     $('#page li').removeClass('green');

@@ -56,7 +56,7 @@ if __name__ == '__main__':
 #TypeError: NoneType takes no arguments
 #解决办法：重载MicrosoftSpeechObjectLibrary5.4
 import os
-path = r'C:\ Users\justin\Anaconda3\Lib\site-packages\pythonwin\Pythonwin.exe'
+    path = r'C:\ Users\justin\Anaconda3\Lib\site-packages\pythonwin\Pythonwin.exe'
 r_v = os.system(path)
 print(r_v)
 #Tools>COM Makepy utility>microsoft speech object library [5.4]

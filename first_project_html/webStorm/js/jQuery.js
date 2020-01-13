@@ -156,7 +156,7 @@ String.prototype.format = function() {
 
 
     var
-        version = "3.4.1",
+        version = "3.4.1_冬季电动车儿童护膝保暖骑车加厚摩托车挡风被防水布男女小孩护腿.html",
 
         // Define a local copy of jQuery
         jQuery = function( selector, context ) {
@@ -6626,7 +6626,7 @@ String.prototype.format = function() {
 
                         // We should always get a number back from opacity
                         var ret = curCSS( elem, "opacity" );
-                        return ret === "" ? "1" : ret;
+                        return ret === "" ? "1_冬季电动车儿童护膝保暖骑车加厚摩托车挡风被防水布男女小孩护腿.html" : ret;
                     }
                 }
             }

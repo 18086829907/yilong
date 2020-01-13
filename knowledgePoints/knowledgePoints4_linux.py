@@ -1,5 +1,11 @@
 #【day】linux
 #VMware
+#   下载
+#       https://www.cr173.com/soft/68480.html
+#   许可
+#       YG5H2-ANZ0H-M8ERY-TXZZZ-YKRV8
+#       UG5J2-0ME12-M89WY-NPWXX-WQH88
+#       UA5DR-2ZD4H-089FY-6YQ5T-YPRX6
 #   安装
 #       见书签栏-博客教学-linux
 #     新建虚拟机（虚拟电脑）
@@ -52,17 +58,141 @@
 
 #linux目录结构
 #   / 跟目录
-#   /etc 配置文件
-#   /home 所有普通用户的家目录
-#   /root root用户的跟目录
-#   /var 系统一般运行时需要改变的数据
-#   /usr 应用程序相关目录命令、函数库、共享包、内核源码
+#   /etc 存放所有的配置文件的文件夹（安装软件时，如果不指定配置文件的存放位置，那就会默认存放在此文件夹中）
+#   /home 所有普通用户的家目录集合
+#   /root root用户的家目录。存放媒体资源，相当于windows中的我的文档
+#   /bin 存放二进制文件，但在Linux中的二进制文件是可以被执行的。类似windows下的.exe文件。（主要给非超级用户使用）
+#   /sbin 功能同bin目录，也存放二进制文件，但必须拥有超级管理权限的用户才能执行里面的文件
+#   /var 存放着Linux下的一些日志文件，在实际开发的时候有一些公司也习惯把Apache或者nginx的站点目录也会放到这个目录中。即/var/www
+#   /usr 存放用户自己安装的软件的安装目录，类似windows的c:/Program Files文件目录
+#   /tmp 临时目录
 #   $ tree #以树状结构展示目录结构，安装：yum install tree
 #三种网络模式
 #   -bridged(桥接方式，默认使用vmnet0虚拟网卡)
 #   -nat(网络地址转换模式，默认使用vmnet8虚拟网卡)
 #   -host-noly(仅主机模式，默认使用vmnet1虚拟网卡)
+#远程登录（重点）
+#   putty
+#       Host Name（or IP address）
+#           输入ip地址（需要连接的电脑的ip地址）
+#               如何在linux中的centos6查询ip
+#                   在终端中输入：ifconfig
+#                       eth0(默认的本地连接网卡)
+#                           inet addr：192.168.1.6 （可以连接的地址,注意：拔掉网线重启后ip地址会变化）
+#                       lo（本地回环网卡，全称loop）
+#                           inet addr：127.0.0.1
+#               如何在linux中的centos7查询ip
+#                   在终端中输入：ip addr
+#       open
+#           PuTTY Security Alert(安全警告弹出)
+#               说明：第一次使用PuTTY连接服务器时会弹出，点击是即可
+#           login as:root  #输入用户名
+#           password:135cylpsx  #输入时不会显示，如果输入错误，就持续按住backspace，2s后再输入密码
+#               ~：表示用户的家目录路径
+
 #常用命令
+#   命令行进入方式
+#       桌面右键
+#           在终端中打开命令行
+#   命令行符号介绍
+#       [root@localhost 桌面]#
+#           root：当前登录的用户名
+#           @：'在'
+#           localhost：当前主机名称
+#           桌面：当前工作目录
+#           #/$：超级管理员/普通用户
+#   简单命令
+#       ls
+#           语法：ls [参数][指定路径]
+#           功能：没有指定路径，则列出当前目录下的所有文件名
+#       ls -l
+#           功能：以列表的形式列出指定路径下的文件夹和文件名
+#       ls -la
+#           功能：以列表的形式列出指定路径下的文件夹和文件名（包含隐藏文件-“.”开头的文件）
+#       ls /var
+#           功能：列出/var文件夹下的文件
+#       clear
+#           功能：清空当前屏幕中全部的命令（其实质是没有清空，只不过是顶到上面去了）
+#       init
+#           功能：用户Linux的运行模式的切换
+#           语法：#init数字（数字的取值范围是0-6）
+#           说明：不同数字的功能不同
+#               init0 表示关机
+#               init1 表示单用户模式
+#               init2 表示多用户模式
+#               init3 表示将Linux系统从桌面模式切换到命令行模式
+#               init4 表示未被使用的模式
+#               init5 表示将Linux系统从命令行模式切换到桌面模式
+#               init6 表示重启
+#       su
+#           功能：切换用户（switch user）
+#           语法：#su 需要切换到的用户
+#           实例：#su root
+#   目录切换命令
+#       cd
+#           功能：切换目录（change directory）
+#           语法：#cd 需要切换到的路径（可以是相对路径，也可以是绝对路径）
+#           实例：
+#               cd /home/admin 绝对路径
+#               cd ../home/admin 相对路径：相对于当前工作路径，即/root
+#       pwd
+#           功能：打印当前的工作路径（print working directory）
+#           实例：#pwd
+#   文件/文件夹的操作命令
+#       文件的操作命令
+#           创建
+#               命令：touch
+#               语法：#touch 文件的名字 文件名可以是一个完整的路径
+#               说明：只写文件名，则在当前目录下创建文件，如果是完成路径，则在指定文件夹路径下创建文件
+#               实例：
+#                   #touch php50.txt
+#                   #touch /php50.txt
+#           复制
+#               命令：cp（copy）
+#               语法：#cp 需要复制的文件（可以是完整路径） 需要粘贴到的位置（可以是完整路径，注意必须最后要用文件名）
+#               实例：
+#                   #cp php50.txt /home/admin/php50.txt
+#           移动
+#               命令：mv（move）
+#               语法：#mv 需要移动的文件 需要移动到的位置
+#               实例：#mv /home/admin/php50.txt /home/php50.txt
+#           删除
+#               命令：rm（remove）
+#               语法：#rm 需要删除的文件
+#               说明：删除时会被提示是否删除
+#               实例：#rm /root/php50.txt
+#
+#               命令：rm -f（force，强制）
+#               语法：#rm -f 需要删除的文件
+#               实例：rm -f /home/admin/php50.txt
+#           重命名
+#               命令：mv
+#               语法：#mv 需要重命名的文件 新的名字
+#               实例：#mv /php50.txt /50.txt
+#       文件夹的操作命令
+#           创建
+#               命令1：mkdir
+#               语法：mkdir 需要创建的文件夹路径
+#               实例：mkdir ./php
+
+#               命令2：mkdir -p (创建多层级目录)
+#               语法：mkdir 需要创建的文件夹路径
+#               实例：mkdir ./php/php1
+#           复制
+#               命令：cp（copy）
+#           移动
+#               命令1：mv
+#               语法：#mv 需要移动的文件夹路径 粘贴到的文件夹路径
+#               实例：mv ./php2 ./php1   #将文件夹2移动到文件夹1下
+#
+#               命令2：mv
+#           删除
+#               命令1：rmdir
+#               语法：#rmdir 需要删除的文件夹路径
+#
+#               命令2：rmdir -p （删除指定文件夹及其以上的文件夹）
+#               语法：#rmdir -p ./php
+#           重命名
 #   帮助命令
 #       $ man ls #帮助文档，查看命令的文档
 #           说明：进入man之后点h，也能进入帮助文档
@@ -146,8 +276,8 @@
 #       $ passwd justin #更改密码，注意用户名可以省略，默认修改root用户的密码
 #       $ userdel justin #指定删除用户
 #       $ usermod -L justin #锁定用户，禁止其登录
-#       $ su #切换到root用户
-#       $ su justin #切换当前用户为justin
+#       $ su #        #切换到root用户
+#       $ su justin   #切换当前用户为justin
 #       $ whoami #查看哪个用户在线
 #   文件操作
 #       $ cd /home/ #进入操作

@@ -3033,10 +3033,7 @@ os.makedirs(path)
 '''
 os.rmdir(r'.\justinTest')
 '''
-'''
-path = r'D:\qian_feng_education\creatTextDir'
-os.rmdir(path)
-'''
+
 #os.stat(path)获取文件的属性
 '''
 print(os.stat('test.txt'))
@@ -3127,6 +3124,119 @@ print(os.path.exists(path))
 path = r'D:\qian_feng_education\first_project\qianfeng.py'
 print(os.path.getsize(path))
 '''
+
+#【day】shutil文件夹和文件操作
+
+#简介：复制文件内容，粘贴到另外文件中
+#copyfileobj(fsrc, fdst, length=16*1024)
+#   参数
+#       fsrc： 源文件
+#       fdst： 复制至fdst文件
+#       length： 缓冲区大小，即fsrc每次读取的长度
+#   功能：将fsrc文件内容复制至fdst文件，length为fsrc每次读取的长度，用做缓冲区大小
+#   优点：可设置每次读取的长度来控制缓存
+#   缺点：必须先创建fdst文件
+'''
+import shutil
+f1 = open("file.txt","r")
+f2 = open("file_copy.txt","a+")
+shutil.copyfileobj(f1,f2,length=1024)
+'''
+
+#简介：复制粘贴文件
+#copyfile(src, dst)： 将src文件内容复制至dst文件
+#   参数
+#       src： 源文件路径
+#       dst： 复制至dst文件，若dst文件不存在，将会生成一个dst文件；若存在将会被覆盖
+#       follow_symlinks：设置为True时，若src为软连接，则当成文件复制；如果设置为False，复制软连接。默认为True。Python3新增参数
+#   优点：当目标文件不存在时自动创建
+#   缺点：不能设置读取长度，不能控制缓存
+'''
+import shutil
+shutil.copyfile("file.txt","file_copy.txt")
+'''
+
+#简介：复制文件到粘贴生成另一文件或在指定文件夹中粘贴生成同名的另一文件
+#copy(src, dst)： 将文件src复制至dst。dst可以是个目录，会在该目录下创建与src同名的文件，若该目录下存在同名文件，将会报错提示已经存在同名文件。权限会被一并复制。本质是先后调用了copyfile与copymode而已
+#   参数
+#       src：源文件路径
+#       dst：复制至dst文件夹或文件
+#       follow_symlinks：设置为False时，src, dst皆为软连接，可以复制软连接权限，如果设置为True，则当成普通文件复制权限。默认为True。Python3新增参数
+#   优点：文件
+'''
+import shutil, os
+shutil.copy("file.txt","file_copy.txt") #复制文件到粘贴生成另一文件
+# 或者
+shutil.copy("file.txt",os.path.join(os.getcwd(),"copy")) #在指定文件夹中粘贴生成同名的另一文件
+'''
+
+#简介：复制文件夹，粘贴生成文件夹及文件夹中所有内容
+#copytree(src, dst, symlinks=False, ignore=None)： 拷贝文档树，将src文件夹里的所有内容拷贝至dst文件夹
+#   参数
+#       src：源文件夹
+#       dst：复制至dst文件夹，该文件夹会自动创建，需保证此文件夹不存在，否则将报错
+#       symlinks：是否复制软连接，True复制软连接，False不复制，软连接会被当成文件复制过来，默认False
+#       ignore：忽略模式，可传入ignore_patterns()
+#           ignore_patterns(*patterns)： 忽略模式，用于配合copytree()方法，传递文件将会被忽略，不会被拷贝
+#               功能：指定文件名，被指定的文件不会被拷贝到另一个文件夹中
+#               参数patterns：文件名称，元组
+#       copy_function：拷贝文件的方式，可以传入一个可执行的处理函数，默认为copy2，Python3新增参数
+#       ignore_dangling_symlinks：sysmlinks设置为False时，拷贝指向文件已删除的软连接时，将会报错，如果想消除这个异常，可以设置此值为True。默认为False,Python3新增参数
+'''
+import shutil,os
+folder1 = os.path.join(os.getcwd(),"aaa")
+# bbb与ccc文件夹都可以不存在,会自动创建
+folder2 = os.path.join(os.getcwd(),"bbb","ccc")
+# 将"abc.txt","bcd.txt"忽略，不复制
+shutil.copytree(folder1,folder2,ignore=shutil.ignore_patterns("abc.txt","bcd.txt")
+'''
+
+#简介：删除文件夹及其中的文件和文件夹
+#rmtree(path, ignore_errors=False, onerror=None)： 移除文档树，将文件夹目录删除
+#   参数
+#       ignore_errors：是否忽略错误，默认False
+#       onerror：定义错误处理函数，需传递一个可执行的处理函数，该处理函数接收三个参数：函数、路径和excinfo
+'''
+import shutil,os
+folder1 = os.path.join(os.getcwd(),"aaa")
+shutil.rmtree(folder1)
+'''
+
+#简介：移动文件或文件夹
+#   文件夹1到文件夹2
+#        if 文件夹2存在：
+#            文件夹1剪切到文件夹2下
+#        if 文件夹2不存在
+#            文件夹1更名为文件夹2
+#   文件1到文件夹2
+#        if 文件夹2存在：
+#            文件1剪切到文件夹2下
+#        if 文件夹2不存在
+#            文件1更名为文件夹2的名字
+#   文件1到文件2
+#       文件1更名为文件2
+#move(src, dst)： 将src移动至dst目录下。若dst目录不存在，则效果等同于src改名为dst。若dst目录存在，将会把src文件夹的所有内容移动至该目录下面
+#   参数
+#       src：源文件夹或文件
+#       dst：移动至dst文件夹，或将文件改名为dst文件。如果src为文件夹，而dst为文件将会报错
+#       copy_function：拷贝文件的方式，可以传入一个可执行的处理函数。默认为copy2，Python3新增参数
+'''
+import shutil,os
+# 示例一，将src文件夹移动至dst文件夹下面，如果bbb文件夹不存在，则变成了重命名操作
+folder1 = os.path.join(os.getcwd(),"aaa")
+folder2 = os.path.join(os.getcwd(),"bbb")
+shutil.move(folder1, folder2)
+# 示例二，将src文件移动至dst文件夹下面，如果bbb文件夹不存在，则变成了重命名操作
+file1 = os.path.join(os.getcwd(),"aaa.txt")
+folder2 = os.path.join(os.getcwd(),"bbb")
+shutil.move(file1, folder2)
+# 示例三，将src文件重命名为dst文件(dst文件存在，将会覆盖)
+file1 = os.path.join(os.getcwd(),"aaa.txt")
+file2 = os.path.join(os.getcwd(),"bbb.txt")
+shutil.move(file1, file2)
+'''
+
+
 
 #【day65】窗体控制
 '''
@@ -6368,6 +6478,12 @@ print(re.search('www', 'www.baidu.com').span())
 print(re.search('www', 'ww.baidu.com'))
 print(re.search('www', 'baidu.www.com'))
 print(re.search('www', 'baiduwwW.www.com', flags=re.I))
+
+#提取匹配成功后的指定字段
+html = "itemId":"610155403874"
+obj = re.compile(r'"itemId":"(.*?)"')
+itemID = obj.search(html)
+print(itemID.group(1)) #提取正则表达式的括号部分
 '''
 
 #re.findall()
