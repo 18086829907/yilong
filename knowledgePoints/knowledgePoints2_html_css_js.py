@@ -7616,7 +7616,7 @@ db.zrem(zkey, zvalue)    #删除指定键对应的值
 #               $ touch bao
 #               subline打开.gitignore 在其中输入bao
 #               $ git add .
-#               $ git commit -m . "提交到版本区"
+#               $ git commit -m "提交到版本区"
 #               $ git push origin master
 #
 #       从零开发（克隆远程库 克隆库）
