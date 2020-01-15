@@ -1,5 +1,4 @@
-#【day】linux
-#VMware
+#【day1】VMware
 #   下载
 #       https://www.cr173.com/soft/68480.html
 #   许可
@@ -43,20 +42,14 @@
 #                                                                                                       移除
 #                                                                                                   关闭
 #                                                                                                   完成
-#    在虚拟机中安装linux系统
+#    在虚拟机中安装linux系统-centos6.60
 #        见书签栏-博客教学-linux-Centos7超详细过程
-#    登录contos系统
-#        localhost:$ root
-#        Password:$ 135cylpsx4848@
-#        $ systemctl restart network    #加载网卡
-#        $ sudo yum install net-tools    #安装ifconfig工具包
-#        $ ifconfig    #复制ens333中的inet的值，即ipv4 192.168.0.103
 #    打开Xsheel新建会话并连接
 #        名称：firstCentOs
 #        主机：192.168.0.103
 #        双击会话-点击确定-用户名：root-密码：135cylpsx4848@
 
-#linux目录结构
+#【day2】linux目录结构
 #   / 跟目录
 #   /etc 存放所有的配置文件的文件夹（安装软件时，如果不指定配置文件的存放位置，那就会默认存放在此文件夹中）
 #   /home 所有普通用户的家目录集合
@@ -65,8 +58,12 @@
 #   /sbin 功能同bin目录，也存放二进制文件，但必须拥有超级管理权限的用户才能执行里面的文件
 #   /var 存放着Linux下的一些日志文件，在实际开发的时候有一些公司也习惯把Apache或者nginx的站点目录也会放到这个目录中。即/var/www
 #   /usr 存放用户自己安装的软件的安装目录，类似windows的c:/Program Files文件目录
-#   /tmp 临时目录
-#   $ tree #以树状结构展示目录结构，安装：yum install tree
+#   /tmp 临时文件存放目录
+#   /dev：外置设备存放目录
+#   /boot：存放内容及引导系统程序文件
+#   /lib：库文件存放目录
+#   /usr：系统存放程序的目录
+#   #tree #以树状结构展示目录结构，安装：yum install tree
 #三种网络模式
 #   -bridged(桥接方式，默认使用vmnet0虚拟网卡)
 #   -nat(网络地址转换模式，默认使用vmnet8虚拟网卡)
@@ -90,6 +87,20 @@
 #           password:135cylpsx  #输入时不会显示，如果输入错误，就持续按住backspace，2s后再输入密码
 #               ~：表示用户的家目录路径
 
+#扩展知识（1）
+#ctrl+c
+#   功能：停止当前当前命令
+#ctrl+a
+#   功能：将光标切换到命令行最前面
+#ctrl+e
+#   功能：将光标切换到命令行最后面
+#上键和下键
+#   功能：切换历史命令
+#tab
+#   功能：用于补全文件名或文件夹名，连按tab，可以列出指定目录下特定字符开头的文件夹和文件
+#复制
+#   命令行中用鼠标框选需要复制的内容，就将其复制在剪贴板中了
+
 #常用命令
 #   命令行进入方式
 #       桌面右键
@@ -111,19 +122,21 @@
 #           功能：以列表的形式列出指定路径下的文件夹和文件名（包含隐藏文件-“.”开头的文件）
 #       ls /var
 #           功能：列出/var文件夹下的文件
+#       ls 字符串*
+#           功能：匹配指定目录下以特定字符串开头的文件和文件夹，*为通配符
 #       clear
 #           功能：清空当前屏幕中全部的命令（其实质是没有清空，只不过是顶到上面去了）
 #       init
 #           功能：用户Linux的运行模式的切换
 #           语法：#init数字（数字的取值范围是0-6）
 #           说明：不同数字的功能不同
-#               init0 表示关机
-#               init1 表示单用户模式
-#               init2 表示多用户模式
-#               init3 表示将Linux系统从桌面模式切换到命令行模式
-#               init4 表示未被使用的模式
-#               init5 表示将Linux系统从命令行模式切换到桌面模式
-#               init6 表示重启
+#               #0 表示关机
+#               #1 表示单用户模式
+#               #2 表示多用户模式
+#               #3 表示将Linux系统从桌面模式切换到命令行模式
+#               #4 表示未被使用的模式
+#               #5 表示将Linux系统从命令行模式切换到桌面模式
+#               #6 表示重启
 #       su
 #           功能：切换用户（switch user）
 #           语法：#su 需要切换到的用户
@@ -171,28 +184,152 @@
 #               实例：#mv /php50.txt /50.txt
 #       文件夹的操作命令
 #           创建
-#               命令1：mkdir
-#               语法：mkdir 需要创建的文件夹路径
-#               实例：mkdir ./php
-
-#               命令2：mkdir -p (创建多层级目录)
-#               语法：mkdir 需要创建的文件夹路径
-#               实例：mkdir ./php/php1
+#               命令1：mkdir（make directory）
+#               语法：mkdir 需要创建的目录名（可以使路径也可以是名字，如果是路径就在指定路径下创建，如果是名字就在当前目录下创建）
+#               实例1：mkdir ./php
+#               实例2：mkdir php
 #           复制
 #               命令：cp（copy）
+#               语法：#cp -r 需要复制的文件夹 复制到的地方 (-r表示递归，必须加上此参数，才能复制文件夹)
+#               实例：#cp -r php /php
 #           移动
-#               命令1：mv
-#               语法：#mv 需要移动的文件夹路径 粘贴到的文件夹路径
-#               实例：mv ./php2 ./php1   #将文件夹2移动到文件夹1下
-#
-#               命令2：mv
+#               命令：mv
+#               语法：#mv 需要移动的目录 移动到的地方
+#               实例：mv /php /home/admin/php
 #           删除
-#               命令1：rmdir
-#               语法：#rmdir 需要删除的文件夹路径
-#
-#               命令2：rmdir -p （删除指定文件夹及其以上的文件夹）
-#               语法：#rmdir -p ./php
+#               命令：rm
+#               语法：#rm -rf 需要删除的文件夹名称
+#               实例：#rm -rf /home/admin/php (-r递归删除，-f强制不提示)
 #           重命名
+#               命令：mv
+#               语法：#mv 需要重命名的文件夹 新的文件夹名称
+#               实例：mv /home/admin/php/ /home/admin/php1
+#   vim
+#       介绍：vim是linux下一款编辑器软件，它的地位等同于windows下的notepad（记事本）。其功能上要比记事本要强很多倍
+#       具体使用
+#           准备工作
+#               先将/etc/passwd复制到/root
+#                   #cp /etc/passwd /root/passwd
+#           打开文件
+#               语法一：#vim 需要打开的文件名
+#                   实例：#vim /root/passwd
+#                       提示
+#                           退出vim：:q
+#               语法二：#vim +数字 需要打开的文字（打开文件并快速定位到数字指定的行数）
+#                   实例：#vim +5 /root/passwd
+#                       提示
+#                           在vim中显示行号： :set nu
+#               语法三：#vim +/字符串 需要打开的文件（打开文件后，高亮显示/后的字符串）
+#                   实例：#vim +/login /root/passwd
+#                       提示
+#                           如果此时需要在搜索高亮结果中进行光标的快速跳转，可以按下键盘上的“n”（向下切换），或者“N”（向上切换）
+#                           清除高亮显示：:nohl
+#               特别注意（vim新建文件）
+#                   以上三种打开方式，如果打开一个不存在的文件，则会新建此文件。往其中写入内容，退出时则会保存，反之不保存
+#           vim的三种模式
+#               命令模式（默认进入）
+#                   进入末行模式：按下:
+#                   进入编辑模式：按下i或a
+#                   具体操作
+#                       光标移动
+#                           移至首行首位：gg
+#                           移至末行首位：G
+#                           移至指定行首位：数字gg（数字和g的间隔不要太长）
+#                               实例：15gg
+#                           向下移动指定行首位：数字下键
+#                               实例：5下键（向下移动5行）
+#                               注意：不要使用小键盘的数字
+#                           向上移动指定行首位：数字上键
+#                               实例：5上键（向上移动5行）
+#                               注意：不要使用小键盘的数字
+#                       删除
+#                           删除当前行，下行补齐：dd
+#                           删除当前行，下行不补齐：D
+#                           删除光标及下的指定行：数字d
+#                               实例：4d（删除光标所在行，以及下3行，不要用小键盘数字）
+#                           特别说明：删除命令和剪切命令是一模一样的。删除后的内容会自动保存到剪贴板，可以用于粘贴
+#                       复制
+#                           复制当前行：yy
+#                           复制多行：数字yy（数字包括当前行及以下）
+#                           说明：复制完之后可以按p进行粘贴，
+#                       粘贴
+#                           p
+#                           说明：粘贴时粘贴在光标所在行的下一行开始
+#                       恢复撤销
+#                           ctrl+r
+#               末行模式（:）
+#                   进入命令模式
+#                       按1下esc：稍慢
+#                       按2下esc：直接退出
+#                       删除末行命令中的全部命令：直接退出
+#                   具体操作
+#                       保存
+#                           :w
+#                       另存
+#                           :w 文件路径
+#                       退出
+#                           :q
+#                       强制退出(不会保存已经修改了的文件)
+#                           :q!
+#                           :wq!
+#                       保存退出
+#                           :wq 无论文件内容是否修改，都会更新文件保存时的最后修改时间
+#                           :x 实际开发中推荐使用，只有内容真的被修改，才会修改文件的最后修改时间
+#                       查找（查找后，会高亮显示字符串，可以用n和N切换）
+#                           /字符串
+#                           实例：/login
+#                       替换
+#                           语法一：:s/需要替换的字符串/替换成的字符串
+#                               功能：替换当前光标所在的行的第一处符合条件的字符串
+#                           语法二：:s/需要替换的字符串/替换成的字符串/g      （g为global）
+#                               功能：替换当前光标所在的行的所有符合条件的字符串
+#                           语法三：:%s/需要替换的字符串/替换成的字符串
+#                               功能：替换当前文档中所有行的第一个符合条件的字符串
+#                           语法四：:%s/需要替换的字符串/替换成的字符串/g
+#                               功能：替换当前文档中所有行的所有符合条件的字符串
+#                       撤销
+#                           语法一：:u
+#                               功能：撤销一步
+#                           语法二：:数字u
+#                               功能：撤销多步
+#                       加密
+#                           语法：:X
+#
+#               编辑模式（i或a）
+#                   进入命令模式：按下esc
+#                   文档的编辑模式，无命令
+#       vim扩展知识
+#           默认显示行号
+#               修改配置文件.vimrc
+#                   地址：当前用户的家目录中(如果没有就自己创建)
+#                       /root/.vimrc
+#                       /home/admin/.vimrc
+#                   创建文件
+#                       #vim .vimrc
+#                       i
+#                           set nu
+#                       esc
+#                       :wq
+#           别名机制
+#               作用：给冗长的命令起别名，使用别名来调用原本命令的功能
+#               修改配置文件：.bashrc
+#               文件地址:
+#                   /root/.bashrc
+#                   /home/admin/.bashrc
+#               具体操作
+#                   #vim /root/bashrc
+#                       alias clear='cls'     #alias设置别名   别名命令='原命令'
+#                   :q
+#                   重新登录才能生效
+#                       方法一：切换用户
+#                           #su admin
+#                           #su root
+#                       方法二：重新
+#           异常关闭处理
+#               说明：vim编辑一个文件，没有正常关闭，则在下一次打开此文件时会提示异常关闭
+#               问题本质：vim打开一个文件时，会新建一个原文件名.swp的缓存文件，正常关闭会删除.swp文件，异常关闭不会删除.swp
+#               解决办法
+#                   手动删除源文件名.swp的文件：#rm /root/.bashrc.swp
 #   帮助命令
 #       $ man ls #帮助文档，查看命令的文档
 #           说明：进入man之后点h，也能进入帮助文档
@@ -291,19 +428,6 @@
 #       $ vi file.log #在当前目录中创建文件，并进入编辑模式
 #       $ echo '1234567890' >> ./file02 #创建file.txt文件并输入空到文件中
 #       $ cat ./file02 #查看file02文件中的内容
-#   列出文件和目录列表
-#       $ ls #列表形式显示当前目录中的所有目录及文件
-#       $ ls -a #显示出当前目录下的所有目录及文件，包括隐藏文件
-#       $ ll -h #以人类能读懂的文件大小显示当前目录下所有文件
-#   文本编辑器
-#       $ vim file03 #进入file03的编辑模式，如果file03不存在，则无法保存写入内容
-#       $ vi file04 #进入file04的编辑模式，如果file04不存在则创建
-#       $ i #进入书写模式
-#       $ ESC #退出书写模式
-#       $ :q #退出
-#       $ :w #保存
-#       $ :wq #保存退出
-#       $ :q！ #强制退出
 #   文件内容查看
 #       $ cat -n ./file01 #查看内容时显示行号
 #       $ cat ./file01 #查看内容不显示行号
@@ -317,28 +441,11 @@
 #       $ less ./file01 #能回滚看
 #       $ vi ./file01 #进入编辑模式查看文件内容
 #       $ vim ./file01 #进入编辑模式查看文件内容
-#   复制文件
-#       $ cp ./test1/file01 ./test2 #将test1下的file01文件复制到test2目录下
-#   复制目录
-#       $ cp -r ./test1 ./test2 #将test1目录复制到test2中
-#   多个复制
-#       $ cp -r ./mia/file02 ./test1 ./coco #将mia目录中的file02文件和test1目录复制到cooc目录下
-#   剪切、重命名文件或目录
-#       $ mv ./test2 ./test1 #将目录test2剪切到test1中
-#       $ mv ./abc/a ./test1 #将目录abc下的a目录剪切到test1中
-#       $ mv ./test1 ./test2 ./test3 #将目录test1和目录test2剪切到test3
-#       $ mv ./test1/abc ./test2/bcd #将目录test1下面的abc文件剪切到test2目录中，并重命名为bcd文件
-#       $ rename #批量重命名
 #   重定向和追加
 #       $ echo '123' >> /home/abc #在abc文件中的最后一行追加123
 #       $ echo '123' > /home/abc #重写abc中的内容
 #   屏幕打印
 #       $ echo '123' #在屏幕中打印123
-#   删除
-#       $ rm ./file03 #删除file03文件
-#       $ rm -r #删除目录
-#       $ rm -f #强制删除
-#       $ rm -rf ./mia #递归强制删除，不在询问是否要删除某个文件或目录
 #   打包压缩、查找
 #       $ tar -z #压缩
 #       $ tar -c #打包
@@ -357,17 +464,6 @@
 #       $ updatedb #是locate命令有效
 #       $ locate file1 #查找file1文件所在文件路径，查询更快，因为是通过数据库查询
 #       $ find / -name file1 #在指定目录下查找指定条件——名字为file1的文件路径
-#   清屏
-#       $ clear#
-#   设置别名
-#       $ alias #查看所有别名
-#       $ alias cle=clear #将clear命令设置cle临时别名
-#       $ unalias cle #取消cle临时别名
-#       $ vi ~/.bashrc #家目录下都有一个环境变量配置文件，针对当前用户
-#           添加 alias cle='clear' #设置永久别名
-#           ESC
-#           :wq
-#       $ source ~/.bashrc #保存bashrc所做的修改
 #   特殊符号
 #       $ cd ~ #进入当前用户的家目录
 #       $ cd - #回退到上一次的所在位置
@@ -403,64 +499,420 @@
 #           :wq #保存退出
 #       $ su justin #切换到justin用户
 #       $ sudo rm -rf ./test #justin用户用sudo权限删除属于root的文件目录
-#具体知识点
-#   常见目录介绍
-#       /bin：存放常用命令，普通用户也可执行
-#       /dev：存放设备文件
-#       /boot：存放内容及引导系统程序文件
-#       /home：普通用户主目录的默认存放位置
-#       /lib：库文件存放目录
-#       /tmp：存放临时文件
-#       /usr：系统存放程序的目录
-#   修改root密码
-#       方法见书签栏/博客教学/linux/root密码修改
-#   linux磁盘分区格式
-#       概念：规定文件的存储读写方式
-#       包括：ext4 ext3 ext2 vfat(fat32)
-#   windows磁盘分区格式
-#       包括：ntfs fat32(限制拷贝2g以上，如果需要拷贝2g以上，使用convert转换格式)
-#   用户和组的操作
-#       账户包括
-#           超级用户：root uid=0
-#           普通账户：      uid>=500
-#           系统账户：      uid=1~499
-#           保存账户信息的位置：/etc/passwd
-#           保存账户密码信息的位置：/etc/shadow
-#           root用户的家目录：/root
-#           普通用户xxx的家目录：/home/xxx
+
+#【day】rpm软件管理
+#简介：在linux中rpm其实有点类似于windows下的“xxx电脑管家”，其作用就是管理软件
+#功能
+#   查询软件安装情况
+#       语法：rpm -qa [|grep]需要查询的关键词
+#       参数解释
+#           -q：query，查询
+#           -a：all，全部
+#           |：在php中称它为变量修饰器。在linux中称为管道
+#           grep：表示从结果中进行过滤
+#       实例：rpm -qa mysql
+#   安装软件
+#       语法：rpm -ivh 需要安装的软件完整名称
+#       参数解释
+#           -i：install，安装
+#           -v：表示显示进度条
+#           -h：表示进度条以“#”显示
+#       查询软件的完整名字
+#           条件
+#               centos6.6的系统盘必须挂载（在虚拟机的CD/DVD中必须挂载-使用iso映像文件中有路径，且已连接要勾选。右键虚拟机名称，点击设置即可弹出挂载界面）
+#               linux桌面版的桌面上必须有系统的cd盘符。如果没有，就去我的电脑中打开一下就有了
+#           所有安装包的存放位置
+#               linux桌面版：centos的光盘-packages
+#                   在该文件夹的空白处右键点击在终端中打开
+#               linux命令行：/media/CentOS_6.6_Final/Packages
+#           在软件包目录中查询需要安装软件的全名称
+#               #cd /media/CentOS_6.6_Final/Packages
+#               #ls firefox*    列出以firefox开头的所有文件
+#       实例：rpm -ivh firefox-31.1.0-5.el6.centos.i686.rpm
+#   卸载软件
+#       语法：rpm -e 需要卸载的软件名称（软件完整名称，即通过查询可得到）[--nodeps]
+#       参数解释
+#           -e：卸载
+#           --nodeps：忽略依赖关系
+#       实例：rpm -e firefix-31.1.0-5.el6.centos.i686 --nodeps
+
+#【day】linux的运行模式
+#模式
+#   单用户：操作系统一般只能由一个人同时进行登录
+#   多用户：操作系统可以允许由多个人同时进行登录
+#   单任务：操作系统只能同时处理一个任务
+#   多任务：操作系统可以同时处理多个任务
+#扩展
+#   windows属于单用户多任务系统
+#       验证：cmd中输入mstsc（mstsc是windows系统的远程工具），通过远程登录其他电脑，其他电脑的用户会被强制下线
+#   linux属于多用户多任务系统
+#运行模式文件
+#   文件名：inittab
+#   位置：/etc/inittab
+#   修改默认模式（开机后自动进入该运行模式）
+#       打开文件：#vim /etc/inittab
+#           26 id:3:initdefault    #修改id:后面的数字，即修改默认模式
+#           :x
+#           #init 6    #重启计算机后生效
+#   模式介绍
+#       0 关机模式，千万别设置为0，因为开机就会关机
+#       1 单用户模式
+#       2 多用户模式
+#       3 命令行模式
+#       4 未被定义的模式
+#       5 桌面模式
+#       6 重启模式，同关机模式，千万别设置为6，因为开机就重启
+
+#【day】网卡设置（重点）
+#千万注意：在实际开发的时候linux服务器/windows服务器的网卡不要随便的禁用，一担禁用，远程终端就会立刻断开，一担断开就会连接不上
+#网卡配置文件的位置及网卡文件：/etc/sysconfig/network-scripts/
+#查看网卡：#ifconfig
+#每个网卡对应一个网卡配置文件
+#   eth0网卡 -> ifcfg-eth0
+#   lo网卡 -> ifcfg-lo
+#打开配置文件
+#   vim /etc/sysconfig/network-scripts/ifcfg-eth0
+#       DEVICE设备
+#       TYPE类型
+#           Ethernet以太网
+#       UUID设备ID
+#       ONBOOT是否开机启动
+#       BOOTPROTO自动模式
+#           dhcp自动获取ip
+#       HWADDR硬件地址
+#禁用/启用网卡
+#   禁用网卡：#ifdown 设备名称
+#       实例：#ifdown eth0
+#       注意：实际开发中，千万不要随意使用
+#   启用网卡：#ifup 设备名称
+#       实例：#ifup eth0
+
+#【day】用户和用户组
+#用户管理
+#   添加
+#       命令：useradd
+#       语法：#useradd 用户名
+#       实例：#useradd justin
+#       验证：#/vim /etc/passwd   在最后一行能看到新添加的用户名
+#           扩展：passwd中一行内容详解
+#               16 dbus:x:81:81:System message bus:/:/sbin/nologin
+#               行号 用户名:密码（占位符）:用户id:用户组id:注释或备注:用户对应的家目录:用户所对应的解释器位置（/sbin/nologin-无登录权限，/bin/bash-有登录权限）
+#               说明：密码单独存储在/etc/shadow中
+#   编辑
+#       命令：usermod（user modify）
+#       语法：#usermod 参数 需要修改的用户名
+#       参数解释
+#           -l：修改用户名
+#               语法：#usermod -l 新用户名 需要被修改的用户名
+#               实例：#usermod -l justin admin
+#           -g：修改用户的用户组id
+#               语法：#usermod -g 新的用户组id 需要被修改的用户名
+#   删除
+#       命令：userdel（user delete）
+#       语法：#userdel 用户名
+#       实例：#userdel justin
+#   密码
+#       命令：passwd
+#       语法：#passwd 需要设置密码的用户名
+#       实例：#passwd justin
+#       注意：当设置密码过于简单，它会提示无效密码，但并不影响你继续验证密码，重新输入新密码（即简单的密码）后，密码设置成功。
+#用户组
+#   添加
+#       命令：groupadd
+#       语法：#groupadd 用户组名
+#       实例：#gourpadd china
+#       验证：#vim /etc/group
+#           扩展：group中一行内容详解
+#               5 haldaemon:x:68:haldaemon,jusin,admin:jfdsfa
+#               行号 用户组名:密码的占位符（无意义，真无密码）:用户组id:用户组内的成员名称:备注
+#   编辑
+#       命令：groupmod（gourp modify）
+#       语法：#groupmod 参数 用户组名
+#       参数解释
+#           -n：重命名
+#               语法：#groupmod -n 新的用户组名 旧的用户组名
+#               实例：#groupmod -n itcast china
+#   删除
+#       命令：groupdel
+#       语法：#groupdel 需要删除的用户组名
+#       注意：只能直接删除空的用户组，其中有用户名的需要先删除用户名，删除后再删用户组
+#特别注意：在linux中，只有超级用户具有对用户/用户组的管理权限，其他用户一律禁止
+
+#【day】权限设置（重点）
+#查看当前用户对指定文件夹内所有文件及文件夹的使用权限
+#   方法：ls -l 或 ls -la
+#   实例：ls -l
+#       -rwxrwx---
+#       0123456789
+#           0：档案类型
+#               -：文件
+#               d：文件夹
+#           [1,2,3]:文件拥有者权限，即创建此文件的用户拥有的权限（u表示，user）
+#               r：可读
+#               w：可写
+#               x：可执行
+#               -：无此权限
+#           [4,5,6]:文件所属群组的权限，即创建此文件的用户所在组的其他用户所拥有的权限（g表示，group）
+#               r：可读
+#               w：可写
+#               x：可执行
+#               -：无此权限
+#           [7,8,9]：其他人对此文件的权限（o表示，other）
+#设置权限
+#    通过字符命令设置权限
+#        命令：chmod（change modify）
+#        语法：#chmod 权限组成信息 需要操作的对象（文件夹/文件）
+#            注意：如果操作的对象是文件夹，需要加上-r参数，-r表示递归
+#            参数解释
+#                权限组成信息：
+#                    第一种情况：对特定组成部分（u,g,o）单独设置某个权限
+#                        添加权限
+#                            语法：#chmod u+权限,g+权限,o+权限 需要操作的文件/文件夹
+#                            实例：#chmod u+r,g+r,o+r /home/admin/text.txt
+#                        删除权限
+#                            语法：#chmod u-权限,g-权限,o-权限 需要操作的文件/文件夹
+#                            实例：#chmod u-r,g-r,o-r /home/admin/text.txt
+#                        设置权限
+#                            语法：#chmod u=读写执,g=读写执,o=读写执 需要操作的文件/文件夹
+#                            实例：#chmod u=rwx,g=-w-,o=--- /home/admin/text.txt
+#                    第二种情况：对全部组成部分设置某个权限
+#                        #chmod a+r 对全部组成部分添加可读权限
+#                        #chmod a-r 对全部组成部分删除可读权限
+#                        #chmod a=rwx 对全部组成部分设置可读可写可执行权限
+#   通过数字设置权限
+#       4表示读权限
+#       2表示写权限
+#       1表示执行权限
+#       7表示全部权限
+#       说明：把50.txt文件权限设置为所有者全部权限，同组用户读写权限，其他用户读权限
+#           全部权限=读+写+执=4+2+1=7
+#           读写权限=读+写=4+2=6
+#           读权限=读=4
+#           所以最终权限数字=764
+#       实例：chmod 764 50.txt
+#   友情提示
+#       在以后实际工作中不要出现一个奇葩的权限
+#           -wx  不要出现类似这样的权限，原因最基础的读权限未给，如果要写必须先读（打开）
+
+#【day】实用扩展
+#Linux下的>和>>
+#   概念
+#       >：覆盖写入
+#       >>：追加写入
+#   命令打印的结果保存到文件
+#       语法：命令 [参数] > 文件（用户保存命令所返回的结果，目录中无此文件会自动新建）
+#       实例1：ls -la > list.txt
+#       实例2：ls -la >> list.txt
+#Linux下的查找命令
+#   语法：#find 查找路径 -name 查找的关键词
+#   实例：#find / -name httpd.conf    全盘查找httpd.conf
+#Linux下的手册man（Manual）
+#   功能：查看某个命令的详细用法
+#   语法：#man 命令名称
+#   实例：#man find
+#   退出手册：q
+
+#【day】LAMP编程之linux
+#ssh协议
+#   常见协议：http/https、ftp、tcp/ip、tcp/upd等
+#   常见端口：80、3306、21、11211、443等
+#   说明
+#       ssh协议的端口是22
+#       ssh最典型的应用是可以让用户通过终端远程连接Linux服务器
+#       在linux中ssh协议是一个守护进程，名字叫sshd
+#       是进程就可以被开启/关闭/重启
+#           service 服务名称 start
+#           service 服务名称 stop    #实际开发中，不要随意关闭，否则无法连接远程服务器
+#           service 服务名称 restart
+#利用ssh工具实现跨平台传输文件
+#   工具：pscp.exe
+#       说明
+#           它是一个命令行工具，需要在cmd中执行。
+#           cmd中输入文件的全局路径+文件名执行
+#           为了方便使用，可以将pscp.exe的路径加入到环境变量中
+#               环境变量的path中添加文件所在目录路径即可，不需要添加文件名
+#       cmd中使用pscp
+#           windows中的文件传到linux中
+#               语法：pscp windows中的文件路径 用户名@主机地址:文件的路径
+#               实例：pscp C:\Users\Administrator\Desktop\1.txt root@192.168.0.110:/root/1.txt
+#           linux中的文件传到windows中（仍然在cmd中操作）
+#               语法：pscp 用户名@主机地址:文件路径 windows中的文件路径
+#               实例：pscp root@192.168.0.110:/root/1.txt C:\Users\Administrator\Desktop\1.txt
+#           传送指定文件夹下的所有文件
+#               实例：pscp D:\softwear\* root@192.168.0.110:/root/softwear
+#                   注意传输时，必须存在指定目录
+#   工具：FileZilla
+#       说明
+#           它是一个界面化的传输工具
+#       使用
+#           填入ip地址，用户名，密码，22端口
+#           点击快速链接，就可以拖动文件进行传输
+#光盘挂载
+#   说明：本质是将光盘设备(/dev/sr0)在/mnt/dvd中创建一个快捷方式，创建之后就才能使用光盘中的内容
+#   首先：需要确保光盘已经放入了虚拟机的光驱中（虚拟机名称-右键-设置-cd/dvd）
+#   命令：mount
+#       语法：#mount [参数] 设备名称 挂载位置
+#       参数解释
+#           设备名称：通过lsblk命令（list block devices）来获取
+#               实例：#lsblk
+#                   sr0 11:0 1 4.3G 0 rom MOUNTPOINT为空（挂载点路径为空）   #列出的文件树中最接近iso文件大小的是sr0，而sr0只是文件名称
+#                       注意：lsblk列出的设备都位于/dev目录中，因此设备的完整路径为/dev/sr0
+#       实例：#mount /dev/sr0 /mnt/dvd (dvd必须手动先创建)
+#           提示以下信息表示成功：mount: block device /dev/sr0 is write-protected（写保护）, mounting read-only（只读）
+#               此时即可进入/mnt/dvd/Packages/中使用安装包了
+
+#【day】LAMP安装
+#安装步骤
+#   关闭防火墙（因为它会封杀要用的端口，比如80端口）
+#       防火墙在linux中的服务文件名称为iptables
+#           它是服务就有开启/关闭/重启等操作进程的命令
+#               语法：service 服务名 start/stop/restart
+#               实例
+#                   #service iptables start
+#                   #service iptables stop
+#                   #service iptables restart
+#   卸载防火墙
+#       查询软件名称
+#           #rpm -qa iptalbes
+#       卸载软件（卸载原因：如果不卸载，重启后，仍然会启动防火墙，防火墙封杀端口）
+#           #rpm -e iptables-1.4.7-14.el6.x86_64
+#               error：Failed depandencies:...    #需要忽略包依赖关系
+#                   解决办法
+#                       #rpm -e iptables-1.4.7-14.el6.x86_64 --nodeps （--nodeps，忽略依赖关系）
+#   将安装文件通过工具传输到linux中
+#   解压压缩包（说明）
+#       linux中的压缩格式
+#           gz
+#               解压命令：tar
+#                   语法：tar -zxvf 需要解压的文件
+#           bz2
+#               解压命令：tar
+#                   语法：tar -jxvf 需要解压的文件
+#   安装zlib压缩库
+#       #cd /root/installed/lamp
+#       #tar -zxvf zlib-1.2.5.tar.gz
+#       #cd zlib-1.2.5
+#       #ls
+#           说明：其中大部分文件时.c和.h说明文件是c语言开发，因此这里需要gcc开发工具（在安装centos的时候，一定记得勾选开发者工具）
+#       #./configure    #它是绿色文件，是一个可执行的文件。作用是对当前的程序安装进行配置，等待配置成功
+#       #make && make install     #编译与安装（&&表示先执行完前面的命令再执行后面的命令。编译和安装可以单独写入，即#make #make install）
+#   安装apache
+#       #rpm -qa httpd     #查看是否有安装的apache
+#       #rpm -e httpd-2.2.15-39.el6.centos.x86_64 --nodeps     #删除默认安装的apache并忽略依赖关系
+#       #cd /root/installed/lamp
+#       #tar -jxvf httpd-2.2.19.tar.bz2
+#       #cd httpd-2.2.19
+#       #ls
+#       #./configure --prefix=/usr/local/http2 --enable-modules=all --enable-mods-shared=all --sysconfdir=/etc/httpd --enable-so
+#           参数解释
+#               --prefix
+#                   功能：指定软件的安装目录
+#                   语法：--prefix=目录
+#                   说明：如果目录不存在，则会自动创建
+#               --enable-modules
+#                   功能：指定加载的模块
+#                       参数解释：all表示加载全部模块
+#               --enable-mods-shared
+#                   功能：使模块以静态共享的方式进行安装
+#               --sysconfdir
+#                   功能：指定软件的配置文件的存放位置
+#                   语法：--sysconfdir=目录
+#                   说明：目录如果不存在，则自动生产
+#               --enable-so
+#                   功能：？
+#       #make && make install   #编译和安装
+#       #vim +148 /etc/httpd/httpd.conf    #配置apache文件
+#           i
+#           去掉148行的#号,即将这行（#ServerName www.example.com:80）的#号去掉
+#           :x
+#       #/usr/local/http2/bin/apachectl start    #启动apache
+#           扩展：apachectl是可执行文件，它有开启/关闭/重启命令
+#               ./apachectl start
+#               ./apachectl stop
+#               ./apachectl restart
+#       #ifconfig
+#           此时就能在windows中的浏览器访问linux的ip地址
+#               It works（浏览器显示此内容）
+#                   请求头中Server: Apache/2.2.19 (Unix) DAV/2
+#   安装libxml2
+#       #cd /root/installed/lamp
+#       #tar -zxvf ./libxml2-2.7.2.tar.gz
+#       #cd libxml2-2.7.2
+#       #./configure --prefix=/usr/local/libxml2 --without-zlib
+#           参数解释
+#               --prefix    #指定安装路径
+#               --without-zlib     #不需要安装zlib
+#       #make && make install
+#   安装jpeg8
+#       #cd /root/installed/lamp
+#       #tar -zxvf jpegsrc.v8b.tar.gz
+#       #cd jpeg-8b/
+#       #./configure --prefix=/usr/local/jpeg --enable-shared --enable-static
+#       #make && make install
+#   安装libpng
+#       #cd /root/installed/lamp
+#       #tar -zxvf libpng-1.4.3.tar.gz
+#       #cd libpng-1.4.3
+#       #./configure
+#       #make && make install
+#   安装freetype（字体库）
+#       #cd /root/installed/lamp
+#       #tar -zxvf freetype-2.4.1.tar.gz
+#       #cd freetype-2.4.1
+#       #./configure --prefix=/usr/local/freetype
+#       #make && make install
+#   安装GD库(处理图片的扩展)
+#       #cd /root/installed/lamp
+#       #tar -zxvf gd-2.0.35.tar.gz
+#       #cd gd-2.0.35
+#       #./configure --prefix=/usr/local/gd --with-jpeg=/usr/local/jpeg --with-png --with-zlib --with-freetype=/usr/local/freetype
+#           参数解释
+#               --with-jpeg    需要jpeg库
+#       #make && make install
+#   安装openssl（加密套件，用于https协议）
+#       #cd /root/installed/lamp/
+#       #tar -zxvf openssl-1.0.1t.tar.gz     tar -zxvf openssl-1.1.1d.tar.gz
+#       #cd openssl-1.0.1t     cd openssl-1.1.1d
+#       #./config --prefix=/usr/local/openssl
+#       #make && make install
+#   安装php
+#       #cd /root/installed/lamp/
+#       #tar -jxvf php-5.3.6.tar.bz2
+#       #cd php-5.3.6
+#       #./configure --prefix=/usr/local/php --with-apxs2=/usr/local/http2/bin/apxs --with-mysql=mysqlnd --with-pdo-mysql=mysqlnd --with-mysqli=mysqlnd --with-freetype-dir=/usr/local/freetype --with-gd=/usr/local/gd --with-zlib --with-libxml-dir=/usr/local/libxml2 --with-jpeg-dir=/usr/local/jpeg --with-png-dir --enable-mbstring=all --enable-mbregex --enable-shared --with-openssl-dir=/usr/local/openssl --with-openssl
+#           参数解释
+#               --with-apxs2    #指定apache下的一个文件目录
+#               --with-mysql    #开启一个mysql的扩展
+#       #make && make install
+#   安装cmake（它是新款的c语言编译器，因为在mysql5.5之后，只支持cmake）
+#       #cd /root/installed/lamp/
+#       #tar -zxvf cmake-3.6.0-rc1.tar.gz
+#       #cd cmake-3.6.0-rc1
+#       #./bootstrap
+#       #gmake && gmake install
+
+
+
+#   提示：
+#       如果在安装上面软件时出错
+#           删除目录
+#               第一个：通过tar命令解压的目录
+#               第二个：使用--preifx指定的目录
+#           在从解压这个软件包开始重新安装
+#扩展
+#   升级全部软件
+#       #yum -y update
+
+
+
+
+
+
+
 #软件安装管理（安装应用程序）
 #   二进制程序的安装
 #       详见书签栏-博客教学-linux-linux系统下安装jdk
 #       $ java -version #先执行以下java应用 参数为-version，如果安装jdk则报错，如果安装了jdk返回去版本号
-#   Rpm 程序安装(后缀名为*.rpm)
-#       rpm命令格式：rpm [选项] [文件1] [文件2]
-#       rpm工具功能
-#           查询
-#               $ rpm -q telnet-server xinetd
-#               $ rpm -qa | grep mysql #在所有搜索出来的应用文件和安装包文件中查询mysql信息
-#               $ rpm -qi 软件名 #已安装
-#               $ rpm -ql 软件名 #安装位置
-#               $ rpm -qf 目录 #目录是由哪个安装包所创建的
-#           安装
-#               $ rpm -ivh nc-1.84-22.el6.x86_64.rpm
-#           升级(自动卸载老版本，安装新版本)
-#               $ rpm -Uvh nc-1.84-22.el6.x86_64.rpm
-#           刷新
-#               $ rpm -Fvh nc-1.84-22.el6.x86_64.rpm
-#           卸载
-#               $ rpm -e nc
-#       #查询应用是否安装
-
-#       #安装应用
-
-#       #验证是否安装成功
-#           $ rpm -Vp nc-1.84-22.el6.x86_64.rpm
-#       #更新软件包
-#
-#       注意：rpm有非常强的包依赖问题，比如安装gcc之前就需要安装其他很多包
-#           示例：$ rpm -ivh gcc-9.1.1-2.fc31.aarch64.rpm #使用包管理工具安装gcc应用
-#               需要先安装
-#                   lib64mpfr4-3.1.5-1.mga6.x89-64.rpm
 #   Yum 在线安装(本质也是rpm)
 #       从光盘安装
 #           本地源
