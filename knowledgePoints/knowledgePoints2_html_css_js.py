@@ -1383,6 +1383,48 @@ db.zrem(zkey, zvalue)    #删除指定键对应的值
 #   浏览器支持(safari、chrome、firefox、opera、ie9)
 #开发工具
 #   hbuiler
+#   webstorm
+#       tab快速补全
+#           语法
+#               > 后代
+#                   实例：nav>ul>li
+#               + 兄弟
+#                   实例：div+p+bq
+#               ^ 上级
+#                   实例
+#                       div+div>p>span+em^bq
+#                       div+div>p>span+em^^bq
+#               () 分组
+#                   实例
+#                       div>(header>ul>li*2>a)+footer>p
+#                       (div>dl>(dt+dd)*3)+footer>p
+#               * 乘法
+#                   实例：ul>li*5
+#               $ 自增
+#                   实例
+#                       ul>li.item$*5
+#                       h[title=item]{Header $}*3
+#                       ul>li.item$$$*5
+#                       ul>li.item$@-*5
+#                       ul>li.item$@3*5
+#               # 自动补全id属性
+#                   实例： div#id
+#               . 自动补全class属性
+#                   实例: div.class
+#               [title='123'] 自定义属性
+#                   实例
+#                       p[title=”Hello world”]
+#                       td[rowspan=2 colspan=3 title]
+#                       [a=’value1’ b=”value2”]
+#               {} 文本
+#                   实例
+#                       a{Click me}
+#                       p>{Click }+a{here}+{ to continue}
+#               隐式标签（省略标签名，隐式标签会根据前缀自动判断标签名）
+#                   .abc     div
+#                   p>.abc      span
+#                   ul>.abc     li
+#                   table>.row>.col     tr/td
 #pc调试工具
 #   谷歌
 #手机调试工具
@@ -1523,7 +1565,7 @@ db.zrem(zkey, zvalue)    #删除指定键对应的值
 #       常见块级标签
 #           <div></div>
 #               最常用的块级标签
-#               <dif id=""></div>
+#               <div id=""></div>
 #               id属性 唯一属性 整个网页中id的值不能重复
 #           <dl></dl>
 #           <dt></dt>
@@ -1603,7 +1645,6 @@ db.zrem(zkey, zvalue)    #删除指定键对应的值
 #注释
 #   html <!-- -->
 #   css  /**/
-
 
 #【day159】css选择器
 #css选择器

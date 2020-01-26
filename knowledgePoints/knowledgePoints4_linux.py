@@ -49,6 +49,7 @@
 #        主机：192.168.0.103
 #        双击会话-点击确定-用户名：root-密码：135cylpsx4848@
 
+
 #【day2】linux目录结构
 #   / 跟目录
 #   /etc 存放所有的配置文件的文件夹（安装软件时，如果不指定配置文件的存放位置，那就会默认存放在此文件夹中）
@@ -63,64 +64,122 @@
 #   /boot：存放内容及引导系统程序文件
 #   /lib：库文件存放目录
 #   /usr：系统存放程序的目录
+#   /opt：安装额外软件的目录，安装到根目录下，其他用户才能使用此软件
 
 #三种网络模式
 #   -bridged(桥接方式，默认使用vmnet0虚拟网卡)
 #   -nat(网络地址转换模式，默认使用vmnet8虚拟网卡)
 #   -host-noly(仅主机模式，默认使用vmnet1虚拟网卡)
-#远程登录（重点）
-#   putty
-#       Host Name（or IP address）
-#           输入ip地址（需要连接的电脑的ip地址）
-#               如何在linux中的centos6查询ip
-#                   在终端中输入：ifconfig
-#                       eth0(默认的本地连接网卡)
-#                           inet addr：192.168.1.6 （可以连接的地址,注意：拔掉网线重启后ip地址会变化）
-#                       lo（本地回环网卡，全称loop）
-#                           inet addr：127.0.0.1
-#               如何在linux中的centos7查询ip
-#                   在终端中输入：ip addr
-#       open
-#           PuTTY Security Alert(安全警告弹出)
-#               说明：第一次使用PuTTY连接服务器时会弹出，点击是即可
-#           login as:root  #输入用户名
-#           password:135cylpsx  #输入时不会显示，如果输入错误，就持续按住backspace，2s后再输入密码
-#               ~：表示用户的家目录路径
 
-#扩展知识（1）
-#ctrl+c
-#   功能：停止当前当前命令
-#ctrl+a
-#   功能：将光标切换到命令行最前面
-#ctrl+e
-#   功能：将光标切换到命令行最后面
-#上键和下键
-#   功能：切换历史命令
-#tab
-#   功能：用于补全文件名或文件夹名，连按tab，可以列出指定目录下特定字符开头的文件夹和文件
-#复制
-#   命令行中用鼠标框选需要复制的内容，就将其复制在剪贴板中了
-#放大终端字体
-#   ctrl+shift+=
-#缩小终端字体
-#   ctrl+-
-#通配符
-#   * 代表任意个数个字符
-#   ？代表任意一个字符，至少1个
-#   [] 表示可以匹配字符组中的任意一个
-#       #ls [123]23.txt
-#
+#远程登录（重点）
+#   使用ssh实现远程登录
+#       说明：ssh在linux、mac中都是自动安装，只有windows需要安装一个ssh协议的软件
+#   ssh的优点
+#       传输的数据会被加密和压缩，防止信息泄露和提高传输速度
+#   安装软件
+#       putty
+#           Host Name（or IP address）
+#               输入ip地址（需要连接的电脑的ip地址）
+#                   如何在linux中的centos6查询ip
+#                       在终端中输入：ifconfig
+#                           eth0(默认的本地连接网卡)
+#                               inet addr：192.168.1.6 （可以连接的地址,注意：拔掉网线重启后ip地址会变化）
+#                           lo（本地回环网卡，全称loop）
+#                               inet addr：127.0.0.1
+#                   如何在linux中的centos7查询ip
+#                       在终端中输入：ip addr
+#           open
+#               PuTTY Security Alert(安全警告弹出)
+#                   说明：第一次使用PuTTY连接服务器时会弹出，点击是即可
+#               login as:root  #输入用户名
+#               password:135cylpsx  #输入时不会显示，如果输入错误，就持续按住backspace，2s后再输入密码
+#                   ~：表示用户的家目录路径
+#       xshell
+#           下载地址：https://www.xshellcn.com/
+#           注意：当安装到安装类型时，一定要选择免费为家庭/学校这个选项，因为1免费，2功能没差别
+#           汉化：Tools-language-chinese simplified,勾选restart the program now
+
+#【day】扩展知识
+#常见问题：vmware全屏显示ubuntu18的问题；windows和ubuntu18互相粘贴复制问题
+#   进入ubuntu的命令行窗口
+#       sudo apt autoremove open-vm-tools
+#       sudo apt install popen-vm-tools
+#       sudo apt install open-vm-tools-desktop
+#   设置ubuntu18的显示分辨率
+#       点击右上角的三角形下拉按钮
+#           点击设置
+#               在弹出窗口的导航栏中找到设置并点击（它位于导航栏的偏下面的位置）
+#                   点击显示即可进行分辨率的设置
+#   重启ubuntu后，就可以与window互相复制粘贴了
+#取消自动锁屏
+#   点击三角按钮
+#       点击扳手（设置）
+#           点击隐私
+#               点击锁屏
+#                   关闭自动锁屏功能
+#常用组合键
+#   ctrl+c
+#       功能：停止当前当前命令
+#   ctrl+a
+#       功能：将光标切换到命令行最前面
+#   ctrl+e
+#       功能：将光标切换到命令行最后面
+#   上键和下键
+#       功能：切换历史命令
+#   tab
+#       功能：用于补全文件名或文件夹名，连按tab，可以列出指定目录下特定字符开头的文件夹和文件
+#   复制（centos）
+#       命令行中用鼠标框选需要复制的内容，就将其复制在剪贴板中了
+#   放大终端字体
+#       ctrl+shift+=
+#   缩小终端字体
+#       ctrl+-
+#命令行中可使用通配符进行匹配
+#   通配符
+#       * 代表任意个数个字符
+#       ？代表任意一个字符，至少1个
+#       [] 表示可以匹配字符组中的任意一个
+#   实例：#ls [123]23.txt    #显示当前目录中文件名为123.txt，223.txt，323.txt的文件
+#网络名字解释
+#   ip地址
+#       作用：用于数据传输时，精准定位目标主机位置
+#       220.181.112.244    #百度服务器的ip地址
+#       220.181.112.244:80    #域名+端口号才能正确访问对方web服务器（软件），如果不加端口号则默认使用80
+#   默认端口
+#       ssh服务器 默认端口：22
+#       web服务器 默认端口：80
+#       HTTPS     默认端口：443
+#       FTP服务器 默认端口：21
+#   域名
+#       ip地址的别名，方便记忆和运用
+#Ubuntu18安装sogo输入法
+#   打开火狐浏览器
+#       进入sogo官网下载sogo for linux
+#           下载后打开安装文件进行安装
+#   切换中英文输入法
+#       单击shift
+
+#【day】linux中的命令
+#命令格式
+#   command [-option] [path]
+#   [] 可选
+#   option 可以是多个
+#命令行进入方式
+#   桌面右键
+#       在终端中打开命令行
+#命令行符号介绍
+#   [root@localhost 桌面]#
+#       root：当前登录的用户名
+#       @：'在'
+#       localhost：当前主机名称
+#       桌面：当前工作目录
+#       #/$：超级管理员/普通用户
+#Linux下的手册man（Manual）
+#   功能：查看某个命令的详细用法
+#   语法：#man 命令名称
+#   实例：#man find
+#   退出手册：q
 #常用命令
-#   命令行进入方式
-#       桌面右键
-#           在终端中打开命令行
-#   命令行符号介绍
-#       [root@localhost 桌面]#
-#           root：当前登录的用户名
-#           @：'在'
-#           localhost：当前主机名称
-#           桌面：当前工作目录
-#           #/$：超级管理员/普通用户
 #   简单命令
 #       tree
 #           功能：以树状结构展示目录结构
@@ -152,25 +211,32 @@
 #               #4 表示未被使用的模式
 #               #5 表示将Linux系统从命令行模式切换到桌面模式
 #               #6 表示重启
-#       su
-#           功能：切换用户（switch user）
-#           语法：#su 需要切换到的用户
-#           实例：#su root
-#   目录切换命令
-#       cd
-#           功能：切换目录（change directory）
-#           语法：#cd 需要切换到的路径（可以是相对路径，也可以是绝对路径）
-#           实例：
-#               cd /home/admin 绝对路径
-#               cd ../home/admin 相对路径：相对于当前工作路径，即/root
-#           带参命令
-#               cd ~ 进入家目录
-#               cd . 保持在当前目录
-#               cd .. 切换到上级目录
-#               cd - 最近两次工作目录之间切换
-#       pwd
-#           功能：打印当前的工作路径（print working directory）
-#           实例：#pwd
+#   切换命令
+#       切换路径
+#           cd
+#               功能：切换目录（change directory）
+#               语法：#cd 需要切换到的路径（可以是相对路径，也可以是绝对路径）
+#               实例：
+#                   cd /home/admin 绝对路径
+#                   cd ../home/admin 相对路径：相对于当前工作路径，即/root
+#               带参命令
+#                   cd ~ 进入家目录
+#                   cd . 保持在当前目录
+#                   cd .. 切换到上级目录
+#                   cd - 最近两次工作目录之间切换
+#           pwd
+#               功能：打印当前的工作路径（print working directory）
+#               实例：#pwd
+#       切换用户
+#           su
+#               功能：切换用户（switch user）
+#               语法：#su [-] [需要切换到的用户]
+#               实例1：#su surface1    #切换到surface1用户
+#               实例2：#su - surface1    #切换到surface1用户，并切换路径到surface1的家目录
+#               实例3：#su -     #切换到root用户，并路径切换到root的家目录。
+#                   注意：第一次切换到root，需要使用sudo passwd root设置root用户密码
+#           exit
+#               功能：返回到之前的用户
 #   文件/文件夹的操作命令
 #       文件的操作命令
 #           创建
@@ -194,7 +260,8 @@
 #           移动
 #               命令：mv（move）
 #               语法：#mv 需要移动的文件 需要移动到的位置
-#               实例：#mv /home/admin/php50.txt /home/php50.txt
+#               实例1：#mv /home/admin/php50.txt /home/php50.txt
+#               实例2：#mv ./*.py /home/surface/    #将当前文件目录中的所有.py文件移动到surface目录下
 #           删除
 #               命令1：rm（remove）
 #               语法：#rm 需要删除的文件
@@ -242,127 +309,184 @@
 #               命令：mv
 #               语法：#mv 需要重命名的文件夹 新的文件夹名称
 #               实例：mv /home/admin/php/ /home/admin/php1
-#   vim
-#       介绍：vim是linux下一款编辑器软件，它的地位等同于windows下的notepad（记事本）。其功能上要比记事本要强很多倍
-#       具体使用
-#           准备工作
-#               先将/etc/passwd复制到/root
-#                   #cp /etc/passwd /root/passwd
-#           打开文件
-#               语法一：#vim 需要打开的文件名
-#                   实例：#vim /root/passwd
-#                       提示
-#                           退出vim：:q
-#               语法二：#vim +数字 需要打开的文字（打开文件并快速定位到数字指定的行数）
-#                   实例：#vim +5 /root/passwd
-#                       提示
-#                           在vim中显示行号： :set nu
-#               语法三：#vim +/字符串 需要打开的文件（打开文件后，高亮显示/后的字符串）
-#                   实例：#vim +/login /root/passwd
-#                       提示
-#                           如果此时需要在搜索高亮结果中进行光标的快速跳转，可以按下键盘上的“n”（向下切换），或者“N”（向上切换）
-#                           清除高亮显示：:nohl
-#               特别注意（vim新建文件）
-#                   以上三种打开方式，如果打开一个不存在的文件，则会新建此文件。往其中写入内容，退出时则会保存，反之不保存
-#           vim的三种模式
-#               命令模式（默认进入）
-#                   进入末行模式：按下:
-#                   进入编辑模式：按下i或a
-#                   具体操作
-#                       光标移动
-#                           移至首行首位：gg
-#                           移至末行首位：G
-#                           移至指定行首位：数字gg（数字和g的间隔不要太长）
-#                               实例：15gg
-#                           向下移动指定行首位：数字下键
-#                               实例：5下键（向下移动5行）
-#                               注意：不要使用小键盘的数字
-#                           向上移动指定行首位：数字上键
-#                               实例：5上键（向上移动5行）
-#                               注意：不要使用小键盘的数字
-#                       删除
-#                           删除当前行，下行补齐：dd
-#                           删除当前行，下行不补齐：D
-#                           删除光标及下的指定行：数字d
-#                               实例：4d（删除光标所在行，以及下3行，不要用小键盘数字）
-#                           特别说明：删除命令和剪切命令是一模一样的。删除后的内容会自动保存到剪贴板，可以用于粘贴
-#                       复制
-#                           复制当前行：yy
-#                           复制多行：数字yy（数字包括当前行及以下）
-#                           说明：复制完之后可以按p进行粘贴，
-#                       粘贴
-#                           p
-#                           说明：粘贴时粘贴在光标所在行的下一行开始
-#                       恢复撤销
-#                           ctrl+r
-#               末行模式（:）
-#                   进入命令模式
-#                       按1下esc：稍慢
-#                       按2下esc：直接退出
-#                       删除末行命令中的全部命令：直接退出
-#                   具体操作
-#                       保存
-#                           :w
-#                       另存
-#                           :w 文件路径
-#                       退出
-#                           :q
-#                       强制退出(不会保存已经修改了的文件)
-#                           :q!
-#                           :wq!
-#                       保存退出
-#                           :wq 无论文件内容是否修改，都会更新文件保存时的最后修改时间
-#                           :x 实际开发中推荐使用，只有内容真的被修改，才会修改文件的最后修改时间
-#                       查找（查找后，会高亮显示字符串，可以用n和N切换）
-#                           /字符串
-#                           实例：/login
-#                       替换
-#                           语法一：:s/需要替换的字符串/替换成的字符串
-#                               功能：替换当前光标所在的行的第一处符合条件的字符串
-#                           语法二：:s/需要替换的字符串/替换成的字符串/g      （g为global）
-#                               功能：替换当前光标所在的行的所有符合条件的字符串
-#                           语法三：:%s/需要替换的字符串/替换成的字符串
-#                               功能：替换当前文档中所有行的第一个符合条件的字符串
-#                           语法四：:%s/需要替换的字符串/替换成的字符串/g
-#                               功能：替换当前文档中所有行的所有符合条件的字符串
-#                       撤销
-#                           语法一：:u
-#                               功能：撤销一步
-#                           语法二：:数字u
-#                               功能：撤销多步
-#                       加密
-#                           语法：:X
+#   文本查看命令
+#       cat
+#           功能：显示全部文档内容
+#           语法：cat path
+#           实例：cat /root/home/1.txt
+#           参数
+#               cat -b 对非空输出行编号
+#               cat -n 对所有行编号
+#       more
+#           功能：逐屏显示文档内容
+#           语法：more path
+#           实例：more /root/home/1.txt
+#           说明：内容超过一屏幕，会分屏显示
+#           输入
+#               空格 显示下一页
+#               enter 一次滚动内容一行
+#               b 回滚一屏
+#               f 前滚一屏
+#               q 退出
+#       grep
+#           功能：在指定文本中，查找指定内容，并且只显示包含查找内容的行。
+#           语法：grep [参数] 关键词 path
+#           参数
+#               grep -n 显示匹配行及行号
+#               grep -v 显示不包含匹配文本的所有行（相当于取反）
+#               grep -i 忽略大小写
+#               grep -vn 显示不包含匹配文本的所有行并显示行号
+#           实例
+#               grep cyl /root/home/1.txt
+#               grep -in "cyl psx" /root/home/1.txt    #如果搜索的关键词中间有空格，需要用引号框起来
+#               grep -n ^f /root/home/1.txt    #查找以f开头的行
+#               grep -n p$ /root/home/1.txt     #查找以p结尾的行
+#       vim
+#           介绍：vim是linux下一款编辑器软件，它的地位等同于windows下的notepad（记事本）。其功能上要比记事本要强很多倍
+#           具体使用
+#               准备工作
+#                   先将/etc/passwd复制到/root
+#                       #cp /etc/passwd /root/passwd
+#               打开文件
+#                   语法一：#vim 需要打开的文件名
+#                       实例：#vim /root/passwd
+#                           提示
+#                               退出vim：:q
+#                   语法二：#vim +数字 需要打开的文字（打开文件并快速定位到数字指定的行数）
+#                       实例：#vim +5 /root/passwd
+#                           提示
+#                               在vim中显示行号： :set nu
+#                   语法三：#vim +/字符串 需要打开的文件（打开文件后，高亮显示/后的字符串）
+#                       实例：#vim +/login /root/passwd
+#                           提示
+#                               如果此时需要在搜索高亮结果中进行光标的快速跳转，可以按下键盘上的“n”（向下切换），或者“N”（向上切换）
+#                               清除高亮显示：:nohl
+#                   特别注意（vim新建文件）
+#                       以上三种打开方式，如果打开一个不存在的文件，则会新建此文件。往其中写入内容，退出时则会保存，反之不保存
+#               vim的三种模式
+#                   命令模式（默认进入）
+#                       进入末行模式：按下:
+#                       进入编辑模式：按下i或a
+#                       具体操作
+#                           光标移动
+#                               移至首行首位：gg
+#                               移至末行首位：G
+#                               移至指定行首位：数字gg（数字和g的间隔不要太长）
+#                                   实例：15gg
+#                               向下移动指定行首位：数字下键
+#                                   实例：5下键（向下移动5行）
+#                                   注意：不要使用小键盘的数字
+#                               向上移动指定行首位：数字上键
+#                                   实例：5上键（向上移动5行）
+#                                   注意：不要使用小键盘的数字
+#                           删除
+#                               删除当前行，下行补齐：dd
+#                               删除当前行，下行不补齐：D
+#                               删除光标及下的指定行：数字d
+#                                   实例：4d（删除光标所在行，以及下3行，不要用小键盘数字）
+#                               特别说明：删除命令和剪切命令是一模一样的。删除后的内容会自动保存到剪贴板，可以用于粘贴
+#                           复制
+#                               复制当前行：yy
+#                               复制多行：数字yy（数字包括当前行及以下）
+#                               说明：复制完之后可以按p进行粘贴，
+#                           粘贴
+#                               p
+#                               说明：粘贴时粘贴在光标所在行的下一行开始
+#                           恢复撤销
+#                               ctrl+r
+#                   末行模式（:）
+#                       进入命令模式
+#                           按1下esc：稍慢
+#                           按2下esc：直接退出
+#                           删除末行命令中的全部命令：直接退出
+#                       具体操作
+#                           保存
+#                               :w
+#                           另存
+#                               :w 文件路径
+#                           退出
+#                               :q
+#                           强制退出(不会保存已经修改了的文件)
+#                               :q!
+#                               :wq!
+#                           保存退出
+#                               :wq 无论文件内容是否修改，都会更新文件保存时的最后修改时间
+#                               :x 实际开发中推荐使用，只有内容真的被修改，才会修改文件的最后修改时间
+#                           查找（查找后，会高亮显示字符串，可以用n和N切换）
+#                               /字符串
+#                               实例：/login
+#                           替换
+#                               语法一：:s/需要替换的字符串/替换成的字符串
+#                                   功能：替换当前光标所在的行的第一处符合条件的字符串
+#                               语法二：:s/需要替换的字符串/替换成的字符串/g      （g为global）
+#                                   功能：替换当前光标所在的行的所有符合条件的字符串
+#                               语法三：:%s/需要替换的字符串/替换成的字符串
+#                                   功能：替换当前文档中所有行的第一个符合条件的字符串
+#                               语法四：:%s/需要替换的字符串/替换成的字符串/g
+#                                   功能：替换当前文档中所有行的所有符合条件的字符串
+#                           撤销
+#                               语法一：:u
+#                                   功能：撤销一步
+#                               语法二：:数字u
+#                                   功能：撤销多步
+#                           加密
+#                               语法：:X
 #
-#               编辑模式（i或a）
-#                   进入命令模式：按下esc
-#                   文档的编辑模式，无命令
-#       vim扩展知识
-#           默认显示行号
-#               修改配置文件.vimrc
-#                   地址：当前用户的家目录中(如果没有就自己创建)
-#                       /root/.vimrc
-#                       /home/admin/.vimrc
-#                   创建文件
-#                       #vim .vimrc
-#                       i
-#                           set nu
-#                       esc
-#                       :wq
+#                   编辑模式（i或a）
+#                       进入命令模式：按下esc
+#                       文档的编辑模式，无命令
+#           vim扩展知识
+#               默认显示行号
+#                   centos
+#                       修改配置文件.vimrc
+#                           地址：当前用户的家目录中(如果没有就自己创建)
+#                               /root/.vimrc
+#                               /home/admin/.vimrc
+#                           创建文件
+#                               #vim .vimrc
+#                               i
+#                                   set nu
+#                               esc
+#                               :wq
+#                   ubuntu
+#                       $ sudo vim /etc/vim/vimrc
+#                           G    #定位到文件末尾
+#                           i    #进入编辑模式
+#                               set number    #将set number插入到文件末尾
+#                           esc    #退出编辑模式
+#                           :x    #保存并退出文件
 #           别名机制
 #               作用：给冗长的命令起别名，使用别名来调用原本命令的功能
-#               修改配置文件：.bashrc
-#               文件地址:
-#                   /root/.bashrc
-#                   /home/admin/.bashrc
-#               具体操作
-#                   #vim /root/bashrc
-#                       alias clear='cls'     #alias设置别名   别名命令='原命令'
-#                   :q
-#                   重新登录才能生效
-#                       方法一：切换用户
-#                           #su admin
-#                           #su root
-#                       方法二：重新
+#               centos
+#                   修改配置文件：.bashrc
+#                   文件地址:
+#                       /root/.bashrc
+#                       /home/admin/.bashrc
+#                   具体操作
+#                       #vim /root/bashrc
+#                           alias clear='cls'     #alias设置别名   别名命令='原命令'
+#                       :q
+#                       重新登录才能生效
+#                           方法一：切换用户
+#                               #su admin
+#                               #su root
+#                           方法二：重新
+#               ubuntu18
+#                   $ sudo vim /etc/bash_aliases
+#                       i
+#                           alias cls="clear"
+#                       :x
+#                   $ sudo vim /etc/bash.bashrc
+#                       G
+#                       i
+#                           if [-f /etc/bash_aliases]; then
+#                               ./etc/bash_aliases
+#                           fi
+#                       :x
+#                   #断开服务器连接，重新登录，即可生效
+#                       $ exit
+#                       C:\User\surface> ssh root@10.98.193.96
+#                       root@10.98.193.96's password:
 #           异常关闭处理
 #               说明：vim编辑一个文件，没有正常关闭，则在下一次打开此文件时会提示异常关闭
 #               问题本质：vim打开一个文件时，会新建一个原文件名.swp的缓存文件，正常关闭会删除.swp文件，异常关闭不会删除.swp
@@ -372,103 +496,182 @@
 #       $ man ls #帮助文档，查看命令的文档
 #           说明：进入man之后点h，也能进入帮助文档
 #       $ ls --help #进入命令的帮助文档，可查命令的参数
-#   命令格式
-#       command [-option] [path]
-#       [] 可选
-#       option 可以是多个
+#   网络连接
+#       $ systemctl restart network #contos 重新加载网卡，在无界面linux系统中使用，使用后服务器才能上网，此时xshell才能连接该服务器
+#       $ sudo yum install net-tools    #contos安装ifconfig命令
+#       $ sudo apt install net-tools    #ubuntu安装ifconfig命令
+#       $ ifconfig #查看当前网卡的信息；说明：ipV4是ens33：inet下显示的ip
+#       $ ifconfig -a #查看所有网卡的信息
+#       $ ifconfig eth0 #查看指定网卡的信息
+#       $ ifconfig ens33 down  #禁用网卡（虚拟机一定要选Nat模式，否则down了之后无法激活，需要还原虚拟机的虚拟网络连接模式）
+#       $ ifconfig ens33 up  #开启网卡网卡
+#       $ ifconfig | grep inet    #查看ipv4和ipv6的ip地址
+#       $ ping 192.168.0.106    #查看ip是否通信。可ping网关、外网、宿主机ip
+#       $ ping 127.0.0.1    #查看本地网卡是否工作正常
+#       $ ping www.baidu.com    #查看某个网站是否连通
+#       $ ssh [-p 端口号] user@remote
+#           说明
+#               user 是远程机器上的用户名，如果不指定的话会默认为当前用户
+#               remote 是远程机器的地址，可以是IP/域名，或者是 后面会提到的别名
+#               -p 端口号 是ssh server软件的端口，如果不指定，默认22，即如果ssh server的默认端口不是22，则需要-p参数来指定端口号
+#           实例
+#               ssh -p 22 surfacenew@192.168.70.133
+#               exit
+#           免密登录
+#               说明
+#                   通过ssh命令链接过任何服务器，与之产生的ssh协议密钥都保存在用户家目录的.ssh文件夹下
+#                   实现免密登录的原理
+#                       本地ubuntu系统中生成一个公钥一个私钥，将公钥上传到服务器中
+#                       本地发送数据包到服务器时，会先使用私钥加密内容后再发送
+#                       服务器接收到数据包后，先用公钥进行解密，处理数据后，返回新的数据包，同样发送之前使用公钥加密再发送
+#                       本地收到数据包时，用私钥进行解密
+#               $ ssh-keygen    生成SSH钥匙，一路回车即可
+#               功能：将公钥传给服务器
+#               语法：ssh-copy-id -p port user@ip
+#               实例：$ ssh-copy-id -p 22 surfacenew@192.168.70.133    将公钥上传到指定服务器
+#           配置别名
+#               说明：配置别名后可以通过ssh 别名的方式，即可访问远程服务器
+#               方法
+#                   在家目录的.ssh中创建config，即/home/surface/.ssh/config
+#                       Host surfacenew
+#                           HostName ip地址
+#                           User surfacenew
+#                           Port 22
+#               配置成功后的实例
+#                   $ ssh surfacenew    #远程连接道surfacenew服务器
+#                   $ scp -r ./abc surfacenew:/home/surfacenew    #将本地./abc文件夹上传到服务器
+#   文件传输
+#       $ scp
+#           注意
+#               在使用scp命令时，如果出现ssh: connect to host 192.168.70.132 port 22: Connection refused
+#               说明Ubuntu默认没有安装openssh-server
+#               通过sp -e|grep ssh命令，如果只有一个ssh-agent进程，证实openssh-server确实没有安装
+#               通过sodu apt install openssh-server 安装后即可在本地cmd中使用scp命令
+#           功能：将本地文件复制到远程服务器中
+#           语法：$ scp [-P 22] path user@remote:toPath
+#           参数说明：-P 指定软件端口，path为本地文件目录及文件名，user为服务器用户名，remote为ip地址或域名，toPath为服务器中的目录及文件名
+#           实例：scp -P 22 C:/1.py root@192.168.2.1:/root/home/1.py    #将本地文件1.py，拷贝到远程web服务器中的/root/home文件夹中
+#
+#           功能：将远程服务器中的文件拷贝到本地来
+#           语法：scp [-P 22] user@remote:path toPath
+#           参数说明：user为远程服务器的用户名，remote为远程服务器的ip或域名，path为远程服务器的文件及文件路径，toPath为本地计算机的文件夹及文件名
+#           实例：scp -P 22 root@192.168.2.1:/root/home/1.py C:/1.py
+#
+#           功能：将本地文件目录拷贝到远程服务器中
+#           语法：scp -r demo user@remote:toPath
+#           实例：scp -r C:/abc root@192.168.2.1:/root/home/abc
+#
+#           功能：将远程服务器中的文件夹拷贝到本地
+#           语法：scp -r user@remote:toPath demo
+#           实例：scp -r root@192.168.2.1:/root/home/abc C:/abc
+#       FileZilla
+#           官网：https://www.filezilla.cn/download/client
+#           注意：使用FileZilla链接远程服务器时，端口号要使用21
+#   时间和日期
+#       date
+#           功能：查看系统当前时间
+#           返回：2020年 01月 26日 星期日 16:58:45 CST
+#       data -s
+#           功能：设置系统当前时间
+#           实例
+#               $ date -s '2019-07-19' #设置当前的日期，设置之后date查看的时间就是从2019-07-19的00:00:00开始计时
+#               $ date -s '19:10:10' #设置当前时间的时分秒
+#       cal
+#           功能：查看当月日历，添加-y参数可查看当年的一年的日历
+#           语法：cal [-y]
+#   磁盘和目录空间
+#       df（disk free）
+#           功能：显示磁盘的剩余空间
+#           语法：df -h     #-h 以人性化的方式显示磁盘大小（ls -lh）
+#           实例：$ df -h
+#           返回：/dev/sda1        20G  7.7G   11G   42% /
+#           说明：查看磁盘剩余空间，主要看挂载点为/的信息
+#       du（disk usage）
+#           功能：查看指定目录的磁盘占用情况
+#           语法：du -h [目录名]
+#           说明：不指定目录名，则查看当前目录以及其中的所有文件和目录的磁盘占用大小
+#           实例：$ du -h /home/surface/abc
+#       扩展命令
+#           $ df -h #显示磁盘分区信息
+#           $ mkfs.ext4 /dev/sdb1 #格式化硬盘分区
+#           $ fdisk -l #查看磁盘分区
+#           $ fdisk /dev/sdb #硬盘分区
+#           $ du -h /var/log/ #分别显示指定目录下所有文件使用磁盘空间的大小
+#           $ du -h -s /var/log/ #显示指定目录下所有文件使用磁盘空间大小的总和
+#           $ mount /dev/sr0 /mnt/cdrom #挂载光驱，将光驱的内容，挂载到/mnt/cdrom中。当服务器插入一个u盘或硬盘时不能直接识别，需要使用挂载才能读出里面的内容
+#           $ mount -o remount rw/ #重新挂载，或者将根目录以读写方式重载
+#           $ umount/media/umnt #卸载，怕掉u盘后执行
+#           $ fscy -y /dev/sda1 #修复的可以是分区也可以是目录，最好在单用户模式下使用，参数-y表示遇到问题自动回复yes
+#           $ pvdisplay #查看物理磁盘
+#           $ lvdisplay #查看逻辑卷
+#           $ lvextend #查看扩展卷
+#   进程信息
+#       ps（process status）
+#           功能：查看进程的详细状况
+#           语法：$ ps [aux]
+#           说明
+#               如果不带aux，ps只会显示当前用户通过终端启动的应用程序，即只显示bash和ps两个应用程序
+#               参数不加-号
+#           参数
+#               a 显示终端上所有的进程，包括其他用户启动的进程
+#               u 显示进程的详细状态
+#               x 显示不是由终端启动的进程（系统进程）
+#           实例：ps au
+#           返回
+#               USER           PID      %CPU        %MEM         VSZ     RSS  TTY      STAT START    TIME     COMMAND
+#               root           1        0.0         0.2          225380  5972 ?        Ss   08:48    0:02     /sbin/init splash
+#               启动进程的用户 进程id号 cpu占用大小 内存占用大小                            启动时间 使用时间 程序目录
+#       top
+#           功能：动态显示运行中的进程并根据其cpu占用率进行降序排序
+#           说明：进入查看模式后，输入q即可退出
+#           实例：$ top
+#           返回
+#               top：动态当前时间；动态运行时间；用户数；平均负载——1分钟的负载、5分钟的负载、15分钟的负载；
+#               Tasks：进程总数；在运行进程数；休眠运行进程数；停止运行进程数；僵尸进程数；
+#               cpu(s):按1就能展开查看所有的cpu核的消耗情况-用户所占cpu%；系统所占cpu%；闲置cpu%；硬件使用cpu%；软件使用cpu%，虚拟机使用cpu%
+#               Mem：内存总数；已使用内存数；闲置内存数；
+#               Swap：缓冲区总数；剩余总数；使用总数；缓存使用总数
+#       htop
+#           功能：同top，但界面更好识别，更好看
+#           注意：$ sudo apt install htop 安装后才能使用
+#       kill
+#           功能：终止指定代号的进程
+#           语法：kill [-9] PID
+#           说明：-9表示强制终止
+#           实例：kill -9 2587
 #   系统级别的命令
+#       $ sudo 命令    #sudo是切换成root用户及其权限执行后面的命令
 #       $ uname -a #显示系统及版本的所有信息
 #       $ uname -r #显示内核版本
 #       $ uname -m #显示计算机是多少位的系统
 #       $ cat /etc/redhat-release #查看linux的版本名 --> CentOS Linux release 7.6.1810
 #       $ hostname #查看主机名 --> localhost.localdomain
 #       $ hostname justin #临时性修改主机名为justin
-#       $ vi /etc/sysconfig/network #永久修改主机名
-#       $ ifconfig #查看当前网卡的信息；说明：ipV4是ens33：intet下显示的ip
-#       $ ifconfig -a #查看所有网卡的信息
-#       $ ifconfig eth0 #查看指定网卡的信息
+#       $ vim /etc/sysconfig/network #永久修改主机名
 #       $ uptime #显示当前时间，系统使用时间，用户登录数，平均负载（不能超过）
-#       $ free #显示当前磁盘及内存使用空间情况
-#       $ cat /proc/cpuinfo #查看cpu使用情况的详细信息
-#       $ top #启动任务管理器
 #       $ last #查看历史登录信息
 #       $ tty #当前登录模式pts/0图形界面登录 pts/3命令符模式登录
-#       $ cal #显示日历
-#       $ date #查看当前时间
-#       $ date -s '2019-07-19' #设置当前的日期，设置之后date查看的时间就是从2019-07-19的00:00:00开始计时
-#       $ date -s '19:10:10' #设置当前时间的时分秒
-#       $ ps -ef #查看当前的所有进程
-#       $ ps -aux #查看所有用户正在运行的进程
+#       $ jps #显示所有正在运行的java进程 （需要安装了jdk才能使用该命令）
 #       $ pstree -p #树的形式查看进程
-#       $ ps -ef | grep mysql #查看当前指定应用所运行的进程，本质是模糊匹配CMD字段
+#       $ ps | grep mysql #查看当前指定应用所运行的进程，本质是模糊匹配CMD字段
 #           管道：概念|前的命令的返回值传送给后面的命令做进一步处理
 #       $ grep sshd /var/log/boot.log #在boot文件中过滤出包含sshd内容的代码
 #       $ grep -r sshd /var/log #在某个目录下递归查看其中所有文件，是否包含sshd的代码，如果有则显示其文件名和所在文件中的行数
 #           常用于报错之后，不知道报错代码在哪个文件中，便可用此方法搜索
-#       $ top #动态查询进程的运行情况及消耗cpu情况和内存消耗情况
-#           返回值
-#               top：动态当前时间；动态运行时间；用户数；平均负载——1分钟的负载、5分钟的负载、15分钟的负载；
-#               Tasks：进程总数；在运行进程数；休眠运行进程数；停止运行进程数；僵尸进程数；
-#               cpu(s):按1就能展开查看所有的cpu核的消耗情况-用户所占cpu%；系统所占cpu%；闲置cpu%；硬件使用cpu%；软件使用cpu%，虚拟机使用cpu%
-#               Mem：内存总数；已使用内存数；闲置内存数；
-#               Swap：缓冲区总数；剩余总数；使用总数；缓存使用总数
 #       $ sync #将数据有内存同步到硬盘中，执行了sync才能执行reboot
 #       $ reboot #重新启动Linux操作系统
-#       $ stutdown -h now #设定几小时后关机
-#       $ kill -9 pid #结束指定的进程；示例：kill -9 2191
-#   网络连接
-#       $ systemctl restart network #重新加载网卡，在无界面linux系统中使用，使用后服务器才能上网，此时xshell才能连接该服务器
-#       $ sudo yum install net-tools #重新安装ifconfig命令
-#       $ jps #显示所有正在运行的java进程 （需要安装了jdk才能使用该命令）
-#       $ ping 192.168.0.106 #查看ip是否通信。可ping网关、外网、宿主机ip
-#   磁盘操作
-#       $ df -h #显示磁盘分区信息
-#       $ mkfs.ext4 /dev/sdb1 #格式化硬盘分区
-#       $ fdisk -l #查看磁盘分区
-#       $ fdisk /dev/sdb #硬盘分区
-#       $ du -h /var/log/ #分别显示指定目录下所有文件使用磁盘空间的大小
-#       $ du -h -s /var/log/ #显示指定目录下所有文件使用磁盘空间大小的总和
-#       $ mount /dev/sr0 /mnt/cdrom #挂载光驱，将光驱的内容，挂载到/mnt/cdrom中。当服务器插入一个u盘或硬盘时不能直接识别，需要使用挂载才能读出里面的内容
-#       $ mount -o remount rw/ #重新挂载，或者将根目录以读写方式重载
-#       $ umount/media/umnt #卸载，怕掉u盘后执行
-#       $ fscy -y /dev/sda1 #修复的可以是分区也可以是目录，最好在单用户模式下使用，参数-y表示遇到问题自动回复yes
-#       $ pvdisplay #查看物理磁盘
-#       $ lvdisplay #查看逻辑卷
-#       $ lvextend #查看扩展卷
-#   用户和组的操作
-#       $ cat /etc/passwd #查看所有用户的用户信息
-#       $ cat /etc/shadow #查看所有用户的密码（非明文）
-#       $ ll /home/ #查看所有用户名，即home下面的目录名
-#       $ useradd justin #创建justin为用户名的用户,可选参数-u 指定uid；-d 指定宿主目录；-s 指定使用shell；-e 指定用户过期时间；-g 指定基本组；-G指定附加组
-#       $ cat /etc/group #查看用户的分组信息
-#       $ gpasswd -a justin admin #将用户justin添加到用admin的组里
-#       $ groups justin #查看用户在哪些组里
-#       $ gpasswd -d justin admin #将用户justin从用户admin的组里删除
-#       $ userdel -f -r justin #删除用户justin，-f强制删除，-r同时删除宿主目录，即删除/home/justin
-#       $ id admin #查看用户admin的信息信息
-#       $ groupadd admin01 #仅创建用户组，不创建用户
-#       $ useradd -G justin01 justin #创建用户justin，并将用户justin加入justing01组中
-#       $ passwd justin #更改密码，注意用户名可以省略，默认修改root用户的密码
-#       $ userdel justin #指定删除用户
-#       $ usermod -L justin #锁定用户，禁止其登录
-#       $ su #        #切换到root用户
-#       $ su justin   #切换当前用户为justin
-#       $ whoami #查看哪个用户在线
-#   文件操作
-#       $ cd /home/ #进入操作
-#       $ pwd #查看当前工作目录
-#       $ ll #查看当前目录中所有的目录名称
-#       $ mkdir mia #在当前工作目录创建mia文件目录
-#       $ mkdir ./deasy #在当前工作目录创建mia文件目录
-#       $ mkdir -p ./coco/mia #递归创建文件目录，即连续创建文件目录
-#       $ makdir ./test1 ./test2 #在当前目录创建两个文件目录test1和test2
-#       $ touch ./file.txt #创建文件
-#       $ vi file.log #在当前目录中创建文件，并进入编辑模式
-#       $ echo '1234567890' >> ./file02 #创建file.txt文件并输入空到文件中
-#       $ cat ./file02 #查看file02文件中的内容
-#   文件内容查看
-#       $ cat -n ./file01 #查看内容时显示行号
-#       $ cat ./file01 #查看内容不显示行号
+#       $ shutdown
+#           功能：指定时间关机或重启
+#           语法：shutdown [选项] [时间]
+#           说明：时间默认为1分钟，立刻关机参数为now
+#           实例
+#               #shutdown    #一分钟后关机
+#               #shutdown now    #立刻关机
+#               #shutdown 20:25     #在8点25分关机
+#               #shutdown +10    #10分钟后关机
+#           参数
+#               shutdown -c    #取消预设关机时间
+#               shutdown -r    #重启
 #   文件内容分段显示
 #       $ head ./file01 #默认查看文件首10行
 #       $ head -5 ./file01 #查看文件首5行
@@ -480,34 +683,113 @@
 #       $ vi ./file01 #进入编辑模式查看文件内容
 #       $ vim ./file01 #进入编辑模式查看文件内容
 #   重定向和追加
-#       $ echo '123' >> /home/abc #在abc文件中的最后一行追加123
-#       $ echo '123' > /home/abc #重写abc中的内容
-#   屏幕打印
-#       $ echo '123' #在屏幕中打印123
-#   打包压缩、查找
-#       $ tar -z #压缩
-#       $ tar -c #打包
-#       $ tar -x #解包
-#       $ tar -f #必须要
-#       $ tar -C #指定解包位置
-#       $ tar -v #输出信息
-#       $ tar -zcvf ./deasy/mia.tar ./mia/ #将mia目录以及mia目录下的所有文件及目录打包压缩到deasy目录下的mia.tar文件中
-#       $ tar -zcvf ./text.tar ./text1 ./test2 #将多个文件进行打包压缩
-#       $ tar -zcvf file.tar *.jpg #将所有的jpg文件打包压缩到file.tar
-#       $ tar -zxvf ./deasy/mia.tar #将mia.tar解压解包mia目录以及mia目录下的所有文件
-#       $ tar -zxvf ./deasy/mia.tar -C ./miaC #将deasy下的mia压缩文件，解压解包到指定miaC目录中
+#       概念：将本应显示在终端上的内容 输出/追加 到指定文件中
+#       说明
+#           >表示输出，会覆盖文件原有内容
+#           >>表示追加，会将内容追加到已有文件的末尾
+#       $ echo
+#           功能：重显示，将echo后面的内容，重新打印一遍
+#           语法：echo 打印的内容
+#           实例
+#               echo Python
+#               echo 'Python'
+#       实例
+#           $ echo '123' >> /home/abc #在abc文件中的最后一行追加123
+#           $ echo '123' > /home/abc #重写abc中的内容
+#           $ ls -la > /root/home/a.txt    #将当前文件夹的ls内容写入a.txt中
+#           $ tree >> a.txt    #将tree的返回内容追加到a中
+#               说明：如果a.txt，没有这个文件，则会自动创建a.txt文件
+#   管道
+#       概念：linux允许将一个命令的输出 可以通过管道 做为 另一个命令的输入
+#       理解：可以理解为现实生活中的管子，一头塞东西，一头取东西，这里的|的左右分为两端，左端塞东西（写入），右端去东西（读取）
+#       常用的管得到命令有
+#           more 分配显示内容
+#               实例
+#                   ls -al ~ | more    #将家目录的ls的结果进行分屏显示
+#                   ls -al ~ | grep du    #将家目录的ls的结果传到grep中，grep只显示包含du的内容
+#           grep 在命令执行结果的基础上查询指定的文本
+#   打包压缩
+#       命令：tar
+#       说明：tar是linux中常用的备份工具
+#       功能：将一系列的文件打包成一个大文件，也可以将一个大文件恢复成一系列的小文件
+#       系统
+#           contos
+#               参数解释
+#                   -z #压缩
+#                   -c #打包
+#                   -x #解包
+#                   -f #必须要
+#                   -C #指定解包位置
+#                   -v #输出信息
+#                       linux中的压缩格式
+#                           .tar.gz
+#                               解压命令：tar
+#                                   语法：tar -zxvf 需要解压的文件 [解压到的位置]
+#                           .tar.bz2
+#                               解压命令：tar
+#                                   语法：tar -jxvf 需要解压的文件 [解压到的位置]
+#           ubuntu18
+#               仅打包解包
+#                   打包语法：$ tar -cvf 打包文件名.tar 被打包的文件/路径
+#                       实例1：$ tar -cvf myTar.tar *.py
+#                       实例2：$ tar -cvf myTar.tar 1.py 2.py 3.py
+#                       当前目录生成：myTar.tar文件
+#                   解包语法：$ tar -xvf 打包文件名.tar    #仅解包不解压
+#                       实例：$ tar -xvf myTar.tar
+#                   参数解释
+#                       -c #生成档案文件，即创建打包文件
+#                       -x #解开档案文件
+#                       -v #列出归档（打包）/解档（解包）的详细过程，即显示进度
+#                       -f #指定档案文件名称，f后面一定是.tar文件，所有必须放参数最后
+#               即打包压缩，有解包解压
+#                   调用gzip压缩
+#                       打包压缩语法：$ tar -zcvf 打包文件名.tar.gz 被打包的文件/路径
+#                           实例：$ tar -zcvf myTar.tar.gz *.py
+#                               当前目录生成：myTar.tar.gz文件
+#                       解包解压语法：$ tar -zxvf 打包文件.tar.gz
+#                           实例：$ tar -zxvf myTar.tar.gz
+#                       解包解压到指定目录语法：$ tar -zxvf 打包文件.tar.gz -C 指定目录
+#                           实例：$ tar -zxvf myTar.tar.gz -C /home/surface/mydir
+#                       参数解释
+#                           -z    #自动调用gzip工具，对tar包进行压缩或解压
+#                           -C    #指定文件目录，必须保证指定目录是存在的
+#                   调用bzip2压缩
+#                       打包压缩语法：$ tar -jcvf 打包文件名.tar.bz2 被打包的文件/路径
+#                           实例：$ tar -jcvf myTar.tar.bz2 *.py
+#                               当前目录生成：myTar.tar.bz2文件
+#                       解包解压语法：$ tar -jxvf 打包文件.tar.bz2
+#                           实例：$ tar -jxvf myTar.tar.bz2
+#                       解包解压到指定目录语法：$ tar -jxvf 打包文件.tar.bz2 -C 指定目录
+#                           实例：$ tar -jxvf myTar.tar.bz2 -C /home/surface/mydir
+#                       参数解释
+#                           -j    #自动调用bzip2工具，对tar包进行压缩或解压
+#                           -C    #指定文件目录，必须保证指定目录是存在的
 #   查找、检索、搜索
-#       $ which reboot #查看reboot命令所在文件路径
-#       $ whereis reboot #查看reboot命令所在文件路径已经其安装文件目录路径
-#       $ updatedb #是locate命令有效
-#       $ locate file1 #查找file1文件所在文件路径，查询更快，因为是通过数据库查询
-#       $ find / -name file1 #在指定目录下查找指定条件——名字为file1的文件路径
-#   特殊符号
-#       $ cd ~ #进入当前用户的家目录
-#       $ cd - #回退到上一次的所在位置
-#       $ cd .. #回退到上一层
-#       $ cd ../.. #回退到上两层
-#       $ cd . #进入当前目录
+#       命令：which
+#           语法：which 命令
+#           功能：查询指定命令的文件路径
+#           实例1：$ which reboot
+#               结果：/sbin/reboot    #sbin(system binary)，保存二进制文件目录-超级用户有关的命令
+#           实例2：$ which passwd
+#               结果：/bin/passwd    #bin(binary),保存二进制的文件目录-普通用户有关的命令
+#       命令：find
+#           功能：在特定目录下搜索符合条件的文件
+#           语法：#find [指定目录] -name 查找的关键词
+#           说明：指定目录后，在指定目录中查找，不知定目录，则在当前目录查找
+#           实例1：#find /home/surface/dev/ -name *.py
+#           实例2：#find -name *1*
+#       扩展命令
+#           $ whereis reboot #查看reboot命令所在文件路径已经其安装文件目录路径
+#           $ updatedb #是locate命令有效
+#           $ locate file1 #查找file1文件所在文件路径，查询更快，因为是通过数据库查询
+#   软连接
+#       概念：类似windows下的快捷方式
+#       命令：ln
+#       语法：ln -s 被连接的源文件 连接文件
+#       注意
+#           必须有-s参数，有-s建立的文件是软连接，没有-s建立的文件是硬连接，两个连接占用相同大小的磁盘空间，但在工作中几乎不会建立文件的硬链接
+#           源文件要使用绝对路径，这样就算移动了软连接文件，也能正常使用
+#       实例：ln -s /etc/
 #   防火墙
 #       $ sudo yum install firewalld    #安装firewalld，当出现
 #       $ sudo systemctl start firewalld
@@ -525,54 +807,76 @@
 #       参数说明
 #           firewall-cmd是linux提供的操作firewall的一个工具
 #           --permanent：表示设置为持久
-#   普通用户设置root权限
-#       $ su
-#       $ visudo -f /etc/sudoers #进入sudoers的编辑模式
-#           增加justin用户的sudo权限为all
-#               在root ALL=(ALL) ALL下增加
-#                 justin ALL=(ALL) ALL
-#           设置justin用户的sudo权限免密
-#               在%wheel ALL=(ALL) ALL下增加
-#                 jusint ALL=(ALL) ALL
-#           :wq #保存退出
-#       $ su justin #切换到justin用户
-#       $ sudo rm -rf ./test #justin用户用sudo权限删除属于root的文件目录
 
-#【day】rpm软件管理
-#简介：在linux中rpm其实有点类似于windows下的“xxx电脑管家”，其作用就是管理软件
-#功能
-#   查询软件安装情况
-#       语法：rpm -qa [|grep]需要查询的关键词
-#       参数解释
-#           -q：query，查询
-#           -a：all，全部
-#           |：在php中称它为变量修饰器。在linux中称为管道
-#           grep：表示从结果中进行过滤
-#       实例：rpm -qa mysql
-#   安装软件
-#       语法：rpm -ivh 需要安装的软件完整名称
-#       参数解释
-#           -i：install，安装
-#           -v：表示显示进度条
-#           -h：表示进度条以“#”显示
-#       查询软件的完整名字
-#           条件
-#               centos6.6的系统盘必须挂载（在虚拟机的CD/DVD中必须挂载-使用iso映像文件中有路径，且已连接要勾选。右键虚拟机名称，点击设置即可弹出挂载界面）
-#               linux桌面版的桌面上必须有系统的cd盘符。如果没有，就去我的电脑中打开一下就有了
-#           所有安装包的存放位置
-#               linux桌面版：centos的光盘-packages
-#                   在该文件夹的空白处右键点击在终端中打开
-#               linux命令行：/media/CentOS_6.6_Final/Packages
-#           在软件包目录中查询需要安装软件的全名称
-#               #cd /media/CentOS_6.6_Final/Packages
-#               #ls firefox*    列出以firefox开头的所有文件
-#       实例：rpm -ivh firefox-31.1.0-5.el6.centos.i686.rpm
-#   卸载软件
-#       语法：rpm -e 需要卸载的软件名称（软件完整名称，即通过查询可得到）[--nodeps]
-#       参数解释
-#           -e：卸载
-#           --nodeps：忽略依赖关系
-#       实例：rpm -e firefix-31.1.0-5.el6.centos.i686 --nodeps
+
+#【day】软件安装
+#contos
+#    rpm软件管理
+#         简介：在linux中rpm其实有点类似于windows下的“xxx电脑管家”，其作用就是管理软件
+#         功能
+#           查询软件安装情况
+#               语法：rpm -qa [|grep]需要查询的关键词
+#               参数解释
+#                   -q：query，查询
+#                   -a：all，全部
+#                   |：在php中称它为变量修饰器。在linux中称为管道
+#                   grep：表示从结果中进行过滤
+#               实例：rpm -qa mysql
+#           安装软件
+#               语法：rpm -ivh 需要安装的软件完整名称
+#               参数解释
+#                   -i：install，安装
+#                   -v：表示显示进度条
+#                   -h：表示进度条以“#”显示
+#               查询软件的完整名字
+#                   条件
+#                       centos6.6的系统盘必须挂载（在虚拟机的CD/DVD中必须挂载-使用iso映像文件中有路径，且已连接要勾选。右键虚拟机名称，点击设置即可弹出挂载界面）
+#                       linux桌面版的桌面上必须有系统的cd盘符。如果没有，就去我的电脑中打开一下就有了
+#                   所有安装包的存放位置
+#                       linux桌面版：centos的光盘-packages
+#                           在该文件夹的空白处右键点击在终端中打开
+#                       linux命令行：/media/CentOS_6.6_Final/Packages
+#                   在软件包目录中查询需要安装软件的全名称
+#                       #cd /media/CentOS_6.6_Final/Packages
+#                       #ls firefox*    列出以firefox开头的所有文件
+#               实例：rpm -ivh firefox-31.1.0-5.el6.centos.i686.rpm
+#           卸载软件
+#               语法：rpm -e 需要卸载的软件名称（软件完整名称，即通过查询可得到）[--nodeps]
+#               参数解释
+#                   -e：卸载
+#                   --nodeps：忽略依赖关系
+#               实例：rpm -e firefix-31.1.0-5.el6.centos.i686 --nodeps
+#ubuntu18
+#   命令：atp（Advanced Packaging Tool）,高级包管理工具
+#       sudo apt install 安装软件包
+#       sudo apt remove 移除软件包
+#       sudo apt update     #刷新存储库索引
+#       sudo apt upgrade    #升级所有可升级的软件包
+#       sudo apt purge      #移除软件包及配置文件
+#       sudo apt autoremove #自动删除不需要的包
+#       sudo apt full-upgrade #在升级软件包时自动处理依赖关系
+#       sudo apt search 搜索应用程序
+#       sudo apt show   #显示安装细节
+#       sudo apt list	#列出包含条件的包（已安装，可升级等）
+#       sudo apt edit-sources	#编辑源列表
+#   切换软件镜像源
+#       点击左下角的九个点图标
+#           点击软件和更新（非软件更新器）
+#               在ubuntu软件选项卡中，单击下载自：对应的选框
+#                   点击其他站点
+#                       点击选择最佳服务器（此时系统会将所有服务器进行测速，最后为你选择一个最快的服务器镜像源）
+#安装pycharm
+#   下载安装包（在官网中下载）
+#       默认下载位置：/home/surface/下载
+#       将安装包移动到/opt中：$ sudo mv pycharm-professional-2019.3.2.tar.gz /opt/
+#       $ sudo cd /opt
+#       $ sudo tar -zxvf pycharm-professional-2019.3.2.tar.gz
+#       $ cd pycharm-2019.3.2/bin/
+#       $ ./pycharm.sh
+#   建立桌面图标
+#       打开pycharm后，点击toop-create desktop entry
+#           勾选Create the entry for all users
+#               点击ok
 
 #【day】linux的运行模式
 #模式
@@ -626,16 +930,66 @@
 #       实例：#ifup eth0
 
 #【day】用户和用户组
-#用户管理
+#命令：id
+#   语法：$ id [用户名]
+#   注意：# id后面不带用户名，查询的是当前用户的用户信息
+#   功能：#查看指定用户的用户信息（UID）和组信息（GID）
+#   实例：#id surface
+#       结果：uid=1000(surface) gid=1000(surface) 组=1000(surface),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpadmin),126(sambashare)
+#             用户id            组id              附加组列表
+#   说明：UID被保存在/etc/passwd，GID被保存在/etc/group
+#       验证
+#           cat -n /etc/passwd | grep surface
+#               41	 surface:x             :1000:1000:surface,,,  :/home/surface:/bin/bash
+#               行号 用户名 :密码（被加密）:UID :GID :用户名的全名:用户的家目录 :远程登录时默认使用的shell软件路径
+#           cat -n /etc/group | grep surface
+#               5	adm       :x             :4   :syslog,surface
+#               18	cdrom     :x             :24  :surface
+#               21	sudo      :x             :27  :surface    #允许surface用户访问sudo组，sudo具有root权限
+#               23	dip       :x             :30  :surface
+#               35	plugdev   :x             :46  :surface
+#               55	lpadmin   :x             :116 :surface
+#               65	surface   :x             :1000:
+#               66	sambashare:x             :126 :surface
+#               行号 用户组名 :密码（被加密）:组号:允许访问该组的用户名
+#命令：who
+#   功能：查看当前所有正在登录的用户列表
+#   实例：$ who
+#       结果：
+#             surface     pts/1  2020-01-26 12:31 (192.168.70.1)
+#             surface     :0     2020-01-26 08:48 (:0)
+#             登录的用户名       上一次登录时间   从哪里登录（:0表示从当前电脑登录）
+#命令：whoami
+#   语法：
+#   功能：查看当前登录用户的账户名
+#【用户管理】（用户信息保存在/etc/passwd中，使用cat -n /etc/passwd | grep surface查看）
 #   添加
 #       命令：useradd
-#       语法：#useradd 用户名
-#       实例：#useradd justin
-#       验证：#/vim /etc/passwd   在最后一行能看到新添加的用户名
-#           扩展：passwd中一行内容详解
-#               16 dbus:x:81:81:System message bus:/:/sbin/nologin
-#               行号 用户名:密码（占位符）:用户id:用户组id:注释或备注:用户对应的家目录:用户所对应的解释器位置（/sbin/nologin-无登录权限，/bin/bash-有登录权限）
-#               说明：密码单独存储在/etc/shadow中
+#       centos
+#           语法：#useradd 用户名
+#           实例：#useradd justin
+#           验证：#/vim /etc/passwd   在最后一行能看到新添加的用户名
+#               扩展：passwd中一行内容详解
+#                   16 dbus:x:81:81:System message bus:/:/sbin/nologin
+#                   行号 用户名:密码（占位符）:用户id:用户组id:注释或备注:用户对应的家目录:用户所对应的解释器位置（/sbin/nologin-无登录权限，/bin/bash-有登录权限）
+#                   说明：密码单独存储在/etc/shadow中
+#       ubuntu
+#           带参命令：useradd -m -g 组 用户名
+#               参数说明
+#                   -m：创建新用户时，自动在家目录中创建指定用户并且设置rwx权限
+#                   -g：创建新用户时，将用户添加到指定组中
+#           实例：sudo useradd -m -g dev surface2
+#           注意
+#               如果创建用户时忘了-m，可以直接删除这个用户，再新建一个
+#               创建的新用户不在sudo组中，需要手动为其添加sudo附加组，添加方法详见usermod -G命令
+#               创建的新用户未指定shell软件路径，默认使用dash，但dash软件无上下键命令历史概念，也无颜色，因此需要为其指定shell软件路径-/bin/bash，指定方式详见usermod -s命令
+#   密码
+#       命令：passwd
+#       语法：#passwd 需要设置密码的用户名
+#       实例：#passwd justin
+#       注意
+#           当设置密码过于简单，它会提示无效密码，但并不影响你继续验证密码，重新输入新密码（即简单的密码）后，密码设置成功。
+#           新建用户后必须要设置密码，新用户才生效
 #   编辑
 #       命令：usermod（user modify）
 #       语法：#usermod 参数 需要修改的用户名
@@ -644,17 +998,22 @@
 #               语法：#usermod -l 新用户名 需要被修改的用户名
 #               实例：#usermod -l justin admin
 #           -g：修改用户的用户组id
-#               语法：#usermod -g 新的用户组id 需要被修改的用户名
+#               语法：#usermod -g 组名 需要修改组的用户名
+#               实例：#usermod -g dev surface1
+#           -G：修改用户的用户附加组
+#               语法：#usermod -G 组名 需要修改附加组的用户名
+#               实例：#usermod -G sudo surface1
+#               注意：增加附加组后，需要重新登录一下被修改了附加组的用户名，该用户的附加组才能生效
+#           -s：修改终端shell使用的软件（ubuntu18的命令输入终端就是shell，默认使用bash软件打开）
+#               语法：#usermod -s shell的软件路径 用户名
+#               实例：#usermod -s /bin/bash surface1
 #   删除
 #       命令：userdel（user delete）
-#       语法：#userdel 用户名
-#       实例：#userdel justin
-#   密码
-#       命令：passwd
-#       语法：#passwd 需要设置密码的用户名
-#       实例：#passwd justin
-#       注意：当设置密码过于简单，它会提示无效密码，但并不影响你继续验证密码，重新输入新密码（即简单的密码）后，密码设置成功。
-#用户组
+#       语法：#userdel -r 用户名    #-r会自动删除家目录中的用户名文件夹
+#       实例：#userdel -r justin
+#       注意：会提示未找到justin的文件夹，其实justin用户名已经被删除
+#           可以通过 gat -n /etc/passwd|grep justin 查看是否包含justin的用户名内容
+#【用户组管理】（ubuntu中需要在租操作命令前加sudo）（用户组信息保存在/etc/group中，使用cat -n /etc/group | grep surface查看）
 #   添加
 #       命令：groupadd
 #       语法：#groupadd 用户组名
@@ -675,13 +1034,12 @@
 #       语法：#groupdel 需要删除的用户组名
 #       注意：只能直接删除空的用户组，其中有用户名的需要先删除用户名，删除后再删用户组
 #特别注意：在linux中，只有超级用户具有对用户/用户组的管理权限，其他用户一律禁止
-
-#【day】权限设置（重点）
+#【用户权限设置】（重点）
 #查看当前用户对指定文件夹内所有文件及文件夹的使用权限
 #   方法：ls -l 或 ls -la
 #   实例：ls -l
-#       -rwxrwx---
-#       0123456789
+#       -rwxrwx--- 1                                             surface    surface    8980               1月 17 12:05   1.py
+#       0123456789 硬连接数（有多少种方式来访问此文件或文件夹）  拥有者名称 所在组名称 文件或文件夹的大小 创建或修改时间 文件/文件夹名称
 #           0：档案类型
 #               -：文件
 #               d：文件夹
@@ -696,7 +1054,10 @@
 #               x：可执行
 #               -：无此权限
 #           [7,8,9]：其他人对此文件的权限（o表示，other）
-#设置权限
+#修改拥有者
+#   命令：chown
+#   语法：chown 用户名 文件名/目录名
+#修改权限
 #    通过字符命令设置权限
 #        命令：chmod（change modify）
 #        语法：#chmod 权限组成信息 需要操作的对象（文件夹/文件）
@@ -714,10 +1075,16 @@
 #                            语法：#chmod u=读写执,g=读写执,o=读写执 需要操作的文件/文件夹
 #                            实例：#chmod u=rwx,g=-w-,o=--- /home/admin/text.txt
 #                    第二种情况：对全部组成部分设置某个权限
-#                        #chmod a+r 对全部组成部分添加可读权限
-#                        #chmod a-r 对全部组成部分删除可读权限
-#                        #chmod a=rwx 对全部组成部分设置可读可写可执行权限
+#                        centos
+#                           #chmod a+r 对全部组成部分添加可读权限
+#                           #chmod a-r 对全部组成部分删除可读权限
+#                           #chmod a=rwx 对全部组成部分设置可读可写可执行权限
+#                        ubuntu18
+#                           #chmod +r 对全部组成部分添加可读权限
+#                           #chmod -r 对全部组成部分删除可读权限
+#                           #chmod rwx 对全部组成部分设置可读可写可执行权限
 #   通过数字设置权限
+#       语法：$ sudo chmod [-R] '拥有者数字权限''组权限''其他用户权限' 文件/目录
 #       4表示读权限
 #       2表示写权限
 #       1表示执行权限
@@ -727,28 +1094,40 @@
 #           读写权限=读+写=4+2=6
 #           读权限=读=4
 #           所以最终权限数字=764
-#       实例：chmod 764 50.txt
+#       实例1：chmod 764 50.txt     #为文件50.txt的拥有者、组、其它用户分别设置权限：rwx、rw、r
+#       实例2：chmod -R 764 mydir     #为目录mydir及其子目录和其内的文件的拥有者、组、其它用户分别设置权限：rwx、rw、r
+#       注意
+#           421 7 rwx
+#           420 6 rw-
+#           401 5 r-x
+#           400 4 r--
+#           021 3 -wx
+#           020 2 -w-
+#           001 1 --x
+#           000 0 ---
+#       常用权限
+#           777===>u=rwx,g=rwx,o=rwx
+#           755===>u=rwx,g=rx,o=rx
+#           644===>u=rw,g=r,o=r
 #   友情提示
 #       在以后实际工作中不要出现一个奇葩的权限
 #           -wx  不要出现类似这样的权限，原因最基础的读权限未给，如果要写必须先读（打开）
-
-#【day】实用扩展
-#Linux下的>和>>
-#   概念
-#       >：覆盖写入
-#       >>：追加写入
-#   命令打印的结果保存到文件
-#       语法：命令 [参数] > 文件（用户保存命令所返回的结果，目录中无此文件会自动新建）
-#       实例1：ls -la > list.txt
-#       实例2：ls -la >> list.txt
-#Linux下的查找命令
-#   语法：#find 查找路径 -name 查找的关键词
-#   实例：#find / -name httpd.conf    全盘查找httpd.conf
-#Linux下的手册man（Manual）
-#   功能：查看某个命令的详细用法
-#   语法：#man 命令名称
-#   实例：#man find
-#   退出手册：q
+#设置python文件的执行权限,并执行
+#   新建python文件，给与他可执行权限，直接执行此文件
+#       $ vim 1.py
+#           #!/usr/bin/python3
+#           print('123')
+#       $ chmod 754 1.py
+#       $ ./1.py
+#修改组名
+#    命令：chgrp
+#    语法：sudo chgrp [-R] 要添加进入的组名 要修改组名的文件/文件夹    #如果修改文件夹的组名需要加-R参数
+#    实战：1、新建一个文件夹-python学习 2、新建一个组-dev 3、将python学习文件夹的组名更改问dev
+#        $ pwd
+#            /home/surface
+#        $ mkdir python学习
+#        $ sudo groupadd dev    #新建一个dev（开发）的组
+#        $ sudo chgrp -R dev ./python学习
 
 #【day】LAMP编程之linux
 #ssh协议
@@ -928,9 +1307,6 @@
 #       #cd cmake-3.6.0-rc1
 #       #./bootstrap
 #       #gmake && gmake install
-
-
-
 #   提示：
 #       如果在安装上面软件时出错
 #           删除目录
@@ -940,12 +1316,6 @@
 #扩展
 #   升级全部软件
 #       #yum -y update
-
-
-
-
-
-
 
 #软件安装管理（安装应用程序）
 #   二进制程序的安装
@@ -1042,7 +1412,6 @@
 #           $ systemctl status firewalld.service #查看防火墙启动状态
 #           $ firewall-cmd --zone=public --add-port=23/tcp --permanent #让防火墙永久允许23号端口添加到公共区域
 #           $ systemctl restart firewalld.service #重启防火墙
-#           $ ifconfig #复制服务器的ip
 #       使用
 #           客户端远程登录服务端
 #               在真实机启动telnet服务
@@ -2012,3 +2381,32 @@
 #           同windows的欢迎窗口步骤相同，直到出现IntelliJ IDEA License Activation窗口
 #               选择License server
 #               点击同意即可
+
+#【day】网络通讯
+#ip
+#   标记电脑或手机的地址
+#端口
+#   标记电脑中的进程地址
+#   知名端口
+#       80：http服务
+#       21：ftp服务
+#       范围：0-1023
+#   动态端口
+#       范围：1024-6
+#
+#【Nginx】
+#简介：服务器软件
+#官网资料
+#   www.nginx.org/en/docs/
+#中文资料
+#   http://www.nginx.cn/doc/index.html
+#   http://tengine.taobao.org/book/
+#安装
+#   包管理工具安装
+#       去官网将所使用的依赖添加到包管理工具中
+#           打开www.nginx.org/en/docs/
+#               点击installing nginx
+#               点击installation on linux中的packages
+#                   点击Ubuntu
+#       更新包管理工具资源
+#       使用包管理工具安装

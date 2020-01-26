@@ -2,6 +2,23 @@
 
 #千锋老师电话：13691511443
 
+#【ide】pycharm
+#断点测试
+#   概念：在测试运行模式下，从断点处开始，逐条运行代码（点击下一条，运行一条）
+#   操作：
+#       断点设置：单击代码行号附近空白处，出现大圆点，
+#       进入测试模式
+#           点击右上角一只虫的图标，即shift+F9
+#               在控制台中点击Console选项卡
+#                   说明
+#                       控制台中会执行断点之前的代码
+#                       源代码区的断点行会蓝色高亮，即即将运行的代码行
+#                   执行
+#                       点击step over（F8,在Console旁边）就能逐条执行代码
+#ubuntu中恢复pycharm的出厂设置
+#   关闭正在运行的pycharm
+#   $ rm -r ~/.PyCharm2019.3
+
 #【day】安装pycharm\webstrom\datagrip
 #双击pycharm-professional-2019.1.3 or WebStorm-2019.1.2 or datagrip-2019.1.4
 #   Do not import settings
