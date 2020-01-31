@@ -1,5 +1,3 @@
-print('123')
-print('456')
-print('778')
-print('13454')
-print('14563456')
+a = 'sdfas/df'
+a = a.replace('/', '')
+print(a)

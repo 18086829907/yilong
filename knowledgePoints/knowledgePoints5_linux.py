@@ -84,7 +84,7 @@
 #                       在终端中输入：ifconfig
 #                           eth0(默认的本地连接网卡)
 #                               inet addr：192.168.1.6 （可以连接的地址,注意：拔掉网线重启后ip地址会变化）
-#                           lo（本地回环网卡，全称loop）
+#                           lo（本地回环网卡，全称loop，用于本机中不同软件之间的通讯）
 #                               inet addr：127.0.0.1
 #                   如何在linux中的centos7查询ip
 #                       在终端中输入：ip addr
@@ -103,7 +103,7 @@
 #常见问题：vmware全屏显示ubuntu18的问题；windows和ubuntu18互相粘贴复制问题
 #   进入ubuntu的命令行窗口
 #       sudo apt autoremove open-vm-tools
-#       sudo apt install popen-vm-tools
+#       sudo apt install open-vm-tools
 #       sudo apt install open-vm-tools-desktop
 #   设置ubuntu18的显示分辨率
 #       点击右上角的三角形下拉按钮
@@ -158,6 +158,38 @@
 #           下载后打开安装文件进行安装
 #   切换中英文输入法
 #       单击shift
+#别名机制
+#   作用：给冗长的命令起别名，使用别名来调用原本命令的功能
+#   centos
+#       修改配置文件：.bashrc
+#       文件地址:
+#           /root/.bashrc
+#           /home/admin/.bashrc
+#       具体操作
+#           #vim /root/bashrc
+#               alias clear='cls'     #alias设置别名   别名命令='原命令'
+#           :q
+#           重新登录才能生效
+#               方法一：切换用户
+#                   #su admin
+#                   #su root
+#               方法二：重新
+#   ubuntu18
+#       $ sudo vim /etc/bash_aliases
+#           i
+#               alias cls="clear"
+#           :x
+#       $ sudo vim /etc/bash.bashrc
+#           G
+#           i
+#               if [-f /etc/bash_aliases]; then
+#                   ./etc/bash_aliases
+#               fi
+#           :x
+#       #断开服务器连接，重新登录，即可生效
+#           $ exit
+#           C:\User\surface> ssh root@10.98.193.96
+#           root@10.98.193.96's password:
 
 #【day】linux中的命令
 #命令格式
@@ -167,6 +199,8 @@
 #命令行进入方式
 #   桌面右键
 #       在终端中打开命令行
+#命令行中多开标签
+#   ctrl+shift+t
 #命令行符号介绍
 #   [root@localhost 桌面]#
 #       root：当前登录的用户名
@@ -281,7 +315,6 @@
 #               实例：#mv /php50.txt /50.txt
 
 #               带参命令：mv -i
-#
 #       文件夹的操作命令
 #           创建
 #               命令1：mkdir（make directory）
@@ -343,6 +376,11 @@
 #               grep -n p$ /root/home/1.txt     #查找以p结尾的行
 #       vim
 #           介绍：vim是linux下一款编辑器软件，它的地位等同于windows下的notepad（记事本）。其功能上要比记事本要强很多倍
+#           异常关闭处理
+#               说明：vim编辑一个文件，没有正常关闭，则在下一次打开此文件时会提示异常关闭
+#               问题本质：vim打开一个文件时，会新建一个原文件名.swp的缓存文件，正常关闭会删除.swp文件，异常关闭不会删除.swp
+#               解决办法
+#                   vim 打开这个文件，在异常关闭提示信息界面输入，d（必须是英文输入法），删除.swp文件即可
 #           具体使用
 #               准备工作
 #                   先将/etc/passwd复制到/root
@@ -368,42 +406,104 @@
 #                       进入末行模式：按下:
 #                       进入编辑模式：按下i或a
 #                       具体操作
-#                           光标移动
-#                               移至首行首位：gg
-#                               移至末行首位：G
-#                               移至指定行首位：数字gg（数字和g的间隔不要太长）
-#                                   实例：15gg
-#                               向下移动指定行首位：数字下键
-#                                   实例：5下键（向下移动5行）
-#                                   注意：不要使用小键盘的数字
-#                               向上移动指定行首位：数字上键
-#                                   实例：5上键（向上移动5行）
-#                                   注意：不要使用小键盘的数字
+#                           行内移动
+#                               向后一个单词：w
+#                               向前一个单词：b
+#                               行首：0
+#                               行首非空：^
+#                               行末：$
+#                           行数移动
+#                               下移一行：j
+#                               上移一行：k
+#                               移动到行首
+#                                   移至首行：gg
+#                                   移至末行：G
+#                                   移至指定行：数字gg
+#                                       实例：15gg
+#                           屏幕移动
+#                               向上翻页：ctrl+b
+#                               向下翻页：ctrl+f
+#                               屏幕顶部（光标移动到当前屏幕的顶部，Head）：H
+#                               屏幕中部（光标移动到当前屏幕的中部，Middle）：M
+#                               屏幕低部（光标移动到当前屏幕的低部，Low）：L
+#                           段落移动（用空行定义一个段落，即一个段落的开始，是一个空行）
+#                               向上一段：{
+#                               向下一段：}
+#                           成对括号之间切换（包括(),[],{}）
+#                               移动到前括号：%
+#                               移动到后括号：%
+#                               说明：当一行中有多个括号时，在离光标最近的括号之间快速切换
+#                           标记段落
+#                               使用场景：需要查看其他行代码，再回到当前行来书写代码或修改代码，在查询其他行代码时，光标会移走，需要快速回到当前行，则需要标记当前行
+#                               标记语法：m标记字母（标记字母可以是a~z，A~Z）
+#                                   实例：mx
+#                               回跳语法：'标记字母
+#                                   实例：'x
 #                           删除
+#                               删除当前光标字符并补齐，类似Del键功能：x
+#                                   扩展
+#                                       删除5个字符：5x    #重复执行5次x
+#                                       删除括号及括号内的内容：将光标移动到前括号，v，%，x
 #                               删除当前行，下行补齐：dd
-#                               删除当前行，下行不补齐：D
-#                               删除光标及下的指定行：数字d
-#                                   实例：4d（删除光标所在行，以及下3行，不要用小键盘数字）
+#                               重复删除行：5dd    #从光标当前行 删除5行 （包括当前行）
+#                               删除光标当前位置到当前行的末尾：D
+#                               结合移动命令
+#                                   语法：d移动命令
+#                                   实例
+#                                       dw    #从光标位置删除到一个单词末尾
+#                                       d0    #从光标位置删除到一行的起始位置
+#                                       d}    #从光标当前行 删除到 段落结尾行（包括当前行）
+#                                       d5gg  #从光标当前行 删除到 指定行（包括删除指定行）
+#                                       d'x   #从光标当前行 删除到 标记x 之间的所有代码（包括标记行）
 #                               特别说明：删除命令和剪切命令是一模一样的。删除后的内容会自动保存到剪贴板，可以用于粘贴
 #                           复制
 #                               复制当前行：yy
-#                               复制多行：数字yy（数字包括当前行及以下）
-#                               说明：复制完之后可以按p进行粘贴，
+#                               复制多行：数字yy
+#                                   实例：5yy    #复制5行（包括当前行）
+#                               结合移动命令
+#                                   语法：y移动命令
+#                                   实例
+#                                       yw    #从光标位置   复制到 一个单词末尾
+#                                       y0    #从光标位置   复制到 一行的起始位置
+#                                       y}    #从光标当前行 复制到 段落结尾行（包括当前行）
+#                                       y5gg  #从光标当前行 复制到 指定行（包括删除指定行）
+#                                       y'x   #从光标当前行 复制到 标记x 之间的所有代码（包括标记行）
+#                               注意：以上复制或剪切，是将内容保存到文本缓冲区，而并非剪贴板。即不能将以上复制或剪切内容
 #                           粘贴
 #                               p
-#                               说明：粘贴时粘贴在光标所在行的下一行开始
-#                           恢复撤销
-#                               ctrl+r
+#                               说明：粘贴时粘贴的位置是光标所在行的下一行开始
+#                               注意：剪贴板中的内容要粘贴到vim中，必须进入编辑模式，用右键点击粘贴才能实现
+#                           撤销：u
+#                           恢复撤销：ctrl+r
+#                           可视模式
+#                               进入可视模式
+#                                   v：框选光标当前位置到光标移动后的位置之间的所有内容
+#                                   V：框选光标当前行位置到光标移动后所在行位置之间的所有内容
+#                               进入可视块模式
+#                                   ctrl+v：矩形方式框选代码内容
+#                               说明：可视模式能与命令模式中的的命令连用
+#                           替换
+#                               替换轻量级
+#                                   r    #替换一个字符
+#                                   R    #进入改写模式
+#                           缩排
+#                               >>    #向右增加缩进
+#                               <<    #向左减少缩进
+#                               多行缩排
+#                                   进入可视模式V，选中多行代码
+#                                       >    #向右增加缩进
+#                                       <    #向左减少缩进
+#                           重复执行
+#                               .    #重复执行上一步操作，比如缩进了一次，还需要增加一次缩进，只需要点一下'.'即可
 #                   末行模式（:）
-#                       进入命令模式
-#                           按1下esc：稍慢
-#                           按2下esc：直接退出
-#                           删除末行命令中的全部命令：直接退出
+#                       进入命令模式：ESC
 #                       具体操作
 #                           保存
 #                               :w
 #                           另存
-#                               :w 文件路径
+#                               语法：:w 文件路径
+#                               实例：:w mypy.py
+#                               注意：另存后不会切换到新文件，仍然是在当前文件中编辑
 #                           退出
 #                               :q
 #                           强制退出(不会保存已经修改了的文件)
@@ -412,18 +512,25 @@
 #                           保存退出
 #                               :wq 无论文件内容是否修改，都会更新文件保存时的最后修改时间
 #                               :x 实际开发中推荐使用，只有内容真的被修改，才会修改文件的最后修改时间
-#                           查找（查找后，会高亮显示字符串，可以用n和N切换）
-#                               /字符串
-#                               实例：/login
+#                           查找
+#                               输入关键词查找
+#                                   语法：/字符串
+#                                   说明：被匹配到的字符串会高亮显示，如果不想看高亮显示，只需要再用/来查找一个不存在的字符，即可消除高亮
+#                                   实例：/login
+#                               查找当前光标所在的单词
+#                                   *    #向后查找当前光标所在单词
+#                                   #    #向前查找当前光标所在单词
+#                               高亮关键词之间跳转
+#                                   查找下一个：n
+#                                   查找上一个：N
 #                           替换
-#                               语法一：:s/需要替换的字符串/替换成的字符串
-#                                   功能：替换当前光标所在的行的第一处符合条件的字符串
-#                               语法二：:s/需要替换的字符串/替换成的字符串/g      （g为global）
-#                                   功能：替换当前光标所在的行的所有符合条件的字符串
-#                               语法三：:%s/需要替换的字符串/替换成的字符串
-#                                   功能：替换当前文档中所有行的第一个符合条件的字符串
-#                               语法四：:%s/需要替换的字符串/替换成的字符串/g
-#                                   功能：替换当前文档中所有行的所有符合条件的字符串
+#                               记忆技巧
+#                                   基本命令格式：:%s///g，:s///g，:%s///gc
+#                                       替换全部：:%s/旧内容/新内容/g
+#                                       可视范围内全部替换：:s/旧内容/新内容/g
+#                                           说明：需要进入可视模式，框选范围后，输入':s/a/b/g'，就能将可视范围内中的a替换为b
+#                                       全局确认替换：:%s/旧内容/新内容/gc
+#                                           确认信息解释：y（替换当前行），n（不替换当前行），a（替换全部），q（退出替换）
 #                           撤销
 #                               语法一：:u
 #                                   功能：撤销一步
@@ -431,75 +538,141 @@
 #                                   功能：撤销多步
 #                           加密
 #                               语法：:X
-#
-#                   编辑模式（i或a）
+#                           切换另一个文件进行编辑
+#                               语法：:e 文件名
+#                               技巧
+#                                   :e .    #进入vim内置浏览器，能查看当前目录中的所有文件名，使用j，k光标移动键，将光标移动到要切换的文件名上，点击enter即可用vim打开这个文件
+#                                   :e Tab    #这里同样能使用Tab自动补全文件名
+#                               注意：切换之前，必须保存当前编辑的文件，保存后才能切换
+#                           新建文件
+#                               语法：:n 文件名
+#                               实例：:n mypython.py
+#                           分屏命令
+#                               :sp [.]   #split 横向分屏
+#                                   说明：如果带参，则创建一个水平分屏，并且一个窗口进入vim内置浏览器，可以选择当前窗口打开哪个文件
+#                               :vsp [.]  #vertical split 纵向分屏
+#                                   说明：如果带参，则创建一个垂直分屏，并且一个窗口进入vim内置浏览器，可以选择当前窗口打开哪个文件
+#                               分屏窗口控制
+#                                   ctrl+w    #进入窗口控制模式
+#                                       w    #windows，切换到下一个窗口
+#                                       r    #reverse，互换窗口
+#                                       c    #close，关闭当前窗口，但是不能关闭最后一个窗口
+#                                       q    #quit，退出当前窗口，如果是最后一个，则关闭vim
+#                                       o    #other，关闭其他窗口
+
+#                   编辑模式
 #                       进入命令模式：按下esc
-#                       文档的编辑模式，无命令
+#                       从命令模式进入编辑模式
+#                           i：当前光标位置之前插入
+#                           a：当前光标位置之前插后
+#                           I：光标移动到当前行行首
+#                           A：光标移动到当前行行尾
+#                           o：当前行后面插入空行
+#                           O：当前行前面插入空行
+#                           R：光标不动，进入替换（改写）编辑模式
+#                       快捷命令
+#                           ctrl+n：自动补全代码
 #           vim扩展知识
-#               默认显示行号
-#                   centos
-#                       修改配置文件.vimrc
-#                           地址：当前用户的家目录中(如果没有就自己创建)
-#                               /root/.vimrc
-#                               /home/admin/.vimrc
-#                           创建文件
-#                               #vim .vimrc
-#                               i
-#                                   set nu
-#                               esc
-#                               :wq
-#                   ubuntu
-#                       $ sudo vim /etc/vim/vimrc
-#                           G    #定位到文件末尾
-#                           i    #进入编辑模式
-#                               set number    #将set number插入到文件末尾
-#                           esc    #退出编辑模式
-#                           :x    #保存并退出文件
-#           别名机制
-#               作用：给冗长的命令起别名，使用别名来调用原本命令的功能
-#               centos
-#                   修改配置文件：.bashrc
-#                   文件地址:
-#                       /root/.bashrc
-#                       /home/admin/.bashrc
-#                   具体操作
-#                       #vim /root/bashrc
-#                           alias clear='cls'     #alias设置别名   别名命令='原命令'
-#                       :q
-#                       重新登录才能生效
-#                           方法一：切换用户
-#                               #su admin
-#                               #su root
-#                           方法二：重新
-#               ubuntu18
-#                   $ sudo vim /etc/bash_aliases
-#                       i
-#                           alias cls="clear"
-#                       :x
-#                   $ sudo vim /etc/bash.bashrc
+#               vim的安装
+#                   sudo apt install vim
+#               vim的智能提示（记得切换阿里源，否则。。你懂得）
+#                   cd ~    #回到家目录
+#                   sudo apt install vim-addon-manager    #安装插件管理器
+#                   sudo apt install vim-youcompleteme    #下载插件
+#                   vim-addons install youcompleteme    #将插件添加到管理器中
+#                   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim    #下载插件管理器
+#                   git clone https://github.com/tomasr/molokai  ~/.vim/colors/molokai    #下载配色方案
+#                   sudo cp ~/.vim/colors/molokai/colors/molokai.vim /usr/share/vim/vim80/colors/    #将颜色方案添加到配置文件
+#               添加自定义配置文件
+#                   $ sudo vim /etc/vim/vimrc
 #                       G
-#                       i
-#                           if [-f /etc/bash_aliases]; then
-#                               ./etc/bash_aliases
-#                           fi
-#                       :x
-#                   #断开服务器连接，重新登录，即可生效
-#                       $ exit
-#                       C:\User\surface> ssh root@10.98.193.96
-#                       root@10.98.193.96's password:
-#           异常关闭处理
-#               说明：vim编辑一个文件，没有正常关闭，则在下一次打开此文件时会提示异常关闭
-#               问题本质：vim打开一个文件时，会新建一个原文件名.swp的缓存文件，正常关闭会删除.swp文件，异常关闭不会删除.swp
-#               解决办法
-#                   手动删除源文件名.swp的文件：#rm /root/.bashrc.swp
+#                         set bg=dark           "黑色背景
+#                         set completeopt=menu  "关闭草稿
+#                         set nu                "显示行号
+#                         set paste             "粘贴时 禁止自动缩进
+#                         set scrolloff=5       "光标到上下缓冲区边距
+#                         set nobackup          "禁止生成临时文件
+#                         set nocindent         "不使用C风格缩进
+#                         set noautoindent      "不使用自动缩进
+#                         set shiftwidth=4      "自动缩进字符宽度
+#                         set ts=4              "tab键宽度
+#                         set expandtab         "将tab符转为空格
+#                         %retab!               "对于已保存的文件,执行expandtab
+#                         set fencs=utf-8,ucs-bom,shift-jis,GB2312,GBK,gb18030,gbk,gb2312,cp936 "支持的字符集
+#                         set ignorecase        "搜索时 忽略大小写
+#                         syntax on             "语法高亮
+#                         set hls               "搜索高亮
+#                         set bg=dark           "字体加亮
+#                         set nocompatible      "去除兼容vi
+#                         set backspace=indent,eol,start "允许使用退格键
+#
+#                         "vim 配色相关
+#                         "colorscheme corporation
+#                         colorscheme molokai     "配色方案有这些：blue，default，desert，evening，koehler，murphy，peachpuff，ron，slate，torte，darkblue，delek，elflord，industry，morning，pablo，shine，solarized，zellner，molokai
+#                         "colorscheme molokai
+#
+#                         "YouCompleteMe配置相关
+#                         let g:ycm_server_python_interpreter='/usr/bin/python'
+#                         let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
+#                         filetype off
+#                         set rtp+=~/.vim/bundle/Vundle.vim
+#                         call vundle#begin()
+#                         Plugin 'VundleVim/Vundle.vim'
+#                         Plugin 'Valloric/YouCompleteMe'
+#                         call vundle#end()
+#                         filetype plugin indent on
+#
+#                         "vim 设置快捷键 模式1  F2->define, F3->declar, F4->auto
+#                         let g:ycm_goto_buffer_command = 'new-tab' "跳转打开新的屏幕
+#                         "let g:ycm_goto_buffer_command = 'horizontal-split' "跳转打开上下分屏
+#                         map <F2> :YcmCompleter GoToDefinition<CR>
+#                         map <F3> :YcmCompleter GoToDeclaration<CR>
+#                         map <F4> :YcmCompleter GoToDefinitionElseDeclaration<CR>
+#
+#                         "vim 设置快捷键 模式2
+#                         "let g:ycm_goto_buffer_command = 'horizontal-vsplit' "跳转打开新的分屏 :e#退出分屏
+#                         "let mapleader = '\'                                 "命令模式,\df跳转到定义,\dc跳转到声明,\de任意找
+#                         "nnoremap <leader>df :YcmCompleter GoToDefinition<CR>
+#                         "nnoremap <leader>de :YcmCompleter GoToDeclaration<CR>
+#                         "nnoremap <leader>dc :YcmCompleter GoToDefinitionElseDeclaration<CR>
+#               安装后的目录结构以及排错
+#                   ~/.vim
+#                         ├── autoload
+#                         │   └── youcompleteme.vim -> /usr/share/vim-youcompleteme/autoload/youcompleteme.vim
+#                         ├── doc
+#                         │   ├── tags
+#                         │   └── youcompleteme.txt -> /usr/share/vim-youcompleteme/doc/youcompleteme.txt
+#                         ├── plugin
+#                         │   ├── myVimrc
+#                         │   └── youcompleteme.vim -> /usr/share/vim-youcompleteme/plugin/youcompleteme.vim
+#                         └── vim-colors-solarized    #手动添加——1、https://ethanschoonover.com/solarized/到这里在压缩包，解压之后找到vim-colors-solarized，并上传到这个目录下
+#                             ├── autoload
+#                             │   └── togglebg.vim    #sudo cp togglebg.vim /usr/share/vim/vim80/autoload/
+#                             ├── colors
+#                             │   └── solarized.vim   #sudo cp solarized.vim /usr/share/vim/vim80/colors/
+#                             ├── doc
+#                             │   ├── tags
+#                             │   └── togglebg.txt    #sudo cp togglebg.txt /usr/share/vim/vim80/doc/
+#                             └── README.mkd
+#               打开文件并且定位行
+#                   $ vim 文件名 +行数
+#                   使用场景：首先知道某行代码出错（报错时会提醒），直接打开并定位出错代码行修改代码
+#                   实例：$ vim myFile.py +16
+#                   扩展：$ vim myFile.py +    #直接定位到最后一行
+#       vim演练
+#           快速输入10个'*'：[10, i, *, esc]
+#           给多行添加注释：[o, ctrl+v, j,j,..j, shift+i, # , esc]    #移动到行首，进入可视块模式，下移光标框选多行，I进入插入模式，为单行添加注释，退出插入模式。此时vim自动将块中的代码全部添加注释
+
 #   帮助命令
 #       $ man ls #帮助文档，查看命令的文档
 #           说明：进入man之后点h，也能进入帮助文档
 #       $ ls --help #进入命令的帮助文档，可查命令的参数
+
 #   网络连接
-#       $ systemctl restart network #contos 重新加载网卡，在无界面linux系统中使用，使用后服务器才能上网，此时xshell才能连接该服务器
+#       $ systemctl restart network     #contos 重新加载网卡
 #       $ sudo yum install net-tools    #contos安装ifconfig命令
 #       $ sudo apt install net-tools    #ubuntu安装ifconfig命令
+#       $ sudo dhclient    #桥接模式下，ifconfig后，没有ipv4的ip地址，可以使用此命令来让别人给你重新分配ip
 #       $ ifconfig #查看当前网卡的信息；说明：ipV4是ens33：inet下显示的ip
 #       $ ifconfig -a #查看所有网卡的信息
 #       $ ifconfig eth0 #查看指定网卡的信息
@@ -509,6 +682,7 @@
 #       $ ping 192.168.0.106    #查看ip是否通信。可ping网关、外网、宿主机ip
 #       $ ping 127.0.0.1    #查看本地网卡是否工作正常
 #       $ ping www.baidu.com    #查看某个网站是否连通
+#       $ sodu apt install openssh-server    #服务器需要安装此软件，才能用xshell连接上
 #       $ ssh [-p 端口号] user@remote
 #           说明
 #               user 是远程机器上的用户名，如果不指定的话会默认为当前用户
@@ -1442,10 +1616,7 @@
 #                   双击TAB，会列出所有模糊匹配到的文件名
 #                       再自己选择需要的文件名
 #                       示例：ls /sTABTAB  -->  ls /s 显示匹配到所有以s开头的所有文件名
-#   vim中的快捷键
-#       i
-#       shift G  移动到最后一行
-#       ESC
+
 
 #【day】本地服务器
 #   安装python3.6

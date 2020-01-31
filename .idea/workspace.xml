@@ -2,18 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="662324f1-dafe-48fa-b92b-7a72cb257e24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/first_project_html/webStorm/css/memory.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project_html/webStorm/css/收租.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project_html/webStorm/js/memory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project_html/webStorm/js/收租.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project_html/webStorm/memory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project_html/webStorm/收租.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/简单通讯/01-socket发送数据.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/简单通讯/02-socket接收数据.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/简单通讯/03-socket收发数据-案例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/01_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/02_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/04_server_允许多个客户端连接并且为一个客户端服务多次.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints2_python进阶.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints8_django2byexample.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/test/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project_html/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/first_project_html/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/练习/TCP/客户端与服务端/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/练习/TCP/客户端与服务端/serverSide.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/练习/UDP/冒充飞Q/冒充飞Q.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/冒充飞Q/冒充飞Q.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/练习/UDP/客户端与服务端通信（群聊）/udpClient.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/客户端与服务端通信（群聊）/udpClient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/练习/UDP/客户端与服务端通信（群聊）/udpServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/客户端与服务端通信（群聊）/udpServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints10_电商系统开发.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints11_电商系统开发.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints12_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints12_淘宝运营.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints13_淘宝运营.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints13_AE.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints14_AE.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints2_html_css_js.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints2_html_css_js.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints4_linux.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints4_linux.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints2_html_css_js.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints3_html_css_js.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints3_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints4_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints4_linux.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints5_linux.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints5_visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints6_visualization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints6_gllysltj.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints7_gllysltj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints7_django2byexample.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/03_server_允许多个客户端连接.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints8_概率论与数理统计.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints9_概率论与数理统计.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints9_django.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints10_django.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,28 +57,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py">
+        <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints2_python进阶.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            <state relative-caret-position="2736">
+              <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first_project/test/test.py">
+        <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="15336">
+              <caret line="639" column="16" selection-start-line="639" selection-start-column="16" selection-end-line="639" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/01_client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints4_linux.py">
+        <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/04_server_允许多个客户端连接并且为一个客户端服务多次.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="878" column="20" selection-start-line="878" selection-start-column="20" selection-end-line="878" selection-end-column="20" />
+            <state relative-caret-position="447">
+              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -72,25 +97,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>xsh</find>
-      <find>xshell</find>
-      <find>scp</find>
-      <find>ps</find>
-      <find>ifconfig</find>
-      <find>ssh</find>
-      <find>用户</find>
-      <find>组</find>
-      <find>groupadd</find>
-      <find>id</find>
-      <find>vim</find>
-      <find>source</find>
       <find>别名</find>
       <find>id 用户名</find>
       <find>useradd</find>
@@ -104,11 +117,23 @@
       <find>find</find>
       <find>.index</find>
       <find>top</find>
-      <find>top</find>
       <find>apt</find>
       <find>opt</find>
       <find>文件传输</find>
+      <find>网络</find>
+      <find>网络连接</find>
+      <find>socket</find>
+      <find>pycharm</find>
       <find>.jar</find>
+      <find>bash</find>
+      <find>scp</find>
+      <find>replace</find>
+      <find>tcp</find>
+      <find>VIM</find>
+      <find>passwd</find>
+      <find>vim</find>
+      <find>播</find>
+      <find>if</find>
     </findStrings>
     <replaceStrings>
       <replace>打开</replace>
@@ -149,18 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/经济管理/产品管理/xpathType.py" />
-        <option value="$PROJECT_DIR$/经济管理/产品管理/商品源码/2.html" />
-        <option value="$PROJECT_DIR$/经济管理/产品管理/商品源码/3.html" />
-        <option value="$PROJECT_DIR$/经济管理/产品管理/商品源码/4.html" />
-        <option value="$PROJECT_DIR$/经济管理/产品管理/商品源码/5.html" />
-        <option value="$PROJECT_DIR$/经济管理/产品管理/商品源码/6.html" />
-        <option value="$PROJECT_DIR$/经济管理/产品管理/商品源码/7.html" />
-        <option value="$PROJECT_DIR$/经济管理/产品管理/商品源码/8.html" />
-        <option value="$PROJECT_DIR$/经济管理/产品管理/商品源码/9.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/54.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/55.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/56.html" />
         <option value="$PROJECT_DIR$/经济管理/产品管理/商品源码/10.html" />
         <option value="$PROJECT_DIR$/经济管理/产品管理/商品源码/11.html" />
         <option value="$PROJECT_DIR$/经济管理/产品管理/商品源码/12.html" />
@@ -197,17 +210,28 @@
         <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/正式报表生成器.py" />
         <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/订单号检测.py" />
         <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints2_html_css_js.py" />
-        <option value="$PROJECT_DIR$/first_project/test/test.py" />
-        <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py" />
         <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints4_linux.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/knowledfePoints2_python进阶.py" />
+        <option value="$PROJECT_DIR$/first_project/练习/UDP/简单通讯/01-secket基础通讯.py" />
+        <option value="$PROJECT_DIR$/first_project/练习/UDP/简单通讯/01-socket发送数据.py" />
+        <option value="$PROJECT_DIR$/first_project/练习/UDP/简单通讯/02-socket接收数据.py" />
+        <option value="$PROJECT_DIR$/first_project/test/test.py" />
+        <option value="$PROJECT_DIR$/first_project/练习/UDP/简单通讯/03-socket收发数据-案例.py" />
+        <option value="$PROJECT_DIR$/first_project/练习/TCP/客户端与服务端/client.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints5_linux.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints2_python进阶.py" />
+        <option value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/01_client.py" />
+        <option value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/02_serverSide.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py" />
+        <option value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/03_server_允许多个客户端连接.py" />
+        <option value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/04_server_允许多个客户端连接并且为一个客户端服务多次.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="146" />
-    <option name="y" value="64" />
-    <option name="width" value="1400" />
-    <option name="height" value="970" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-12" />
+    <option name="width" value="1642" />
+    <option name="height" value="2090" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -236,6 +260,34 @@
             <path>
               <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
               <item name="yilong" type="462c0819:PsiDirectoryNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="练习" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yilong" type="462c0819:PsiDirectoryNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="练习" type="462c0819:PsiDirectoryNode" />
+              <item name="01_网络通讯" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yilong" type="462c0819:PsiDirectoryNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="练习" type="462c0819:PsiDirectoryNode" />
+              <item name="01_网络通讯" type="462c0819:PsiDirectoryNode" />
+              <item name="02_TCP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yilong" type="462c0819:PsiDirectoryNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="练习" type="462c0819:PsiDirectoryNode" />
+              <item name="fileOperation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yilong" type="462c0819:PsiDirectoryNode" />
               <item name="knowledgePoints" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -249,7 +301,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/在售商品" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -261,19 +313,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\justin\DataGit\yilong\first_project\练习\01_网络通讯\02_TCP" />
+      <recent name="C:\Users\justin\DataGit\yilong\first_project\练习\01_网络通讯" />
+      <recent name="C:\Users\justin\DataGit\yilong\first_project\test\1" />
+      <recent name="C:\Users\justin\DataGit\yilong\first_project\test" />
+      <recent name="C:\Users\justin\DataGit\yilong\first_project\test\test1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\justin\DataGit\yilong\first_project\练习\01_网络通讯\02_TCP" />
       <recent name="C:\Users\justin\DataGit\yilong\经济管理\淘宝店铺_二牛精品铺\进货单\淘宝上家\去重补缺\忽略的订单号" />
       <recent name="C:\Users\justin\DataGit\yilong\经济管理\淘宝店铺_二牛精品铺\进货单\淘宝上家\去重补缺\进货单列表页" />
       <recent name="C:\Users\justin\DataGit\yilong\经济管理\产品管理\任务节点（刚好已完成）" />
       <recent name="C:\Users\justin\DataGit\yilong\经济管理\淘宝店铺_二牛精品铺\进货单\淘宝上家\进货单详情页(每单提交处)" />
-      <recent name="C:\Users\justin\DataGit\yilong\经济管理\产品管理\在售产品\节庆用品or礼品_创意礼品_其他礼品or节庆用品\1" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\justin\DataGit\yilong\first_project\test\1" />
-      <recent name="C:\Users\justin\DataGit\yilong\first_project\test" />
-      <recent name="C:\Users\justin\DataGit\yilong\first_project\test\test1" />
-      <recent name="C:\Users\justin\DataGit\yilong\经济管理\产品管理\在售产品\家庭or个人清洁工具_卫浴or置物用具_杯架\1" />
-      <recent name="C:\Users\justin\DataGit\yilong\经济管理\产品管理\源码id检测\id源码" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -288,8 +340,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="正式报表生成器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.01_client">
+    <configuration name="存储器数据操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yilong" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,12 +349,166 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理/存储器" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/正式报表生成器.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/存储器/存储器数据操作.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="01_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yilong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/01_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yilong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/02_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02_serverSide" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yilong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\justin\DataGit\yilong\first_project\练习\01_网络通讯\02_TCP\02_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04_server_允许多个客户端连接并且为一个客户端服务多次" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yilong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/04_server_允许多个客户端连接并且为一个客户端服务多次.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="手机淘宝爬取" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yilong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/finishedObject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_project/finishedObject/手机淘宝爬取.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="商品信息提取" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yilong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/商品信息提取.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="三创进货单提取并生成表格" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yilong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/淘宝店铺/财务管理/2、进货单/三创飞梦进货单" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_project/淘宝店铺/财务管理/2、进货单/三创飞梦进货单/三创进货单提取并生成表格.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -421,28 +627,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="存储器数据操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理/存储器" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/存储器/存储器数据操作.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="订单号检测" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yilong" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -457,28 +641,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/订单号检测.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="存储器数据操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理/存储器" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/存储器/存储器数据操作.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -641,116 +803,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="手机淘宝爬取" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/finishedObject" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_project/finishedObject/手机淘宝爬取.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="商品信息提取" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/商品信息提取.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="三创进货单提取并生成表格" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/淘宝店铺/财务管理/2、进货单/三创飞梦进货单" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_project/淘宝店铺/财务管理/2、进货单/三创飞梦进货单/三创进货单提取并生成表格.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="createFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/createFile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="id去重" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理/源码id检测" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/源码id检测/id去重.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yilong" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -775,10 +827,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_client" />
+        <item itemvalue="Python.04_server_允许多个客户端连接并且为一个客户端服务多次" />
+        <item itemvalue="Python.02_server" />
+        <item itemvalue="Python.02_serverSide" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.createFile" />
-        <item itemvalue="Python.正式报表生成器" />
-        <item itemvalue="Python.id去重" />
       </list>
     </recent_temporary>
   </component>
@@ -946,11 +999,20 @@
       <workItem from="1579906631710" duration="762000" />
       <workItem from="1579994335651" duration="24802000" />
       <workItem from="1580042436118" duration="10814000" />
+      <workItem from="1580078345013" duration="19348000" />
+      <workItem from="1580124100931" duration="346000" />
+      <workItem from="1580132466810" duration="1717000" />
+      <workItem from="1580169283192" duration="16034000" />
+      <workItem from="1580267299826" duration="5637000" />
+      <workItem from="1580281513919" duration="8941000" />
+      <workItem from="1580290595861" duration="10452000" />
+      <workItem from="1580346174358" duration="16113000" />
+      <workItem from="1580434898241" duration="702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1266762000" />
+    <option name="totallyTimeSpent" value="1346052000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -963,13 +1025,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1633" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.14584655" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.21876982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5005417" side_tool="true" weight="0.14331008" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30877572" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30552545" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1013,24 +1076,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/first_project/test/test.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/yilong$mztp.coverage" NAME="mztp Coverage Results" MODIFIED="1572856393106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/selenium+chrome练习" />
     <SUITE FILE_PATH="coverage/yilong$text.coverage" NAME="text Coverage Results" MODIFIED="1576404611082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/淘宝店铺_二牛精品铺/客户订单" />
     <SUITE FILE_PATH="coverage/yilong$__1_.coverage" NAME="商品信息提取 (1) Coverage Results" MODIFIED="1577853911269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/经济管理/产品管理" />
     <SUITE FILE_PATH="coverage/yilong$selenium_chromedriver.coverage" NAME="淘宝selenium+chromedriver Coverage Results" MODIFIED="1573437437052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理" />
-    <SUITE FILE_PATH="coverage/yilong$_.coverage" NAME="信息提取-上家订单详情 Coverage Results" MODIFIED="1576314560388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/淘宝店铺/财务管理/2、进货单/淘宝上家进货单" />
-    <SUITE FILE_PATH="coverage/yilong$createFile__1_.coverage" NAME="createFile (1) Coverage Results" MODIFIED="1577868699790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/test" />
+    <SUITE FILE_PATH="coverage/yilong$01_secket.coverage" NAME="01-secket基础通讯 Coverage Results" MODIFIED="1580084257527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/UDP/简单通讯" />
     <SUITE FILE_PATH="coverage/yilong$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1577867049235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/test" />
     <SUITE FILE_PATH="coverage/yilong$id.coverage" NAME="id去重 Coverage Results" MODIFIED="1578294325818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/经济管理/产品管理/源码id检测" />
     <SUITE FILE_PATH="coverage/yilong$creatDir__1_.coverage" NAME="creatDir (1) Coverage Results" MODIFIED="1576329452378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/淘宝店铺_二牛精品铺/进货单/三创飞梦/进货单详情页（每单提交处）" />
@@ -1039,23 +1090,21 @@
     <SUITE FILE_PATH="coverage/yilong$creatDir.coverage" NAME="creatDir Coverage Results" MODIFIED="1576329401373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/淘宝店铺_二牛精品铺/进货单/三创飞梦/查看物流（每单提交处）" />
     <SUITE FILE_PATH="coverage/yilong$ella.coverage" NAME="ella学习助手 Coverage Results" MODIFIED="1576850737113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人" />
     <SUITE FILE_PATH="coverage/yilong$txt.coverage" NAME="加载空的列表txt Coverage Results" MODIFIED="1577428315751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/经济管理/产品管理" />
-    <SUITE FILE_PATH="coverage/yilong$test.coverage" NAME="test Coverage Results" MODIFIED="1580051013861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/test" />
-    <SUITE FILE_PATH="coverage/yilong$_lxml_.coverage" NAME="淘宝进货单提取并生成表格(lxml) Coverage Results" MODIFIED="1576245423046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/淘宝店铺/财务管理/2、进货单/淘宝上家进货单" />
     <SUITE FILE_PATH="coverage/yilong$txt__1_.coverage" NAME="加载空的列表txt (1) Coverage Results" MODIFIED="1577434227339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/经济管理/产品管理/存储器" />
-    <SUITE FILE_PATH="coverage/yilong$_tb4tb40319388.coverage" NAME="订单信息汇总_tb4tb40319388 Coverage Results" MODIFIED="1573556192220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理" />
     <SUITE FILE_PATH="coverage/yilong$createFile.coverage" NAME="createFile Coverage Results" MODIFIED="1578664071871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页" />
+    <SUITE FILE_PATH="coverage/yilong$01_client.coverage" NAME="01_client Coverage Results" MODIFIED="1580375296413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+    <SUITE FILE_PATH="coverage/yilong$02_serverSide.coverage" NAME="02_serverSide Coverage Results" MODIFIED="1580367810472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+    <SUITE FILE_PATH="coverage/yilong$04_server_.coverage" NAME="04_server_允许多个客户端连接并且为一个客户端服务多次 Coverage Results" MODIFIED="1580375290745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+    <SUITE FILE_PATH="coverage/yilong$01_socket.coverage" NAME="01-socket发送数据 Coverage Results" MODIFIED="1580124152694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/UDP/简单通讯" />
+    <SUITE FILE_PATH="coverage/yilong$_.coverage" NAME="信息提取-上家订单详情 Coverage Results" MODIFIED="1576314560388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/淘宝店铺/财务管理/2、进货单/淘宝上家进货单" />
+    <SUITE FILE_PATH="coverage/yilong$createFile__1_.coverage" NAME="createFile (1) Coverage Results" MODIFIED="1577868699790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/test" />
+    <SUITE FILE_PATH="coverage/yilong$test.coverage" NAME="test Coverage Results" MODIFIED="1580282248097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/test" />
+    <SUITE FILE_PATH="coverage/yilong$_lxml_.coverage" NAME="淘宝进货单提取并生成表格(lxml) Coverage Results" MODIFIED="1576245423046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/淘宝店铺/财务管理/2、进货单/淘宝上家进货单" />
+    <SUITE FILE_PATH="coverage/yilong$02_server.coverage" NAME="02_server Coverage Results" MODIFIED="1580368869678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+    <SUITE FILE_PATH="coverage/yilong$_tb4tb40319388.coverage" NAME="订单信息汇总_tb4tb40319388 Coverage Results" MODIFIED="1573556192220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理" />
+    <SUITE FILE_PATH="coverage/yilong$02_socket.coverage" NAME="02-socket接收数据 Coverage Results" MODIFIED="1580124208410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/UDP/简单通讯" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/服饰配件or皮带or帽子or围巾_婚纱礼服配件_婚纱手套/1/详情图1.jpg" />
-    <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/服饰配件or皮带or帽子or围巾_婚纱礼服配件_婚纱手套/1/详情图0.jpg" />
-    <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/服饰配件or皮带or帽子or围巾_婚纱礼服配件_婚纱手套/2/主图0.jpg" />
-    <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/服饰配件or皮带or帽子or围巾_婚纱礼服配件_婚纱手套/2/主图1.jpg" />
-    <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/服饰配件or皮带or帽子or围巾_婚纱礼服配件_婚纱手套/2/主图2.jpg" />
-    <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/服饰配件or皮带or帽子or围巾_婚纱礼服配件_婚纱手套/2/主图3.jpg" />
-    <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/服饰配件or皮带or帽子or围巾_婚纱礼服配件_婚纱手套/2/主图4.jpg" />
-    <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/服饰配件or皮带or帽子or围巾_婚纱礼服配件_婚纱手套/2/详情图0.jpg" />
-    <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/服饰配件or皮带or帽子or围巾_婚纱礼服配件_婚纱手套/2/详情图1.jpg" />
-    <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/服饰配件or皮带or帽子or围巾_婚纱礼服配件_婚纱手套/2/详情图2.jpg" />
     <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/童装or婴儿装or亲子装_儿童内衣裤_内衣套装/1/主图0.jpg" />
     <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/童装or婴儿装or亲子装_反穿衣or罩衣/1/A小绵羊卡黄色.jpg" />
     <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/餐饮具_餐具_盘/2/主图1.jpg" />
@@ -1110,21 +1159,21 @@
     <entry file="file://$PROJECT_DIR$/first_project/myClass/fileOperation.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints3_spider.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints4_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="2228" column="45" selection-start-line="2228" selection-start-column="45" selection-end-line="2228" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints2_html_css_js.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints3_html_css_js.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="1751" column="19" lean-forward="true" selection-start-line="1751" selection-start-column="19" selection-end-line="1751" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints12_ui.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="640" column="27" selection-start-line="640" selection-start-column="25" selection-end-line="640" selection-end-column="27" />
@@ -1132,24 +1181,90 @@
       </provider>
     </entry>
     <entry file="file:////192.168.2.101/共享文件/重命名.py" />
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints8_django2byexample.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/first_project/test/test.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/简单通讯/01-socket发送数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/简单通讯/02-socket接收数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/简单通讯/03-socket收发数据-案例.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints5_linux.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1166">
+          <caret line="588" selection-start-line="588" selection-end-line="611" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/socket.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="557" column="8" selection-start-line="557" selection-start-column="8" selection-end-line="557" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/02_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/03_server_允许多个客户端连接.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints2_python进阶.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2736">
+          <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="15336">
+          <caret line="639" column="16" selection-start-line="639" selection-start-column="16" selection-end-line="639" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints4_linux.py">
+    <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/01_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="878" column="20" selection-start-line="878" selection-start-column="20" selection-end-line="878" selection-end-column="20" />
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/04_server_允许多个客户端连接并且为一个客户端服务多次.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
         </state>
       </provider>
     </entry>
