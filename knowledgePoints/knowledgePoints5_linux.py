@@ -25,7 +25,7 @@
 #                                               下一步
 #                                                   点击最大推荐内存标尺
 #                                                       下一步
-#                                                           使用网络地址转换（NAT）
+#                                                           使用桥接模式（这样才能保证虚拟机和真实际的ip在同一个网段下，方便今后连接）
 #                                                               LSI Logic
 #                                                                   下一步
 #                                                                       SCSI
@@ -341,7 +341,7 @@
 #           重命名
 #               命令：mv
 #               语法：#mv 需要重命名的文件夹 新的文件夹名称
-#               实例：mv /home/admin/php/ /home/admin/php1
+#               实例：mv php php1  #当前目录
 #   文本查看命令
 #       cat
 #           功能：显示全部文档内容
@@ -672,6 +672,7 @@
 #       $ systemctl restart network     #contos 重新加载网卡
 #       $ sudo yum install net-tools    #contos安装ifconfig命令
 #       $ sudo apt install net-tools    #ubuntu安装ifconfig命令
+#       $ service network restart       #ubunto 重新加载网卡服务
 #       $ sudo dhclient    #桥接模式下，ifconfig后，没有ipv4的ip地址，可以使用此命令来让别人给你重新分配ip
 #       $ ifconfig #查看当前网卡的信息；说明：ipV4是ens33：inet下显示的ip
 #       $ ifconfig -a #查看所有网卡的信息

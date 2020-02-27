@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/10_mysql数据库/02_python与mysql的交互/01_数据准备/01_数据准备.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/10_mysql数据库/02_python与mysql的交互/02_拆表/02_拆表.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/10_mysql数据库/02_python与mysql的交互/03_pymysql模块/04_03_sql注入详细.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/10_mysql数据库/03_mysql高级/05_账户管理/01_概念及实操.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/01_数据准备/股票数据.sql" dialect="MySQL" />
+    <file url="PROJECT" dialect="MySQL" />
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+    <h3>正在修改</h3>
+    <h4>{%code%}</h4>
+<!--    <form action="" method="get">-->
+<!--        <input type='text' placeholder="{%content%}" name='gid'/>-->
+<!--        <input type="submit" value="修改">-->
+<!--    </form>-->
+
+
+    <form method="get" >
+        <input type="hidden" name="com" value="qq" />
+        <input class="txt" placeholder="{%content%}" name="no" type="text" maxlength="12" />
+        <input type="button" onclick="rwurl(this.form)" value="修改" />
+    </form>
+
+    <script language="javascript">
+        function rwurl(myform){
+            if(myform.no.value!=""){
+                window.location.href="/update/{%code%}/"+myform.no.value+".html";
+            }
+            else{
+                window.location.href="cha-"+myform.com.value+".html";
+            }
+        }
+    </script>
+</body>
+</html>

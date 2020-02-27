@@ -1,0 +1,19 @@
+a:hover{
+    color:red;
+}
+
+a:before{
+    content: '首行文字-';
+}
+
+a:after{
+    content: '-行尾文字'
+}
+
+
+/*
+    hover: 表示将鼠标悬停到a标签上后，a标签再加载样式
+    before：在指定标签的前面添加内容
+    after：在指定标签的后面添加内容
+*/
+

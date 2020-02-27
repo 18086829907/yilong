@@ -1,35 +1,361 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/12_闭包/01_概念.py" mnemonic="1" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="662324f1-dafe-48fa-b92b-7a72cb257e24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/简单通讯/01-socket发送数据.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/简单通讯/02-socket接收数据.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/简单通讯/03-socket收发数据-案例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/01_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/02_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/04_server_允许多个客户端连接并且为一个客户端服务多次.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints2_python进阶.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints8_django2byexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/finishedObject/taobao_spider-master/getUrl分析思路.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/finishedObject/taobao_spider-master/goods_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/finishedObject/taobao_spider-master/stop_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/finishedObject/taobao_spider-master/taobao_goods.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/finishedObject/taobao_spider-master/taobao_goods_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/finishedObject/taobao_spider-master/taobao_goods_backup.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/finishedObject/taobao_spider-master/taobao_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/static/css/gpxx.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/static/js/gpxx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/static/js/jQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/templates/99_multiplication.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/templates/center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/templates/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/01_多进程-web服务器/web-server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/02_多进程-web服务器_面向对象/这个demo实现了图中的流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/03_多进程-web服务器_动态/01_将web服务器和逻辑处理的代码分开.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/03_多进程-web服务器_动态/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/03_多进程-web服务器_动态/动态服务器流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/04_wsgi协议/01_概念.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/04_wsgi协议/nginx_web框架数据通讯流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/06_通过传递字典实现浏览器请求的资源不一样相应不一样的页面/html/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/06_通过传递字典实现浏览器请求的资源不一样相应不一样的页面/html/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/06_通过传递字典实现浏览器请求的资源不一样相应不一样的页面/html/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/06_通过传递字典实现浏览器请求的资源不一样相应不一样的页面/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/06_通过传递字典实现浏览器请求的资源不一样相应不一样的页面/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/06_通过传递字典实现浏览器请求的资源不一样相应不一样的页面/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/07_实现模板文件/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/07_实现模板文件/static/js/sjjy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/07_实现模板文件/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/07_实现模板文件/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/08_运行中的web服务器切换指定端口和框架-给程序传参数/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/08_运行中的web服务器切换指定端口和框架-给程序传参数/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/08_运行中的web服务器切换指定端口和框架-给程序传参数/static/css/sjjy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/08_运行中的web服务器切换指定端口和框架-给程序传参数/static/js/sjjy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/08_运行中的web服务器切换指定端口和框架-给程序传参数/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/08_运行中的web服务器切换指定端口和框架-给程序传参数/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件/static/css/sjjy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件/static/js/sjjy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/12_闭包/01_概念.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/12_闭包/02_在闭包内层函数中修改外层函数的属性值.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/01_基础/01_概念.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/01_基础/02_装饰器的演示.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/01_基础/03_装饰器的实现过程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/01_基础/04_装饰器的最终实现.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/02_研究原函数各种形态/01_对没有参数、没有返回值的函数进行装饰/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/02_研究原函数各种形态/02_对有参数、没有返回值的函数进行装饰/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/02_研究原函数各种形态/03_对不定长参数的函数进行装饰/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/02_研究原函数各种形态/04_对带有返回值的函数进行装饰/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/02_研究原函数各种形态/05_通用装饰器/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/03_研究装饰器的一对多以及多对一/01_同一个装饰器对不同函数进行装饰/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/03_研究装饰器的一对多以及多对一/02_多个装饰器对同一个函数进行装饰/01_详细流程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/03_研究装饰器的一对多以及多对一/02_多个装饰器对同一个函数进行装饰/02_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/03_研究装饰器的一对多以及多对一/02_多个装饰器对同一个函数进行装饰/03_3个装饰其及以上.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/04_带参数的装饰器/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/05_使用类当做装饰器/01_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/05_使用类当做装饰器/02_通用版类装饰器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/06_应用/01_装饰器计算一个程序使用的时间/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/06_应用/02_用装饰器对函数的返回值添加html标签/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/01_用字典_实现mini-web框架的路由功能/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/01_用字典_实现mini-web框架的路由功能/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/01_用字典_实现mini-web框架的路由功能/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/01_用字典_实现mini-web框架的路由功能/static/css/sjjy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/01_用字典_实现mini-web框架的路由功能/static/js/sjjy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/01_用字典_实现mini-web框架的路由功能/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/01_用字典_实现mini-web框架的路由功能/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/01_用字典_实现mini-web框架的路由功能/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/02_用装饰器_实现mini-web框架的路由功能/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/02_用装饰器_实现mini-web框架的路由功能/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/02_用装饰器_实现mini-web框架的路由功能/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/02_用装饰器_实现mini-web框架的路由功能/static/css/sjjy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/02_用装饰器_实现mini-web框架的路由功能/static/js/sjjy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/02_用装饰器_实现mini-web框架的路由功能/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/02_用装饰器_实现mini-web框架的路由功能/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/02_用装饰器_实现mini-web框架的路由功能/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/03_伪静态、静态和动态的区别/01_概念.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/04_实现伪静态web_server/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/04_实现伪静态web_server/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/04_实现伪静态web_server/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/04_实现伪静态web_server/static/css/sjjy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/04_实现伪静态web_server/static/js/sjjy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/04_实现伪静态web_server/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/04_实现伪静态web_server/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/04_实现伪静态web_server/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/01_数据准备/股票数据.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/static/css/gpxx.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/static/js/gpxx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/static/js/jQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/03_数据库查出来的数据替换模板数据/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/03_数据库查出来的数据替换模板数据/templates/center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/static/css/gpxx.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/static/js/gpxx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/static/js/jQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/templates/center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/static/css/gpxx.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/static/js/gpxx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/static/js/jQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/templates/center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/static/css/gpxx.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/static/js/gpxx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/static/js/jQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/templates/center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/static/css/gpxx.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/static/js/gpxx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/static/js/jQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/templates/center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/templates/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/static/css/gpxx.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/static/js/gpxx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/static/js/jQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/templates/center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/templates/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/01_logging模块/01_将log信息打印到终端.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/01_logging模块/02_将log信息保存到文件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/01_logging模块/03_输出到终端+保存到文件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/02_log日志分析/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/static/css/gpxx.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/static/js/gpxx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/static/js/jQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/templates/center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/templates/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/static/css/gpxx.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/static/js/gpxx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/static/js/jQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/templates/center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/templates/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/static/css/gpxx.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/static/js/gpxx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/static/js/jQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/templates/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/01_元类/01_元类万物造物.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/01_元类/01_内嵌函数及类对象.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/01_元类/02_元类.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/01_元类/03_元类_继承.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/01_元类/04_元类_实例方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/01_元类/05_元类_类方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/01_元类/06_元类_静态方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/01_元类/07_元类_完整版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/02_元类的使用/01_究竟为什么使用元类.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/02_元类的使用/02_实现一个真的元类.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/03_ORM/01_元类实现ORM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/03_ORM/02_元类实现ORM_升级版_完善对数据监测.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/03_ORM/03_元类实现ORM_最终版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/18_python高级总复习/复习目录.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/01_前端概述/01_note.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/01_前端概述/01_互联网产品开发流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/01_概述和基本结构/01_html基本结构.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/01_概述和基本结构/02_xhtml1.0基本结构.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/01_概述和基本结构/03_html的注释.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/01_概述和基本结构/04_空格问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/02_标题标签/01_h.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/03_段落标签、字符实体、换行标签/01_p.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/03_段落标签、字符实体、换行标签/02_&amp;nbsp;_&amp;gt;_&amp;lt;.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/03_段落标签、字符实体、换行标签/03_br.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/04_块标签/01_div.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/04_块标签/02_span.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/05_含样式和语意的标签/01_em.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/05_含样式和语意的标签/02_i.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/05_含样式和语意的标签/03_b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/05_含样式和语意的标签/04_strong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/06_图片标签/01_img.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/06_图片标签/美女.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/07_连接标签/01_a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/08_列表标签/01_ol_li.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/08_列表标签/02_ul_li.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/08_列表标签/03_dl_dt_dd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/09_表格/01_语法/01_table_tr_td_th.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/09_表格/02_单元格内外边距/01_cellpadding_cellspacing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/09_表格/03_表、单元格的宽高/01_width_height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/09_表格/04_对齐方式/01_align_vlign.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/09_表格/05_合并单元格/01_colspan_rowspan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/09_表格/06_制作简单表格/01_登记表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/09_表格/06_制作简单表格/02_99乘法表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/09_表格/img/证件照.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/10_页面布局概述/01_table布局/01_流程介绍.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/10_页面布局概述/01_table布局/03_table布局技巧总结.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/10_页面布局概述/01_table布局/img/个人简历.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/10_页面布局概述/01_table布局/img/证件照.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/01_表单结构/01_from.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/02_标签名跳转输入框/01_input_type='text'.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/03_文本输入框/01_input_type='text'.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/04_密码输入框/01_input_type='password'.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/05_单选框/01_input_type='radio'.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/06_多选框/01_input_type='checkbox'.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/07_上传文件/01_input_type='file'.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/08_多行文本输入框/01_textarea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/09_下拉框/01_select_option.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/10_提交与重置/01_input_type='submit'_'reset'.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/static/css/gpxx.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/static/js/gpxx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/static/js/jQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/templates/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/12_图片方式提交/01_input_type='image'.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/12_图片方式提交/提交.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/13_隐藏表单域/01_input_type='hidden'.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/static/css/gpxx.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/static/js/gpxx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/static/js/jQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/templates/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/note.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/01_引入样式/01_外联式引用/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/01_引入样式/01_外联式引用/link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/01_引入样式/02_嵌入式引用/style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/01_引入样式/03_行内式引用/style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/01_文本样式/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/01_文本样式/文本样式.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/02_颜色的表示方式/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/02_颜色的表示方式/所有颜色码.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/02_颜色的表示方式/文本样式.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/01_标签选择器/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/01_标签选择器/文本样式.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/02_通配符选择器/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/02_通配符选择器/文本样式.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/03_id选择器/id属性的用法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/03_id选择器/文本样式.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/04_类选择器/class属性的用法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/04_类选择器/文本样式.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/05_层级选择器/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/05_层级选择器/文本样式.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/06_组选择器/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/06_组选择器/文本样式.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/07_伪类选择器/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/07_伪类选择器/所有伪类选择器.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/07_伪类选择器/文本样式.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/01_盒模型示意图/盒子模型.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/02_centent/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/02_centent/文本样式.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_padding/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_padding/单独设置一边的距离.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_padding/同时设置四边的距离.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_border/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_border/单独设置一边.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_border/同时设置四边.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_margin/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_margin/单独设置一边的距离.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_margin/同时设置四边的距离.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_文字行高/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_文字行高/文本样式.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/01_计算公式/公式总结.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/01_盒模型练习题.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/02_解题思路.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/03_盒模型练习题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/04_盒模型练习.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/01_练习题目/01_盒模型练习题.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/01_解题思路.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/02_盒模型练习题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/03_盒模型练习.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路2/01_解题思路.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路2/02_盒模型练习题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路2/03_盒模型练习.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/数学/01_举一反三.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/dataUnit1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/小学四年级上册.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/wordAndSentenceInsertMysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/数据库设计.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/数据备份/数据模板.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yilong.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yilong.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/test/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/练习/TCP/客户端与服务端/client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/练习/TCP/客户端与服务端/serverSide.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/练习/UDP/冒充飞Q/冒充飞Q.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/冒充飞Q/冒充飞Q.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/练习/UDP/客户端与服务端通信（群聊）/udpClient.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/客户端与服务端通信（群聊）/udpClient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/练习/UDP/客户端与服务端通信（群聊）/udpServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/客户端与服务端通信（群聊）/udpServer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints10_电商系统开发.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints11_电商系统开发.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints11_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints12_ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints12_淘宝运营.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints13_淘宝运营.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints13_AE.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints14_AE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/01_UDP/01_简单通讯/01-socket发送数据.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/01_UDP/01_简单通讯/02-socket接收数据.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/01_UDP/01_简单通讯/03-socket收发数据-案例.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/01_UDP/冒充飞Q/冒充飞Q.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/01_UDP/客户端与服务端通信（群聊）/udpClient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/01_UDP/客户端与服务端通信（群聊）/udpServer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/02_TCP/01_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/02_TCP/02_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/02_TCP/03_server_允许多个客户端连接.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/02_TCP/04_server_允许多个客户端连接并且为一个客户端服务多次.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/09_python提高/04_import导入模块/03_多模块开发问题/01_错误的导入方式/main.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints2_html_css_js.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints3_html_css_js.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints3_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints4_spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints4_linux.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints5_linux.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints5_visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints6_visualization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints6_gllysltj.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints7_gllysltj.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints7_django2byexample.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/03_server_允许多个客户端连接.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints8_概率论与数理统计.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints9_概率论与数理统计.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints9_django.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints10_django.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints2_python进阶.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints2_python进阶.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints3_html_css_js.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints3_html_css_js.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints5_linux.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints5_linux.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,37 +383,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints2_python进阶.py">
+        <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/dataUnit1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2736">
-              <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
+            <state relative-caret-position="2160">
+              <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py">
+        <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/数据备份/数据模板.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15336">
-              <caret line="639" column="16" selection-start-line="639" selection-start-column="16" selection-end-line="639" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/01_client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="216">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/04_server_允许多个客户端连接并且为一个客户端服务多次.py">
+        <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/小学四年级上册.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+            <state relative-caret-position="264">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -97,64 +414,47 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>别名</find>
-      <find>id 用户名</find>
-      <find>useradd</find>
-      <find>usermod</find>
-      <find>打包</find>
-      <find>解压</find>
-      <find>chmod</find>
-      <find>sudo</find>
-      <find>ln</find>
-      <find>mv</find>
-      <find>find</find>
-      <find>.index</find>
-      <find>top</find>
-      <find>apt</find>
-      <find>opt</find>
-      <find>文件传输</find>
-      <find>网络</find>
-      <find>网络连接</find>
-      <find>socket</find>
-      <find>pycharm</find>
-      <find>.jar</find>
-      <find>bash</find>
-      <find>scp</find>
-      <find>replace</find>
-      <find>tcp</find>
-      <find>VIM</find>
-      <find>passwd</find>
+      <find>分屏</find>
+      <find>kill</find>
       <find>vim</find>
-      <find>播</find>
-      <find>if</find>
+      <find>-----file not found-----</find>
+      <find>sp</find>
+      <find>| grep m</find>
+      <find>os</find>
+      <find>os.mak</find>
+      <find>pycharm</find>
+      <find>key</find>
+      <find>webstorm</find>
+      <find>*</find>
+      <find>css</find>
+      <find>(\d×\d=\d+)</find>
+      <find>style</find>
+      <find>=\d+</find>
+      <find>头发</find>
+      <find>丝</find>
+      <find>from</find>
+      <find>ret\)</find>
+      <find>\&lt;(.*?)\&gt;.*?\&lt;.*?\&gt;\n</find>
+      <find>×</find>
+      <find>x</find>
+      <find>.*?'(.*)'.*\n</find>
+      <find>\s+('.*?': \d+,)\n</find>
+      <find>\s+\(0, '(.*?)'\)[,;]\n</find>
+      <find>'':,</find>
+      <find>unit</find>
+      <find>'</find>
+      <find>os.</find>
     </findStrings>
     <replaceStrings>
-      <replace>打开</replace>
-      <replace>order</replace>
-      <replace>order$1 = '''\n\n'''</replace>
-      <replace>】</replace>
-      <replace>khdd_tb40319388</replace>
-      <replace>jhd</replace>
-      <replace>tbsj_jslr</replace>
-      <replace>码</replace>
-      <replace>&gt;\n</replace>
-      <replace>,$1</replace>
-      <replace>$1;</replace>
-      <replace>'':$1,\n</replace>
-      <replace>dirName_zssp</replace>
-      <replace>htmlFileName</replace>
-      <replace>dirPath_zssp</replace>
-      <replace>htmlFileNameList</replace>
-      <replace>obsFilePath_spym</replace>
-      <replace>dirPath_itemIDMemory</replace>
-      <replace>filePath_itemIDMemory</replace>
       <replace>dirName_number</replace>
       <replace>absImgPath</replace>
       <replace>dirName_number_last</replace>
@@ -166,6 +466,25 @@
       <replace>dict_idNumberDirPath</replace>
       <replace>absFilePath</replace>
       <replace>[text() = &quot;$1&quot;]</replace>
+      <replace>i</replace>
+      <replace>new_dir_absPath</replace>
+      <replace>obj</replace>
+      <replace>time.sleep</replace>
+      <replace>1</replace>
+      <replace>cate_name</replace>
+      <replace>self.tcp_server_socket</replace>
+      <replace>'$1'</replace>
+      <replace>×</replace>
+      <replace>form</replace>
+      <replace>ret, post)</replace>
+      <replace>$1{}\n</replace>
+      <replace>x</replace>
+      <replace>'$1':d,\n</replace>
+      <replace>$1</replace>
+      <replace>'$1':d,</replace>
+      <replace>'':'',</replace>
+      <replace>Unit</replace>
+      <replace>&quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -174,62 +493,63 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/经济管理/产品管理/商品源码/10.html" />
-        <option value="$PROJECT_DIR$/经济管理/产品管理/商品源码/11.html" />
-        <option value="$PROJECT_DIR$/经济管理/产品管理/商品源码/12.html" />
-        <option value="$PROJECT_DIR$/经济管理/产品管理/商品信息提取.py" />
-        <option value="$PROJECT_DIR$/经济管理/产品管理/商品源码/1.html" />
-        <option value="$PROJECT_DIR$/经济管理/产品管理/源码id检测/id去重.py" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/57.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/58.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/59天猫.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/60.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/61.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/62.html" />
-        <option value="$USER_HOME$/Anaconda3/Lib/site-packages/django/db/backends/mysql/base.py" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/63.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/64.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/65.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/66.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/67.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/68.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/69.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/70.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/createFile.py" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/1.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/2.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/3.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/4.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/5.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/6.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/7.html" />
-        <option value="$USER_HOME$/Desktop/检测id.py" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/27.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/71.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/72天猫.html" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/正式报表生成器.py" />
-        <option value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/订单号检测.py" />
-        <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints2_html_css_js.py" />
-        <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints4_linux.py" />
-        <option value="$PROJECT_DIR$/knowledgePoints/knowledfePoints2_python进阶.py" />
-        <option value="$PROJECT_DIR$/first_project/练习/UDP/简单通讯/01-secket基础通讯.py" />
-        <option value="$PROJECT_DIR$/first_project/练习/UDP/简单通讯/01-socket发送数据.py" />
-        <option value="$PROJECT_DIR$/first_project/练习/UDP/简单通讯/02-socket接收数据.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/04_块标签/01_div.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_border/文本样式.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_border/同时设置四边.ipynb" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_border/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_border/同时设置四边.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/02_padding/单独设置一边.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/02_padding/单独设置一边的距离.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/02_padding/同时设置四边的距离.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_margin/同时设置四边的距离.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_margin/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_margin/单独设置一边的距离.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_border/单独设置一边.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_小练习/盒模型练习.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_小练习/盒模型练习题.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_小练习/解题思路.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_小练习/公式总结.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_小练习/02_练习2/02_解题思路.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_小练习/02_练习2/03_盒模型练习题.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_小练习/02_练习2/04_盒模型练习.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/01_文本样式/文本样式.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_文字行高/文本样式.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习2/02_解题思路.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习2/04_盒模型练习.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_文字行高/文本样式.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/04_盒模型练习.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/02_解题思路.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/01_解题思路.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路2/01_解题思路.py" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/数学/01_方程.py" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/数学/01_举一反三.py" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/四年级上册/四年级上.py" />
         <option value="$PROJECT_DIR$/first_project/test/test.py" />
-        <option value="$PROJECT_DIR$/first_project/练习/UDP/简单通讯/03-socket收发数据-案例.py" />
-        <option value="$PROJECT_DIR$/first_project/练习/TCP/客户端与服务端/client.py" />
-        <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints5_linux.py" />
-        <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints2_python进阶.py" />
-        <option value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/01_client.py" />
-        <option value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/02_serverSide.py" />
-        <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py" />
-        <option value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/03_server_允许多个客户端连接.py" />
-        <option value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/04_server_允许多个客户端连接并且为一个客户端服务多次.py" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/四年级上册/word_and_sentence.sql" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/年级生成器/word_and_sentence.sql" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/年级生成器/english_learn.py" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/数据备份/数据模板.py" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/数据准备/数据库设计.sql" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/数据准备/将单词和句子插入数据库.py" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/word_sentence/小学四年级上册.py" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/数据准备/run.sh.py" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/数据准备/run.sh" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/数据准备/wordAndSentenceInsertMysql.py" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/dataPath.conf" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/wordAndSentenceInsertMysql.py" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/数据备份/数据模板.py" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/create_dir.py" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/create_file.py" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/小学四年级上册.py" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/dataUnit1.py" />
+        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/createFile.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-12" />
+    <option name="x" value="500" />
+    <option name="y" value="278" />
     <option name="width" value="1642" />
     <option name="height" value="2090" />
   </component>
@@ -255,40 +575,52 @@
               <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
               <item name="yilong" type="462c0819:PsiDirectoryNode" />
               <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yilong" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="练习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yilong" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="练习" type="462c0819:PsiDirectoryNode" />
-              <item name="01_网络通讯" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yilong" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="练习" type="462c0819:PsiDirectoryNode" />
-              <item name="01_网络通讯" type="462c0819:PsiDirectoryNode" />
-              <item name="02_TCP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yilong" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="练习" type="462c0819:PsiDirectoryNode" />
-              <item name="fileOperation" type="462c0819:PsiDirectoryNode" />
+              <item name="myClass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
               <item name="yilong" type="462c0819:PsiDirectoryNode" />
               <item name="knowledgePoints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yilong" type="462c0819:PsiDirectoryNode" />
+              <item name="knowledgePoints" type="462c0819:PsiDirectoryNode" />
+              <item name="01_重头开始学python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yilong" type="462c0819:PsiDirectoryNode" />
+              <item name="陈紫妍总复习" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yilong" type="462c0819:PsiDirectoryNode" />
+              <item name="陈紫妍总复习" type="462c0819:PsiDirectoryNode" />
+              <item name="英语" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yilong" type="462c0819:PsiDirectoryNode" />
+              <item name="陈紫妍总复习" type="462c0819:PsiDirectoryNode" />
+              <item name="英语" type="462c0819:PsiDirectoryNode" />
+              <item name="project_englishLearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yilong" type="462c0819:PsiDirectoryNode" />
+              <item name="陈紫妍总复习" type="462c0819:PsiDirectoryNode" />
+              <item name="英语" type="462c0819:PsiDirectoryNode" />
+              <item name="project_englishLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="data_word_sentence" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yilong" type="462c0819:PsiDirectoryNode" />
+              <item name="陈紫妍总复习" type="462c0819:PsiDirectoryNode" />
+              <item name="英语" type="462c0819:PsiDirectoryNode" />
+              <item name="project_englishLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="数据备份" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -301,7 +633,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -310,22 +648,22 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\justin\DataGit\yilong\first_project\练习\01_网络通讯\02_TCP" />
-      <recent name="C:\Users\justin\DataGit\yilong\first_project\练习\01_网络通讯" />
-      <recent name="C:\Users\justin\DataGit\yilong\first_project\test\1" />
-      <recent name="C:\Users\justin\DataGit\yilong\first_project\test" />
-      <recent name="C:\Users\justin\DataGit\yilong\first_project\test\test1" />
+      <recent name="C:\Users\justin\DataGit\yilong\陈紫妍总复习\英语\project_englishLearn" />
+      <recent name="C:\Users\justin\DataGit\yilong\陈紫妍总复习\英语\word_sentence" />
+      <recent name="C:\Users\justin\DataGit\yilong\陈紫妍总复习\英语\年级生成器" />
+      <recent name="C:\Users\justin\DataGit\yilong\陈紫妍总复习\英语\四年级上册" />
+      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\03_css布局\01_盒子模型\07_小练习\03_练习2\01_解题思路1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\justin\DataGit\yilong\first_project\练习\01_网络通讯\02_TCP" />
-      <recent name="C:\Users\justin\DataGit\yilong\经济管理\淘宝店铺_二牛精品铺\进货单\淘宝上家\去重补缺\忽略的订单号" />
-      <recent name="C:\Users\justin\DataGit\yilong\经济管理\淘宝店铺_二牛精品铺\进货单\淘宝上家\去重补缺\进货单列表页" />
-      <recent name="C:\Users\justin\DataGit\yilong\经济管理\产品管理\任务节点（刚好已完成）" />
-      <recent name="C:\Users\justin\DataGit\yilong\经济管理\淘宝店铺_二牛精品铺\进货单\淘宝上家\进货单详情页(每单提交处)" />
+      <recent name="C:\Users\justin\DataGit\yilong\陈紫妍总复习\英语\project_englishLearn\data_word_sentence" />
+      <recent name="C:\Users\justin\DataGit\yilong\陈紫妍总复习\英语\数据备份" />
+      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\03_css布局\01_盒子模型\07_小练习\03_练习2\02_解题思路2" />
+      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\02_css常用样式\03_文字行高" />
+      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\03_css布局\01_盒子模型\06_小练习\02_练习2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -340,8 +678,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.01_client">
-    <configuration name="存储器数据操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.createFile">
+    <configuration name="01_元类实现ORM" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yilong" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -349,12 +687,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理/存储器" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knowledgePoints/重头开始学python/17_元类_实现ORM/03_ORM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/存储器/存储器数据操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knowledgePoints/重头开始学python/17_元类_实现ORM/03_ORM/01_元类实现ORM.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -363,7 +701,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="01_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="01_方程" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yilong" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -371,12 +709,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/陈紫妍总复习/数学" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/01_client.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\justin\DataGit\yilong\陈紫妍总复习\数学\01_举一反三.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -385,7 +723,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="02_元类实现ORM_升级版_完善对数据监测" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yilong" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -393,12 +731,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knowledgePoints/重头开始学python/17_元类_实现ORM/03_ORM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/02_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knowledgePoints/重头开始学python/17_元类_实现ORM/03_ORM/02_元类实现ORM_升级版_完善对数据监测.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -407,7 +745,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_serverSide" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="createFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yilong" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -415,12 +753,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\justin\DataGit\yilong\first_project\练习\01_网络通讯\02_TCP\02_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/createFile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -429,7 +767,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04_server_允许多个客户端连接并且为一个客户端服务多次" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="create_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yilong" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -437,364 +775,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/04_server_允许多个客户端连接并且为一个客户端服务多次.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="手机淘宝爬取" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/finishedObject" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_project/finishedObject/手机淘宝爬取.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="商品信息提取" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/商品信息提取.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="三创进货单提取并生成表格" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/淘宝店铺/财务管理/2、进货单/三创飞梦进货单" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_project/淘宝店铺/财务管理/2、进货单/三创飞梦进货单/三创进货单提取并生成表格.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="合并订单" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理/合并订单.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="商品信息提取" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/商品信息提取.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="商品信息提取" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/商品信息提取.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="存储器数据操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理/存储器" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/存储器/存储器数据操作.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="存储器数据操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理/存储器" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/存储器/存储器数据操作.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="订单号检测" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/订单号检测.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="存储器数据操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理/存储器" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/存储器/存储器数据操作.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="存储器数据操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理/存储器" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/存储器/存储器数据操作.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="存储器数据操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理/存储器" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/存储器/存储器数据操作.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="商品信息提取" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/商品信息提取.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="商品信息提取" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/商品信息提取.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="存储器数据操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理/存储器" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/存储器/存储器数据操作.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="删除已经下架的商品源码" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yilong" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/经济管理/产品管理" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/经济管理/产品管理/删除已经下架的商品源码.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/create_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -827,11 +813,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.01_client" />
-        <item itemvalue="Python.04_server_允许多个客户端连接并且为一个客户端服务多次" />
-        <item itemvalue="Python.02_server" />
-        <item itemvalue="Python.02_serverSide" />
+        <item itemvalue="Python.createFile" />
+        <item itemvalue="Python.create_file" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.02_元类实现ORM_升级版_完善对数据监测" />
+        <item itemvalue="Python.01_元类实现ORM" />
       </list>
     </recent_temporary>
   </component>
@@ -1007,12 +993,81 @@
       <workItem from="1580281513919" duration="8941000" />
       <workItem from="1580290595861" duration="10452000" />
       <workItem from="1580346174358" duration="16113000" />
-      <workItem from="1580434898241" duration="702000" />
+      <workItem from="1580434898241" duration="3186000" />
+      <workItem from="1580515608012" duration="3332000" />
+      <workItem from="1580526402329" duration="95000" />
+      <workItem from="1580539373533" duration="1639000" />
+      <workItem from="1580565999532" duration="10016000" />
+      <workItem from="1580676268607" duration="2473000" />
+      <workItem from="1580684011602" duration="604000" />
+      <workItem from="1580689225103" duration="10802000" />
+      <workItem from="1580706804189" duration="58735000" />
+      <workItem from="1580910145393" duration="16234000" />
+      <workItem from="1580952494868" duration="24530000" />
+      <workItem from="1580997081510" duration="15955000" />
+      <workItem from="1581041802992" duration="3231000" />
+      <workItem from="1581050779176" duration="601000" />
+      <workItem from="1581061029996" duration="10639000" />
+      <workItem from="1581084138660" duration="28825000" />
+      <workItem from="1581173761877" duration="6894000" />
+      <workItem from="1581211615063" duration="3883000" />
+      <workItem from="1581291491867" duration="39537000" />
+      <workItem from="1581377622594" duration="20800000" />
+      <workItem from="1581469390009" duration="2084000" />
+      <workItem from="1581554998825" duration="35389000" />
+      <workItem from="1581640191499" duration="46452000" />
+      <workItem from="1581815537090" duration="6210000" />
+      <workItem from="1581866506912" duration="14439000" />
+      <workItem from="1581911497785" duration="4774000" />
+      <workItem from="1581955064139" duration="12928000" />
+      <workItem from="1581993841153" duration="4407000" />
+      <workItem from="1582018314618" duration="27167000" />
+      <workItem from="1582177526314" duration="33626000" />
+      <workItem from="1582277748958" duration="16678000" />
+      <workItem from="1582331577830" duration="12825000" />
+      <workItem from="1582350196967" duration="24608000" />
+      <workItem from="1582421277694" duration="37433000" />
+      <workItem from="1582508050855" duration="837000" />
+      <workItem from="1582511104812" duration="24099000" />
+      <workItem from="1582551075809" duration="85798000" />
+      <workItem from="1582772408663" duration="3027000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_03_多个线程共享全局变量——函数中修改全局变量_py - 2020.02.03 at 13h 10m 29s.xml">
+      <configuration name="pytest in 03_多个线程共享全局变量——函数中修改全局变量.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_03_多个线程共享全局变量——函数中修改全局变量_py - 2020.02.03 at 13h 10m 45s.xml">
+      <configuration name="pytest in 03_多个线程共享全局变量——函数中修改全局变量.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_03_多个线程共享全局变量——函数中修改全局变量_py - 2020.02.03 at 13h 11m 04s.xml">
+      <configuration name="pytest in 03_多个线程共享全局变量——函数中修改全局变量.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_03_复习全局变量的使用_py - 2020.02.03 at 13h 11m 39s.xml">
+      <configuration name="pytest in 03_复习全局变量的使用.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_03_复习全局变量的使用_py - 2020.02.03 at 13h 14m 49s.xml">
+      <configuration name="pytest in 03_复习全局变量的使用.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_03_多个线程共享全局变量——函数中修改全局变量_py - 2020.02.03 at 13h 15m 53s.xml">
+      <configuration name="pytest in 03_多个线程共享全局变量——函数中修改全局变量.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_03_复习全局变量的使用_py - 2020.02.03 at 13h 18m 12s.xml">
+      <configuration name="pytest in 03_复习全局变量的使用.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_03_复习全局变量的使用_py - 2020.02.03 at 13h 18m 54s.xml">
+      <configuration name="pytest in 03_复习全局变量的使用.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_02_装饰器的演示_py - 2020.02.20 at 17h 01m 20s.xml">
+      <configuration name="pytest in 02_装饰器的演示.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_02_装饰器的演示_py - 2020.02.20 at 17h 01m 44s.xml">
+      <configuration name="pytest in 02_装饰器的演示.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1346052000" />
+    <option name="totallyTimeSpent" value="2000142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1027,244 +1082,492 @@
     <frame x="-7" y="-7" width="1633" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.21876982" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5005417" side_tool="true" weight="0.14331008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496208" visible="true" weight="0.22828154" />
+      <window_info id="Structure" order="1" sideWeight="0.503861" side_tool="true" weight="0.23525682" />
+      <window_info id="Favorites" order="2" sideWeight="0.503792" side_tool="true" weight="0.23525682" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30552545" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3488624" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50031704" side_tool="true" weight="0.43878657" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49968293" weight="0.43770313" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Jupyter" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="File Transfer" order="14" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32974002" />
       <window_info anchor="right" id="Database" order="4" weight="0.32974002" />
+      <window_info anchor="right" id="Remote Host" order="5" weight="0.3335447" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.24857324" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5005417" side_tool="true" weight="0.14331008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496208" visible="true" weight="0.22574508" />
+      <window_info id="Structure" order="1" sideWeight="0.503861" side_tool="true" weight="0.23525682" />
+      <window_info id="Favorites" order="2" sideWeight="0.503792" side_tool="true" weight="0.23525682" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30877572" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3488624" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50031704" side_tool="true" weight="0.43878657" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49968293" weight="0.43770313" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Jupyter" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="File Transfer" order="14" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32974002" />
       <window_info anchor="right" id="Database" order="4" weight="0.32974002" />
+      <window_info anchor="right" id="Remote Host" order="5" weight="0.22764744" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/yilong$mztp.coverage" NAME="mztp Coverage Results" MODIFIED="1572856393106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/selenium+chrome练习" />
-    <SUITE FILE_PATH="coverage/yilong$text.coverage" NAME="text Coverage Results" MODIFIED="1576404611082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/淘宝店铺_二牛精品铺/客户订单" />
-    <SUITE FILE_PATH="coverage/yilong$__1_.coverage" NAME="商品信息提取 (1) Coverage Results" MODIFIED="1577853911269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/经济管理/产品管理" />
-    <SUITE FILE_PATH="coverage/yilong$selenium_chromedriver.coverage" NAME="淘宝selenium+chromedriver Coverage Results" MODIFIED="1573437437052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理" />
-    <SUITE FILE_PATH="coverage/yilong$01_secket.coverage" NAME="01-secket基础通讯 Coverage Results" MODIFIED="1580084257527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/UDP/简单通讯" />
-    <SUITE FILE_PATH="coverage/yilong$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1577867049235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/test" />
+    <SUITE FILE_PATH="coverage/yilong$03_02__.coverage" NAME="03_02_斐波拉契数列_迭代器 Coverage Results" MODIFIED="1580871853317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/03_协程/01_迭代器" />
+    <SUITE FILE_PATH="coverage/yilong$02_02_.coverage" NAME="02_02_自创可迭代对象（简洁版） Coverage Results" MODIFIED="1580817285755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/03_协程/01_迭代器" />
     <SUITE FILE_PATH="coverage/yilong$id.coverage" NAME="id去重 Coverage Results" MODIFIED="1578294325818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/经济管理/产品管理/源码id检测" />
+    <SUITE FILE_PATH="coverage/yilong$01_04_.coverage" NAME="01_04_生成器对象可以创建多个且互相独立 Coverage Results" MODIFIED="1580875698978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/03_协程/02_生成器" />
     <SUITE FILE_PATH="coverage/yilong$creatDir__1_.coverage" NAME="creatDir (1) Coverage Results" MODIFIED="1576329452378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/淘宝店铺_二牛精品铺/进货单/三创飞梦/进货单详情页（每单提交处）" />
     <SUITE FILE_PATH="coverage/yilong$createFile__2_.coverage" NAME="createFile (2) Coverage Results" MODIFIED="1577456134051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/test/1" />
-    <SUITE FILE_PATH="coverage/yilong$.coverage" NAME="订单号检测 Coverage Results" MODIFIED="1578670015037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺" />
-    <SUITE FILE_PATH="coverage/yilong$creatDir.coverage" NAME="creatDir Coverage Results" MODIFIED="1576329401373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/淘宝店铺_二牛精品铺/进货单/三创飞梦/查看物流（每单提交处）" />
-    <SUITE FILE_PATH="coverage/yilong$ella.coverage" NAME="ella学习助手 Coverage Results" MODIFIED="1576850737113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人" />
-    <SUITE FILE_PATH="coverage/yilong$txt.coverage" NAME="加载空的列表txt Coverage Results" MODIFIED="1577428315751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/经济管理/产品管理" />
-    <SUITE FILE_PATH="coverage/yilong$txt__1_.coverage" NAME="加载空的列表txt (1) Coverage Results" MODIFIED="1577434227339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/经济管理/产品管理/存储器" />
-    <SUITE FILE_PATH="coverage/yilong$createFile.coverage" NAME="createFile Coverage Results" MODIFIED="1578664071871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页" />
-    <SUITE FILE_PATH="coverage/yilong$01_client.coverage" NAME="01_client Coverage Results" MODIFIED="1580375296413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
-    <SUITE FILE_PATH="coverage/yilong$02_serverSide.coverage" NAME="02_serverSide Coverage Results" MODIFIED="1580367810472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
-    <SUITE FILE_PATH="coverage/yilong$04_server_.coverage" NAME="04_server_允许多个客户端连接并且为一个客户端服务多次 Coverage Results" MODIFIED="1580375290745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
-    <SUITE FILE_PATH="coverage/yilong$01_socket.coverage" NAME="01-socket发送数据 Coverage Results" MODIFIED="1580124152694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/UDP/简单通讯" />
+    <SUITE FILE_PATH="coverage/yilong$.coverage" NAME="详细流程 Coverage Results" MODIFIED="1582260408206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/13_装饰器/03_研究装饰器的一对多以及多对一/02_多个装饰器对同一个函数进行装饰" />
+    <SUITE FILE_PATH="coverage/yilong$04_greenlet_.coverage" NAME="04_使用greenlet创建协程_完成多任务 Coverage Results" MODIFIED="1580891791411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/03_协程" />
+    <SUITE FILE_PATH="coverage/yilong$06_gevent_.coverage" NAME="06_使用gevent创建协程_完成多任务 Coverage Results" MODIFIED="1580899428499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/03_协程" />
+    <SUITE FILE_PATH="coverage/yilong$06_re.coverage" NAME="06_re模块的高级使用 Coverage Results" MODIFIED="1580920574058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/03_正则表达式" />
+    <SUITE FILE_PATH="coverage/yilong$01_.coverage" NAME="01_方程 Coverage Results" MODIFIED="1582713886386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/陈紫妍总复习/数学" />
+    <SUITE FILE_PATH="coverage/yilong$05_return.coverage" NAME="05_取生成器中return的值 Coverage Results" MODIFIED="1580876597719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/03_协程/02_生成器" />
+    <SUITE FILE_PATH="coverage/yilong$02_queue.coverage" NAME="02_多进程之间通过queue来实现数据共享 Coverage Results" MODIFIED="1580779271863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/02_进程" />
+    <SUITE FILE_PATH="coverage/yilong$06_gevent__time_sleep.coverage" NAME="06_使用gevent创建协程_完成多任务_打补丁依然使用time.sleep Coverage Results" MODIFIED="1580901622594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/03_协程" />
+    <SUITE FILE_PATH="coverage/yilong$07__.coverage" NAME="07_元类_完整版 Coverage Results" MODIFIED="1582477031508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/17_元类_实现ORM/01_元类" />
+    <SUITE FILE_PATH="coverage/yilong$createFile.coverage" NAME="createFile Coverage Results" MODIFIED="1582775171029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence" />
+    <SUITE FILE_PATH="coverage/yilong$02_for.coverage" NAME="02_自己创建一个类，这个类的对象可迭代并且能用for取这个对象的值 Coverage Results" MODIFIED="1580815161536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/03_协程/01_迭代器" />
+    <SUITE FILE_PATH="coverage/yilong$web_03_.coverage" NAME="web静态服务器_03_多协程 Coverage Results" MODIFIED="1580983579776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/http协议、web服务器、并发服务器/03_web静态服务器_多任务" />
+    <SUITE FILE_PATH="coverage/yilong$web_server.coverage" NAME="web_server Coverage Results" MODIFIED="1582161837214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件" />
     <SUITE FILE_PATH="coverage/yilong$_.coverage" NAME="信息提取-上家订单详情 Coverage Results" MODIFIED="1576314560388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/淘宝店铺/财务管理/2、进货单/淘宝上家进货单" />
     <SUITE FILE_PATH="coverage/yilong$createFile__1_.coverage" NAME="createFile (1) Coverage Results" MODIFIED="1577868699790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/test" />
-    <SUITE FILE_PATH="coverage/yilong$test.coverage" NAME="test Coverage Results" MODIFIED="1580282248097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/test" />
-    <SUITE FILE_PATH="coverage/yilong$_lxml_.coverage" NAME="淘宝进货单提取并生成表格(lxml) Coverage Results" MODIFIED="1576245423046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/淘宝店铺/财务管理/2、进货单/淘宝上家进货单" />
-    <SUITE FILE_PATH="coverage/yilong$02_server.coverage" NAME="02_server Coverage Results" MODIFIED="1580368869678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
-    <SUITE FILE_PATH="coverage/yilong$_tb4tb40319388.coverage" NAME="订单信息汇总_tb4tb40319388 Coverage Results" MODIFIED="1573556192220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理" />
+    <SUITE FILE_PATH="coverage/yilong$01_re.coverage" NAME="01_re模块 Coverage Results" MODIFIED="1580912309534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/03_正则表达式" />
+    <SUITE FILE_PATH="coverage/yilong$02_super.coverage" NAME="02_super方式且不指定父类调用父类函数 Coverage Results" MODIFIED="1581330360097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/06_多继承以及MRO顺序" />
+    <SUITE FILE_PATH="coverage/yilong$01_log.coverage" NAME="01_将log信息打印到终端 Coverage Results" MODIFIED="1582425793421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_log日志/01_logging模块" />
+    <SUITE FILE_PATH="coverage/yilong$demo__5_.coverage" NAME="demo (5) Coverage Results" MODIFIED="1582257293464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/13_装饰器/02_研究原函数各种形态以及装饰器的各种用法/06_通用装饰器" />
     <SUITE FILE_PATH="coverage/yilong$02_socket.coverage" NAME="02-socket接收数据 Coverage Results" MODIFIED="1580124208410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/UDP/简单通讯" />
+    <SUITE FILE_PATH="coverage/yilong$05__.coverage" NAME="05_元类_类方法 Coverage Results" MODIFIED="1582476377826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/17_元类_实现ORM/01_元类" />
+    <SUITE FILE_PATH="coverage/yilong$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1582423177484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_log日志/01_logging模块" />
+    <SUITE FILE_PATH="coverage/yilong$mztp.coverage" NAME="mztp Coverage Results" MODIFIED="1572856393106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/selenium+chrome练习" />
+    <SUITE FILE_PATH="coverage/yilong$text.coverage" NAME="text Coverage Results" MODIFIED="1576404611082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/淘宝店铺_二牛精品铺/客户订单" />
+    <SUITE FILE_PATH="coverage/yilong$01_ORM.coverage" NAME="01_元类实现ORM Coverage Results" MODIFIED="1582485937307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/17_元类_实现ORM/03_ORM" />
+    <SUITE FILE_PATH="coverage/yilong$01_03_yield.coverage" NAME="01_03_yield的详细流程 Coverage Results" MODIFIED="1580875062378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/03_协程/02_生成器" />
+    <SUITE FILE_PATH="coverage/yilong$02_.coverage" NAME="02_元类 Coverage Results" MODIFIED="1582467817082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/17_元类_实现ORM" />
+    <SUITE FILE_PATH="coverage/yilong$01_secket.coverage" NAME="01-secket基础通讯 Coverage Results" MODIFIED="1580084257527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/UDP/简单通讯" />
+    <SUITE FILE_PATH="coverage/yilong$web_.coverage" NAME="web静态服务器_显示指定页面 Coverage Results" MODIFIED="1580981495025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/http协议、web服务器、并发服务器/02_web静态服务器" />
+    <SUITE FILE_PATH="coverage/yilong$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1577867049235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/test" />
+    <SUITE FILE_PATH="coverage/yilong$01_web_wsgi.coverage" NAME="01_web服务器-wsgi Coverage Results" MODIFIED="1582090174622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/11_WSGI_mini-web框架/05_web服务器_支持wsgi" />
+    <SUITE FILE_PATH="coverage/yilong$06_MRO.coverage" NAME="06_多继承以及MRO顺序 Coverage Results" MODIFIED="1581315165434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/06_多继承以及MRO顺序" />
+    <SUITE FILE_PATH="coverage/yilong$creatDir.coverage" NAME="creatDir Coverage Results" MODIFIED="1576329401373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/淘宝店铺_二牛精品铺/进货单/三创飞梦/查看物流（每单提交处）" />
+    <SUITE FILE_PATH="coverage/yilong$demo__4_.coverage" NAME="demo (4) Coverage Results" MODIFIED="1582262975167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/13_装饰器/04_应用/03_使用类当做装饰器" />
+    <SUITE FILE_PATH="coverage/yilong$04_01__.coverage" NAME="04_01_案例——进程池拷贝文件夹-显示进度条 Coverage Results" MODIFIED="1580796975231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/02_进程" />
+    <SUITE FILE_PATH="coverage/yilong$04_client_.coverage" NAME="04_client_允许与服务器交流多次 Coverage Results" MODIFIED="1580516932246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+    <SUITE FILE_PATH="coverage/yilong$pytest_in_03__py.coverage" NAME="pytest in 03_复习全局变量的使用.py Coverage Results" MODIFIED="1580707131886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务" />
+    <SUITE FILE_PATH="coverage/yilong$04_02_sql.coverage" NAME="04_02_sql注入防护 Coverage Results" MODIFIED="1581740713766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高/12_python与mysql的交互/03_pymysql模块" />
+    <SUITE FILE_PATH="coverage/yilong$02_serverSide.coverage" NAME="02_serverSide Coverage Results" MODIFIED="1580367810472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+    <SUITE FILE_PATH="coverage/yilong$04_02__.coverage" NAME="04_02_案例——进程池拷贝文件夹-显示进度条 Coverage Results" MODIFIED="1580798091886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/02_进程" />
+    <SUITE FILE_PATH="coverage/yilong$03_3_.coverage" NAME="03_3_多个线程共享全局变量——传参 Coverage Results" MODIFIED="1580707735071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务" />
+    <SUITE FILE_PATH="coverage/yilong$04_server_.coverage" NAME="04_server_允许多个客户端连接并且为一个客户端服务多次 Coverage Results" MODIFIED="1580516286112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+    <SUITE FILE_PATH="coverage/yilong$b.coverage" NAME="b Coverage Results" MODIFIED="1581176765307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/03_私有化/_x：单前置下划线变量实验" />
+    <SUITE FILE_PATH="coverage/yilong$myLogging.coverage" NAME="myLogging Coverage Results" MODIFIED="1582429243855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_log日志/02_log日志的封装" />
+    <SUITE FILE_PATH="coverage/yilong$03_01_.coverage" NAME="03_01_斐波拉契数列 Coverage Results" MODIFIED="1580869892185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/03_协程/01_迭代器" />
+    <SUITE FILE_PATH="coverage/yilong$03__and_.coverage" NAME="03_获取值 and 修改值 Coverage Results" MODIFIED="1581343305094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/08_property属性" />
+    <SUITE FILE_PATH="coverage/yilong$01_socket.coverage" NAME="01-socket发送数据 Coverage Results" MODIFIED="1580124152694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/UDP/简单通讯" />
+    <SUITE FILE_PATH="coverage/yilong$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1580706930290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/test" />
+    <SUITE FILE_PATH="coverage/yilong$01_web__.coverage" NAME="01_web静态服务器_长连接_单进程单线程非阻塞 Coverage Results" MODIFIED="1581008720499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/05_长连接与短连接/02_长连接的web服务器" />
+    <SUITE FILE_PATH="coverage/yilong$01_Property.coverage" NAME="01_Property类创建 Coverage Results" MODIFIED="1581344882194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/08_property属性/02_Property类定义property属性" />
+    <SUITE FILE_PATH="coverage/yilong$04__.coverage" NAME="04_元类_实现实例方法 Coverage Results" MODIFIED="1582475974310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/17_元类_实现ORM/01_元类" />
+    <SUITE FILE_PATH="coverage/yilong$07_.coverage" NAME="07_数据清洗 Coverage Results" MODIFIED="1580923828348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/03_正则表达式" />
+    <SUITE FILE_PATH="coverage/yilong$02_server.coverage" NAME="02_server Coverage Results" MODIFIED="1580368869678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+    <SUITE FILE_PATH="coverage/yilong$web_01_.coverage" NAME="web静态服务器_01_多进程 Coverage Results" MODIFIED="1580982894014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/http协议、web服务器、并发服务器/03_web静态服务器_多进程" />
+    <SUITE FILE_PATH="coverage/yilong$_tb4tb40319388.coverage" NAME="订单信息汇总_tb4tb40319388 Coverage Results" MODIFIED="1573556192220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理" />
+    <SUITE FILE_PATH="coverage/yilong$01_web_.coverage" NAME="01_web静态服务器_单进程单线程非阻塞 Coverage Results" MODIFIED="1580988617094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/http协议、web服务器、并发服务器/04_event的实现原理" />
+    <SUITE FILE_PATH="coverage/yilong$children.coverage" NAME="children Coverage Results" MODIFIED="1581177580601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/03_私有化/02__x：双前置下划线变量实验" />
+    <SUITE FILE_PATH="coverage/yilong$04_.coverage" NAME="04_装饰器的最终实现 Coverage Results" MODIFIED="1582191189645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/13_装饰器" />
+    <SUITE FILE_PATH="coverage/yilong$03_property.coverage" NAME="03_使用property的私有属性（装饰器） Coverage Results" MODIFIED="1581348010015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/08_property属性/03_property属性的应用" />
+    <SUITE FILE_PATH="coverage/yilong$02_ORM__.coverage" NAME="02_元类实现ORM_升级版_完善对数据监测 Coverage Results" MODIFIED="1582486349481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/17_元类_实现ORM/03_ORM" />
+    <SUITE FILE_PATH="coverage/yilong$property.coverage" NAME="property Coverage Results" MODIFIED="1581339560707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/08_property属性" />
+    <SUITE FILE_PATH="coverage/yilong$demo__3_.coverage" NAME="demo (3) Coverage Results" MODIFIED="1582262283702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/13_装饰器/04_应用/02_用装饰器对函数的返回值添加html标签" />
+    <SUITE FILE_PATH="coverage/yilong$04_server___1_.coverage" NAME="04_server_允许多个客户端连接并且为一个客户端服务多次 (1) Coverage Results" MODIFIED="1580516928037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+    <SUITE FILE_PATH="coverage/yilong$02_property_.coverage" NAME="02_property的应用-分页 Coverage Results" MODIFIED="1581340711532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/08_property属性" />
+    <SUITE FILE_PATH="coverage/yilong$ella.coverage" NAME="ella学习助手 Coverage Results" MODIFIED="1576850737113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/ella语音机器人" />
+    <SUITE FILE_PATH="coverage/yilong$txt.coverage" NAME="加载空的列表txt Coverage Results" MODIFIED="1577428315751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/经济管理/产品管理" />
+    <SUITE FILE_PATH="coverage/yilong$05_gevent_.coverage" NAME="05_使用gevent创建协程_完成多任务 Coverage Results" MODIFIED="1580899340346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/03_协程" />
+    <SUITE FILE_PATH="coverage/yilong$pytest_in_02__py.coverage" NAME="pytest in 02_装饰器的演示.py Coverage Results" MODIFIED="1582189302497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/13_装饰器" />
+    <SUITE FILE_PATH="coverage/yilong$02_01_web_.coverage" NAME="02_01_web静态服务器_显示固定的页面 Coverage Results" MODIFIED="1580964771265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/http协议、web服务器、并发服务器" />
+    <SUITE FILE_PATH="coverage/yilong$04_01_sql.coverage" NAME="04_01_sql注入攻击 Coverage Results" MODIFIED="1581740367573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高/12_python与mysql的交互/03_pymysql模块" />
+    <SUITE FILE_PATH="coverage/yilong$03__.coverage" NAME="03_元类_实现继承 Coverage Results" MODIFIED="1582475426721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/17_元类_实现ORM" />
+    <SUITE FILE_PATH="coverage/yilong$web_server__1_.coverage" NAME="web-server (1) Coverage Results" MODIFIED="1582013717491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/11_WSGI_mini-web框架/02_多进程-web服务器_面向对象" />
+    <SUITE FILE_PATH="coverage/yilong$05_.coverage" NAME="05_匹配分组 Coverage Results" MODIFIED="1580917649057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/03_正则表达式" />
+    <SUITE FILE_PATH="coverage/yilong$03_super.coverage" NAME="03_super方式且指定父类调用父类函数 Coverage Results" MODIFIED="1581321603084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/06_多继承以及MRO顺序" />
+    <SUITE FILE_PATH="coverage/yilong$father.coverage" NAME="father Coverage Results" MODIFIED="1581177469812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/03_私有化/02__x：双前置下划线变量实验" />
+    <SUITE FILE_PATH="coverage/yilong$car.coverage" NAME="car Coverage Results" MODIFIED="1581299160072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/05_再议 封装、继承、多肽/面对对象" />
+    <SUITE FILE_PATH="coverage/yilong$01_property.coverage" NAME="01_未使用property的私有属性 Coverage Results" MODIFIED="1581347046863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/08_property属性/03_property属性的应用" />
+    <SUITE FILE_PATH="coverage/yilong$02_demo_.coverage" NAME="02_demo_简化 Coverage Results" MODIFIED="1582273564581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/13_装饰器/04_带参数的装饰器" />
+    <SUITE FILE_PATH="coverage/yilong$demo__2_.coverage" NAME="demo (2) Coverage Results" MODIFIED="1582260289529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/13_装饰器/03_研究装饰器的一对多以及多对一/02_多个装饰器对同一个函数进行装饰" />
+    <SUITE FILE_PATH="coverage/yilong$test.coverage" NAME="test Coverage Results" MODIFIED="1582762397667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/test" />
+    <SUITE FILE_PATH="coverage/yilong$03_4_.coverage" NAME="03_4_共享全局变量的问题——资源竞争 Coverage Results" MODIFIED="1580708715807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务" />
+    <SUITE FILE_PATH="coverage/yilong$02_property.coverage" NAME="02_使用property的私有属性 Coverage Results" MODIFIED="1581347764420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/08_property属性/03_property属性的应用" />
+    <SUITE FILE_PATH="coverage/yilong$web.coverage" NAME="web服务器 Coverage Results" MODIFIED="1582105092262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/11_WSGI_mini-web框架/07_实现模板文件" />
+    <SUITE FILE_PATH="coverage/yilong$02_log__1_.coverage" NAME="02_将log信息保存到文件 (1) Coverage Results" MODIFIED="1582427803832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/yilong$02___.coverage" NAME="02_查询所有数据_所有品牌_所有商品分类 Coverage Results" MODIFIED="1581735513705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高/12_python与mysql的交互/03_pymysql模块" />
+    <SUITE FILE_PATH="coverage/yilong$02_log.coverage" NAME="02_将log信息保存到文件 Coverage Results" MODIFIED="1582427884240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_log日志/01_logging模块" />
+    <SUITE FILE_PATH="coverage/yilong$__1_.coverage" NAME="商品信息提取 (1) Coverage Results" MODIFIED="1577853911269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/经济管理/产品管理" />
+    <SUITE FILE_PATH="coverage/yilong$07_send__yieldsend__.coverage" NAME="07_通过send()方法唤醒yield暂停的程序并且接收send()传入的值 Coverage Results" MODIFIED="1580877118255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/03_协程/02_生成器" />
+    <SUITE FILE_PATH="coverage/yilong$import.coverage" NAME="import导入模块 Coverage Results" MODIFIED="1581178412079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/04_import导入模块" />
+    <SUITE FILE_PATH="coverage/yilong$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1581299015206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/05_再议 封装、继承、多肽/面对对象" />
+    <SUITE FILE_PATH="coverage/yilong$demo.coverage" NAME="demo Coverage Results" MODIFIED="1582450592168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/17_元类_实现ORM" />
+    <SUITE FILE_PATH="coverage/yilong$selenium_chromedriver.coverage" NAME="淘宝selenium+chromedriver Coverage Results" MODIFIED="1573437437052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/finishedObject/淘宝自动化管理" />
+    <SUITE FILE_PATH="coverage/yilong$01_web_wsgi__1_.coverage" NAME="01_web服务器-wsgi (1) Coverage Results" MODIFIED="1582101598806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/11_WSGI_mini-web框架/06_通过传递字典实现浏览器请求的资源不一样相应不一样的页面" />
+    <SUITE FILE_PATH="coverage/yilong$03_pymysql.coverage" NAME="03_初识pymysql Coverage Results" MODIFIED="1581675740025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高/12_python与mysql的交互" />
+    <SUITE FILE_PATH="coverage/yilong$_and_.coverage" NAME="类对象类方法 and 实例对象实例方法 Coverage Results" MODIFIED="1581338727731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/07_静态方法和类方法/类方法实例方法" />
+    <SUITE FILE_PATH="coverage/yilong$argskwargs.coverage" NAME="多层函数中的args和kwargs Coverage Results" MODIFIED="1581332492381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/06_多继承以及MRO顺序/01_args_kwargs" />
+    <SUITE FILE_PATH="coverage/yilong$01_02__.coverage" NAME="01_02_生成器的创建方式_斐波那契数列 Coverage Results" MODIFIED="1580873235819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/03_协程/02_生成器" />
+    <SUITE FILE_PATH="coverage/yilong$05_StopInterabel.coverage" NAME="05_避免异常StopInterabel Coverage Results" MODIFIED="1580876386231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/03_协程/02_生成器" />
+    <SUITE FILE_PATH="coverage/yilong$main.coverage" NAME="main Coverage Results" MODIFIED="1581293358385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/04_import导入模块/03_多模块开发问题/模拟大型项目开发" />
+    <SUITE FILE_PATH="coverage/yilong$txt__1_.coverage" NAME="加载空的列表txt (1) Coverage Results" MODIFIED="1577434227339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/经济管理/产品管理/存储器" />
+    <SUITE FILE_PATH="coverage/yilong$01_client.coverage" NAME="01_client Coverage Results" MODIFIED="1580516293468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP" />
+    <SUITE FILE_PATH="coverage/yilong$create_file.coverage" NAME="create_file Coverage Results" MODIFIED="1582773730239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence" />
+    <SUITE FILE_PATH="coverage/yilong$03_5_.coverage" NAME="03_5_解决资源竞争——互斥锁 Coverage Results" MODIFIED="1580710052482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务" />
+    <SUITE FILE_PATH="coverage/yilong$err.coverage" NAME="err Coverage Results" MODIFIED="1581740291801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Anaconda3/Lib/site-packages/pymysql" />
+    <SUITE FILE_PATH="coverage/yilong$03_.coverage" NAME="03_私有化 Coverage Results" MODIFIED="1581175915346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/03_私有化" />
+    <SUITE FILE_PATH="coverage/yilong$04_args_kwargs.coverage" NAME="04_args_kwargs Coverage Results" MODIFIED="1581331059401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/06_多继承以及MRO顺序" />
+    <SUITE FILE_PATH="coverage/yilong$01_web.coverage" NAME="01_将web服务器和逻辑处理的代码分开 Coverage Results" MODIFIED="1582076388267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/11_WSGI_mini-web框架/03_多进程-web服务器_动态" />
+    <SUITE FILE_PATH="coverage/yilong$_lxml_.coverage" NAME="淘宝进货单提取并生成表格(lxml) Coverage Results" MODIFIED="1576245423046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/淘宝店铺/财务管理/2、进货单/淘宝上家进货单" />
+    <SUITE FILE_PATH="coverage/yilong$a.coverage" NAME="a Coverage Results" MODIFIED="1581294815922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/04_import导入模块/03_多模块开发问题/最简化模拟项目开发" />
+    <SUITE FILE_PATH="coverage/yilong$04_sql.coverage" NAME="04_sql注入 Coverage Results" MODIFIED="1581738443137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高/12_python与mysql的交互/03_pymysql模块" />
+    <SUITE FILE_PATH="coverage/yilong$08_send.coverage" NAME="08_send传入值控制生成器返回的数据 Coverage Results" MODIFIED="1580886987678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务/03_协程/02_生成器" />
+    <SUITE FILE_PATH="coverage/yilong$01_web____1_.coverage" NAME="01_web静态服务器_长连接_单进程单线程非阻塞 (1) Coverage Results" MODIFIED="1581064821501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/06_长连接与短连接/02_长连接的web服务器" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/童装or婴儿装or亲子装_儿童内衣裤_内衣套装/1/主图0.jpg" />
-    <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/童装or婴儿装or亲子装_反穿衣or罩衣/1/A小绵羊卡黄色.jpg" />
-    <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/餐饮具_餐具_盘/2/主图1.jpg" />
-    <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/餐饮具_餐具_盘/2/M429630方形小号.jpg" />
-    <entry file="file://$PROJECT_DIR$/经济管理/产品管理/在售产品/餐饮具_餐具_盘/2/M429631方形大号.jpg" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/66.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/67天猫.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/68.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/70.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/62天猫.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/69.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/28.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/createFile.py" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/1.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/2.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/3.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/4.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/5.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/6.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/进货单列表页/7.html" />
-    <entry file="file:////192.168.1.2/在售商铺/检测id.py" />
-    <entry file="file://$USER_HOME$/Desktop/检测id.py" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/20 天猫.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/1_冬季电动车儿童护膝保暖骑车加厚摩托车挡风被防水布男女小孩护腿.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/71.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/18_天猫.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/27.html" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/进货单详情页(每单提交处)/72天猫.html" />
-    <entry file="file://$PROJECT_DIR$/first_project/myClass/createFile.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/07_伪类选择器/文本样式.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="336">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-200948218/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="488" column="4" selection-start-line="488" selection-start-column="4" selection-end-line="488" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="2663" column="8" selection-start-line="2663" selection-start-column="8" selection-end-line="2663" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/去重补缺/订单号检测.py" />
-    <entry file="file://$PROJECT_DIR$/经济管理/淘宝店铺_二牛精品铺/进货单/淘宝上家/正式报表生成器.py" />
-    <entry file="file://$PROJECT_DIR$/first_project/myClass/fileOperation.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/07_伪类选择器/所有伪类选择器.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints4_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="2228" column="45" selection-start-line="2228" selection-start-column="45" selection-end-line="2228" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints3_html_css_js.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="1751" column="19" lean-forward="true" selection-start-line="1751" selection-start-column="19" selection-end-line="1751" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints12_ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="640" column="27" selection-start-line="640" selection-start-column="25" selection-end-line="640" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:////192.168.2.101/共享文件/重命名.py" />
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints8_django2byexample.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/02_颜色的表示方式/所有颜色码.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/test/test.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/02_centent/文本样式.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="240">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/简单通讯/01-socket发送数据.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/02_centent/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="264">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/简单通讯/02-socket接收数据.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/04_块标签/01_div.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        <state relative-caret-position="377">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/01_UDP/简单通讯/03-socket收发数据-案例.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_border/同时设置四边.ipynb" />
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_border/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="120">
+          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints5_linux.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/01_盒模型示意图/盒子模型.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_padding/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1166">
-          <caret line="588" selection-start-line="588" selection-end-line="611" selection-end-column="46" />
+        <state relative-caret-position="288">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/socket.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="557" column="8" selection-start-line="557" selection-start-column="8" selection-end-line="557" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/02_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/03_server_允许多个客户端连接.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_padding/同时设置四边的距离.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints2_python进阶.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_margin/同时设置四边的距离.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2736">
-          <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
+        <state relative-caret-position="384">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_margin/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15336">
-          <caret line="639" column="16" selection-start-line="639" selection-start-column="16" selection-end-line="639" selection-end-column="16" />
+        <state relative-caret-position="288">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/01_client.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/01_盒模型练习题.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/04_盒模型练习.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/03_盒模型练习题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/01_公式总结.py" />
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_border/同时设置四边.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_padding/单独设置一边的距离.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/练习/01_网络通讯/02_TCP/04_server_允许多个客户端连接并且为一个客户端服务多次.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_border/单独设置一边.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        <state relative-caret-position="288">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_margin/单独设置一边的距离.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/01_文本样式/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/01_文本样式/文本样式.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_文字行高/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_文字行高/文本样式.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/03_盒模型练习.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/02_盒模型练习题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/01_练习题目/01_盒模型练习题.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/02_解题思路.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路2/01_解题思路.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/01_解题思路.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/数学/01_举一反三.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/四年级上册/word  and sentence" />
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/10_mysql数据库/01_mysql/06_数据表的操作.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/test/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/10_mysql数据库/02_python与mysql的交互/03_pymysql模块/03_pymysql_增删改.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/10_mysql数据库/03_mysql高级/05_账户管理/01_概念及实操.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/数据准备/run.sh.py" />
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/dynamic/mini_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5631" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/dataPath.conf" />
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/web_server.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/数据库设计.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/web_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="117" column="28" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/create_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-537">
+          <caret line="3262" selection-start-line="3262" selection-end-line="3263" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/wordAndSentenceInsertMysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/createFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/dataUnit1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/数据备份/数据模板.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/小学四年级上册.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>

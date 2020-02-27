@@ -1,0 +1,9 @@
+.class1{}
+.class2{}
+/*
+   class选择器：
+       .号：定义是class选择器
+       calss1：指定class属性为'class1'的标签
+           不论是什么标签，只要class='class1'，就选择它
+   说明：class可以给多个标签定义相同的值，因此可以给这一类标签添加样式
+*/

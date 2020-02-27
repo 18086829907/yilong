@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#box{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+table{
+    width: 1000px;
+    border: 1px solid white;
+    border-spacing: 0;
+    font-family: "微软雅黑";
+}
+
+td{
+    border: 1px white solid;
+}
+
+.column{
+    background-color: #509ab3;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+}
+
+.odd{
+    background-color: #e4f1f7;
+}
+
+
+.even{
+    background-color: #f4fdfc;
+}
+

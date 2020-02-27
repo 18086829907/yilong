@@ -1,0 +1,22 @@
+div{
+    font-size: 20px;
+
+    background-color: #00FFBB;
+
+    /*height: 100px*/
+    line-height: 100px;
+}
+
+/*
+    content.height是盒模型中的内容的高度
+    content.height = 文字大小+行高
+    if 行高 < 文字大小：
+        content.height = 文字大小
+    行高本质：一行文字的上下同时加上(行高-文字大小)/2，即(100-20)/2=40px
+    line-height属性与height属性的区别
+        line-height是以文字的上下边为依据，在文字上下同时增加(行高-文字大小的一半)，来改变content.height的大小
+        height是以文字的上边为依据，增加(height-文字大小)的值，即增加值=height-文字大小 ==> 增加值=100px-20px=80px
+    因此：设置行高可以让文字垂直居中对齐，
+    if 文字的行高 == 文字大小:
+        content.height=文字大小
+*/

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+    <h1>注册表单</h1>
+    <form >
+        <p>
+            <label>用户名：</label>
+            <input type="text" name="user">
+        </p>
+
+        <input type="hidden" name='test' value="123123">
+        <input type="submit">
+    </form>
+
+<!--
+    注意点：
+        只要input[type='hidden']标签中，同时name和value属性时，才会自动提交{name:value}的数据到数据库
+    隐藏表单的应用场景:
+        某些页面需要将读取的数据与用户输入的数据合并后，一起提交到服务器
+        而这些先从数据库读取出来的数据，就用隐藏表单域来存储
+        比如：
+            打开登录页面时，会从数据库生成token，返回到浏览器的input[type='hidden']标签中
+-->
+
+
+</body>
+</html>

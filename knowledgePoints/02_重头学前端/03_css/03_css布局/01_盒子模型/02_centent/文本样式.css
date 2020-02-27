@@ -1,0 +1,11 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+/*
+    width：内容的宽度
+    height：内容的高度
+    background-color：内容的背景颜色
+*/

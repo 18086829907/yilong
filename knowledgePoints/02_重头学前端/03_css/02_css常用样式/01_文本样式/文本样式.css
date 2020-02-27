@@ -1,0 +1,25 @@
+div{
+    color: red;  /*文字颜色*/
+
+    font-size: 20px;  /*文字大小*/
+
+    font-family: 'Microsoft YaHei';  /*文字字体*/
+
+    font-style: normal;  /*normal:文字不倾斜; italic:文字倾斜;*/
+
+    font-weight: bold;  /*normal:文字不加粗; bold:文字加粗;*/
+
+    line-height: 20px;  /*设置行高：相当于在一行文字的上下同时加上25px*/ /*文字的行高与文字大小相同，可以让文字垂直居中*/
+
+    text-decoration: none;  /*设置文字的下划线*/ /*none:将文字下划线划掉;*/
+
+    text-indent: 40px;  /*设置文字缩进*/ /*缩进2个字符：一个文字的字体大小是20px，缩进2个文字就是40px*/
+
+    text-align: center;  /*设置文字水平对齐方式*/ /*center:居中对齐; left:左对齐; right:右对齐*/
+
+
+}
+
+div{
+    font: normal 12px/2px '微软雅黑';  /*font可以同时设置字体的几个属性：是否加粗 字号/行高 字体*/ /*顺序固定*/
+}

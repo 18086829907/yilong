@@ -1,0 +1,15 @@
+/*设置单条线的样式*/
+/*
+    以下top位置可以替换为：top\bottom\left\right
+*/
+.box{
+    border-top-width: 10px;
+    border-top-style: solid;  /*solid:实线; dashed:虚线; dotted:点线;*/
+    border-top-color: #000;
+
+}
+
+.box{
+    border-top: 10px solid #000  /*设置单条线样式的简化写法*/ /*粗细、线型、颜色*/
+}
+

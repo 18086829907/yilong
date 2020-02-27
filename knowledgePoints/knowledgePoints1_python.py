@@ -18,6 +18,23 @@
 #ubuntu中恢复pycharm的出厂设置
 #   关闭正在运行的pycharm
 #   $ rm -r ~/.PyCharm2019.3
+#技巧
+#   复制行：ctrl+d
+#   代码中换行：shift+enter
+#   块状选择：alt+shift+左键框选
+#   多选代码：alt+左键双击（框选）
+#   代码上下行移动：alt+shift+上键 alt+shift+下键
+#   前后键框选：ctrl+shift+左键 ctrl+shift+右键
+#   切换选项卡：alt+左键 alt+右键
+#   整体增加缩进：tab
+#   整体删除缩进：shift+tab
+#   展开折叠全部代码块：ctrl+shift +/-
+#   删除当前行：shift+del
+#   删除到字符结束：ctrl+del
+#   删除到字符开始：ctrl+backspace
+#   聚焦编辑器区域：shift+esc
+#   回到之前窗口：F12
+#   直接跳到指定行：ctrl+g
 
 #【day】安装pycharm\webstrom\datagrip
 #双击pycharm-professional-2019.1.3 or WebStorm-2019.1.2 or datagrip-2019.1.4
@@ -267,6 +284,11 @@ print(id(num2))
 #    示例2
 #       import random
 #       print(dir(random)) --> ['choice',...]
+#.__file__
+#   功能：返回包的路径
+#   实例
+#       import os
+#       os.__file__
 
 #【day11】常量
 #程序运行期间不能改变的数据
@@ -719,6 +741,11 @@ num_max = max(num1,num2,num3)
 print(num_max)
 '''
 
+#【if扩展】format与if联用
+'''
+needcode = False
+print('是否需要滑块验证：{}'.format('是') if needcode else '否')
+'''
 #【day27】逻辑运算符
 #逻辑与 and
 #逻辑与运算表达式：表达式1 and 表达式2
@@ -924,6 +951,12 @@ money = 100.1
 str1 = '%s is good man,he is %d year old, he has %.1f yuan'
 print(str1 % (name, age, money))
 '''
+
+#插入知识点：.format()
+#print('{}'.format(任意格式))    #自动转字符串
+#pritn('{name},{age}'.format(age='8', name='cyl'))    #关键词指定位置
+#print('{:.2f}'.format(float))    #保留两位小数
+
 #转义字符 \
 #将一些字符转换成有特殊含义的字符 \n占1个字符
 #\n 换行符
@@ -1376,7 +1409,26 @@ while index < len(list1):
 mean = sum / index
 print(mean, sum, index)
 '''
+'''
+#切片赋值
+list1 = [1,2,3,4,5]
+list1[:3] = [11,22,33]  # 切片指定三个值，赋值三个值的列表，是替换原来列表的三个值
+print(list1)
 
+list1 = [1,2,3,4,5]
+list1[:3] = [11,22]  # 切片指定三个值，赋值小于三个值的列表，是只替换对应索引位置的值
+print(list1)
+
+list1 = [1,2,3,4,5]
+list1[:3] = [11,22,33,44]  # 切片指定三个值，复制大于三个值的列表，是用新列表直接替换原列表三个值的位置
+print(list1)
+'''
+'''
+#切片删值
+list1 = [1,2,3]
+del list1[:1]
+print(list1)
+'''
 #【day39】列表的操作
 #列表合并
 '''
@@ -1709,7 +1761,7 @@ print(sum1)
 
 #【day44】枚举器
 #enumerate(list)
-#作用：拿出一个列表的下标以及元素——[0, 1, 2],[1, 2, 3]
+#作用：传入一个列表[a,b,c]，返回枚举器对象，对象包含的数据格式为((0,a),(1,b),(2,c))
 '''
 print(type(enumerate([1, 2, 3])))
 for index, i in enumerate([1, 2, 3]): #index, i = 下标, 元素
@@ -1835,6 +1887,7 @@ print(str1)
 #       lis = ['&x2343', '&x2343只保留文字']
 #       lis = [re.sub('&x2343', '', li) for li in lis]
 #       a = [li for li in lis if len(li)>0]
+
 
 #【day47】turtle模块绘图
 #简单的绘图工具，提供一个小海龟，可以把它理解成一个机器人，只能听得懂有限的命令
@@ -2812,6 +2865,14 @@ try:
 except:
     print('程序出现了异常') #此时记录一个错误日志
 '''
+#使用except，并且抓取所用异常，最后抛出异常退出程序
+'''
+try:
+    print(4/0)
+except Exception as e:
+    print('发现异常，原因：')
+    raise e    # 抛出异常，并显示异常原因
+'''
 #使用except带有多种异常
 '''
 try:
@@ -2965,12 +3026,15 @@ finally:
     if f1:
         f1.close()
 '''
-#with 不管文件是否打开，程序都会关闭文件
+#with 打开文件后，不管是否出现异常，程序都会调用close关闭文件
 '''
 path = r'D:\qian_feng_education\first_project\test.txt'
 with open(path, 'r') as f2:
     print(f2.read())
 '''
+#不确定一个文件是否能打开需要用try，except，来保证关闭
+
+
 #写文件
 '''
 path = r'D:\qian_feng_education\first_project\test.txt'

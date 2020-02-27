@@ -260,16 +260,22 @@
 #数据操作命令
 #   增
 #       全列插入
-#           格式：insert into 表名 values();
+#           格式：insert into 表名 values(值1, 值2, 值3);
 #           示例：insert into student values(0, 'tom', 1);
 #           说明：主键是自动增长的，但是在全列插入时，需要用0来占位，插入成功后以实际数据为准，有默认值的列同样需要传入数据
-#       缺省插入
+#           占位符：0，null，default
+#           枚举类型：下标从1开始
+#       部分插入
 #           格式：insert into 表名(列1, 列2) values(值1,值2);
-#           示例：insert into student(name) values('jack');
+#           示例：insert into student(name, age) values('jack', 2);
 #           说明：
-#       同时插入多条数据
-#           格式：insert into 表名 values(...),(...),...;
-#           示例：insert into student values(0, 'mia', 0),(0, 'justin', 1);
+#       多行插入
+#           全列插入
+#               格式：insert into 表名 values(值1, 值2, 值3),(值1，值2, 值3);
+#               示例：insert into student values(0, 'tom', 1), (0, 'jory', 1);
+#           部分插入
+#               格式：insert into 表名(列1, 列2) values(值1, 值2),(值1,值2),...;
+#               示例：insert into student(name, age) values('mia', 9),('justin', 32);
 #   删
 #       格式：delete from 表名 where 条件;
 #       示例：delete from student where id=2;
@@ -358,6 +364,14 @@
 #               示例：select sum(age) from newstudent;
 #           avg(列名) 求此列的平均值
 #               示例：select avg(age) from newstudent;
+#           concat_ws()
+#               示例：select concat_ws(',',id,name,age) as info from newstudent where gender=0;
+#           group_concat()
+#               功能：将数据按照name分组，group_concat(id)能将相同名字的所有id合并成一个字符串，中间用','号分割
+#               示例：select name, grop_concat(id) from newstudent where gender=0 group by name;  #
+#           round(浮点数, 小数位数)
+#               功能：规定保留几位小数
+#               示例：select round(avg(price),2) from goods;
 #   分组
 #       说明：
 #           按照字段分组，表示此字段相同数据会被放到一个集合中。
@@ -393,29 +407,27 @@
 #       示例：select * from newstudent limit 0,3;
 #       说明：start索引从0开始
 #   关联
-#       一对多
-#           外键：
-#               用来关联其他表的键值对
-#               外键在多的表里面
-#           建表语句
-#               create table class(id int auto_increment primary key, name varchar(20) not null, stuNum int not null);
-#           建关联表语句
-#               格式：create table 表名(字段名1 类型 属性,... 外键字段名 类型 属性, foreign key(外键字段名) references 需关联表名(需关联字段名))
-#               示例：create table students(id int auto_increment primary key, name varchar(20) not null, gender bit default 1, classId int not null, foreign key(classId) references class(id));
-#           插入数据
-#               insert into class values(0, '一班', 3),(0, '二班', 5),(0, '三班', 2),(0, '四班', 1);
-#               insert into students values(0, 'justin', 1, 1), (0, 'xiaohua', 0, 1), (0, 'fangfang', 0, 1), (0, 'xianxian', 0, 2), (0, 'yuanyuan', 1, 2), (0, 'dingding', 1, 2), (0, 'qiqi', 1, 2), (0, 'saosao', 1, 2), (0, 'wanwan', 1, 3), (0, 'momo', 1, 3);
-#           关联查询
-#               格式：select 表1.段, 表2.段 from 表1 匹配方式 表2 on 表1.段=表2.段
-#               关联查询分类
-#                   表1 inner join 表2：表1与表2匹配的行会出现在结果集中
-#                       需求：查询所有学生名字以及所在班级名字
-#                       示例：select students.name, class.name from class inner join students on class.id=students.classId;
-#                   表1 left join 表2：表1与表2匹配的行会出现在结果集中，外加表1中独有的数据，未对应的数据使用null填充
-#                       需求：查询所有班级中还未招生的班级名称(左匹配，未匹配表1.Id = 表2.classId的数据)
-#                       示例：select class.name,students.name from class left join students on class.id=students.classId;
-#                   表1 right join 表2：表A与表B匹配的行会出现在结果集中，外加表2中独有的数据，未对应的数据使用null填充
-#       多对多
+#       外键：
+#           用来关联其他表的键值对
+#           外键在多的表里面
+#       建表语句
+#           create table class(id int auto_increment primary key, name varchar(20) not null, stuNum int not null);
+#       建关联表语句
+#           格式：create table 表名(字段名1 类型 属性,... 外键字段名 类型 属性, foreign key(外键字段名) references 需关联表名(需关联字段名))
+#           示例：create table students(id int auto_increment primary key, name varchar(20) not null, gender bit default 1, classId int not null, foreign key(classId) references class(id));
+#       插入数据
+#           insert into class values(0, '一班', 3),(0, '二班', 5),(0, '三班', 2),(0, '四班', 1);
+#           insert into students values(0, 'justin', 1, 1), (0, 'xiaohua', 0, 1), (0, 'fangfang', 0, 1), (0, 'xianxian', 0, 2), (0, 'yuanyuan', 1, 2), (0, 'dingding', 1, 2), (0, 'qiqi', 1, 2), (0, 'saosao', 1, 2), (0, 'wanwan', 1, 3), (0, 'momo', 1, 3);
+#       关联查询
+#           格式：select 表1.段, 表2.段 from 表1 匹配方式 表2 on 表1.段=表2.段
+#           关联查询分类
+#               表1 inner join 表2：表1与表2匹配的行会出现在结果集中
+#                   需求：查询所有学生名字以及所在班级名字
+#                   示例：select students.name, class.name from class inner join students on class.id=students.classId;
+#               表1 left join 表2：表1与表2匹配的行会出现在结果集中，外加表1中独有的数据，未对应的数据使用null填充
+#                   需求：查询所有班级中还未招生的班级名称(左匹配，未匹配表1.Id = 表2.classId的数据)
+#                   示例：select class.name,students.name from class left join students on class.id=students.classId;
+#               表1 right join 表2：表A与表B匹配的行会出现在结果集中，外加表2中独有的数据，未对应的数据使用null填充
 
 
 #【day150】python与mysql交互

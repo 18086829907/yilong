@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+    <h1>注册表单</h1>
+    <form action="" method="get">
+        <p>
+            <label>用户名：</label>
+            <input type="text" name="user">
+
+        </p>
+
+        <input type="submit" value="提交">
+        <input type="reset" value="重置">
+    </form>
+
+<!--
+    action为空，默认向表单所在网址提交数据
+        即，表单网址为192.168.2.103:8080/form.html, 提交也向这个网址发送请求
+            get请求：会在这个网址后面用?开头，多个数据间用&分割，将需要提交的数据插入到网址，一同发送给服务器
+                192.168.2.103:8080/form.html？user_name='刘德华'&password='123123'
+            post请求：会在访问本网址时，将数据添加到请求头中，这样敏感数据就不会被看到
+    method：定义请求方式
+-->
+
+
+</body>
+</html>
