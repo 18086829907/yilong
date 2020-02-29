@@ -1,0 +1,11 @@
+div{
+    display: block;
+}
+
+/*
+    display属性：
+        none         元素隐藏且不占位置
+        block        元素以块元素显示
+        inline       元素以内联元素显示
+        inline-block 元素以内联块元素显示
+*/

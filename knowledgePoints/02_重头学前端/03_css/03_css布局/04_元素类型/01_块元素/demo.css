@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+div{
+    background-color: red; /*没有设置宽度，默认的宽度为body的宽度100%*/
+}
+
+p{
+    width: 50%;  /*即使设置了宽度，它也独占一行，因此ul标签才会在其下方显示，而不是紧跟着显示*/
+    background-color: orange;
+}
+
+ul{
+    background-color: yellow;
+}
+
+li{  /*块元素可以设置宽高，即使设置了宽度，它也独占一行*/
+    width: 100px;
+    height: 100px;
+}

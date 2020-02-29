@@ -1,0 +1,19 @@
+.box{
+    width: 300px;
+    height: 100px;
+    margin: 10px auto;
+    border: 1px solid black;
+    background-color: gold;
+
+    overflow: inherit;
+}
+
+/*
+    溢出元素：box设定宽和高之后，文字多了，就会有超过box宽高的文字，这就是元素溢出
+    overflow:
+        visible 元素溢出，不裁剪隐藏，默认值
+        hidden  元素溢出，裁剪隐藏溢出部分，此属性还有清除浮动、清楚margin-top塌陷的功能
+        scroll  元素溢出，裁剪隐藏溢出部分，显示滚动条，元素不溢出，也显示滚动条
+        auto    元素溢出，裁剪隐藏溢出部分，显示滚动条，元素不溢出，不显示滚动条
+        inherit 规定应该从父元素继承overflow属性的值，即子级元素的overflow值 = 父级元素的overflow值
+*/

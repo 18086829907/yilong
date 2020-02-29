@@ -1,0 +1,13 @@
+h3{
+    font: normal 20px 'Microsoft YaHei'; /*倾斜 大小/行高 字体*/
+    color: #333;
+
+    width:400px;
+    height:50px;
+
+    line-height: 50px;  /*文字的行高与文字大小相同，可以让文字垂直居中*/
+    text-indent: 20px;
+
+    border-top:1px solid #f00;
+    border-bottom:3px solid #666;
+}

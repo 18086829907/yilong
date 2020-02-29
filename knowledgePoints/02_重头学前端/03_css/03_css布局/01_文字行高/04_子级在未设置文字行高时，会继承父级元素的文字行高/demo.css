@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+.box{
+    /*height: 100px;*/
+    border: 1px solid #000000;
+    line-height: 200px;
+}
+
+.box div{
+    border: 1px solid #00FFBB;
+}
+
+/*
+
+*/

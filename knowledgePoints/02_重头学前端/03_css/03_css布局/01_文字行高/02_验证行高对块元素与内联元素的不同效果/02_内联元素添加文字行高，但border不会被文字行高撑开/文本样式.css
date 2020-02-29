@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+
+a{
+    font-size: 20px;
+    background-color: #00FFBB;
+    line-height: 100px;
+    border: 1px solid #000000;
+}
+
+/*
+    现象：改变行高，border不会随着行高的改变而改变。但文字仍然下移了。
+    印证：内联元素添加文字行高，文字行高生效，但border不糊被文字行高撑开
+*/

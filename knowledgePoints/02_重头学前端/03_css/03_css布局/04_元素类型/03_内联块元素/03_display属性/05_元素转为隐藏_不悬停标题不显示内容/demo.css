@@ -1,0 +1,23 @@
+/*兄弟关系*/
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: #1c6fe2;
+    display: none;
+}
+
+.con1:hover+.box1{  /*层级关系一定要理清楚*/
+    display: block;
+}
+
+/*后代关系*/
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: #1c6fe2;
+    display: none;
+}
+
+.con2:hover .box2{ /*层级关系一定要理清楚*/
+    display: block;
+}

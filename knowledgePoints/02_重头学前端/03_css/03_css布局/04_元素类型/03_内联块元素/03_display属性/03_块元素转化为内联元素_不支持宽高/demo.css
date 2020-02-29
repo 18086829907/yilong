@@ -1,0 +1,9 @@
+div{
+    display: inline;
+    background-color: #2aabd2;
+
+    /*内联元素不支持宽高*/
+    width: 100px;
+    height: 100px;
+
+}

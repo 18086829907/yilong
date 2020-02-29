@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 500px;
+    border: 1px solid black;
+    margin: 50px auto;
+}
+
+.box1,.box2,.box3,.box4,.box5{
+    margin: 20px;
+}

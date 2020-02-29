@@ -1844,7 +1844,7 @@ db.zrem(zkey, zvalue)    #删除指定键对应的值
 #   vertical-align:top/botton/middle;
 #   适用于：指定图片垂直对齐方式，相对与其他文字
 #文本的修饰与运用规范
-#   装饰线
+#   装饰线（去掉下划线）
 #       text-decoration: none/underline/overline/line-through/bink;
 #   缩进
 #       text-indent: 10px;
@@ -4471,8 +4471,8 @@ db.zrem(zkey, zvalue)    #删除指定键对应的值
 #   结构性伪类选择器
 #       a:link
 #       a:visited
-#       a:hover
-#       a:active
+#       a:hover              鼠标悬停
+#       a:active             鼠标离开
 #       div:first-line{}     选中元素中的第一行文字
 #       div:first-letter{}   选中元素中的第一个文字
 #       p:before{content:'插入文字' color:'red'}   选中元素中文本的前面加入文本（content内容可以插入空内容之再设置它的display为block相当于一个div，对其可以设置宽高背景颜色定位等）

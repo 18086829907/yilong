@@ -23,3 +23,7 @@ div{
 div{
     font: normal 12px/2px '微软雅黑';  /*font可以同时设置字体的几个属性：是否加粗 字号/行高 字体*/ /*顺序固定*/
 }
+
+a{
+    text-decoration: none;  /*去掉下划线*/
+}

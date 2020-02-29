@@ -1,0 +1,13 @@
+.box{
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+/*
+    注意：
+        整体盒子的宽 = border的左右宽+padding的左右宽+width
+        整体盒子的高 = border的左右高+padding的左右高+height
+        因此，设置padding值会增加整体盒子的宽高
+*/

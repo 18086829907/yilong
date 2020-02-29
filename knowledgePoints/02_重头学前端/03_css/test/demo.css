@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+
+.box{
+    /*height: 100px;*/
+    border: 1px solid #000000;
+    line-height: 200px;
+}
+
+.box div{
+    border: 1px solid #00FFBB;
+}
+
+/*
+    现象：子级元素文字行高会随父级元素的文字行高改变而改变
+    印证：子级在未设置文字行高时，会继承父级元素的文字行高
+*/

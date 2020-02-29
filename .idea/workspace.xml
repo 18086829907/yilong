@@ -5,357 +5,138 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="662324f1-dafe-48fa-b92b-7a72cb257e24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/finishedObject/taobao_spider-master/getUrl分析思路.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/finishedObject/taobao_spider-master/goods_spider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/finishedObject/taobao_spider-master/stop_words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/finishedObject/taobao_spider-master/taobao_goods.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/finishedObject/taobao_spider-master/taobao_goods_analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/finishedObject/taobao_spider-master/taobao_goods_backup.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/finishedObject/taobao_spider-master/taobao_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/static/css/gpxx.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/static/js/gpxx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/static/js/jQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/templates/99_multiplication.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/templates/center.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/templates/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/web_server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/小项目/与女儿的程序/99乘法表_随机提问/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/01_多进程-web服务器/web-server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/02_多进程-web服务器_面向对象/这个demo实现了图中的流程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/03_多进程-web服务器_动态/01_将web服务器和逻辑处理的代码分开.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/03_多进程-web服务器_动态/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/03_多进程-web服务器_动态/动态服务器流程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/04_wsgi协议/01_概念.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/04_wsgi协议/nginx_web框架数据通讯流程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/06_通过传递字典实现浏览器请求的资源不一样相应不一样的页面/html/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/06_通过传递字典实现浏览器请求的资源不一样相应不一样的页面/html/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/06_通过传递字典实现浏览器请求的资源不一样相应不一样的页面/html/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/06_通过传递字典实现浏览器请求的资源不一样相应不一样的页面/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/06_通过传递字典实现浏览器请求的资源不一样相应不一样的页面/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/06_通过传递字典实现浏览器请求的资源不一样相应不一样的页面/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/07_实现模板文件/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/07_实现模板文件/static/js/sjjy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/07_实现模板文件/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/07_实现模板文件/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/08_运行中的web服务器切换指定端口和框架-给程序传参数/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/08_运行中的web服务器切换指定端口和框架-给程序传参数/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/08_运行中的web服务器切换指定端口和框架-给程序传参数/static/css/sjjy.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/08_运行中的web服务器切换指定端口和框架-给程序传参数/static/js/sjjy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/08_运行中的web服务器切换指定端口和框架-给程序传参数/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/08_运行中的web服务器切换指定端口和框架-给程序传参数/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件/static/css/sjjy.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件/static/js/sjjy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件/web_server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/11_WSGI_mini-web框架/09_让web服务器支持配置文件/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/12_闭包/01_概念.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/12_闭包/02_在闭包内层函数中修改外层函数的属性值.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/01_基础/01_概念.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/01_基础/02_装饰器的演示.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/01_基础/03_装饰器的实现过程.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/01_基础/04_装饰器的最终实现.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/02_研究原函数各种形态/01_对没有参数、没有返回值的函数进行装饰/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/02_研究原函数各种形态/02_对有参数、没有返回值的函数进行装饰/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/02_研究原函数各种形态/03_对不定长参数的函数进行装饰/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/02_研究原函数各种形态/04_对带有返回值的函数进行装饰/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/02_研究原函数各种形态/05_通用装饰器/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/03_研究装饰器的一对多以及多对一/01_同一个装饰器对不同函数进行装饰/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/03_研究装饰器的一对多以及多对一/02_多个装饰器对同一个函数进行装饰/01_详细流程.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/03_研究装饰器的一对多以及多对一/02_多个装饰器对同一个函数进行装饰/02_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/03_研究装饰器的一对多以及多对一/02_多个装饰器对同一个函数进行装饰/03_3个装饰其及以上.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/04_带参数的装饰器/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/05_使用类当做装饰器/01_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/05_使用类当做装饰器/02_通用版类装饰器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/06_应用/01_装饰器计算一个程序使用的时间/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/13_装饰器/06_应用/02_用装饰器对函数的返回值添加html标签/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/01_用字典_实现mini-web框架的路由功能/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/01_用字典_实现mini-web框架的路由功能/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/01_用字典_实现mini-web框架的路由功能/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/01_用字典_实现mini-web框架的路由功能/static/css/sjjy.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/01_用字典_实现mini-web框架的路由功能/static/js/sjjy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/01_用字典_实现mini-web框架的路由功能/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/01_用字典_实现mini-web框架的路由功能/web_server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/01_用字典_实现mini-web框架的路由功能/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/02_用装饰器_实现mini-web框架的路由功能/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/02_用装饰器_实现mini-web框架的路由功能/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/02_用装饰器_实现mini-web框架的路由功能/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/02_用装饰器_实现mini-web框架的路由功能/static/css/sjjy.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/02_用装饰器_实现mini-web框架的路由功能/static/js/sjjy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/02_用装饰器_实现mini-web框架的路由功能/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/02_用装饰器_实现mini-web框架的路由功能/web_server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/02_用装饰器_实现mini-web框架的路由功能/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/03_伪静态、静态和动态的区别/01_概念.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/04_实现伪静态web_server/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/04_实现伪静态web_server/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/04_实现伪静态web_server/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/04_实现伪静态web_server/static/css/sjjy.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/04_实现伪静态web_server/static/js/sjjy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/04_实现伪静态web_server/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/04_实现伪静态web_server/web_server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/14、mini-web框架_添加路由;web_werver支持伪静态/04_实现伪静态web_server/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/01_数据准备/股票数据.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/static/css/gpxx.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/static/js/gpxx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/static/js/jQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/web_server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/02_从数据库中查询数据/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/03_数据库查出来的数据替换模板数据/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/15_mini_web框架_mysql/03_数据库查出来的数据替换模板数据/templates/center.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/static/css/gpxx.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/static/js/gpxx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/static/js/jQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/templates/center.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/web_server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/01_mini-web框架支持正则/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/static/css/gpxx.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/static/js/gpxx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/static/js/jQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/templates/center.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/web_server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/02_mini-web框架_添加关注/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/static/css/gpxx.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/static/js/gpxx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/static/js/jQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/templates/center.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/web_server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/03_mini-web框架_取消关注/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/static/css/gpxx.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/static/js/gpxx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/static/js/jQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/templates/center.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/templates/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/web_server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/04_mini-web框架_修改备注/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/static/css/gpxx.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/static/js/gpxx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/static/js/jQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/templates/center.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/templates/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/web_server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/05_mini-web框架_修改备注的url编码问题/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/01_logging模块/01_将log信息打印到终端.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/01_logging模块/02_将log信息保存到文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/01_logging模块/03_输出到终端+保存到文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/02_log日志分析/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/static/css/gpxx.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/static/js/gpxx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/static/js/jQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/templates/center.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/templates/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/web_server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/06_mini-web框架_添加og日志/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/static/css/gpxx.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/static/js/gpxx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/static/js/jQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/templates/center.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/templates/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/web_server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/07_mini-web框架_支持主从/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/static/css/gpxx.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/static/js/gpxx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/static/js/jQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/templates/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/web_server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/01_元类/01_元类万物造物.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/01_元类/01_内嵌函数及类对象.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/01_元类/02_元类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/01_元类/03_元类_继承.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/01_元类/04_元类_实例方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/01_元类/05_元类_类方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/01_元类/06_元类_静态方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/01_元类/07_元类_完整版.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/02_元类的使用/01_究竟为什么使用元类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/02_元类的使用/02_实现一个真的元类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/03_ORM/01_元类实现ORM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/03_ORM/02_元类实现ORM_升级版_完善对数据监测.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/17_元类_实现ORM/03_ORM/03_元类实现ORM_最终版.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/18_python高级总复习/复习目录.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/01_前端概述/01_note.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/01_前端概述/01_互联网产品开发流程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/01_概述和基本结构/01_html基本结构.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/01_概述和基本结构/02_xhtml1.0基本结构.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/01_概述和基本结构/03_html的注释.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/01_概述和基本结构/04_空格问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/02_标题标签/01_h.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/03_段落标签、字符实体、换行标签/01_p.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/03_段落标签、字符实体、换行标签/02_&amp;nbsp;_&amp;gt;_&amp;lt;.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/03_段落标签、字符实体、换行标签/03_br.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/04_块标签/01_div.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/04_块标签/02_span.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/05_含样式和语意的标签/01_em.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/05_含样式和语意的标签/02_i.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/05_含样式和语意的标签/03_b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/05_含样式和语意的标签/04_strong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/06_图片标签/01_img.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/06_图片标签/美女.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/07_连接标签/01_a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/08_列表标签/01_ol_li.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/08_列表标签/02_ul_li.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/08_列表标签/03_dl_dt_dd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/09_表格/01_语法/01_table_tr_td_th.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/09_表格/02_单元格内外边距/01_cellpadding_cellspacing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/09_表格/03_表、单元格的宽高/01_width_height.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/09_表格/04_对齐方式/01_align_vlign.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/09_表格/05_合并单元格/01_colspan_rowspan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/09_表格/06_制作简单表格/01_登记表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/09_表格/06_制作简单表格/02_99乘法表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/09_表格/img/证件照.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/10_页面布局概述/01_table布局/01_流程介绍.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/10_页面布局概述/01_table布局/03_table布局技巧总结.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/10_页面布局概述/01_table布局/img/个人简历.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/10_页面布局概述/01_table布局/img/证件照.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/01_表单结构/01_from.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/02_标签名跳转输入框/01_input_type='text'.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/03_文本输入框/01_input_type='text'.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/04_密码输入框/01_input_type='password'.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/05_单选框/01_input_type='radio'.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/06_多选框/01_input_type='checkbox'.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/07_上传文件/01_input_type='file'.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/08_多行文本输入框/01_textarea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/09_下拉框/01_select_option.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/10_提交与重置/01_input_type='submit'_'reset'.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/static/css/gpxx.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/static/js/gpxx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/static/js/jQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/templates/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/web_server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/11_表单提交到服务器_支持post提交/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/12_图片方式提交/01_input_type='image'.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/12_图片方式提交/提交.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/13_隐藏表单域/01_input_type='hidden'.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/dynamic/mini_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/static/css/gpxx.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/static/js/gpxx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/static/js/jQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/templates/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/web_server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/14_模拟生成token返回到浏览器/web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/11_表单/note.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/01_引入样式/01_外联式引用/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/01_引入样式/01_外联式引用/link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/01_引入样式/02_嵌入式引用/style.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/01_引入样式/03_行内式引用/style.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/01_文本样式/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/01_文本样式/文本样式.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/02_颜色的表示方式/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/02_颜色的表示方式/所有颜色码.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/02_颜色的表示方式/文本样式.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/01_标签选择器/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/01_标签选择器/文本样式.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/02_通配符选择器/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/02_通配符选择器/文本样式.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/03_id选择器/id属性的用法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/03_id选择器/文本样式.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/04_类选择器/class属性的用法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/04_类选择器/文本样式.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/05_层级选择器/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/05_层级选择器/文本样式.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/06_组选择器/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/06_组选择器/文本样式.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/07_伪类选择器/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/07_伪类选择器/所有伪类选择器.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/07_伪类选择器/文本样式.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/01_盒模型示意图/盒子模型.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/02_centent/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/02_centent/文本样式.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_padding/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_padding/单独设置一边的距离.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_padding/同时设置四边的距离.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_border/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_border/单独设置一边.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_border/同时设置四边.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_margin/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_margin/单独设置一边的距离.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_margin/同时设置四边的距离.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_文字行高/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_文字行高/文本样式.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/01_计算公式/公式总结.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/01_盒模型练习题.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/02_解题思路.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/03_盒模型练习题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/04_盒模型练习.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/01_练习题目/01_盒模型练习题.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/01_解题思路.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/02_盒模型练习题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/03_盒模型练习.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路2/01_解题思路.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路2/02_盒模型练习题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路2/03_盒模型练习.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/数学/01_举一反三.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/dataUnit1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/小学四年级上册.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/wordAndSentenceInsertMysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/数据库设计.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/数据备份/数据模板.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/templates/center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/templates/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_文字行高/01_概念/行高说明.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_文字行高/02_验证行高对块元素与内联元素的不同效果/01_块元素的border会被文字行高撑开/文本样式.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_文字行高/02_验证行高对块元素与内联元素的不同效果/02_内联元素添加文字行高，但border不会被文字行高撑开/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_文字行高/02_验证行高对块元素与内联元素的不同效果/02_内联元素添加文字行高，但border不会被文字行高撑开/文本样式.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_文字行高/04_子级在未设置文字行高时，会继承父级元素的文字行高/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_文字行高/04_子级在未设置文字行高时，会继承父级元素的文字行高/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_文字行高/05_垂直居中技巧/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_文字行高/05_垂直居中技巧/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/03_padding/单独设置一边的距离.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/07_小练习/03_练习2/02_解题思路2/01_解题思路.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/08_技巧/01_margin技巧/01_居中技巧/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/08_技巧/01_margin技巧/01_居中技巧/margin居中技巧.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/08_技巧/01_margin技巧/03_负值让元素向反方向移动/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/08_技巧/01_margin技巧/03_负值让元素向反方向移动/margin居中技巧.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/08_技巧/01_margin技巧/04_负值让边框合并/01_题目.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/08_技巧/01_margin技巧/04_负值让边框合并/02_技巧练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/08_技巧/01_margin技巧/04_负值让边框合并/03_技巧练习.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/09_常见bug/01_垂直margin的合并/01_bug现象/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/09_常见bug/01_垂直margin的合并/01_bug现象/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/09_常见bug/01_垂直margin的合并/02_bug原因_可使用垂直marging合并的特性/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/09_常见bug/01_垂直margin的合并/02_bug原因_可使用垂直marging合并的特性/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/09_常见bug/01_垂直margin的合并/02_bug原因_可使用垂直marging合并的特性/垂直margin的布局.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/09_常见bug/02_margin-top的塌陷/01_bug现象/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/09_常见bug/02_margin-top的塌陷/01_bug现象/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/09_常见bug/02_margin-top的塌陷/02_理解练习/01_margin方式解/右图/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/09_常见bug/02_margin-top的塌陷/02_理解练习/01_margin方式解/右图/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/09_常见bug/02_margin-top的塌陷/02_理解练习/01_margin方式解/左图/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/09_常见bug/02_margin-top的塌陷/02_理解练习/01_margin方式解/左图/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/09_常见bug/02_margin-top的塌陷/02_理解练习/02_padding方式解/右图/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/09_常见bug/02_margin-top的塌陷/02_理解练习/02_padding方式解/右图/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/09_常见bug/02_margin-top的塌陷/02_理解练习/02_padding方式解/左图/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/09_常见bug/02_margin-top的塌陷/02_理解练习/02_padding方式解/左图/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/09_常见bug/02_margin-top的塌陷/02_理解练习/练习题.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/03_css元素溢出/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/03_css元素溢出/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/01_块元素/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/01_块元素/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/01_内联元素概念/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/01_内联元素概念/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/01_不支持宽高/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/01_不支持宽高/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/02_不支持margin上下/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/02_不支持margin上下/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/03_内联元素的文字行高权重大于padding/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/03_内联元素的文字行高权重大于padding/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/04_宽高由内容决定/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/04_宽高由内容决定/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/05_内联元素并在一行/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/05_内联元素并在一行/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/06_html代码中的换行符，会让两个元素之间产生一个空格/01_bug现象/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/06_html代码中的换行符，会让两个元素之间产生一个空格/01_bug现象/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/06_html代码中的换行符，会让两个元素之间产生一个空格/02_解决bug/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/06_html代码中的换行符，会让两个元素之间产生一个空格/02_解决bug/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/07_父元素是块元素，可以用text-align属性设置子元素水平对齐方式/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/07_父元素是块元素，可以用text-align属性设置子元素水平对齐方式/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/01_概念/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/01_概念/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/01_支持全部样式/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/01_支持全部样式/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/02_盒子并在一行_宽高由内容决定/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/02_盒子并在一行_宽高由内容决定/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/03_标签代码换行，盒子产生空隙/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/03_标签代码换行，盒子产生空隙/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/04_内联块元素没有margin上下合并问题/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/04_内联块元素没有margin上下合并问题/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/05_父元素可以用text-align属性设置子元素水平对齐方式/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/05_父元素可以用text-align属性设置子元素水平对齐方式/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/01_内联元素转化为块元素_使内联元素垂直排列/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/01_内联元素转化为块元素_使内联元素垂直排列/display_block.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/02_内联元素转化为内联块元素_使内联元素支持宽高/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/02_内联元素转化为内联块元素_使内联元素支持宽高/display_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/02_内联元素转化为内联块元素_使内联元素支持宽高/导航栏.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/02_内联元素转化为内联块元素_使内联元素支持宽高/解题思路.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/03_块元素转化为内联元素_不支持宽高/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/03_块元素转化为内联元素_不支持宽高/display_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/04_块元素转化为内联块元素_让块元素排列到一行/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/04_块元素转化为内联块元素_让块元素排列到一行/display_inline_block.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/05_元素转为隐藏_不悬停标题不显示内容/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/05_元素转为隐藏_不悬停标题不显示内容/display_none.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/04_元素类型转化_导航栏_练习题/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/04_元素类型转化_导航栏_练习题/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/04_元素类型转化_导航栏_练习题/导航栏.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/04_元素类型转化_导航栏_练习题/解题思路.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/04_转换类型_实际开发经验/经验.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/05_浮动/01_浮动概念/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/05_浮动/01_浮动概念/float.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/test/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/test/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/english_learn/dynamic/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/english_learn/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/english_learn/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/english_learn/static/css/gpxx.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/english_learn/static/js/gpxx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/english_learn/static/js/jQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/english_learn/templates/grade.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/english_learn/templates/mylearn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/english_learn/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/english_learn/web_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/yilong.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yilong.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/test/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/01_UDP/01_简单通讯/01-socket发送数据.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/01_UDP/01_简单通讯/02-socket接收数据.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/01_UDP/01_简单通讯/03-socket收发数据-案例.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/01_UDP/冒充飞Q/冒充飞Q.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/01_UDP/客户端与服务端通信（群聊）/udpClient.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/01_UDP/客户端与服务端通信（群聊）/udpServer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/02_TCP/01_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/02_TCP/02_server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/02_TCP/03_server_允许多个客户端连接.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/02_TCP/04_server_允许多个客户端连接并且为一个客户端服务多次.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/重头开始学python/09_python提高/04_import导入模块/03_多模块开发问题/01_错误的导入方式/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints2_python进阶.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints2_python进阶.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/01_文本样式/文本样式.css" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/01_文本样式/文本样式.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/01_盒模型示意图/盒子模型.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/01_盒模型示意图/盒子模型.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/02_centent/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/02_centent/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/02_centent/文本样式.css" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/02_centent/文本样式.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_padding/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/03_padding/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_padding/单独设置一边的距离.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_padding/同时设置四边的距离.css" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/03_padding/同时设置四边的距离.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_border/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/04_border/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_border/单独设置一边.css" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/04_border/单独设置一边.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_border/同时设置四边.css" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/04_border/同时设置四边.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_margin/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/05_margin/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_margin/单独设置一边的距离.css" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/05_margin/单独设置一边的距离.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_margin/同时设置四边的距离.css" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/05_margin/同时设置四边的距离.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_文字行高/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_文字行高/02_验证行高对块元素与内联元素的不同效果/01_块元素的border会被文字行高撑开/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_文字行高/文本样式.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/01_计算公式/公式总结.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/07_小练习/01_计算公式/公式总结.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/01_盒模型练习题.png" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/07_小练习/02_练习1/01_盒模型练习题.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/02_解题思路.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/07_小练习/02_练习1/02_解题思路.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/03_盒模型练习题.html" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/07_小练习/02_练习1/03_盒模型练习题.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/04_盒模型练习.css" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/07_小练习/02_练习1/04_盒模型练习.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/01_练习题目/01_盒模型练习题.png" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/07_小练习/03_练习2/01_练习题目/01_盒模型练习题.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/01_解题思路.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/07_小练习/03_练习2/02_解题思路1/01_解题思路.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/02_盒模型练习题.html" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/07_小练习/03_练习2/02_解题思路1/02_盒模型练习题.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/03_盒模型练习.css" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/07_小练习/03_练习2/02_解题思路1/03_盒模型练习.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路2/01_解题思路.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路2/02_盒模型练习题.html" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/07_小练习/03_练习2/02_解题思路2/02_盒模型练习题.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路2/03_盒模型练习.css" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/02_盒子模型/07_小练习/03_练习2/02_解题思路2/03_盒模型练习.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints3_html_css_js.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints3_html_css_js.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knowledgePoints/knowledgePoints5_linux.py" beforeDir="false" afterPath="$PROJECT_DIR$/knowledgePoints/knowledgePoints5_linux.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -381,54 +162,47 @@
     <favorites_list name="yilong" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/dataUnit1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2160">
-              <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/数据备份/数据模板.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/小学四年级上册.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/05_浮动/01_浮动概念/float.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="384">
+                  <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/05_浮动/01_浮动概念/demo.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="192">
+                  <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>分屏</find>
-      <find>kill</find>
-      <find>vim</find>
-      <find>-----file not found-----</find>
-      <find>sp</find>
-      <find>| grep m</find>
       <find>os</find>
       <find>os.mak</find>
       <find>pycharm</find>
@@ -453,9 +227,14 @@
       <find>unit</find>
       <find>'</find>
       <find>os.</find>
+      <find>&gt;(.*?)&lt;\/td&gt;</find>
+      <find>storm</find>
+      <find>行高</find>
+      <find>font</find>
+      <find>text-de</find>
+      <find>a:h</find>
     </findStrings>
     <replaceStrings>
-      <replace>dirName_number</replace>
       <replace>absImgPath</replace>
       <replace>dirName_number_last</replace>
       <replace>dirPath_number_last</replace>
@@ -485,6 +264,7 @@
       <replace>'':'',</replace>
       <replace>Unit</replace>
       <replace>&quot;</replace>
+      <replace>&gt;&lt;a href=&quot;&quot;&gt;$1&lt;/a&gt;&lt;\/td&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -493,61 +273,61 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/04_块标签/01_div.html" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_border/文本样式.css" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_border/同时设置四边.ipynb" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_border/demo.html" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_border/同时设置四边.css" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/02_padding/单独设置一边.css" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/02_padding/单独设置一边的距离.css" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/02_padding/同时设置四边的距离.css" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_margin/同时设置四边的距离.css" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_margin/demo.html" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_margin/单独设置一边的距离.css" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_border/单独设置一边.css" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_小练习/盒模型练习.css" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_小练习/盒模型练习题.html" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_小练习/解题思路.py" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_小练习/公式总结.py" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_小练习/02_练习2/02_解题思路.py" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_小练习/02_练习2/03_盒模型练习题.html" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_小练习/02_练习2/04_盒模型练习.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/01_不支持宽高、margin上下、padding上下/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/01_不支持宽高、margin上下、padding上下/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/01_不支持宽高/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/01_不支持宽高/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/02_不支持margin上下/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/02_不支持margin上下/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/01_margin上下、padding上下/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/03_内联元素的文字行高权重大于padding/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/03_内联元素的文字行高权重大于padding/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/07_子元素是内联元素，父元素可以用text-align属性设置子元素水平对齐方式/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/07_子元素是内联元素，父元素可以用text-align属性设置子元素水平对齐方式/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/07_父元素是块元素，可以用text-align属性设置子元素水平对齐方式/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/07_父元素是块元素，可以用text-align属性设置子元素水平对齐方式/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/06_代码换行，盒子之间会产生间距/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/06_代码换行，盒子之间会产生间距/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/06_html代码中的换行符，会让两个元素之间产生一个空格/02_解决bug/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/06_html代码中的换行符，会让两个元素之间产生一个空格/02_解决bug/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/06_html代码中的换行符，会让两个元素之间产生一个空格/01_bug现象/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/01_内联元素概念/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/03_内联块元素没有margin上下合并问题/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/03_内联块元素没有margin上下合并问题/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/01_支持全部样式/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/01_支持全部样式/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/02_宽高由内容决定/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/01_概念/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/05_父元素可以用text-align属性设置子元素水平对齐方式/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/03_标签代码换行，盒子产生空隙/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/03_标签代码换行，盒子产生空隙/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/04_练习题/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/04_练习题/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/04_元素类型转化_导航栏_练习题/解题思路.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/01_内联元素转化为块元素/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/01_内联元素转化为块元素_使内联元素垂直排列/demo.css" />
         <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/01_文本样式/文本样式.css" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_文字行高/文本样式.css" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习2/02_解题思路.py" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习2/04_盒模型练习.css" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_文字行高/文本样式.css" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/04_盒模型练习.css" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路.py" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/02_解题思路.py" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/01_解题思路.py" />
-        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路2/01_解题思路.py" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/数学/01_方程.py" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/数学/01_举一反三.py" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/四年级上册/四年级上.py" />
-        <option value="$PROJECT_DIR$/first_project/test/test.py" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/四年级上册/word_and_sentence.sql" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/年级生成器/word_and_sentence.sql" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/年级生成器/english_learn.py" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/数据备份/数据模板.py" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/数据准备/数据库设计.sql" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/数据准备/将单词和句子插入数据库.py" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/word_sentence/小学四年级上册.py" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/数据准备/run.sh.py" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/数据准备/run.sh" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/数据准备/wordAndSentenceInsertMysql.py" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/dataPath.conf" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/wordAndSentenceInsertMysql.py" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/数据备份/数据模板.py" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/create_dir.py" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/create_file.py" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/小学四年级上册.py" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/dataUnit1.py" />
-        <option value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/createFile.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/04_元素类型转化_导航栏_练习题/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/03_块元素转化为内联元素_不支持宽高/demo.ipynb" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/03_块元素转化为内联元素_不支持宽高/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/03_块元素转化为内联元素_不支持宽高/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/04_块元素转化为内联块元素_让块元素排列到一行/demo.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/04_块元素转化为内联块元素_让块元素排列到一行/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/05_实际开发的经验/经验.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/04_转换类型_实际开发经验/经验.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/knowledgePoints3_html_css_js.py" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/05_元素转为隐藏_不悬停标题不显示内容/display_none.html" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/05_元素转为隐藏_不悬停标题不显示内容/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/05_浮动/01_浮动概念/demo.css" />
+        <option value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/05_浮动/01_浮动概念/float.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="500" />
     <option name="y" value="278" />
     <option name="width" value="1642" />
@@ -575,7 +355,7 @@
               <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
               <item name="yilong" type="462c0819:PsiDirectoryNode" />
               <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="myClass" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
@@ -586,41 +366,46 @@
               <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
               <item name="yilong" type="462c0819:PsiDirectoryNode" />
               <item name="knowledgePoints" type="462c0819:PsiDirectoryNode" />
-              <item name="01_重头开始学python" type="462c0819:PsiDirectoryNode" />
+              <item name="02_重头学前端" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yilong" type="462c0819:PsiDirectoryNode" />
+              <item name="knowledgePoints" type="462c0819:PsiDirectoryNode" />
+              <item name="02_重头学前端" type="462c0819:PsiDirectoryNode" />
+              <item name="03_css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yilong" type="462c0819:PsiDirectoryNode" />
+              <item name="knowledgePoints" type="462c0819:PsiDirectoryNode" />
+              <item name="02_重头学前端" type="462c0819:PsiDirectoryNode" />
+              <item name="03_css" type="462c0819:PsiDirectoryNode" />
+              <item name="03_css布局" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yilong" type="462c0819:PsiDirectoryNode" />
+              <item name="knowledgePoints" type="462c0819:PsiDirectoryNode" />
+              <item name="02_重头学前端" type="462c0819:PsiDirectoryNode" />
+              <item name="03_css" type="462c0819:PsiDirectoryNode" />
+              <item name="03_css布局" type="462c0819:PsiDirectoryNode" />
+              <item name="05_浮动" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yilong" type="462c0819:PsiDirectoryNode" />
+              <item name="knowledgePoints" type="462c0819:PsiDirectoryNode" />
+              <item name="02_重头学前端" type="462c0819:PsiDirectoryNode" />
+              <item name="03_css" type="462c0819:PsiDirectoryNode" />
+              <item name="03_css布局" type="462c0819:PsiDirectoryNode" />
+              <item name="05_浮动" type="462c0819:PsiDirectoryNode" />
+              <item name="01_浮动概念" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
               <item name="yilong" type="462c0819:PsiDirectoryNode" />
               <item name="陈紫妍总复习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yilong" type="462c0819:PsiDirectoryNode" />
-              <item name="陈紫妍总复习" type="462c0819:PsiDirectoryNode" />
-              <item name="英语" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yilong" type="462c0819:PsiDirectoryNode" />
-              <item name="陈紫妍总复习" type="462c0819:PsiDirectoryNode" />
-              <item name="英语" type="462c0819:PsiDirectoryNode" />
-              <item name="project_englishLearn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yilong" type="462c0819:PsiDirectoryNode" />
-              <item name="陈紫妍总复习" type="462c0819:PsiDirectoryNode" />
-              <item name="英语" type="462c0819:PsiDirectoryNode" />
-              <item name="project_englishLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="data_word_sentence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yilong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yilong" type="462c0819:PsiDirectoryNode" />
-              <item name="陈紫妍总复习" type="462c0819:PsiDirectoryNode" />
-              <item name="英语" type="462c0819:PsiDirectoryNode" />
-              <item name="project_englishLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="数据备份" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -638,7 +423,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/05_浮动/02_列表浮动" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -652,18 +437,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\justin\DataGit\yilong\陈紫妍总复习\英语\project_englishLearn" />
-      <recent name="C:\Users\justin\DataGit\yilong\陈紫妍总复习\英语\word_sentence" />
-      <recent name="C:\Users\justin\DataGit\yilong\陈紫妍总复习\英语\年级生成器" />
-      <recent name="C:\Users\justin\DataGit\yilong\陈紫妍总复习\英语\四年级上册" />
-      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\03_css布局\01_盒子模型\07_小练习\03_练习2\01_解题思路1" />
+      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\03_css布局\04_元素类型" />
+      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\03_css布局\04_元素类型\03_内联块元素\02_内联块元素特性" />
+      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\03_css布局\04_元素类型\03_内联块元素\02_内联块元素特性\01_支持全部样式" />
+      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\03_css布局\04_元素类型\03_内联块元素\01_概念" />
+      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\03_css布局\04_元素类型\02_内联元素\02_内联元素的特性\06_html代码中的换行符，会让两个元素之间产生一个空格\01_bug现象" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\justin\DataGit\yilong\陈紫妍总复习\英语\project_englishLearn\data_word_sentence" />
-      <recent name="C:\Users\justin\DataGit\yilong\陈紫妍总复习\英语\数据备份" />
-      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\03_css布局\01_盒子模型\07_小练习\03_练习2\02_解题思路2" />
-      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\02_css常用样式\03_文字行高" />
-      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\03_css布局\01_盒子模型\06_小练习\02_练习2" />
+      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\03_css布局\04_元素类型\03_内联块元素\03_display属性" />
+      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\03_css布局\04_元素类型\03_内联块元素\03_display属性\01_内联元素转化为块元素" />
+      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\03_css布局\04_元素类型\03_内联块元素\04_练习题" />
+      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\03_css布局\04_元素类型\03_内联块元素\05_父元素可以用text-align属性设置子元素水平对齐方式" />
+      <recent name="C:\Users\justin\DataGit\yilong\knowledgePoints\02_重头学前端\03_css\03_css布局\04_元素类型\03_内联块元素\02_内联块元素特性" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -678,7 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.createFile">
+  <component name="RunManager" selected="Python.test">
     <configuration name="01_元类实现ORM" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yilong" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -813,9 +598,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.createFile" />
         <item itemvalue="Python.create_file" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.02_元类实现ORM_升级版_完善对数据监测" />
         <item itemvalue="Python.01_元类实现ORM" />
       </list>
@@ -1030,7 +815,7 @@
       <workItem from="1582508050855" duration="837000" />
       <workItem from="1582511104812" duration="24099000" />
       <workItem from="1582551075809" duration="85798000" />
-      <workItem from="1582772408663" duration="3027000" />
+      <workItem from="1582772408663" duration="58626000" />
     </task>
     <servers />
   </component>
@@ -1067,7 +852,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2000142000" />
+    <option name="totallyTimeSpent" value="2055741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1082,33 +867,7 @@
     <frame x="-7" y="-7" width="1633" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496208" visible="true" weight="0.22828154" />
-      <window_info id="Structure" order="1" sideWeight="0.503861" side_tool="true" weight="0.23525682" />
-      <window_info id="Favorites" order="2" sideWeight="0.503792" side_tool="true" weight="0.23525682" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3488624" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50031704" side_tool="true" weight="0.43878657" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49968293" weight="0.43770313" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
-      <window_info anchor="bottom" id="Jupyter" order="13" weight="0.32936078" />
-      <window_info anchor="bottom" id="File Transfer" order="14" weight="0.32936078" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32974002" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32974002" />
-      <window_info anchor="right" id="Remote Host" order="5" weight="0.3335447" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496208" visible="true" weight="0.22574508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496208" visible="true" weight="0.28725427" />
       <window_info id="Structure" order="1" sideWeight="0.503861" side_tool="true" weight="0.23525682" />
       <window_info id="Favorites" order="2" sideWeight="0.503792" side_tool="true" weight="0.23525682" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1131,7 +890,33 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32974002" />
       <window_info anchor="right" id="Database" order="4" weight="0.32974002" />
-      <window_info anchor="right" id="Remote Host" order="5" weight="0.22764744" />
+      <window_info anchor="right" id="Remote Host" order="5" weight="0.3335447" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496208" visible="true" weight="0.28725427" />
+      <window_info id="Structure" order="1" sideWeight="0.503861" side_tool="true" weight="0.23525682" />
+      <window_info id="Favorites" order="2" sideWeight="0.503792" side_tool="true" weight="0.23525682" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3488624" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50031704" side_tool="true" weight="0.43878657" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49968293" weight="0.43770313" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Jupyter" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="File Transfer" order="14" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32974002" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32974002" />
+      <window_info anchor="right" id="Remote Host" order="5" weight="0.3335447" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1223,7 +1008,7 @@
     <SUITE FILE_PATH="coverage/yilong$01_property.coverage" NAME="01_未使用property的私有属性 Coverage Results" MODIFIED="1581347046863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/08_property属性/03_property属性的应用" />
     <SUITE FILE_PATH="coverage/yilong$02_demo_.coverage" NAME="02_demo_简化 Coverage Results" MODIFIED="1582273564581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/13_装饰器/04_带参数的装饰器" />
     <SUITE FILE_PATH="coverage/yilong$demo__2_.coverage" NAME="demo (2) Coverage Results" MODIFIED="1582260289529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/13_装饰器/03_研究装饰器的一对多以及多对一/02_多个装饰器对同一个函数进行装饰" />
-    <SUITE FILE_PATH="coverage/yilong$test.coverage" NAME="test Coverage Results" MODIFIED="1582762397667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/test" />
+    <SUITE FILE_PATH="coverage/yilong$test.coverage" NAME="test Coverage Results" MODIFIED="1582791733343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/test" />
     <SUITE FILE_PATH="coverage/yilong$03_4_.coverage" NAME="03_4_共享全局变量的问题——资源竞争 Coverage Results" MODIFIED="1580708715807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/练习/02_多任务" />
     <SUITE FILE_PATH="coverage/yilong$02_property.coverage" NAME="02_使用property的私有属性 Coverage Results" MODIFIED="1581347764420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/09_python提高1/08_property属性/03_property属性的应用" />
     <SUITE FILE_PATH="coverage/yilong$web.coverage" NAME="web服务器 Coverage Results" MODIFIED="1582105092262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knowledgePoints/重头开始学python/11_WSGI_mini-web框架/07_实现模板文件" />
@@ -1258,316 +1043,344 @@
     <SUITE FILE_PATH="coverage/yilong$01_web____1_.coverage" NAME="01_web静态服务器_长连接_单进程单线程非阻塞 (1) Coverage Results" MODIFIED="1581064821501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_project/重头开始学python/06_长连接与短连接/02_长连接的web服务器" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/07_伪类选择器/文本样式.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/03_选择器/07_伪类选择器/所有伪类选择器.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/02_颜色的表示方式/所有颜色码.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/02_centent/文本样式.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/02_centent/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/02_html/04_块标签/01_div.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_border/同时设置四边.ipynb" />
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_border/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/01_盒模型示意图/盒子模型.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_padding/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_padding/同时设置四边的距离.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_margin/同时设置四边的距离.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_margin/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/01_盒模型练习题.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/04_盒模型练习.css">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_文字行高/02_验证行高对块元素与内联元素的不同效果/01_块元素的border会被文字行高撑开/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/03_盒模型练习题.html">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_文字行高/02_验证行高对块元素与内联元素的不同效果/02_内联元素添加文字行高，但border不会被文字行高撑开/文本样式.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="336">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/01_公式总结.py" />
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_border/同时设置四边.css">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_文字行高/02_验证行高对块元素与内联元素的不同效果/02_内联元素添加文字行高，但border不会被文字行高撑开/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        <state relative-caret-position="216">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/03_padding/单独设置一边的距离.css">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_文字行高/03_嵌套元素设置文字行高/demo.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/04_border/单独设置一边.css">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_文字行高/03_嵌套元素设置文字行高/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_文字行高/01_概念/行高说明.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/01_不支持宽高/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/01_不支持宽高/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/05_margin/单独设置一边的距离.css">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/02_不支持margin上下/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/02_不支持margin上下/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/03_内联元素的文字行高权重大于padding/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/03_内联元素的文字行高权重大于padding/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/07_父元素是块元素，可以用text-align属性设置子元素水平对齐方式/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/07_父元素是块元素，可以用text-align属性设置子元素水平对齐方式/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/06_html代码中的换行符，会让两个元素之间产生一个空格/02_解决bug/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/06_html代码中的换行符，会让两个元素之间产生一个空格/02_解决bug/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/01_内联元素概念/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/01_内联元素概念/demo.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/06_html代码中的换行符，会让两个元素之间产生一个空格/01_bug现象/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/02_内联元素/02_内联元素的特性/06_html代码中的换行符，会让两个元素之间产生一个空格/01_bug现象/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/02_盒子并在一行_宽高由内容决定/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/02_盒子并在一行_宽高由内容决定/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/01_支持全部样式/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/01_支持全部样式/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/04_内联块元素没有margin上下合并问题/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/04_内联块元素没有margin上下合并问题/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/01_概念/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/01_概念/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/03_标签代码换行，盒子产生空隙/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/03_标签代码换行，盒子产生空隙/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/05_父元素可以用text-align属性设置子元素水平对齐方式/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/02_内联块元素特性/05_父元素可以用text-align属性设置子元素水平对齐方式/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/04_元素类型转化_导航栏_练习题/导航栏.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/04_元素类型转化_导航栏_练习题/解题思路.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/01_内联元素转化为块元素_使内联元素垂直排列/display_block.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/01_文本样式/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/02_css常用样式/01_文本样式/文本样式.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="648">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_文字行高/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/06_文字行高/文本样式.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/03_盒模型练习.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/02_盒模型练习题.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/01_练习题目/01_盒模型练习题.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/02_练习1/02_解题思路.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路2/01_解题思路.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/01_盒子模型/07_小练习/03_练习2/02_解题思路1/01_解题思路.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/数学/01_举一反三.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/四年级上册/word  and sentence" />
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/10_mysql数据库/01_mysql/06_数据表的操作.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/test/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/10_mysql数据库/02_python与mysql的交互/03_pymysql模块/03_pymysql_增删改.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/10_mysql数据库/03_mysql高级/05_账户管理/01_概念及实操.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/数据准备/run.sh.py" />
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/dynamic/mini_frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5631" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/dataPath.conf" />
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/web_server.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/数据库设计.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/01_重头开始学python/16_mini_web框架_添加各种功能/08_mini_web框架_支持post请求/web_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="117" column="28" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/create_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints1_python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-537">
-          <caret line="3262" selection-start-line="3262" selection-end-line="3263" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/sql/wordAndSentenceInsertMysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" selection-start-line="6" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/createFile.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/04_元素类型转化_导航栏_练习题/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/dataUnit1.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/04_元素类型转化_导航栏_练习题/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
+        <state relative-caret-position="753">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/数据备份/数据模板.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/03_块元素转化为内联元素_不支持宽高/demo.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/03_块元素转化为内联元素_不支持宽高/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/03_块元素转化为内联元素_不支持宽高/display_inline.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/陈紫妍总复习/英语/project_englishLearn/data_word_sentence/小学四年级上册.py">
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/04_块元素转化为内联块元素_让块元素排列到一行/display_inline_block.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="144">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/04_块元素转化为内联块元素_让块元素排列到一行/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/04_转换类型_实际开发经验/经验.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/01_内联元素转化为块元素_使内联元素垂直排列/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/knowledgePoints3_html_css_js.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="4474" column="16" selection-start-line="4474" selection-start-column="10" selection-end-line="4474" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/05_元素转为隐藏_不悬停标题不显示内容/display_none.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/04_元素类型/03_内联块元素/03_display属性/05_元素转为隐藏_不悬停标题不显示内容/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="1" selection-start-line="22" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/05_浮动/01_浮动概念/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgePoints/02_重头学前端/03_css/03_css布局/05_浮动/01_浮动概念/float.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>

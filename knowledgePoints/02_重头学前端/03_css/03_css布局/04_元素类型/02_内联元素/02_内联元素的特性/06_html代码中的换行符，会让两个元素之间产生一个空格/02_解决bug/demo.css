@@ -1,0 +1,16 @@
+div{
+    border: 1px solid black;
+    font-size: 0;
+}
+
+a{
+    background-color: #7b7b7b;
+    font-size: 16px;
+}
+
+/*
+    解决html代码中的换行符，占一个空格的问题
+    解决方法：
+        1、在父级元素中设置 font-size:0;
+        2、在子级元素中设置 font-size:16px; (16px可以是任意的)
+*/

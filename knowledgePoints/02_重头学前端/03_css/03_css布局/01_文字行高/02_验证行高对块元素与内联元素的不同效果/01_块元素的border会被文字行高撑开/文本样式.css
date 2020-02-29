@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+
+div{
+    font-size: 20px;
+    background-color: #00FFBB;
+    line-height: 100px;
+    border: 1px solid #000000;
+}
+
+/*
+    现象：改变行高，border会随着行高的改变而改变。
+    印证：文字行高能撑开块元素的border
+*/

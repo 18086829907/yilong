@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+.box{
+    margin: 0 auto;
+    padding: 0;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000000;
+    line-height: 40px;
+}
+
+div{
+    border: 1px solid #000000;
+    padding: 20px;
+}
+/*
+    现象：即使给#a3设置了padding上下的值，在浏览器中，
+    印证：内联元素不支持padding上下
+*/

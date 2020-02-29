@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+div{
+    height: 80px;
+    font-size: 80px;
+    border: 1px solid #000000;
+    line-height: 80px;
+}
+
+
+/*
+    line-height = font-size  # 文字行高与文字大小的上下边重合
+    line-height = height  # 文字行高与height的上下边重合
+
+    保证三者相同：文字顶格（上、下）对齐
+    保证line-height和height相同：文字垂直居中对齐
+*/

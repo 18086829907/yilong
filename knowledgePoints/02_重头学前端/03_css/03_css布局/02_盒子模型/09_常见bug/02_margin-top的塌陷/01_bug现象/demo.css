@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+.clearfix:before{    /*解决margin-top塌陷问题，方法三。推荐*/
+    content:'';
+    display: table;
+}
+
+.con{
+    width: 300px;
+    height: 300px;
+    background-color: gold;
+    /*border:1px solid black;*/ /*解决margin-top塌陷问题，方法一*/
+    /*overflow: hidden;*/ /*解决margin-top塌陷问题，方法二*/
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    margin-top: 100px;
+}
+
+
+/*
+    bug现象：
+        期望效果：里面盒子垂直居中于外面盒子
+        错误设想：只要给内部盒子的margin-top=100px，就能让里面盒子往下移动
+        实际结果：内部盒子的margin-top=100px，传给了父级盒子，让父级盒子下移了100px
+
+    修复bug的方法：
+        1、外部盒子设置一个边框
+            即.con{border:1px solid black;}
+        2、外部盒子设置溢出隐藏
+            即：overflow:hidden
+        3、外部盒子设置class="clearfix"，css中用伪类在外部盒子前添加空字符串
+            .clearfix:before{
+                content:'';
+                display: table;
+            }
+*/

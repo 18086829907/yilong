@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+
+a{
+    display: inline-block;
+    border: 1px solid #000000;
+}
+
+#a3{
+    font-size: 20px;
+}

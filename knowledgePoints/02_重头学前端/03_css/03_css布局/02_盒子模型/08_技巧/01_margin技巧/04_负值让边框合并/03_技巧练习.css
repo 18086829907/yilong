@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 202px;
+    height: 156px;
+    background-color: green;
+
+    margin: 10px auto;
+}
+
+.box div{
+    width: 200px;
+    height: 30px;
+    background-color: gold;
+    border: 1px solid green;
+
+    margin-top: -1px;
+}

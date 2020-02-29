@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+/*一、块元素的样式*/
+.box1{
+    margin: 0 auto;  /*auto=父级宽度/2-自身宽度/2*/
+    width: 500px;
+    height: 300px;
+    border: 1px solid #000000;
+}
+
+.box1 div{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+}
+
+/*二、内联元素的样式*/
+.box2{
+    margin: 0 auto;  /*auto=父级宽度/2-自身宽度/2*/
+    width: 500px;
+    height: 300px;
+    border: 1px solid #000000;
+}
+
+.box2 a{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+}
+
+
+/*
+    块元素的样式与内联元素的样式是一模一样的
+    唯一不一样的是元素类型
+
+    现象：块元素占了两行，内联元素占了一行
+    印证：块元素独占一行，内联元素并在一行
+
+*/

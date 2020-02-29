@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+
+a{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+}
+/*
+    现象：即使给a设置了宽高背景颜色，在浏览器中，border也不会被撑开
+    印证：行内元素不支持width、height
+*/

@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 160px;
+    height: 125px;
+    background-color: gold;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding-top: 75px;
+    padding-left: 40px;
+}
+
+.box1{
+    width: 120px;
+    height: 50px;
+    background-color: green;
+}

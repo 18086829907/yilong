@@ -1,0 +1,47 @@
+body,div,a{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    /*测试宽高是否满足要求*/
+    /*width: 694px;*/
+    /*height: 50px;*/
+    /*border: 1px solid #000000;*/
+
+    /*居中*/
+    margin: 0 auto;
+
+    /*解决标签代码换行的空隙问题*/
+    font-size: 0;
+
+    /*继承给子元素的属性*/
+    text-align: center;  /*子元素文本水平居中*/
+    line-height: 48px;  /*子元素文本垂直居中*/
+}
+
+a{
+    /*宽高设置*/
+    display: inline-block;
+    width: 98px;
+    height: 48px;
+
+    /*边线设置*/
+    border: 1px solid gold;
+
+    /*文本样式设置*/
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: pink;
+
+    /*融合边*/
+    margin-left: -1px;
+
+    /*去掉下划线*/
+    text-decoration: none;
+}
+
+/*伪类：悬停样式*/
+a:hover{
+    background-color: orange;
+}

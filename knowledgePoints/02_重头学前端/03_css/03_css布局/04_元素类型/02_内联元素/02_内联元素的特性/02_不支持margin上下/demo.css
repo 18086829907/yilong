@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+
+a{
+    border: 1px solid #000000;
+    margin: 100px 10px 300px 20px;
+}
+/*
+    现象：即使给a设置了margin的上和下，在浏览器中，它只受margin左右控制，进行左右移动
+    印证：行内元素不支持margin上下
+*/
